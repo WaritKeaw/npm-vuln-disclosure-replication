@@ -1,0 +1,37 @@
+{
+  "project": "typicode/lowdb",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "31458f3173f133d153afc5a8dfb5a76eaa1c7b66",
+  "commit_date": "2023-12-27T00:26:17+01:00",
+  "frozen_branch_head": "8a6fce9b72f769b22533f0979fbc2e73180f8112",
+  "collected_at": "2026-10-14T10:32:32.491505+00:00",
+  "package_json_sha256": "eeea13ca96f2e767e05c7b0bfa4e486ff8641446a4c8ae894b61d1f2afa9a110",
+  "package_json": {
+    "name": "lowdb",
+    "version": "7.0.1",
+    "dependencies": {
+      "steno": "^4.0.2"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "^18.4.3",
+      "@commitlint/config-conventional": "^18.4.3",
+      "@commitlint/prompt-cli": "^18.4.3",
+      "@sindresorhus/tsconfig": "^5.0.0",
+      "@types/express": "^4.17.21",
+      "@types/lodash": "^4.14.202",
+      "@types/node": "^20.10.5",
+      "@typicode/eslint-config": "^1.2.0",
+      "del-cli": "^5.1.0",
+      "eslint": "^8.56.0",
+      "express-async-handler": "^1.2.0",
+      "husky": "^8.0.3",
+      "lodash": "^4.17.21",
+      "tempy": "^3.1.0",
+      "ts-node": "^10.9.2",
+      "tsx": "^4.7.0",
+      "typescript": "^5.3.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

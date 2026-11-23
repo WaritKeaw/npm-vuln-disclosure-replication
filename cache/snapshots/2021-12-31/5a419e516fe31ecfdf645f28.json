@@ -1,0 +1,53 @@
+{
+  "project": "vuejs/vue-hackernews-2.0",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "98399b55c6f1da4197840ba76189795b3e95be0f",
+  "commit_date": "2019-01-20T00:01:46-05:00",
+  "frozen_branch_head": "98399b55c6f1da4197840ba76189795b3e95be0f",
+  "collected_at": "2026-10-14T10:32:52.775901+00:00",
+  "package_json_sha256": "eeb9c6f327decb095ef9378a0d595ba9547f1a7c59748deaf39da04151b2470d",
+  "package_json": {
+    "name": "vue-hackernews-2.0",
+    "dependencies": {
+      "compression": "^1.7.1",
+      "cross-env": "^5.1.1",
+      "es6-promise": "^4.1.1",
+      "express": "^4.16.2",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "firebase": "4.6.2",
+      "lru-cache": "^4.1.1",
+      "route-cache": "0.4.3",
+      "serve-favicon": "^2.4.5",
+      "vue": "^2.5.22",
+      "vue-router": "^3.0.1",
+      "vue-server-renderer": "^2.5.22",
+      "vuex": "^3.0.1",
+      "vuex-router-sync": "^5.0.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^7.1.6",
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-plugin-syntax-dynamic-import": "^6.18.0",
+      "babel-preset-env": "^1.6.1",
+      "chokidar": "^1.7.0",
+      "css-loader": "^0.28.7",
+      "file-loader": "^1.1.5",
+      "friendly-errors-webpack-plugin": "^1.6.1",
+      "rimraf": "^2.6.2",
+      "stylus": "^0.54.5",
+      "stylus-loader": "^3.0.1",
+      "sw-precache-webpack-plugin": "^0.11.4",
+      "url-loader": "^0.6.2",
+      "vue-loader": "^15.3.0",
+      "vue-template-compiler": "^2.5.22",
+      "webpack": "^3.8.1",
+      "webpack-dev-middleware": "^1.12.0",
+      "webpack-hot-middleware": "^2.20.0",
+      "webpack-merge": "^4.2.1",
+      "webpack-node-externals": "^1.7.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article and the package."
+title: "Replication package: How Reliable Is Machine Learning for Anticipating Vulnerability Disclosures in Software Dependencies? A Temporal Evaluation Against Libyear and Package-History Baselines"
+type: dataset
+version: "1.0.0"
+date-released: "2026-11-23"
+license: CC-BY-4.0
+authors:
+  - family-names: Keawpitak
+    given-names: Warit
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University"
+  - family-names: Kantavat
+    given-names: Pittipol
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University"
+keywords:
+  - software supply chain
+  - dependency management
+  - vulnerability disclosure prediction
+  - libyear
+  - machine learning
+  - temporal validation
+  - npm

@@ -1,0 +1,16 @@
+{
+  "status": "exploratory_secondary_analysis_triggered_by_lockfile_audit",
+  "primary_dataset_unchanged": true,
+  "comparison": "same eligible observation keys under inferred manifest reference versus recorded same-commit root npm lockfile reference",
+  "eligibility": "paired-cohort rows with readable package-lock/npm-shrinkwrap root resolution; valid stable version available by origin under frozen npm cache; both arms must resolve and label successfully",
+  "latest_rule": "publication_date",
+  "horizon_months": 12,
+  "algorithms": ["lr", "rf", "xgb"],
+  "feature_sets": ["full", "without_libyear", "libyear_only"],
+  "parameters": "reuse frozen rq_completion.json; no tuning",
+  "bootstrap_repeats": 1000,
+  "cluster_units": ["package", "project"],
+  "seed": 42,
+  "interpretation": "measurement sensitivity within a selected lockfile subset; recorded lockfile version is not proof of runtime installation; between-arm AP differences also reflect different labels so are not causal or a same-target paired model comparison",
+  "no_new_rq_or_primary_cohort_change": true
+}

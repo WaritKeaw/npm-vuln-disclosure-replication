@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "protected_inputs_unchanged": true,
+  "lr_rf_baseline_replication_max_ap_error": 0.0,
+  "origins": 3,
+  "importance_rows": 81,
+  "metrics_rows": 114,
+  "interval_rows": 234,
+  "minimum_valid_bootstrap_repeats": 1000,
+  "completed_at": "2026-10-23T18:58:47.338176+00:00"
+}

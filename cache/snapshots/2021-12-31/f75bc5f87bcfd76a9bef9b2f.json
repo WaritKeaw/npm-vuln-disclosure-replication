@@ -1,0 +1,23 @@
+{
+  "project": "git-tips/tips",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "8891620064c546f4a8377c1a7d638200cb5458aa",
+  "commit_date": "2021-08-12T15:41:22-07:00",
+  "frozen_branch_head": "727551c5dab24c7b1d63814222a06f9d01546bc4",
+  "collected_at": "2026-10-14T10:25:26.175515+00:00",
+  "package_json_sha256": "e032b3f3c7a9609ce2fe76e393136168cf6c713051f521d56c7d87549cfe1c92",
+  "package_json": {
+    "name": "tips",
+    "version": "1.0.0",
+    "devDependencies": {
+      "doxie": "^0.2.2",
+      "doxie.append": "^0.1.0",
+      "doxie.inject": "^0.1.1",
+      "doxie.output": "^0.3.0",
+      "doxie.render": "^0.3.0",
+      "husky": "^0.8.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

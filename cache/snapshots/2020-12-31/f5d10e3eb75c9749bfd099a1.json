@@ -1,0 +1,19 @@
+{
+  "project": "airbnb/javascript",
+  "stratum": "high",
+  "origin": "2020-12-31",
+  "commit_sha": "1eadb93e377da1e56c3f91f26610e5d0a00738a9",
+  "commit_date": "2020-12-17T00:18:29-05:00",
+  "frozen_branch_head": "8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "collected_at": "2026-10-14T10:21:34.909940+00:00",
+  "package_json_sha256": "0a61026abac95aa40ac1caa2d5aa0135b1243b14894d5952e642d70ea4ad6fee",
+  "package_json": {
+    "name": "airbnb-style",
+    "version": "2.0.0",
+    "devDependencies": {
+      "markdownlint": "^0.20.4",
+      "markdownlint-cli": "^0.23.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

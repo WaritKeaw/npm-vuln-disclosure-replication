@@ -1,0 +1,34 @@
+{
+  "project": "aws/aws-iot-device-sdk-js",
+  "stratum": "niche",
+  "origin": "2022-12-31",
+  "commit_sha": "ff4cf757a847943617078e7c0b97ced054a2f6e0",
+  "commit_date": "2022-08-11T16:42:35-04:00",
+  "frozen_branch_head": "51ea7d01093dc54738d1e1c798cc11bca3f04abc",
+  "collected_at": "2026-10-14T10:22:27.303566+00:00",
+  "package_json_sha256": "2098e744b927442463acfb1314c040749286dfa358b3dc08fba8d34156c86f2c",
+  "package_json": {
+    "name": "aws-iot-device-sdk",
+    "version": "2.0.0-dev",
+    "dependencies": {
+      "crypto-js": "4.0.0",
+      "minimist": "1.2.6",
+      "mqtt": "4.2.8",
+      "websocket-stream": "^5.5.2"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-beautify": "^2.0.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-coverage": "^0.3.38",
+      "gulp-jscs": "^4.0.0",
+      "gulp-jshint": "^2.0.0",
+      "gulp-mocha": "^3.0.1",
+      "jshint": "^2.9.1",
+      "jshint-stylish": "^2.2.1",
+      "rewire": "^2.5.1",
+      "sinon": "^1.17.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

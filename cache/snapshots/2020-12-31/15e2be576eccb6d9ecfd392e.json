@@ -1,0 +1,34 @@
+{
+  "project": "opentypejs/opentype.js",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "88f7c1755ceec3326cdac4de53bc5ec89d38a615",
+  "commit_date": "2020-11-08T20:02:38+01:00",
+  "frozen_branch_head": "5d65b6dcfab5115f90d375f8ba6b7942fdaa0138",
+  "collected_at": "2026-10-14T10:29:50.555851+00:00",
+  "package_json_sha256": "12a7272d249a4855594224b6d894b21fb797d5c275ab28c1289b50391d2ff91c",
+  "package_json": {
+    "name": "opentype.js",
+    "version": "1.3.3",
+    "dependencies": {
+      "string.prototype.codepointat": "^0.2.1",
+      "tiny-inflate": "^1.0.3"
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.9.5",
+      "buble": "^0.20.0",
+      "cross-env": "^7.0.2",
+      "jscs": "^3.0.7",
+      "jshint": "^2.11.0",
+      "mocha": "^7.1.1",
+      "reify": "^0.20.12",
+      "rollup": "^1.32.1",
+      "rollup-plugin-buble": "^0.19.8",
+      "rollup-plugin-commonjs": "^10.1.0",
+      "rollup-plugin-license": "^0.9.0",
+      "rollup-plugin-node-resolve": "^5.2.0",
+      "uglify-js": "^3.8.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

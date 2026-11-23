@@ -1,0 +1,19 @@
+{
+  "project": "philc/vimium",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "92ee8d4cfaf6458f4f6854f2b61a5d8acceacc39",
+  "commit_date": "2020-06-20T15:22:18-07:00",
+  "frozen_branch_head": "5aa29614bf1dce05e0d316f8c38722e17f9b38c3",
+  "collected_at": "2026-10-14T10:30:00.392854+00:00",
+  "package_json_sha256": "a7c90e4939a7a7b5aeed236018a298ac883f4e46903888523903f012fad9aed5",
+  "package_json": {
+    "name": "vimium",
+    "version": "1.0.0",
+    "dependencies": {
+      "path": "^0.11.14",
+      "puppeteer": "^3.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,18 @@
+{
+  "project": "gitim/react-native-sortable-list",
+  "stratum": "niche",
+  "origin": "2022-12-31",
+  "commit_sha": "78c8ec0e66ba792784131065fbeab3f365deb0dc",
+  "commit_date": "2022-04-08T21:57:29+03:00",
+  "frozen_branch_head": "78c8ec0e66ba792784131065fbeab3f365deb0dc",
+  "collected_at": "2026-10-14T10:25:34.566098+00:00",
+  "package_json_sha256": "0f6c9cfc1fb9a4457516cf36fa48e2baacf5108a420c5a8a12097760aaacea42",
+  "package_json": {
+    "name": "react-native-sortable-list",
+    "version": "0.0.25",
+    "dependencies": {
+      "prop-types": "^15.5.10"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

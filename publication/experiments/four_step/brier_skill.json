@@ -1,0 +1,317 @@
+[
+  {
+    "origin": "2021-12-31",
+    "model": "full_lr",
+    "brier": 0.034103995046656184,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.030779370224449876
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "full_rf",
+    "brier": 0.03647783345812093,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.03668407964403819
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "full_xgb",
+    "brier": 0.03739794176791142,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.06283315555895186
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_libyear_lr",
+    "brier": 0.03407787411609812,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.031521715651464444
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_libyear_rf",
+    "brier": 0.035678843723889096,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.013977140696358914
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_libyear_xgb",
+    "brier": 0.037455463693768475,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.06446790354460008
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "libyear_only_lr",
+    "brier": 0.03504044050164285,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.004165999785269658
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "libyear_only_rf",
+    "brier": 0.037386840253048975,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.06251765535987786
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "libyear_only_xgb",
+    "brier": 0.036265288962709134,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.03064365800380142
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "constant_training_rate",
+    "brier": 0.035187029659649226,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.0
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "package_age_only_lr",
+    "brier": 0.03426201126782174,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.026288618299834865
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "recency_only_lr",
+    "brier": 0.03507924355278204,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.0030632340356592236
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_lag_recency_family_lr",
+    "brier": 0.03423179121161182,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": 0.02714745908583538
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_lag_recency_family_rf",
+    "brier": 0.037274813563939226,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.05933390583076603
+  },
+  {
+    "origin": "2021-12-31",
+    "model": "drop_lag_recency_family_xgb",
+    "brier": 0.037525178368509576,
+    "constant_training_rate_brier": 0.035187029659649226,
+    "brier_skill": -0.06644916412315482
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "full_lr",
+    "brier": 0.02046050093112196,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.08518697426194377
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "full_rf",
+    "brier": 0.019798392664660235,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.05006998134304075
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "full_xgb",
+    "brier": 0.022675453663120737,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.20266395400269221
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_libyear_lr",
+    "brier": 0.02030546756918485,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.07696429264155968
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_libyear_rf",
+    "brier": 0.019437675470856706,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.03093821123508156
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_libyear_xgb",
+    "brier": 0.021977368035909616,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.1656387886795554
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "libyear_only_lr",
+    "brier": 0.01911957792806939,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.014066908272383438
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "libyear_only_rf",
+    "brier": 0.020105176480025088,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.06634122521282926
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "libyear_only_xgb",
+    "brier": 0.020817245181415197,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.10410802682386833
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "constant_training_rate",
+    "brier": 0.018854355439566102,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": 0.0
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "package_age_only_lr",
+    "brier": 0.02021375370402152,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.07209995954583004
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "recency_only_lr",
+    "brier": 0.018687576417584516,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": 0.008845649617467033
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_lag_recency_family_lr",
+    "brier": 0.019792201049390914,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.04974158956697772
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_lag_recency_family_rf",
+    "brier": 0.020964064722695425,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.1118950626496662
+  },
+  {
+    "origin": "2022-12-31",
+    "model": "drop_lag_recency_family_xgb",
+    "brier": 0.02181534184126003,
+    "constant_training_rate_brier": 0.018854355439566102,
+    "brier_skill": -0.157045220197783
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "full_lr",
+    "brier": 0.028138135211423616,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.0021180375457277023
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "full_rf",
+    "brier": 0.024499890031797176,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.12745526545116936
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "full_xgb",
+    "brier": 0.027726627824432755,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.01253748144969713
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_libyear_lr",
+    "brier": 0.028225588075104315,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.005232604004057784
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_libyear_rf",
+    "brier": 0.02424510820146201,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.13652912432274544
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_libyear_xgb",
+    "brier": 0.027859552517807206,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.007803470760470832
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "libyear_only_lr",
+    "brier": 0.028088285582172735,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.0003426813516542726
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "libyear_only_rf",
+    "brier": 0.02844165133167929,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.012927530659209818
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "libyear_only_xgb",
+    "brier": 0.028708675744226347,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.022437399677460057
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "constant_training_rate",
+    "brier": 0.028078663547795528,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "package_age_only_lr",
+    "brier": 0.02867651915339628,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": -0.021292167434646014
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "recency_only_lr",
+    "brier": 0.027845010235468676,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.008321382957886425
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_lag_recency_family_lr",
+    "brier": 0.027280448462939186,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.028427816142232665
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_lag_recency_family_rf",
+    "brier": 0.026223227572012967,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.06607992480212732
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_lag_recency_family_xgb",
+    "brier": 0.02665039801248643,
+    "constant_training_rate_brier": 0.028078663547795528,
+    "brier_skill": 0.05086657820725338
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "project": "alexjoverm/v-lazy-image",
+  "stratum": "niche",
+  "origin": "2023-12-31",
+  "commit_sha": "7f8116a1626c95f45234db203c87ecf2589082f9",
+  "commit_date": "2022-02-13T23:24:06+01:00",
+  "frozen_branch_head": "1c7b85c6920ef41bd5f99f8c1be6266a3a3b4fe0",
+  "collected_at": "2026-10-14T10:21:47.117811+00:00",
+  "package_json_sha256": "1aa93edefd21a49970ee68a45c207a6f617e3181cbe2164586ab1867d14ab8da",
+  "package_json": {
+    "name": "v-lazy-image-ws",
+    "version": "0.0.0",
+    "devDependencies": {
+      "pnpm": "^6.12.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

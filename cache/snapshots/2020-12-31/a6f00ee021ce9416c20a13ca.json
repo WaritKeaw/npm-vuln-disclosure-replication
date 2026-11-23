@@ -1,0 +1,31 @@
+{
+  "project": "mrdoob/three.js",
+  "stratum": "high",
+  "origin": "2020-12-31",
+  "commit_sha": "15e97213c01e8038f7b591bb8a67c01bc3aa4a5c",
+  "commit_date": "2020-12-31T13:48:14Z",
+  "frozen_branch_head": "7d0d76bd6cd69a95c01e2913eed5b86ff758ca91",
+  "collected_at": "2026-10-14T10:29:16.861254+00:00",
+  "package_json_sha256": "74a2d4c99cbf68413cd0d658985ec72d3f0c558df6f2c5c2e5ad0bd07b859246",
+  "package_json": {
+    "name": "three",
+    "version": "0.124.0",
+    "devDependencies": {
+      "@babel/core": "^7.12.10",
+      "@babel/plugin-proposal-class-properties": "^7.12.1",
+      "@babel/preset-env": "^7.12.11",
+      "@rollup/plugin-babel": "^5.2.2",
+      "@typescript-eslint/eslint-plugin": "^4.11.0",
+      "@typescript-eslint/parser": "^4.11.0",
+      "concurrently": "^5.3.0",
+      "eslint": "^7.16.0",
+      "eslint-config-mdcs": "^5.0.0",
+      "eslint-plugin-html": "^6.1.1",
+      "rollup": "^2.35.1",
+      "rollup-plugin-terser": "^7.0.2",
+      "servez": "^1.11.0",
+      "typescript": "^4.1.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

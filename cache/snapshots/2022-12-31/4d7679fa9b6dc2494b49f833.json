@@ -1,0 +1,30 @@
+{
+  "project": "airbnb/lottie-web",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "7c5d09862a8f8fa9d39909884143e0ca0b57449b",
+  "commit_date": "2022-12-29T22:17:44-05:00",
+  "frozen_branch_head": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+  "collected_at": "2026-10-14T10:21:45.879685+00:00",
+  "package_json_sha256": "3e470ea3647a34c565aacb7fcf7f6425e51c794e854aafb3eaf5c23103f81993",
+  "package_json": {
+    "name": "lottie-web",
+    "version": "5.10.1",
+    "devDependencies": {
+      "@babel/core": "^7.16.0",
+      "@babel/plugin-transform-runtime": "^7.17.0",
+      "@babel/preset-env": "^7.16.4",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@rollup/plugin-node-resolve": "^13.0.6",
+      "cheerio": "^1.0.0-rc.2",
+      "eslint": "^7.16.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.22.1",
+      "rollup": "^2.61.0",
+      "rollup-plugin-terser": "^7.0.2",
+      "uglify-js": "^3.4.9",
+      "watch": "^1.0.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,22 @@
+{
+  "project": "juliangarnier/anime",
+  "stratum": "high",
+  "origin": "2020-12-31",
+  "commit_sha": "3ebfd913a04f7dc59cc3d52e38275272a5a12ae6",
+  "commit_date": "2020-10-15T14:58:33+02:00",
+  "frozen_branch_head": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+  "collected_at": "2026-10-14T10:27:28.571581+00:00",
+  "package_json_sha256": "6394630e9c7d5148502d145760d11c0f66a3e78b048911372a3331821b11b44c",
+  "package_json": {
+    "name": "animejs",
+    "version": "3.2.1",
+    "devDependencies": {
+      "gzip-size": "^4.1.0",
+      "pretty-bytes": "^4.0.2",
+      "rollup": "^0.53.2",
+      "rollup-plugin-buble": "^0.18.0",
+      "uglify-js": "^3.3.4"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

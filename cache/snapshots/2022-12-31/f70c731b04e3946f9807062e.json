@@ -1,0 +1,21 @@
+{
+  "project": "ToolJet/ToolJet",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "f4ab2a2221b3da41250a01ab8aace04c6a8fee14",
+  "commit_date": "2022-12-30T17:23:20+05:30",
+  "frozen_branch_head": "5fd6294d8efec1f73ee3b1b9646c40babd809a87",
+  "collected_at": "2026-10-14T10:21:32.582750+00:00",
+  "package_json_sha256": "1d57a99191ad9f7b8728144bc01c3d23b802e88d51fd1c56e9aa9cb47e9b0bea",
+  "package_json": {
+    "name": "tooljet",
+    "version": "1.18.0",
+    "devDependencies": {
+      "@tooljet/cli": "^0.0.13",
+      "eslint": "^7.25.0",
+      "husky": "^7.0.2",
+      "lint-staged": "^11.2.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

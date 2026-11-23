@@ -1,0 +1,33 @@
+{
+  "project": "ConciseCSS/concise.css",
+  "stratum": "niche",
+  "origin": "2021-12-31",
+  "commit_sha": "0001edd279146618c2066e7262bf219708ff3db1",
+  "commit_date": "2020-05-29T15:54:46-06:00",
+  "frozen_branch_head": "ecc6c5164cf8fcf979902921a7e95f2e04d2b38a",
+  "collected_at": "2026-10-14T10:20:14.953828+00:00",
+  "package_json_sha256": "bf2d559ecf44d34d54a30a75bfdbe24cd6f315c09a2078c7298e5858b3ff985c",
+  "package_json": {
+    "name": "concise.css",
+    "version": "5.0.0",
+    "dependencies": {
+      "autoprefixer": "^9.7.5",
+      "chalk": "^4.0.0",
+      "chokidar": "^3.4.0",
+      "postcss": "^7.0.27",
+      "postcss-custom-media": "^7.0.8",
+      "postcss-easy-import": "^3.0.0",
+      "postcss-if-media": "^1.0.3",
+      "postcss-input-range": "^4.0.0",
+      "postcss-lh": "^2.0.2",
+      "postcss-media-minmax": "^4.0.0",
+      "postcss-nested": "^4.2.1",
+      "postcss-strip-inline-comments": "^0.1.5"
+    },
+    "devDependencies": {
+      "tap-diff": "^0.1.1",
+      "tape": "^4.13.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

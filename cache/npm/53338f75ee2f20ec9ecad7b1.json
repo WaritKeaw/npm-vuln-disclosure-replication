@@ -1,0 +1,13 @@
+{
+  "package": "react-dom-experimental-builtin",
+  "collected_at": "2026-10-14T11:20:52.901939+00:00",
+  "times": {
+    "10.0.1": "2025-07-24T14:44:10.547Z",
+    "unpublished": {
+      "time": "2025-07-25T02:20:54.992Z",
+      "versions": [
+        "10.0.1"
+      ]
+    }
+  }
+}

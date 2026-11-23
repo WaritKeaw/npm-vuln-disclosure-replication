@@ -1,0 +1,29 @@
+[
+  {
+    "test_origin": "2021-12-31",
+    "train_instances": 7377,
+    "positive_training_instances": 175,
+    "positive_instances_any_matching_review_after_test_origin": 0,
+    "positive_instances_any_matching_update_after_test_origin": 175,
+    "positive_instances_missing_review_time": 0,
+    "interpretation": "updated_at after cutoff flags a newer metadata vintage; it does not prove affected range changed. Late review establishes reviewed status was not yet reached for that matched record, not necessarily that all matching information was unavailable."
+  },
+  {
+    "test_origin": "2022-12-31",
+    "train_instances": 14750,
+    "positive_training_instances": 443,
+    "positive_instances_any_matching_review_after_test_origin": 19,
+    "positive_instances_any_matching_update_after_test_origin": 443,
+    "positive_instances_missing_review_time": 0,
+    "interpretation": "updated_at after cutoff flags a newer metadata vintage; it does not prove affected range changed. Late review establishes reviewed status was not yet reached for that matched record, not necessarily that all matching information was unavailable."
+  },
+  {
+    "test_origin": "2023-12-31",
+    "train_instances": 22080,
+    "positive_training_instances": 583,
+    "positive_instances_any_matching_review_after_test_origin": 13,
+    "positive_instances_any_matching_update_after_test_origin": 277,
+    "positive_instances_missing_review_time": 0,
+    "interpretation": "updated_at after cutoff flags a newer metadata vintage; it does not prove affected range changed. Late review establishes reviewed status was not yet reached for that matched record, not necessarily that all matching information was unavailable."
+  }
+]

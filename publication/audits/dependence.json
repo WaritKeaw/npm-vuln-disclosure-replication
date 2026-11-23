@@ -1,0 +1,230 @@
+[
+  {
+    "origin": "2020-12-31",
+    "instances": 7377,
+    "projects": 238,
+    "packages": 2834,
+    "package_version_pairs": 3969,
+    "positive_instances": 175,
+    "positive_packages": 46,
+    "positive_package_versions": 81,
+    "unique_matched_advisories": 54,
+    "max_instances_per_package": 123,
+    "top_5_positive_packages_share": 0.5485714285714286,
+    "top_5_positive_packages": [
+      [
+        "lodash",
+        49
+      ],
+      [
+        "grunt",
+        15
+      ],
+      [
+        "postcss",
+        12
+      ],
+      [
+        "electron",
+        11
+      ],
+      [
+        "axios",
+        9
+      ]
+    ],
+    "top_5_matching_advisories": [
+      [
+        "GHSA-35jh-r3h4-6jhm",
+        54
+      ],
+      [
+        "GHSA-m5pj-vjjf-4m3h",
+        15
+      ],
+      [
+        "GHSA-hwj9-h5mp-3pm3",
+        12
+      ],
+      [
+        "GHSA-mpjm-v997-c4h4",
+        11
+      ],
+      [
+        "GHSA-cph5-m8f7-6c5x",
+        9
+      ]
+    ]
+  },
+  {
+    "origin": "2021-12-31",
+    "instances": 7373,
+    "projects": 238,
+    "packages": 2910,
+    "package_version_pairs": 4166,
+    "positive_instances": 268,
+    "positive_packages": 59,
+    "positive_package_versions": 130,
+    "unique_matched_advisories": 93,
+    "max_instances_per_package": 123,
+    "top_5_positive_packages_share": 0.3805970149253731,
+    "top_5_positive_packages": [
+      [
+        "karma",
+        30
+      ],
+      [
+        "grunt",
+        30
+      ],
+      [
+        "minimist",
+        16
+      ],
+      [
+        "node-sass",
+        13
+      ],
+      [
+        "marked",
+        13
+      ]
+    ],
+    "top_5_matching_advisories": [
+      [
+        "GHSA-7x7c-qm48-pq9c",
+        30
+      ],
+      [
+        "GHSA-rc3x-jf5g-xvc5",
+        30
+      ],
+      [
+        "GHSA-j383-35pm-c5h4",
+        30
+      ],
+      [
+        "GHSA-rm36-94g8-835r",
+        30
+      ],
+      [
+        "GHSA-xvch-5gv4-984h",
+        16
+      ]
+    ]
+  },
+  {
+    "origin": "2022-12-31",
+    "instances": 7330,
+    "projects": 238,
+    "packages": 2848,
+    "package_version_pairs": 4202,
+    "positive_instances": 140,
+    "positive_packages": 32,
+    "positive_package_versions": 71,
+    "unique_matched_advisories": 45,
+    "max_instances_per_package": 128,
+    "top_5_positive_packages_share": 0.65,
+    "top_5_positive_packages": [
+      [
+        "semver",
+        27
+      ],
+      [
+        "webpack",
+        20
+      ],
+      [
+        "request",
+        17
+      ],
+      [
+        "postcss",
+        17
+      ],
+      [
+        "electron",
+        10
+      ]
+    ],
+    "top_5_matching_advisories": [
+      [
+        "GHSA-c2qf-rxjj-qqgw",
+        27
+      ],
+      [
+        "GHSA-hc6q-2mpp-qw7j",
+        20
+      ],
+      [
+        "GHSA-p8p7-x288-28g6",
+        17
+      ],
+      [
+        "GHSA-7fh5-64p2-3v2j",
+        17
+      ],
+      [
+        "GHSA-p7v2-p9m8-qqg7",
+        10
+      ]
+    ]
+  },
+  {
+    "origin": "2023-12-31",
+    "instances": 7299,
+    "projects": 238,
+    "packages": 2864,
+    "package_version_pairs": 4248,
+    "positive_instances": 211,
+    "positive_packages": 45,
+    "positive_package_versions": 94,
+    "unique_matched_advisories": 65,
+    "max_instances_per_package": 130,
+    "top_5_positive_packages_share": 0.5308056872037915,
+    "top_5_positive_packages": [
+      [
+        "rollup",
+        46
+      ],
+      [
+        "express",
+        25
+      ],
+      [
+        "webpack",
+        20
+      ],
+      [
+        "body-parser",
+        13
+      ],
+      [
+        "webpack-dev-middleware",
+        8
+      ]
+    ],
+    "top_5_matching_advisories": [
+      [
+        "GHSA-gcx4-mw62-g8wm",
+        46
+      ],
+      [
+        "GHSA-rv95-896h-c2vc",
+        25
+      ],
+      [
+        "GHSA-qw6h-vgh9-j6wx",
+        25
+      ],
+      [
+        "GHSA-4vvj-4cpr-p986",
+        20
+      ],
+      [
+        "GHSA-qwcr-r2fm-qrc7",
+        13
+      ]
+    ]
+  }
+]

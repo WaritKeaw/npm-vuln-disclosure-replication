@@ -1,0 +1,16 @@
+{
+  "source_sha256": "0f1965ea5b79492f49e8a926d697c382465c5cd6b8003e71324440bf57834f0a",
+  "protocol_sha256": "29d3049cd8486c9e67c9faf9815841481812d5be69d719c67b47f6af05959003",
+  "inputs": {
+    "publication/experiments/four_step/fit_manifest.json": "05e2ba8bac3921711881f804fb23fc667b48011b9f59cbecacfa989a34263fb4",
+    "publication/experiments/four_step/new_model_metrics.json": "5ea80cda3b2ca56ea1f80d2852556d90f7de9f78a07bdbc097d512f0f7566c40",
+    "robustness/data/date_12_paired.csv": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c",
+    "publication/experiments/rq_completion/2021-12-31/predictions_wide.csv": "070d6efcf3a14ed1ccbbaeff3863e3a4947d4fc74aaf1a98556ec9e647123a87",
+    "publication/experiments/four_step/new_scores/2021-12-31.csv": "91792bb70b71702adbcc2f7d5fc8039ac0b86997ad790d65db22a954efe8954e",
+    "publication/experiments/rq_completion/2022-12-31/predictions_wide.csv": "9b81c9615aa86df41fedac89de4b4d14d8f7f76093bc4b1bf120cf63b1f42797",
+    "publication/experiments/four_step/new_scores/2022-12-31.csv": "1fa49c15d4f3d8a75099dc23889c545c200a745421a440eb76dad8a63bc3a0db",
+    "publication/experiments/rq_completion/2023-12-31/predictions_wide.csv": "ca229aa2b6401cd91f473fa247151e42a214e4c5d9b93d2d3dc5d404ca1bb29b",
+    "publication/experiments/four_step/new_scores/2023-12-31.csv": "4254c63f978d99fa30656a51c20197b7473e7f14636278872cef5fcfbd156b11"
+  },
+  "started_at": "2026-10-23T18:59:51.722604+00:00"
+}

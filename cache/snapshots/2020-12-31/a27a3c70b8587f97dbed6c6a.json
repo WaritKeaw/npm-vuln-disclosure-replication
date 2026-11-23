@@ -1,0 +1,53 @@
+{
+  "project": "shoutem/ui",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "4ed3659f52ae8f09415a0144ca42be9d47cd3dc6",
+  "commit_date": "2020-12-17T11:27:30+01:00",
+  "frozen_branch_head": "6667fa731d7efbebfccba2f4f99b9cd71ef60937",
+  "collected_at": "2026-10-14T10:31:42.804469+00:00",
+  "package_json_sha256": "d35c12c442fca9f95fc5880597801ec472eed748a17ae97c4d83a906f8c1094f",
+  "package_json": {
+    "name": "@shoutem/ui",
+    "version": "4.0.18",
+    "dependencies": {
+      "@shoutem/animation": "~0.12.4",
+      "@shoutem/theme": "~0.11.6",
+      "auto-bind": "^4.0.0",
+      "babel-plugin-transform-decorators-legacy": "~1.3.4",
+      "buffer": "5.6.0",
+      "events": "1.1.0",
+      "fs-extra": "^7.0.1",
+      "html-entities": "1.3.1",
+      "htmlparser2": "3.10.1",
+      "lodash": "4.17.19",
+      "prop-types": "^15.7.2",
+      "qs": "6.9.3",
+      "react-native-lightbox": "shoutem/react-native-lightbox#v0.7.2",
+      "react-native-linear-gradient": "~2.5.6",
+      "react-native-photo-view": "shoutem/react-native-photo-view#0ffa1481f6b6cb8663cb291b7db1d6644440584d",
+      "react-native-render-html": "~4.2.0",
+      "react-native-status-bar-height": "2.5.0",
+      "react-native-svg": "^9.13.0",
+      "react-native-svg-transformer": "^0.14.3",
+      "react-native-transformable-image": "shoutem/react-native-transformable-image#v0.0.20",
+      "react-native-vector-icons": "~6.6.0",
+      "react-native-webview": "9.4.0",
+      "stream": "0.0.2",
+      "tinycolor2": "1.4.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.6",
+      "@babel/register": "7.9.0",
+      "@babel/plugin-proposal-decorators": "^7.3.0",
+      "metro-react-native-babel-preset": "^0.56.0",
+      "chai": "4.2.0",
+      "deep-freeze": "0.0.1",
+      "mocha": "7.1.2",
+      "react-addons-test-utils": "^15.6.2",
+      "react-dom": "^16.8.6",
+      "react-native-mock-render": "0.1.9"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,8 @@
+{
+  "config_sha256": "91aa96c267c8edaa6639cbd966cb35271db47a331d6a556d37c84e3cb9dd37f5",
+  "data_sha256": "0eabb156db955bc02ea18e48975eee17c3b819d470d7b75d3c16b647bd8c4ac0",
+  "script_sha256": "c45c953bc88b434c394c1b663e736f20fc86a0a582ae6661b7d2bbf7c28a0bd1",
+  "semver_sha256": "a57884ddf848bdfdf99fca3e1f1e2564881652e94acbf3ce20e7133f9e3b85a3",
+  "bootstrap_repeats": 1000,
+  "model_hyperparameters_unchanged": true
+}

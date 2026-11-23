@@ -1,0 +1,19 @@
+{
+  "project": "GoogleChrome/samples",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "7380e933887c1c3f03dac62eeb042b6d6e7d297d",
+  "commit_date": "2021-11-10T09:28:42-05:00",
+  "frozen_branch_head": "8c3a755f756fcd816f088684a3c697cbd891fc35",
+  "collected_at": "2026-10-14T10:20:23.032975+00:00",
+  "package_json_sha256": "d2dd9ea09511aa417f9a206a9e14f90bd7ae29b5e68d0772aefb16c4baeb1181",
+  "package_json": {
+    "name": "google-chrome-samples",
+    "version": "0.0.1",
+    "devDependencies": {
+      "eslint": "^1.10.3",
+      "eslint-config-google": "^0.3.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

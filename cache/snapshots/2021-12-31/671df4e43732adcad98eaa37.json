@@ -1,0 +1,20 @@
+{
+  "project": "gfranko/jquery.tocify.js",
+  "stratum": "niche",
+  "origin": "2021-12-31",
+  "commit_sha": "c5ef23554b731a3076ff767eb3b65d78968acf31",
+  "commit_date": "2019-06-17T11:30:08-07:00",
+  "frozen_branch_head": "c5ef23554b731a3076ff767eb3b65d78968acf31",
+  "collected_at": "2026-10-14T10:25:22.195685+00:00",
+  "package_json_sha256": "9ff50925f78c5c6944aa69fceef88e0bd94a08dbdc5a29c7372ae47ce998a9b2",
+  "package_json": {
+    "name": "jquery.tocify",
+    "version": "1.9.0",
+    "devDependencies": {
+      "grunt": "~0.4.1",
+      "grunt-contrib-uglify": "~0.2.0",
+      "grunt-contrib-jshint": "~0.3.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

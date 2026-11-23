@@ -1,0 +1,33 @@
+{
+ "positives_vs_osv": {
+  "n": 794,
+  "agree": 794,
+  "rate": 1.0
+ },
+ "positives_vs_npm": {
+  "n": 794,
+  "agree": 794,
+  "rate": 1.0
+ },
+ "hard_negatives_vs_osv": {
+  "n": 289,
+  "agree": 289,
+  "rate": 1.0
+ },
+ "hard_negatives_vs_npm": {
+  "n": 289,
+  "agree": 289,
+  "rate": 1.0
+ },
+ "audit_sample_vs_osv": {
+  "n": 100,
+  "agree": 100,
+  "rate": 1.0
+ },
+ "audit_sample_vs_npm": {
+  "n": 100,
+  "agree": 100,
+  "rate": 1.0
+ },
+ "disagreements_osv": []
+}

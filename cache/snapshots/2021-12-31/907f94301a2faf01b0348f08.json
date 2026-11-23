@@ -1,0 +1,32 @@
+{
+  "project": "bramstein/fontfaceobserver",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "20e40d09331510957d238f55790c83670de40af1",
+  "commit_date": "2018-12-01T19:48:11+01:00",
+  "frozen_branch_head": "46553ba71b2a1bcf33a3f16a84dfc88d7dbe616b",
+  "collected_at": "2026-10-14T10:23:05.124813+00:00",
+  "package_json_sha256": "3b0198edf44536a75b583db6f36033f830f6a6e424251b7e46d7cb524ddc6c51",
+  "package_json": {
+    "name": "fontfaceobserver",
+    "version": "2.1.0",
+    "dependencies": {},
+    "devDependencies": {
+      "closure-dom": "=0.2.6",
+      "extend": "^3.0.0",
+      "google-closure-compiler": "=20161024.0.0",
+      "grunt": "^1.0.3",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-exec": "~1.0.0",
+      "mocha": "^5.2.0",
+      "mocha-phantomjs-core": "^2.0.0",
+      "phantomjs-prebuilt": "^2.1.7",
+      "promis": "=1.1.4",
+      "sinon": "^1.17.4",
+      "unexpected": "^10.14.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

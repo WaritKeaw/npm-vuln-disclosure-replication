@@ -1,0 +1,36 @@
+{
+  "project": "Stuk/jszip",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "d4702a70834bd953d4c2d0bc155fad795076631a",
+  "commit_date": "2021-10-11T13:27:24-07:00",
+  "frozen_branch_head": "609d95f4098a11507160cd101e0b181cfad6a582",
+  "collected_at": "2026-10-14T10:20:51.690986+00:00",
+  "package_json_sha256": "75cd46ab759449f1bc2b7df92645d55c7244cc38f032920433dc7cd48a72899a",
+  "package_json": {
+    "name": "jszip",
+    "version": "3.7.1",
+    "dependencies": {
+      "lie": "~3.3.0",
+      "pako": "~1.0.2",
+      "readable-stream": "~2.3.6",
+      "set-immediate-shim": "~1.0.1"
+    },
+    "devDependencies": {
+      "browserify": "~13.0.0",
+      "grunt": "~0.4.1",
+      "grunt-browserify": "~5.0.0",
+      "grunt-cli": "~1.1.0",
+      "grunt-contrib-jshint": "~1.0.0",
+      "grunt-contrib-uglify": "~4.0.1",
+      "http-server": "^13.0.2",
+      "jshint": "~2.9.1",
+      "jszip-utils": "~0.0.2",
+      "package-json-versionify": "1.0.2",
+      "playwright": "^1.15.2",
+      "qunit": "~2.9.2",
+      "tmp": "0.0.28"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

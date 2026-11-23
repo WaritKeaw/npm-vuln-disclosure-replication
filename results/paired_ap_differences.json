@@ -1,0 +1,74 @@
+[
+  {
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "ap_difference": 0.01320341626858397,
+    "ci_2_5": -0.022028187708343302,
+    "ci_97_5": 0.06385053262962653,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "ap_difference": 0.05908082673684748,
+    "ci_2_5": 0.02556979210253938,
+    "ci_97_5": 0.12025086983083735,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus libyear_only_lr",
+    "ap_difference": 0.01195624597343798,
+    "ci_2_5": -0.013158491424289652,
+    "ci_97_5": 0.08250621726312798,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "ap_difference": 0.001286808243089313,
+    "ci_2_5": -0.018250454762330094,
+    "ci_97_5": 0.014234151611341148,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "ap_difference": 0.06900507792120375,
+    "ci_2_5": 0.014166352503937732,
+    "ci_97_5": 0.18932242125152476,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus libyear_only_lr",
+    "ap_difference": 0.029872421184467944,
+    "ci_2_5": 0.012883161163655885,
+    "ci_97_5": 0.05968929121496717,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "ap_difference": -0.007892941909255921,
+    "ci_2_5": -0.07623055306473052,
+    "ci_97_5": 0.0024843584357254517,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "ap_difference": 0.08286071831039239,
+    "ci_2_5": 0.008557220175142832,
+    "ci_97_5": 0.19892523744042123,
+    "valid_bootstrap_repeats": 1000
+  },
+  {
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus libyear_only_lr",
+    "ap_difference": 0.2516451256398247,
+    "ci_2_5": 0.02770587374283288,
+    "ci_97_5": 0.49993433728892334,
+    "valid_bootstrap_repeats": 1000
+  }
+]

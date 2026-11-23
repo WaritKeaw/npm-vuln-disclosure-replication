@@ -1,0 +1,25 @@
+{
+  "project": "bigskysoftware/htmx",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "20436f243c46df4e3965cb4a90c8a1941e70b25a",
+  "commit_date": "2020-12-29T10:11:00-07:00",
+  "frozen_branch_head": "fa978b24e75fb03c137bf2cdae4fef0e711cf8a1",
+  "collected_at": "2026-10-14T10:23:01.409900+00:00",
+  "package_json_sha256": "9a7432fd83e95d8f2b6e98e06605e06ed0c46c2101173142b6ab14e98a318d8b",
+  "package_json": {
+    "name": "htmx.org",
+    "version": "1.0.3",
+    "devDependencies": {
+      "@11ty/eleventy": "^0.10.0",
+      "chai": "^4.2.0",
+      "eleventy-plugin-sass": "^1.0.0",
+      "fs-extra": "^9.0.0",
+      "mocha": "^7.1.1",
+      "mocha-chrome": "^2.2.0",
+      "sinon": "^9.0.2",
+      "uglify-js": "^3.9.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

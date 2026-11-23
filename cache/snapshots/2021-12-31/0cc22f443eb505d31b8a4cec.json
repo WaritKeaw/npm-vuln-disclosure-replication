@@ -1,0 +1,26 @@
+{
+  "project": "kerimdzhanov/dotenv-flow",
+  "stratum": "niche",
+  "origin": "2021-12-31",
+  "commit_sha": "38557217ac652272824c91e9b0f29d8aa56a7e7f",
+  "commit_date": "2021-01-11T06:37:35+06:00",
+  "frozen_branch_head": "7f07cf32cc28277f04e801982cc2fbddb6b220fa",
+  "collected_at": "2026-10-14T10:27:46.217975+00:00",
+  "package_json_sha256": "eb62c3cba192f4840a86b5d33e010c236341dc2f8b8f70689567256551a70fc2",
+  "package_json": {
+    "name": "dotenv-flow",
+    "version": "3.2.0",
+    "dependencies": {
+      "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "conventional-changelog-cli": "^2.0.23",
+      "mocha": "7.2.0",
+      "sinon": "^9.0.2",
+      "sinon-chai": "^3.5.0",
+      "tmp": "^0.2.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,33 @@
+{
+  "project": "jgraph/drawio-desktop",
+  "stratum": "high",
+  "origin": "2023-12-31",
+  "commit_sha": "c2973ce87e0b751a1cf4429860f5f3eb10670596",
+  "commit_date": "2023-12-31T18:02:46-05:00",
+  "frozen_branch_head": "d5cd628cdd53a8b8212c11179364b9b1087fbc7d",
+  "collected_at": "2026-10-14T10:27:14.871480+00:00",
+  "package_json_sha256": "ffd0bce490f41a5ba82ddd00f4a45177e397751231de2adcbffcee00459819fa",
+  "package_json": {
+    "name": "draw.io",
+    "version": "22.1.16",
+    "dependencies": {
+      "commander": "^11.1.0",
+      "compression": "^1.7.4",
+      "crc": "^4.3.2",
+      "electron-context-menu": "^3.6.1",
+      "electron-log": "^5.0.2",
+      "electron-progressbar": "^2.1.0",
+      "electron-store": "^8.1.0",
+      "electron-updater": "^6.1.7",
+      "pdf-lib": "^1.17.1"
+    },
+    "devDependencies": {
+      "@electron/notarize": "^2.2.0",
+      "dotenv": "^16.3.1",
+      "electron": "^28.1.0",
+      "electron-builder": "^24.9.1",
+      "sumchecker": "^3.0.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

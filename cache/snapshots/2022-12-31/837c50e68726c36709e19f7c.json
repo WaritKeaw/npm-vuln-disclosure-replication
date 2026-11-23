@@ -1,0 +1,27 @@
+{
+  "project": "goabstract/Awesome-Design-Tools",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "dc60e63c248c44acb42f09fb0c985b77b5fe4bf5",
+  "commit_date": "2020-09-28T09:30:13-07:00",
+  "frozen_branch_head": "dc60e63c248c44acb42f09fb0c985b77b5fe4bf5",
+  "collected_at": "2026-10-14T10:25:42.789834+00:00",
+  "package_json_sha256": "d2f1cfcddd12033f987ded873d0b7ee553868c7f60abc78bb58ad8a7fe08ce48",
+  "package_json": {
+    "name": "Awesome-Design-Tools",
+    "version": "1.0.0",
+    "dependencies": {
+      "markdown-it": "^8.4.2",
+      "showdown": "^1.9.1"
+    },
+    "devDependencies": {
+      "express": "^4.17.1",
+      "html-minifier": "^3.5.21",
+      "i": "^0.3.6",
+      "jsdom": "^14.1.0",
+      "npm": "^6.13.4",
+      "tinycolor2": "^1.4.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

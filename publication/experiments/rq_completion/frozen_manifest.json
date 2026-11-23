@@ -1,0 +1,31 @@
+{
+  "config_sha256": "6e667d85b9b65811434e2c4d000eb3f2e7b8227f9f20ae440daf8c7331368927",
+  "script_sha256": "3f187ebffdb3dce67d0550c212772db411cbe4ffa8dd62df58509c4316fb6b4f",
+  "dataset_sha256": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c",
+  "protected_inputs": {
+    "data/processed/paired.csv": "2fb930db6c5e9a800dfd9bc6c7796d7bfefe2bd7850c7f2bea06cfa686d50fe2",
+    "data/processed/all_available.csv": "361c1440778d488cd72ea8376147f949bde3923fdbfde9b0e5453dd025004399",
+    "cache/ghsa/advisories.json": "2607d868b3ea022a872ed1c71f2aaed59da2446212520592df95a9e7832ce34a",
+    "cache/ghsa/complete.json": "c1e8bb812cadd058ca0426b348156c7cacc126d05476e68cd01b77ebf75ba312",
+    "results/temporal_metrics.json": "199e448aa32b5ef102f71f31d55b50bc1d8aa2a9010da0758c3625a28f85c9d8",
+    "results/associations.json": "f3f6b3c50f1870bb011fb4b4f2a0b96c7b0aa413d02e571944eef790e65416a9",
+    "results/paired_ap_differences.json": "ad804b5a39d25cb0c3ef2a41e4597858c2557812d56cdcda7603de520b7798a1",
+    "results/predictions.csv": "213980d4a9d0d49fbf57d8afff3999b4c81b1b1974dbf3dce91589303d2e8d86",
+    "manifests/run.json": "39ff0b8415e46f649cc986bfc4842f396517fb38084b7a8356b52c0791a34593",
+    "replicability/data/processed/features_labeled.parquet": "5d049aea5e1896b74026660049c76b73adeec2d1ea66a2fc4fe4650e5743fe86",
+    "replicability/data/raw/projects.parquet": "05788c31526efd5ab9364936a5710d7acf8865a2cd97a764c709646196270335",
+    "replicability/data/raw/instances.parquet": "667525646724a49d2fdab01fdca2dce10b584139cca124db36ee14ab99699bb5",
+    "replicability/data/raw/ghsa_advisories.parquet": "3194ed3ad69802e11826ce366e97f2f5c1316f8cbe92ffe15eed6a07baf5b05c",
+    "robustness/data/date_12_paired.csv": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c",
+    "robustness/config/analysis.json": "91aa96c267c8edaa6639cbd966cb35271db47a331d6a556d37c84e3cb9dd37f5"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "xgboost": "3.0.5"
+  },
+  "started_at": "2026-10-23T18:58:07.098524+00:00",
+  "status": "exploratory_after_prior_results"
+}

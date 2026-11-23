@@ -1,0 +1,36 @@
+{
+  "project": "ApoorvSaxena/lozad.js",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "2fdbbeee78db65f7da310314b9f8a01f29c43000",
+  "commit_date": "2021-09-01T12:52:11+05:30",
+  "frozen_branch_head": "e9cd983b37c67130a3324921c4f3d59781b72034",
+  "collected_at": "2026-10-14T10:15:57.754558+00:00",
+  "package_json_sha256": "db4f87d771d64d41a90605f1245d8b30e1ba63455f8917f3f9cf6129214ac9ce",
+  "package_json": {
+    "name": "lozad",
+    "version": "1.16.0",
+    "devDependencies": {
+      "babel-core": "^6.26.0",
+      "babel-preset-env": "^1.6.0",
+      "babel-preset-stage-0": "^6.24.1",
+      "browser-sync": "^2.26.7",
+      "chokidar": "^3.1.1",
+      "cross-env": "^5.2.1",
+      "husky": "^0.14.3",
+      "jsdom": "^11.2.0",
+      "jsdom-global": "^3.0.2",
+      "mocha": "^5.2.0",
+      "npm-run-all": "^4.1.5",
+      "nyc": "^14.1.1",
+      "prettier": "^1.18.2",
+      "rollup": "^0.63.5",
+      "rollup-plugin-babel": "^3.0.2",
+      "rollup-plugin-filesize": "^4.0.1",
+      "rollup-plugin-license": "^0.12.1",
+      "rollup-plugin-uglify": "^4.0.0",
+      "xo": "^0.24.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

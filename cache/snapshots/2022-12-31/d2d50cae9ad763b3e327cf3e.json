@@ -1,0 +1,19 @@
+{
+  "project": "bitwiseshiftleft/sjcl",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "85caa53c281eeeb502310013312c775d35fe0867",
+  "commit_date": "2019-07-13T14:40:13+02:00",
+  "frozen_branch_head": "35b0641709cbefccb0b58b39b2862152a4f4f428",
+  "collected_at": "2026-10-14T10:22:59.743502+00:00",
+  "package_json_sha256": "c63dd834e397b0aeb4635eec4e543f0aa6d2d9c12a2df40de4279274ebbb4236",
+  "package_json": {
+    "name": "sjcl",
+    "version": "1.0.8",
+    "devDependencies": {
+      "eslint": "^2.11.1",
+      "jsdoc": "3.4.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

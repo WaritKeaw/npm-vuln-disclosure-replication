@@ -1,0 +1,23 @@
+{
+  "status": "completed_cache_and_same_commit_lockfile_audit",
+  "advisory_count": 2103,
+  "advisories_missing_review_time": 0,
+  "advisories_reviewed_after_publication": 789,
+  "snapshot_project_cells": 952,
+  "cells_with_any_root_lockfile": 655,
+  "cells_with_supported_parsed_npm_lockfile": 426,
+  "tree_read_failures": 0,
+  "lockfile_compared_instances": 13532,
+  "lockfile_matching_reference_instances": 9685,
+  "lockfile_different_reference_instances": 3847,
+  "missing_root_resolution_instances": 27,
+  "collected_cache_at": "2026-10-14T10:15:48.057977+00:00",
+  "publication_coverage": [
+    "2021-01-01",
+    "2024-12-31"
+  ],
+  "historical_record_versions_verified": false,
+  "npm_timestamp_history_verified": false,
+  "source_data_sha256": "7b850e2b8a8d56574e1a22fc1da3467a1f0938989c62e8e98100509a4ca595e4",
+  "completed_at": "2026-10-15T08:13:16.214987+00:00"
+}

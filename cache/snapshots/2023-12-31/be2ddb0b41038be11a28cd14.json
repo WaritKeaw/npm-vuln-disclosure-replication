@@ -1,0 +1,24 @@
+{
+  "project": "andreasbm/web-skills",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "51e7900697911bac3a7832aa22066fe3c215b40a",
+  "commit_date": "2020-06-11T23:13:20+02:00",
+  "frozen_branch_head": "51e7900697911bac3a7832aa22066fe3c215b40a",
+  "collected_at": "2026-10-14T10:21:54.683043+00:00",
+  "package_json_sha256": "5dd36ee76a055194eaaca1e05c87fc112057fb29a84e371e5cc74b59119d2aad",
+  "package_json": {
+    "name": "web-skills",
+    "dependencies": {
+      "firebase": "^7.13.2",
+      "lit-element": "^2.3.1",
+      "lit-html": "^1.2.1",
+      "web-dialog": "0.0.11"
+    },
+    "devDependencies": {
+      "servor": "^3.2.0",
+      "snowpack": "^1.6.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,22 @@
+{
+  "project": "MostlyAdequate/mostly-adequate-guide",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "c5844c21305358e78f9c2b774e7e5839f9bbf395",
+  "commit_date": "2021-08-18T09:06:05+02:00",
+  "frozen_branch_head": "239468e9bc4ce1f0143722f312eb2487cac846ea",
+  "collected_at": "2026-10-14T10:20:35.414546+00:00",
+  "package_json_sha256": "cdc276a6db2cbe8c9ba56f9f2d1d754f33dbdbb3746c91e0df6c79eb861370de",
+  "package_json": {
+    "name": "mostly-adequate-guide",
+    "version": "1.0.0",
+    "dependencies": {
+      "gitbook-plugin-include-codeblock": "^3.2.2",
+      "gitbook-plugin-exercises": "MostlyAdequate/plugin-exercises"
+    },
+    "devDependencies": {
+      "gitbook-cli": "^2.3.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

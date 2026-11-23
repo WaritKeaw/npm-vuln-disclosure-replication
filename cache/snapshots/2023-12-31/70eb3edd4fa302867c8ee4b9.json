@@ -1,0 +1,40 @@
+{
+  "project": "Chalarangelo/30-seconds-of-code",
+  "stratum": "high",
+  "origin": "2023-12-31",
+  "commit_sha": "59fc1fca9410caa0936c997bc6321f53c442f922",
+  "commit_date": "2023-12-31T20:14:09+02:00",
+  "frozen_branch_head": "bd756f8b2283a38560efe83cb30af38324d4e9e9",
+  "collected_at": "2026-10-14T10:16:03.607392+00:00",
+  "package_json_sha256": "d872c5447875fec70742237c1edc2d926a107c0fd31b74441ccf50362ebe92f2",
+  "package_json": {
+    "name": "30-seconds-of-code",
+    "version": "11.0.0",
+    "devDependencies": {
+      "@jsiqle/core": "^3.0.0",
+      "astro": "^4.0.0",
+      "chalk": "^5.3.0",
+      "eslint": "^8.50.0",
+      "eslint-config-prettier": "^9.0.0",
+      "front-matter": "^4.0.2",
+      "fs-extra": "^11.1.1",
+      "glob": "^10.3.10",
+      "hast-util-to-string": "^3.0.0",
+      "js-yaml": "^4.1.0",
+      "prettier": "^3.0.3",
+      "prettier-plugin-astro": "^0.12.0",
+      "prismjs": "^1.29.0",
+      "rehype-stringify": "^10.0.0",
+      "remark-gfm": "^4.0.0",
+      "remark-parse": "^11.0.0",
+      "remark-rehype": "^11.0.0",
+      "remark-unwrap-images": "^4.0.0",
+      "sass": "^1.68.0",
+      "sharp": "^0.33.0",
+      "unified": "^11.0.4",
+      "unist-util-visit": "^5.0.0",
+      "unist-util-visit-parents": "^6.0.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

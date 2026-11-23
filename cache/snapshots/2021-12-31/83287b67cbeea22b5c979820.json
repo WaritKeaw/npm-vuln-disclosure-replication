@@ -1,0 +1,21 @@
+{
+  "project": "lukeed/clsx",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "74cefa60314506f93a4db565c59152c6c0a2295c",
+  "commit_date": "2021-03-18T17:48:36-07:00",
+  "frozen_branch_head": "925494cf31bcd97d3337aacd34e659e80cae7fe2",
+  "collected_at": "2026-10-14T10:28:26.801352+00:00",
+  "package_json_sha256": "86c4dc07558534b0470f771d30627b663177475613a498ac0e4277a7418ca161",
+  "package_json": {
+    "name": "clsx",
+    "version": "1.1.1",
+    "devDependencies": {
+      "bundt": "1.0.1",
+      "esm": "3.2.25",
+      "tap-spec": "5.0.0",
+      "tape": "4.9.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

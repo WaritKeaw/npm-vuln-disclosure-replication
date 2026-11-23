@@ -1,0 +1,42 @@
+{
+  "project": "Yomguithereal/react-blessed",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "b686438af2726111637ef17b998f0f6967623640",
+  "commit_date": "2021-03-11T09:57:00+01:00",
+  "frozen_branch_head": "b686438af2726111637ef17b998f0f6967623640",
+  "collected_at": "2026-10-14T10:21:05.006220+00:00",
+  "package_json_sha256": "fc21ccb69b8a86d690e87bedfa74947ad3d58f066cda3f26219d637395c14a8e",
+  "package_json": {
+    "name": "react-blessed",
+    "version": "0.7.2",
+    "dependencies": {
+      "react-reconciler": "^0.26.1"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.12.10",
+      "@babel/core": "^7.12.10",
+      "@babel/plugin-proposal-class-properties": "^7.12.1",
+      "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+      "@babel/plugin-transform-flow-strip-types": "^7.12.10",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-react": "^7.12.10",
+      "@babel/register": "^7.12.10",
+      "@yomguithereal/prettier-config": "^1.1.0",
+      "blessed": "^0.1.81",
+      "invariant": "^2.2.0",
+      "lodash": "^4.17.20",
+      "mocha": "^8.2.1",
+      "neo-blessed": "^0.2.0",
+      "prettier": "^2.2.1",
+      "react": "^17.0.1",
+      "react-devtools-core": "4.10.1",
+      "rimraf": "^3.0.2",
+      "rollup": "^2.38.5",
+      "rollup-plugin-babel": "^4.4.0",
+      "rollup-plugin-commonjs": "^10.1.0",
+      "rollup-plugin-node-resolve": "^5.2.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

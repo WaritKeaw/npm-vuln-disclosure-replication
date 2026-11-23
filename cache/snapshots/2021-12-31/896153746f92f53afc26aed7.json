@@ -1,0 +1,49 @@
+{
+  "project": "xanderfrangos/twinkle-tray",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "5cb9d86ecd31e2ff64513168b9fa4d366c3d2f37",
+  "commit_date": "2021-12-30T16:54:14-05:00",
+  "frozen_branch_head": "5973c00ab985acdfe79b09b08fec0af324dad1b4",
+  "collected_at": "2026-10-14T10:33:20.481658+00:00",
+  "package_json_sha256": "70d980884d6addd03d9a789b7e4541efc78247f5fb1ccf0de8c460d251868d96",
+  "package_json": {
+    "name": "twinkle-tray",
+    "version": "1.14.0-preview8",
+    "dependencies": {
+      "@hensm/ddcci": "^0.1.0",
+      "color": "^3.1.3",
+      "electron-acrylic-window": "file:src/modules/electron-acrylic-window",
+      "electron-winstore-auto-launch": "^2.0.6",
+      "global-mouse-events": "^1.0.7",
+      "markdown-to-jsx": "^6.11.4",
+      "node-fetch": "^2.6.1",
+      "regedit": "^3.0.3",
+      "setwindowpos-binding": "file:src/modules/setwindowpos",
+      "sharp": "^0.29.3",
+      "universal-analytics": "^0.4.23",
+      "win32-displayconfig": "^0.1.0",
+      "windows-accent-colors": "^1.0.0",
+      "wmi-bridge": "file:src/modules/wmi-bridge",
+      "wmi-client": "^0.5.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.13.8",
+      "@babel/plugin-proposal-class-properties": "^7.12.13",
+      "@babel/preset-env": "^7.13.8",
+      "@babel/preset-react": "^7.12.13",
+      "concurrently": "^5.3.0",
+      "cross-env": "^7.0.3",
+      "electron": "^13.6.1",
+      "electron-builder": "^22.13.1",
+      "electron-is-dev": "^1.2.0",
+      "parcel-bundler": "^1.12.5",
+      "react": "^16.14.0",
+      "react-beautiful-dnd": "^13.0.0",
+      "react-dom": "16.13.1",
+      "sass": "^1.32.7",
+      "wait-on": "^5.3.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

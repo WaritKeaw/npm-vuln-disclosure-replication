@@ -1,0 +1,42 @@
+{
+  "project": "yujiosaka/headless-chrome-crawler",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "f4004f6f1a27534222703f9161f44815c8eefbe3",
+  "commit_date": "2020-10-26T07:09:38+02:00",
+  "frozen_branch_head": "f4004f6f1a27534222703f9161f44815c8eefbe3",
+  "collected_at": "2026-10-14T10:33:32.736046+00:00",
+  "package_json_sha256": "57c8e8bc3d81b44835b9ec5adcfbdb6aa2d38d71f9a8305a124217d67d3812ea",
+  "package_json": {
+    "name": "headless-chrome-crawler",
+    "version": "1.8.0",
+    "dependencies": {
+      "debug": "3.1.0",
+      "jquery": "3.5.1",
+      "lodash": "4.17.20",
+      "puppeteer": "1.20.0",
+      "request": "2.88.2",
+      "request-promise": "4.2.6",
+      "robots-parser": "1.0.2"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "7.0.0",
+      "@commitlint/config-conventional": "7.0.0",
+      "@types/debug": "0.0.30",
+      "@types/lodash": "4.14.162",
+      "@types/node": "10.3.4",
+      "@types/puppeteer": "1.20.0",
+      "@types/request-promise": "4.1.46",
+      "eslint": "5.0.1",
+      "eslint-config-airbnb": "17.0.0",
+      "eslint-plugin-import": "2.13.0",
+      "greenkeeper-lockfile": "1.15.1",
+      "husky": "0.14.3",
+      "jest": "23.1.0",
+      "mime": "2.3.0",
+      "redis": "2.8.0",
+      "typescript": "2.7.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

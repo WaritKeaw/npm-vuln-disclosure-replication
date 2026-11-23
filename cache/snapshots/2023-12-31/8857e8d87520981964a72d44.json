@@ -1,0 +1,15 @@
+{
+  "project": "clientIO/joint",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "b38fffbc98c294c19a703937bd7e61e78d14b864",
+  "commit_date": "2023-12-28T19:27:01+03:00",
+  "frozen_branch_head": "0a370aacf5dc0e36e242566b124a9d7a8eb1b982",
+  "collected_at": "2026-10-14T10:23:54.813822+00:00",
+  "package_json_sha256": "229a9209380ebbe33feb9d1bb653746f3d41c5003e4ce49031f4d9a02dd422f3",
+  "package_json": {
+    "name": "joint",
+    "version": "3.7.7"
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,23 @@
+{
+  "project": "maxwellito/vivus",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "d50da0189f530c66afc4f027e71c4be19e731314",
+  "commit_date": "2019-09-09T22:35:36+01:00",
+  "frozen_branch_head": "06b7adb5d543b6b1d0d93fa83dea137b1f8644a5",
+  "collected_at": "2026-10-14T10:28:34.679874+00:00",
+  "package_json_sha256": "de6891be3fa54b41783ed577af961179c6e06b1f9ec0ff0c6253757dbd7e923c",
+  "package_json": {
+    "name": "vivus",
+    "version": "0.4.5",
+    "devDependencies": {
+      "eslint": "^5.15.3",
+      "karma": "^4.0.1",
+      "karma-chrome-launcher": "^2.2.0",
+      "karma-coverage": "^1.1.2",
+      "karma-jasmine": "^2.0.1",
+      "uglify-js": "^3.5.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

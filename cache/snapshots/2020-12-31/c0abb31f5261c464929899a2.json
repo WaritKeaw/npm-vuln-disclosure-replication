@@ -1,0 +1,36 @@
+{
+  "project": "Stuk/jszip",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "25d401e104926fef8528d670ecfe53f14e77a297",
+  "commit_date": "2020-07-23T21:02:43-07:00",
+  "frozen_branch_head": "609d95f4098a11507160cd101e0b181cfad6a582",
+  "collected_at": "2026-10-14T10:20:50.129822+00:00",
+  "package_json_sha256": "ff593db7d66c0d868c99d5de4c6756f5d53b88a110035667ed17a2900ab69e92",
+  "package_json": {
+    "name": "jszip",
+    "version": "3.5.0",
+    "dependencies": {
+      "lie": "~3.3.0",
+      "pako": "~1.0.2",
+      "readable-stream": "~2.3.6",
+      "set-immediate-shim": "~1.0.1"
+    },
+    "devDependencies": {
+      "browserify": "~13.0.0",
+      "grunt": "~0.4.1",
+      "grunt-browserify": "~5.0.0",
+      "grunt-cli": "~1.1.0",
+      "grunt-contrib-connect": "~2.0.0",
+      "grunt-contrib-jshint": "~1.0.0",
+      "grunt-contrib-uglify": "~4.0.1",
+      "grunt-saucelabs": "Stuk/grunt-saucelabs#v10.0.0",
+      "jshint": "~2.9.1",
+      "jszip-utils": "~0.0.2",
+      "package-json-versionify": "1.0.2",
+      "qunit": "~2.9.2",
+      "tmp": "0.0.28"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

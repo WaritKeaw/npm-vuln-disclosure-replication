@@ -1,0 +1,34 @@
+{
+  "project": "typicode/lowdb",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "fa0b378cd3024963e1696ced82692c05a035f3c6",
+  "commit_date": "2022-11-30T02:33:06+01:00",
+  "frozen_branch_head": "8a6fce9b72f769b22533f0979fbc2e73180f8112",
+  "collected_at": "2026-10-14T10:32:31.254160+00:00",
+  "package_json_sha256": "1d4088d24228c44e0c332ae01017395de34eec3947cd31673f5617c1a3dcdd69",
+  "package_json": {
+    "name": "lowdb",
+    "version": "5.0.5",
+    "dependencies": {
+      "steno": "^3.0.0"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "^17.3.0",
+      "@commitlint/config-conventional": "^17.3.0",
+      "@commitlint/prompt-cli": "^17.3.0",
+      "@sindresorhus/tsconfig": "^3.0.1",
+      "@types/lodash": "^4.14.190",
+      "@types/node": "^18.11.9",
+      "@typicode/eslint-config": "^1.1.0",
+      "del-cli": "^5.0.0",
+      "eslint": "^8.28.0",
+      "husky": "^8.0.2",
+      "lodash": "^4.17.21",
+      "tempy": "^3.0.0",
+      "typescript": "^4.9.3",
+      "xv": "^1.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

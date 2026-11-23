@@ -1,0 +1,37 @@
+{
+  "project": "prettier/eslint-config-prettier",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "5a2f0e24382a8e1322784bc836d47706cccd2f1e",
+  "commit_date": "2021-09-21T08:49:51+02:00",
+  "frozen_branch_head": "bd6e6171434c7b34dec3dd0f325aab792c126ec6",
+  "collected_at": "2026-10-14T10:30:34.549895+00:00",
+  "package_json_sha256": "da44fc61e37884f71ea10d56a31f82157369a723866f12145ae5af63a9f735e4",
+  "package_json": {
+    "devDependencies": {
+      "@babel/eslint-parser": "7.13.14",
+      "@babel/eslint-plugin": "7.13.16",
+      "@babel/plugin-syntax-flow": "7.12.13",
+      "@babel/plugin-syntax-jsx": "7.12.13",
+      "@typescript-eslint/eslint-plugin": "4.22.0",
+      "@typescript-eslint/parser": "4.22.0",
+      "doctoc": "2.0.0",
+      "eslint": "7.25.0",
+      "eslint-config-google": "0.14.0",
+      "eslint-find-rules": "3.6.1",
+      "eslint-plugin-babel": "5.3.1",
+      "eslint-plugin-flowtype": "5.7.2",
+      "eslint-plugin-prettier": "3.4.0",
+      "eslint-plugin-react": "7.23.2",
+      "eslint-plugin-standard": "4.0.2",
+      "eslint-plugin-unicorn": "31.0.0",
+      "eslint-plugin-vue": "7.9.0",
+      "jest": "26.6.3",
+      "prettier": "2.2.1",
+      "replace": "1.2.1",
+      "rimraf": "3.0.2",
+      "typescript": "4.2.4"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

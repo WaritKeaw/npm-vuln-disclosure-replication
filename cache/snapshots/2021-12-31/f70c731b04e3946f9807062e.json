@@ -1,0 +1,32 @@
+{
+  "project": "ToolJet/ToolJet",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "4721179b4a33eafd579deaadef6611c46dfc5dec",
+  "commit_date": "2021-12-31T12:05:32+05:30",
+  "frozen_branch_head": "5fd6294d8efec1f73ee3b1b9646c40babd809a87",
+  "collected_at": "2026-10-14T10:21:30.852588+00:00",
+  "package_json_sha256": "197a8c0f13d9923f4dffe8bc5586cf1a6a3100e9eee08a6e9b1a73bf72c8f4cd",
+  "package_json": {
+    "dependencies": {
+      "@nestjs/cli": "^8.1.0",
+      "eslint": "^7.25.0",
+      "ts-node": "^10.1.0"
+    },
+    "devDependencies": {
+      "@4tw/cypress-drag-drop": "^1.8.0",
+      "@babel/core": "^7.4.3",
+      "@babel/plugin-proposal-class-properties": "^7.10.4",
+      "@babel/preset-env": "^7.4.3",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.0.5",
+      "html-webpack-plugin": "^5.3.2",
+      "husky": "^7.0.2",
+      "lint-staged": "^11.2.3",
+      "path": "^0.12.7",
+      "webpack": "^5.55.1",
+      "webpack-cli": "^4.8.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

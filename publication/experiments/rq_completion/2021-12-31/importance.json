@@ -1,0 +1,191 @@
+[
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "libyear",
+    "delta_ap": 0.01320341626858397,
+    "rank": 4
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "major_versions_behind",
+    "delta_ap": 0.005045632158900817,
+    "rank": 6
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "minor_versions_behind",
+    "delta_ap": 0.006283137632461092,
+    "rank": 5
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "patch_versions_behind",
+    "delta_ap": -0.00053366514579542,
+    "rank": 7
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "release_frequency",
+    "delta_ap": -0.002147820119968183,
+    "rank": 8
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "package_age",
+    "delta_ap": 0.022992470428300216,
+    "rank": 1
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "total_versions",
+    "delta_ap": -0.002210546692374818,
+    "rank": 9
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "days_since_latest_release",
+    "delta_ap": 0.014815693491702836,
+    "rank": 3
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "is_post_1_0",
+    "delta_ap": 0.016148455049876567,
+    "rank": 2
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "libyear",
+    "delta_ap": 0.0021148412973802516,
+    "rank": 1
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "major_versions_behind",
+    "delta_ap": -0.0333245665403929,
+    "rank": 5
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "minor_versions_behind",
+    "delta_ap": -0.030008575027628007,
+    "rank": 4
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "patch_versions_behind",
+    "delta_ap": -0.040115726810493704,
+    "rank": 8
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "release_frequency",
+    "delta_ap": -0.0334102584437993,
+    "rank": 6
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "package_age",
+    "delta_ap": -0.03915830935816547,
+    "rank": 7
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "total_versions",
+    "delta_ap": -0.018415350260231195,
+    "rank": 2
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "days_since_latest_release",
+    "delta_ap": -0.059724472384199645,
+    "rank": 9
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "is_post_1_0",
+    "delta_ap": -0.024894212537442284,
+    "rank": 3
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "libyear",
+    "delta_ap": 6.461587352464548e-05,
+    "rank": 6
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "major_versions_behind",
+    "delta_ap": 0.006894825917709069,
+    "rank": 1
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "minor_versions_behind",
+    "delta_ap": 0.003949275237858749,
+    "rank": 4
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "patch_versions_behind",
+    "delta_ap": -0.0009376480897937967,
+    "rank": 7
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "release_frequency",
+    "delta_ap": 0.0023441368281719027,
+    "rank": 5
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "package_age",
+    "delta_ap": -0.004963862966620006,
+    "rank": 9
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "total_versions",
+    "delta_ap": 0.005413908538419214,
+    "rank": 2
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "days_since_latest_release",
+    "delta_ap": -0.004611677836397252,
+    "rank": 8
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "is_post_1_0",
+    "delta_ap": 0.004005593712693795,
+    "rank": 3
+  }
+]

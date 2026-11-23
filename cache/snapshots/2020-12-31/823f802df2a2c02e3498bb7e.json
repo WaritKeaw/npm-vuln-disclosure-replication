@@ -1,0 +1,33 @@
+{
+  "project": "jaredpalmer/razzle",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "2b7fcecda82edfcfa3a8c0d0032ae65a9262334b",
+  "commit_date": "2020-12-31T16:37:27+01:00",
+  "frozen_branch_head": "54724b7bb810d06bb418951ada3f90ae3f135668",
+  "collected_at": "2026-10-14T10:27:08.138807+00:00",
+  "package_json_sha256": "0ac60e25d597d95080832895d5a06418290367783418ba174b3022752bdf77f5",
+  "package_json": {
+    "dependencies": {},
+    "devDependencies": {
+      "all-contributors-cli": "^6.14.2",
+      "doctoc": "^1.4.0",
+      "eslint": "^6.8.0",
+      "got": "^11.0.2",
+      "husky": "^4.2.3",
+      "jest": "^25.1.0",
+      "lerna": "^3.20.2",
+      "lerna-changelog": "^1.0.1",
+      "lint-staged": "^10.0.8",
+      "prettier": "^1.19.1",
+      "ps-tree": "1.2.0",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "release": "^6.1.0",
+      "semver": "7.1.3",
+      "serve": "^11.3.0",
+      "shelljs": "^0.8.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

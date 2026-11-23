@@ -1,0 +1,31 @@
+{
+  "project": "be5invis/Iosevka",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "d0749e3971acda50727492933561804fa6fb437a",
+  "commit_date": "2023-12-29T23:19:51-08:00",
+  "frozen_branch_head": "2487637bb71f41b2a66134afd9faa6c316e5a438",
+  "collected_at": "2026-10-14T10:23:26.946609+00:00",
+  "package_json_sha256": "140de65742e1e5b3beacc2c49c51577327195e436520d1d09df784365da495c1",
+  "package_json": {
+    "name": "@iosevka/monorepo",
+    "version": "28.0.3",
+    "dependencies": {
+      "otb-ttc-bundle": "^1.7.3",
+      "@iarna/toml": "^2.2.5",
+      "deep-equal": "^2.2.3",
+      "semver": "^7.5.4",
+      "uuid": "^9.0.1",
+      "verda": "^1.11.1",
+      "which": "^4.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.56.0",
+      "eslint-config-prettier": "^9.1.0",
+      "eslint-plugin-import": "^2.29.1",
+      "patel": "^0.39.0",
+      "prettier": "^3.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

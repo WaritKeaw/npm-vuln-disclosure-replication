@@ -1,0 +1,7 @@
+﻿manifests/code/ - archived copies of the code named <name>_<sha256>.<ext>
+
+2026-10-24 corrected rebuild (versions_behind back-port fix, see verification/code_review/code_review_round1.md and round2.md):
+- run.json semver_script_sha256 = 23126bc8... -> code/semver_batch_23126bc8....cjs (fixed rule: prev advances only when semver.gt(v, prev))
+- run.json script_sha256        = 3a243325... -> code/pipeline_3a243325....py
+- semver_batch_07605f15....cjs and pipeline_eb22b09f....py are the pre-fix copies from the 2026-10-14 run (kept for provenance).
+- robustness/manifests/code/semver_variants_a57884dd....cjs is the fixed variants script.

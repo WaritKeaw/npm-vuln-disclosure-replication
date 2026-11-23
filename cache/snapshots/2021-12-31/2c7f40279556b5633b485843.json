@@ -1,0 +1,21 @@
+{
+  "project": "ajaxorg/ace",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "569c1065fb965308196b988cb934d18e5dedba37",
+  "commit_date": "2021-12-03T03:32:07+04:00",
+  "frozen_branch_head": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+  "collected_at": "2026-10-14T10:21:47.508469+00:00",
+  "package_json_sha256": "9cfbe26c589b3e8b83e95a272ac8141f16110896f1cc35644ff9758d51e4a6b0",
+  "package_json": {
+    "name": "ace",
+    "version": "1.4.13",
+    "devDependencies": {
+      "asyncjs": "~0.0.12",
+      "amd-loader": "~0.0.4",
+      "dryice": "0.4.11",
+      "architect-build": "https://github.com/c9/architect-build/tarball/43a6fdeffe"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "project": "Acode-Foundation/Acode",
+    "stratum": "low"
+  },
+  {
+    "project": "ApoorvSaxena/lozad.js",
+    "stratum": "low"
+  },
+  {
+    "project": "Chalarangelo/30-seconds-of-code",
+    "stratum": "high"
+  },
+  {
+    "project": "ConciseCSS/concise.css",
+    "stratum": "niche"
+  },
+  {
+    "project": "DIYgod/APlayer",
+    "stratum": "low"
+  },
+  {
+    "project": "DIYgod/DPlayer",
+    "stratum": "medium"
+  },
+  {
+    "project": "Dogfalo/materialize",
+    "stratum": "medium"
+  },
+  {
+    "project": "Flipboard/react-canvas",
+    "stratum": "medium"
+  },
+  {
+    "project": "FormidableLabs/webpack-dashboard",
+    "stratum": "medium"
+  },
+  {
+    "project": "Foundry376/Mailspring",
+    "stratum": "medium"
+  },
+  {
+    "project": "GoogleChrome/samples",
+    "stratum": "low"
+  },
+  {
+    "project": "GoogleChromeLabs/quicklink",
+    "stratum": "medium"
+  },
+  {
+    "project": "Kong/unirest-nodejs",
+    "stratum": "niche"
+  },
+  {
+    "project": "Meituan-Dianping/mpvue",
+    "stratum": "medium"
+  },
+  {
+    "project": "MithrilJS/mithril.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "Modernizr/Modernizr",
+    "stratum": "medium"
+  },
+  {
+    "project": "MostlyAdequate/mostly-adequate-guide",
+    "stratum": "medium"
+  },
+  {
+    "project": "Netflix/falcor",
+    "stratum": "medium"
+  },
+  {
+    "project": "RaspberryPiFoundation/blockly",
+    "stratum": "medium"
+  },
+  {
+    "project": "Semantic-Org/Semantic-UI",
+    "stratum": "high"
+  },
+  {
+    "project": "Snailclimb/JavaGuide",
+    "stratum": "high"
+  },
+  {
+    "project": "SparkPost/heml",
+    "stratum": "low"
+  },
+  {
+    "project": "Stuk/jszip",
+    "stratum": "medium"
+  },
+  {
+    "project": "ToolJet/ToolJet",
+    "stratum": "medium"
+  },
+  {
+    "project": "TryGhost/Ghost",
+    "stratum": "high"
+  },
+  {
+    "project": "WickyNilliams/headroom.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "YMFE/yapi",
+    "stratum": "medium"
+  },
+  {
+    "project": "Yomguithereal/react-blessed",
+    "stratum": "low"
+  },
+  {
+    "project": "addyosmani/critical",
+    "stratum": "medium"
+  },
+  {
+    "project": "adobe-webplatform/Snap.svg",
+    "stratum": "medium"
+  },
+  {
+    "project": "agalwood/Motrix",
+    "stratum": "high"
+  },
+  {
+    "project": "ai/nanoid",
+    "stratum": "medium"
+  },
+  {
+    "project": "airbnb/javascript",
+    "stratum": "high"
+  },
+  {
+    "project": "airbnb/lottie-web",
+    "stratum": "medium"
+  },
+  {
+    "project": "ajaxorg/ace",
+    "stratum": "medium"
+  },
+  {
+    "project": "akveo/blur-admin",
+    "stratum": "medium"
+  },
+  {
+    "project": "alexjoverm/v-lazy-image",
+    "stratum": "niche"
+  },
+  {
+    "project": "alvarotrigo/fullPage.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "amsul/pickadate.js",
+    "stratum": "low"
+  },
+  {
+    "project": "andreasbm/web-skills",
+    "stratum": "low"
+  },
+  {
+    "project": "angular/angular.js",
+    "stratum": "high"
+  },
+  {
+    "project": "anuraghazra/github-readme-stats",
+    "stratum": "high"
+  },
+  {
+    "project": "arasatasaygin/is.js",
+    "stratum": "low"
+  },
+  {
+    "project": "atom/atom",
+    "stratum": "high"
+  },
+  {
+    "project": "auchenberg/volkswagen",
+    "stratum": "medium"
+  },
+  {
+    "project": "auth0/node-jsonwebtoken",
+    "stratum": "medium"
+  },
+  {
+    "project": "automatisch/automatisch",
+    "stratum": "medium"
+  },
+  {
+    "project": "avajs/ava",
+    "stratum": "medium"
+  },
+  {
+    "project": "avwo/whistle",
+    "stratum": "medium"
+  },
+  {
+    "project": "aws/aws-iot-device-sdk-js",
+    "stratum": "niche"
+  },
+  {
+    "project": "axa-group/nlp.js",
+    "stratum": "low"
+  },
+  {
+    "project": "axios/axios",
+    "stratum": "high"
+  },
+  {
+    "project": "bailicangdu/node-elm",
+    "stratum": "medium"
+  },
+  {
+    "project": "basecamp/trix",
+    "stratum": "medium"
+  },
+  {
+    "project": "be5invis/Iosevka",
+    "stratum": "medium"
+  },
+  {
+    "project": "bevacqua/dragula",
+    "stratum": "medium"
+  },
+  {
+    "project": "bigskysoftware/htmx",
+    "stratum": "medium"
+  },
+  {
+    "project": "bitwiseshiftleft/sjcl",
+    "stratum": "low"
+  },
+  {
+    "project": "bramstein/fontfaceobserver",
+    "stratum": "low"
+  },
+  {
+    "project": "brianc/node-postgres",
+    "stratum": "medium"
+  },
+  {
+    "project": "burlesco/burlesco",
+    "stratum": "niche"
+  },
+  {
+    "project": "bvaughn/react-virtualized",
+    "stratum": "medium"
+  },
+  {
+    "project": "caolan/async",
+    "stratum": "medium"
+  },
+  {
+    "project": "catamphetamine/react-phone-number-input",
+    "stratum": "niche"
+  },
+  {
+    "project": "cerebroapp/cerebro",
+    "stratum": "low"
+  },
+  {
+    "project": "chartjs/Chart.js",
+    "stratum": "high"
+  },
+  {
+    "project": "clientIO/joint",
+    "stratum": "low"
+  },
+  {
+    "project": "codesandbox/codesandbox-client",
+    "stratum": "medium"
+  },
+  {
+    "project": "crsnbrt/keysim",
+    "stratum": "niche"
+  },
+  {
+    "project": "crypto-utils/keygrip",
+    "stratum": "niche"
+  },
+  {
+    "project": "d2-projects/d2-admin",
+    "stratum": "medium"
+  },
+  {
+    "project": "d3/d3-sankey",
+    "stratum": "niche"
+  },
+  {
+    "project": "dcloudio/mui",
+    "stratum": "medium"
+  },
+  {
+    "project": "debug-js/debug",
+    "stratum": "medium"
+  },
+  {
+    "project": "dimsemenov/Magnific-Popup",
+    "stratum": "medium"
+  },
+  {
+    "project": "dthree/cash",
+    "stratum": "low"
+  },
+  {
+    "project": "dtjohnson/xlsx-populate",
+    "stratum": "niche"
+  },
+  {
+    "project": "dvajs/dva",
+    "stratum": "medium"
+  },
+  {
+    "project": "dylang/npm-check",
+    "stratum": "low"
+  },
+  {
+    "project": "ehrishirajsharma/SwiftnessX",
+    "stratum": "niche"
+  },
+  {
+    "project": "ejci/favico.js",
+    "stratum": "low"
+  },
+  {
+    "project": "emotion-js/emotion",
+    "stratum": "medium"
+  },
+  {
+    "project": "enzymejs/enzyme",
+    "stratum": "medium"
+  },
+  {
+    "project": "erikras/react-redux-universal-hot-example",
+    "stratum": "medium"
+  },
+  {
+    "project": "eslint/eslint",
+    "stratum": "medium"
+  },
+  {
+    "project": "expressjs/express",
+    "stratum": "high"
+  },
+  {
+    "project": "expressjs/multer",
+    "stratum": "medium"
+  },
+  {
+    "project": "facebook/react",
+    "stratum": "high"
+  },
+  {
+    "project": "faisalman/ua-parser-js",
+    "stratum": "medium"
+  },
+  {
+    "project": "faressoft/terminalizer",
+    "stratum": "medium"
+  },
+  {
+    "project": "fex-team/kityminder",
+    "stratum": "low"
+  },
+  {
+    "project": "foreversd/forever",
+    "stratum": "medium"
+  },
+  {
+    "project": "forwardemail/supertest",
+    "stratum": "medium"
+  },
+  {
+    "project": "framework7io/framework7",
+    "stratum": "medium"
+  },
+  {
+    "project": "frappe/charts",
+    "stratum": "medium"
+  },
+  {
+    "project": "futurepress/epub.js",
+    "stratum": "low"
+  },
+  {
+    "project": "gatsbyjs/gatsby",
+    "stratum": "high"
+  },
+  {
+    "project": "gfranko/jquery.tocify.js",
+    "stratum": "niche"
+  },
+  {
+    "project": "git-tips/tips",
+    "stratum": "medium"
+  },
+  {
+    "project": "gitim/react-native-sortable-list",
+    "stratum": "niche"
+  },
+  {
+    "project": "gnab/remark",
+    "stratum": "medium"
+  },
+  {
+    "project": "gnuns/allOrigins",
+    "stratum": "niche"
+  },
+  {
+    "project": "goabstract/Awesome-Design-Tools",
+    "stratum": "medium"
+  },
+  {
+    "project": "google-map-react/google-map-react",
+    "stratum": "low"
+  },
+  {
+    "project": "google/closure-compiler",
+    "stratum": "low"
+  },
+  {
+    "project": "googleworkspace/apps-script-samples",
+    "stratum": "low"
+  },
+  {
+    "project": "graphql/dataloader",
+    "stratum": "medium"
+  },
+  {
+    "project": "graphql/graphql-spec",
+    "stratum": "medium"
+  },
+  {
+    "project": "gridsome/gridsome",
+    "stratum": "low"
+  },
+  {
+    "project": "gruntjs/grunt",
+    "stratum": "medium"
+  },
+  {
+    "project": "gskinner/regexr",
+    "stratum": "medium"
+  },
+  {
+    "project": "guillaumepotier/Parsley.js",
+    "stratum": "low"
+  },
+  {
+    "project": "gulpjs/gulp",
+    "stratum": "medium"
+  },
+  {
+    "project": "h5bp/html5-boilerplate",
+    "stratum": "high"
+  },
+  {
+    "project": "hakimel/reveal.js",
+    "stratum": "high"
+  },
+  {
+    "project": "hapijs/hapi",
+    "stratum": "medium"
+  },
+  {
+    "project": "highlightjs/highlight.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "honestbleeps/Reddit-Enhancement-Suite",
+    "stratum": "low"
+  },
+  {
+    "project": "i18next/i18next-browser-languageDetector",
+    "stratum": "niche"
+  },
+  {
+    "project": "i18next/react-i18next",
+    "stratum": "low"
+  },
+  {
+    "project": "iamkun/dayjs",
+    "stratum": "medium"
+  },
+  {
+    "project": "iissnan/hexo-theme-next",
+    "stratum": "medium"
+  },
+  {
+    "project": "jantimon/html-webpack-plugin",
+    "stratum": "medium"
+  },
+  {
+    "project": "jaredpalmer/razzle",
+    "stratum": "medium"
+  },
+  {
+    "project": "javve/list.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "jgraph/drawio-desktop",
+    "stratum": "high"
+  },
+  {
+    "project": "jonschlinkert/gray-matter",
+    "stratum": "low"
+  },
+  {
+    "project": "josdejong/jsoneditor",
+    "stratum": "medium"
+  },
+  {
+    "project": "jquery/jquery",
+    "stratum": "high"
+  },
+  {
+    "project": "jsbin/jsbin",
+    "stratum": "low"
+  },
+  {
+    "project": "jsdoc/jsdoc",
+    "stratum": "medium"
+  },
+  {
+    "project": "juliangarnier/anime",
+    "stratum": "high"
+  },
+  {
+    "project": "julianshapiro/velocity",
+    "stratum": "medium"
+  },
+  {
+    "project": "jwagner/smartcrop.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "karma-runner/karma",
+    "stratum": "medium"
+  },
+  {
+    "project": "kefranabg/readme-md-generator",
+    "stratum": "medium"
+  },
+  {
+    "project": "kerimdzhanov/dotenv-flow",
+    "stratum": "niche"
+  },
+  {
+    "project": "knex/knex",
+    "stratum": "medium"
+  },
+  {
+    "project": "kpdecker/jsdiff",
+    "stratum": "low"
+  },
+  {
+    "project": "kriasoft/react-firebase-starter",
+    "stratum": "low"
+  },
+  {
+    "project": "krisk/Fuse",
+    "stratum": "medium"
+  },
+  {
+    "project": "leoasis/redux-immutable-state-invariant",
+    "stratum": "niche"
+  },
+  {
+    "project": "less/less.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "lint-staged/lint-staged",
+    "stratum": "medium"
+  },
+  {
+    "project": "listen1/listen1_chrome_extension",
+    "stratum": "medium"
+  },
+  {
+    "project": "lodash/lodash",
+    "stratum": "high"
+  },
+  {
+    "project": "louischatriot/nedb",
+    "stratum": "medium"
+  },
+  {
+    "project": "louislam/uptime-kuma",
+    "stratum": "high"
+  },
+  {
+    "project": "lovell/sharp",
+    "stratum": "medium"
+  },
+  {
+    "project": "luin/medis",
+    "stratum": "medium"
+  },
+  {
+    "project": "lukeed/clsx",
+    "stratum": "low"
+  },
+  {
+    "project": "madebymany/sir-trevor-js",
+    "stratum": "low"
+  },
+  {
+    "project": "maierfelix/Iroh",
+    "stratum": "niche"
+  },
+  {
+    "project": "manuelbieh/geolib",
+    "stratum": "low"
+  },
+  {
+    "project": "maxwellito/vivus",
+    "stratum": "medium"
+  },
+  {
+    "project": "mayswind/AriaNg",
+    "stratum": "medium"
+  },
+  {
+    "project": "mdbootstrap/TW-Elements",
+    "stratum": "medium"
+  },
+  {
+    "project": "mgonto/restangular",
+    "stratum": "low"
+  },
+  {
+    "project": "microsoft/Web-Dev-For-Beginners",
+    "stratum": "high"
+  },
+  {
+    "project": "mjohnston/react-native-webpack-server",
+    "stratum": "niche"
+  },
+  {
+    "project": "moment/luxon",
+    "stratum": "medium"
+  },
+  {
+    "project": "moment/moment",
+    "stratum": "medium"
+  },
+  {
+    "project": "mozilla/pdf.js",
+    "stratum": "high"
+  },
+  {
+    "project": "mrdoob/three.js",
+    "stratum": "high"
+  },
+  {
+    "project": "mscdex/ssh2",
+    "stratum": "low"
+  },
+  {
+    "project": "muaz-khan/RecordRTC",
+    "stratum": "low"
+  },
+  {
+    "project": "mui/material-ui",
+    "stratum": "high"
+  },
+  {
+    "project": "myliang/x-spreadsheet",
+    "stratum": "medium"
+  },
+  {
+    "project": "mysqljs/mysql",
+    "stratum": "medium"
+  },
+  {
+    "project": "nasa/openmct",
+    "stratum": "medium"
+  },
+  {
+    "project": "negomi/react-burger-menu",
+    "stratum": "low"
+  },
+  {
+    "project": "nfl/react-helmet",
+    "stratum": "medium"
+  },
+  {
+    "project": "node-pcap/node_pcap",
+    "stratum": "niche"
+  },
+  {
+    "project": "notionnext-org/NotionNext",
+    "stratum": "medium"
+  },
+  {
+    "project": "notwaldorf/tiny-care-terminal",
+    "stratum": "low"
+  },
+  {
+    "project": "nylas/nylas-mail",
+    "stratum": "medium"
+  },
+  {
+    "project": "olivernn/lunr.js",
+    "stratum": "low"
+  },
+  {
+    "project": "opentypejs/opentype.js",
+    "stratum": "low"
+  },
+  {
+    "project": "pcottle/learnGitBranching",
+    "stratum": "medium"
+  },
+  {
+    "project": "petkaantonov/bluebird",
+    "stratum": "medium"
+  },
+  {
+    "project": "philc/vimium",
+    "stratum": "medium"
+  },
+  {
+    "project": "piskelapp/piskel",
+    "stratum": "medium"
+  },
+  {
+    "project": "pistazie/cdk-dia",
+    "stratum": "niche"
+  },
+  {
+    "project": "plankanban/planka",
+    "stratum": "medium"
+  },
+  {
+    "project": "playcanvas/engine",
+    "stratum": "medium"
+  },
+  {
+    "project": "plotly/plotly.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "poteto/hiring-without-whiteboards",
+    "stratum": "high"
+  },
+  {
+    "project": "preactjs/preact",
+    "stratum": "medium"
+  },
+  {
+    "project": "prettier/eslint-config-prettier",
+    "stratum": "low"
+  },
+  {
+    "project": "prettier/prettier",
+    "stratum": "high"
+  },
+  {
+    "project": "processing/p5.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "pure-css/pure",
+    "stratum": "medium"
+  },
+  {
+    "project": "qeeqbox/social-analyzer",
+    "stratum": "medium"
+  },
+  {
+    "project": "qrohlf/trianglify",
+    "stratum": "medium"
+  },
+  {
+    "project": "react-boilerplate/react-boilerplate",
+    "stratum": "medium"
+  },
+  {
+    "project": "react-dropzone/react-dropzone",
+    "stratum": "medium"
+  },
+  {
+    "project": "react-static/react-static",
+    "stratum": "medium"
+  },
+  {
+    "project": "react/create-react-app",
+    "stratum": "high"
+  },
+  {
+    "project": "reactide/reactide",
+    "stratum": "medium"
+  },
+  {
+    "project": "reactjs/react-codemod",
+    "stratum": "low"
+  },
+  {
+    "project": "reactjs/react.dev",
+    "stratum": "medium"
+  },
+  {
+    "project": "reactstrap/reactstrap",
+    "stratum": "medium"
+  },
+  {
+    "project": "regl-project/regl",
+    "stratum": "low"
+  },
+  {
+    "project": "relax/relax",
+    "stratum": "low"
+  },
+  {
+    "project": "remoteinterview/zero",
+    "stratum": "low"
+  },
+  {
+    "project": "restify/node-restify",
+    "stratum": "medium"
+  },
+  {
+    "project": "sampotts/plyr",
+    "stratum": "medium"
+  },
+  {
+    "project": "scup/atellier",
+    "stratum": "niche"
+  },
+  {
+    "project": "sdc-alibaba/SUI-Mobile",
+    "stratum": "low"
+  },
+  {
+    "project": "select2/select2",
+    "stratum": "medium"
+  },
+  {
+    "project": "semantic-release/semantic-release",
+    "stratum": "medium"
+  },
+  {
+    "project": "senchalabs/connect",
+    "stratum": "low"
+  },
+  {
+    "project": "shelljs/shelljs",
+    "stratum": "medium"
+  },
+  {
+    "project": "shoutem/ui",
+    "stratum": "low"
+  },
+  {
+    "project": "sindresorhus/fkill-cli",
+    "stratum": "low"
+  },
+  {
+    "project": "single-spa/single-spa",
+    "stratum": "medium"
+  },
+  {
+    "project": "sockjs/sockjs-client",
+    "stratum": "low"
+  },
+  {
+    "project": "styled-components/polished",
+    "stratum": "low"
+  },
+  {
+    "project": "sveltejs/svelte",
+    "stratum": "high"
+  },
+  {
+    "project": "sweetalert2/sweetalert2",
+    "stratum": "medium"
+  },
+  {
+    "project": "systemjs/systemjs",
+    "stratum": "medium"
+  },
+  {
+    "project": "techfort/LokiJS",
+    "stratum": "low"
+  },
+  {
+    "project": "teslamotors/informed",
+    "stratum": "niche"
+  },
+  {
+    "project": "thlorenz/browserify-shim",
+    "stratum": "niche"
+  },
+  {
+    "project": "tighten/ziggy",
+    "stratum": "low"
+  },
+  {
+    "project": "topojson/topojson",
+    "stratum": "low"
+  },
+  {
+    "project": "trekhleb/javascript-algorithms",
+    "stratum": "high"
+  },
+  {
+    "project": "twitter/typeahead.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "typicode/json-server",
+    "stratum": "high"
+  },
+  {
+    "project": "typicode/lowdb",
+    "stratum": "medium"
+  },
+  {
+    "project": "uilibrary/matx-react",
+    "stratum": "niche"
+  },
+  {
+    "project": "validatorjs/validator.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "vercel/next.js",
+    "stratum": "high"
+  },
+  {
+    "project": "videojs/video.js",
+    "stratum": "medium"
+  },
+  {
+    "project": "vuejs-templates/webpack",
+    "stratum": "low"
+  },
+  {
+    "project": "vuejs/vue-cli",
+    "stratum": "medium"
+  },
+  {
+    "project": "vuejs/vue-hackernews-2.0",
+    "stratum": "medium"
+  },
+  {
+    "project": "vuejs/vue-router",
+    "stratum": "medium"
+  },
+  {
+    "project": "vuejs/vuex",
+    "stratum": "medium"
+  },
+  {
+    "project": "webpack/css-loader",
+    "stratum": "low"
+  },
+  {
+    "project": "webpack/webpack",
+    "stratum": "high"
+  },
+  {
+    "project": "webpack/webpack-bundle-analyzer",
+    "stratum": "medium"
+  },
+  {
+    "project": "webslides/WebSlides",
+    "stratum": "low"
+  },
+  {
+    "project": "xanderfrangos/twinkle-tray",
+    "stratum": "low"
+  },
+  {
+    "project": "xiaolin3303/wx-charts",
+    "stratum": "low"
+  },
+  {
+    "project": "xori/gamblers-dice",
+    "stratum": "niche"
+  },
+  {
+    "project": "yabwe/medium-editor",
+    "stratum": "medium"
+  },
+  {
+    "project": "youzan/vant-weapp",
+    "stratum": "medium"
+  },
+  {
+    "project": "yujiosaka/headless-chrome-crawler",
+    "stratum": "low"
+  },
+  {
+    "project": "zalmoxisus/redux-devtools-extension",
+    "stratum": "medium"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-23T18:53:28.137921+00:00",
+  "paired_projects": 238,
+  "summary": {
+    "2020-12-31": {
+      "projects": 241,
+      "instances": 7439,
+      "positive_instances": 179,
+      "paired_instances": 7377
+    },
+    "2021-12-31": {
+      "projects": 248,
+      "instances": 7691,
+      "positive_instances": 276,
+      "paired_instances": 7373
+    },
+    "2022-12-31": {
+      "projects": 246,
+      "instances": 7659,
+      "positive_instances": 148,
+      "paired_instances": 7330
+    },
+    "2023-12-31": {
+      "projects": 247,
+      "instances": 7591,
+      "positive_instances": 223,
+      "paired_instances": 7299
+    }
+  },
+  "status_counts": {
+    "ok": 30380,
+    "unsupported_constraint": 908,
+    "no_matching_version_at_origin": 219
+  },
+  "data_sha256": {
+    "all_available.parquet": "83abc80ac9909653c77e8044cee344598a66a0c3f17b6cba5e059579516ed927",
+    "paired.parquet": "8035b504e377a98fec8f9028143cf9d02a64536b37a8a2c705e67c5d4abf4bc6"
+  },
+  "source_advisories_sha256": "2607d868b3ea022a872ed1c71f2aaed59da2446212520592df95a9e7832ce34a"
+}

@@ -1,0 +1,24 @@
+{
+  "project": "alvarotrigo/fullPage.js",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "cc20f6cb46dd1fdc84599ad82aff5b0412970915",
+  "commit_date": "2021-06-23T14:29:28+02:00",
+  "frozen_branch_head": "49f15effa7b195def295a36f872c28153cf9fb00",
+  "collected_at": "2026-10-14T10:21:56.907333+00:00",
+  "package_json_sha256": "5ebb4e2e0c2b5f9623cc2c3e68d149e3941afbc24da3ff72bf0fd46cbe872f5e",
+  "package_json": {
+    "name": "fullpage.js",
+    "version": "3.1.2",
+    "devDependencies": {
+      "gulp": "^4.0.0",
+      "gulp-clean-css": "^4.0.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-replace": "^1.0.0",
+      "gulp-sass": "^4.0.2",
+      "gulp-sourcemaps": "^2.6.4",
+      "gulp-uglify": "^3.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

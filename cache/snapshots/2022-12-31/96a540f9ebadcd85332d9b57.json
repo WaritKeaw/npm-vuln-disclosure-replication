@@ -1,0 +1,35 @@
+{
+  "project": "shelljs/shelljs",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "a3a7e7496dd29ee91e5bbc74e2117ba0c3e920b3",
+  "commit_date": "2022-08-09T21:49:21-07:00",
+  "frozen_branch_head": "beb2b1f01a7f23b19a2c217cc37cb5369181dd93",
+  "collected_at": "2026-10-14T10:31:39.989782+00:00",
+  "package_json_sha256": "ca6ad52f0f19f8f7b762dbf30480a10bdd0b5a38da249f0c7c657aefc75529b3",
+  "package_json": {
+    "name": "shelljs",
+    "version": "0.8.3",
+    "dependencies": {
+      "execa": "^1.0.0",
+      "glob": "^7.0.0",
+      "interpret": "^1.0.0",
+      "rechoir": "^0.6.2"
+    },
+    "devDependencies": {
+      "ava": "^1.4.1",
+      "chalk": "^1.1.3",
+      "coffee-script": "^1.12.7",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb-base": "^13.1.0",
+      "eslint-plugin-import": "^2.17.3",
+      "js-yaml": "^3.14.1",
+      "nyc": "^14.1.1",
+      "shelljs-changelog": "^0.2.6",
+      "shelljs-release": "^0.5.2",
+      "shx": "^0.3.4",
+      "travis-check-changes": "^0.4.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

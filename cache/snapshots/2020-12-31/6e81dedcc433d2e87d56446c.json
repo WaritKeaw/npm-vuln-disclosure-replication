@@ -1,0 +1,29 @@
+{
+  "project": "axa-group/nlp.js",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "6f95983801e2f011b97236fff693374318c79cf6",
+  "commit_date": "2020-12-30T11:51:16+01:00",
+  "frozen_branch_head": "62731109b5dc5d9ed727c6e599443fb29eaea798",
+  "collected_at": "2026-10-14T10:22:30.609816+00:00",
+  "package_json_sha256": "6c86ad081aaa3666041e753940d8f939bd2fa494f7fc41db4b3c4169686fc5b4",
+  "package_json": {
+    "name": "root",
+    "dependencies": {},
+    "devDependencies": {
+      "coveralls": "^3.1.0",
+      "eslint": "^7.2.0",
+      "eslint-config-airbnb-base": "^14.2.0",
+      "eslint-config-prettier": "^7.0.0",
+      "eslint-plugin-import": "^2.21.2",
+      "eslint-plugin-jest": "^24.0.0",
+      "eslint-plugin-prettier": "^3.1.4",
+      "https-proxy-agent": "^5.0.0",
+      "jest": "^26.0.1",
+      "lerna": "^3.22.1",
+      "prettier": "^2.0.5",
+      "supertest": "^6.0.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

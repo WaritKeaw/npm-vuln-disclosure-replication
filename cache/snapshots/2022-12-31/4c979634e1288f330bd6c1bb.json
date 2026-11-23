@@ -1,0 +1,22 @@
+{
+  "project": "TryGhost/Ghost",
+  "stratum": "high",
+  "origin": "2022-12-31",
+  "commit_sha": "65252c361a8735a1b54a279a803bb69dfd48a158",
+  "commit_date": "2022-12-30T16:00:45Z",
+  "frozen_branch_head": "34af238e5f0b24ea4330837c389193d606594c73",
+  "collected_at": "2026-10-14T10:22:39.298084+00:00",
+  "package_json_sha256": "aa6c1b619f134f662f3e3da0559de980c550548fe15019fe3a37241824602919",
+  "package_json": {
+    "name": "ghost-monorepo",
+    "version": "0.0.0-private",
+    "devDependencies": {
+      "concurrently": "7.6.0",
+      "eslint-plugin-ghost": "2.16.0",
+      "husky": "8.0.2",
+      "lint-staged": "13.1.0",
+      "nodemon": "2.0.20"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,42 @@
+{
+  "project": "petkaantonov/bluebird",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "a9c04913b5e6d76f3d616b393b9f1e19985c7193",
+  "commit_date": "2022-12-07T11:51:27+02:00",
+  "frozen_branch_head": "c220cfe480868e2f5c5de4fe8bb3b04b97588d7f",
+  "collected_at": "2026-10-14T10:29:59.065781+00:00",
+  "package_json_sha256": "bc71ab47b2d750366b451aa62011c5246e5c189e8248d3b4394c87222b6bb5bf",
+  "package_json": {
+    "name": "bluebird",
+    "version": "3.7.2",
+    "devDependencies": {
+      "acorn": "^6.0.2",
+      "acorn-walk": "^6.1.0",
+      "baconjs": "^0.7.43",
+      "bluebird": "^2.9.2",
+      "body-parser": "^1.10.2",
+      "browserify": "^8.1.1",
+      "cli-table": "~0.3.1",
+      "co": "^4.2.0",
+      "cross-spawn": "^0.2.3",
+      "glob": "^4.3.2",
+      "grunt-saucelabs": "~8.6.3",
+      "highland": "^2.3.0",
+      "istanbul": "^0.3.5",
+      "jshint": "^2.6.0",
+      "jshint-stylish": "~0.2.0",
+      "kefir": "^2.4.1",
+      "mkdirp": "~0.5.0",
+      "mocha": "~2.1",
+      "open": "~0.0.5",
+      "optimist": "~0.6.1",
+      "rimraf": "~2.2.6",
+      "rx": "^2.3.25",
+      "serve-static": "^1.7.1",
+      "sinon": "~1.7.3",
+      "uglify-js": "~2.4.16"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

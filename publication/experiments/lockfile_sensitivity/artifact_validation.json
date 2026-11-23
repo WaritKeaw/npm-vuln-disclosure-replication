@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "matched_observations_across_all_origins": 13512,
+  "independent_ap_checks": 54,
+  "test_observations_across_two_arms": 20572,
+  "intervals_checked": 72,
+  "labels_changed_instances": 32,
+  "protected_inputs_verified": true
+}

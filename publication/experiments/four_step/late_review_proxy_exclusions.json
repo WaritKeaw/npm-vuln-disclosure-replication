@@ -1,0 +1,215 @@
+{
+  "2021-12-31": [],
+  "2022-12-31": [
+    {
+      "origin": "2021-12-31",
+      "project": "techfort/LokiJS",
+      "package": "phantomjs",
+      "dependency_type": "development",
+      "used_version": "1.9.20",
+      "matched_ghsa_ids": "GHSA-x43g-gj9x-838x"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "auchenberg/volkswagen",
+      "package": "mockery",
+      "dependency_type": "production",
+      "used_version": "2.1.0",
+      "matched_ghsa_ids": "GHSA-gmwp-3pwc-3j3g"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "yabwe/medium-editor",
+      "package": "grunt-karma",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-hcj4-xf6x-63wj"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "qeeqbox/social-analyzer",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "2.6.1",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "TryGhost/Ghost",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "2.6.1",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "uilibrary/matx-react",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "3.2.3",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "jquery/jquery",
+      "package": "grunt-karma",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-hcj4-xf6x-63wj"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "goabstract/Awesome-Design-Tools",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "3.5.21",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "erikras/react-redux-universal-hot-example",
+      "package": "phantomjs",
+      "dependency_type": "development",
+      "used_version": "1.9.20",
+      "matched_ghsa_ids": "GHSA-x43g-gj9x-838x"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "MithrilJS/mithril.js",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "MithrilJS/mithril.js",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "madebymany/sir-trevor-js",
+      "package": "grunt-karma",
+      "dependency_type": "development",
+      "used_version": "3.0.2",
+      "matched_ghsa_ids": "GHSA-hcj4-xf6x-63wj"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "ehrishirajsharma/SwiftnessX",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "1.27.5",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "pcottle/learnGitBranching",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "bvaughn/react-virtualized",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "google-map-react/google-map-react",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    }
+  ],
+  "2023-12-31": [
+    {
+      "origin": "2021-12-31",
+      "project": "qeeqbox/social-analyzer",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "2.6.1",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "TryGhost/Ghost",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "2.6.1",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "uilibrary/matx-react",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "3.2.3",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "goabstract/Awesome-Design-Tools",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "3.5.21",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "MithrilJS/mithril.js",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "MithrilJS/mithril.js",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "ehrishirajsharma/SwiftnessX",
+      "package": "sanitize-html",
+      "dependency_type": "production",
+      "used_version": "1.27.5",
+      "matched_ghsa_ids": "GHSA-cgfm-xwp7-2cvr"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "pcottle/learnGitBranching",
+      "package": "html-minifier",
+      "dependency_type": "development",
+      "used_version": "4.0.0",
+      "matched_ghsa_ids": "GHSA-pfq8-rq6v-vf5m"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "bvaughn/react-virtualized",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    },
+    {
+      "origin": "2021-12-31",
+      "project": "google-map-react/google-map-react",
+      "package": "gh-pages",
+      "dependency_type": "development",
+      "used_version": "2.2.0",
+      "matched_ghsa_ids": "GHSA-8mmm-9v2q-x3f9"
+    }
+  ]
+}

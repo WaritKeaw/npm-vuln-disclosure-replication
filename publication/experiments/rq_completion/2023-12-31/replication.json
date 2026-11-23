@@ -1,0 +1,32 @@
+[
+  {
+    "origin": "2023-12-31",
+    "model": "full_lr",
+    "absolute_ap_difference": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "libyear_only_lr",
+    "absolute_ap_difference": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_libyear_lr",
+    "absolute_ap_difference": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "full_rf",
+    "absolute_ap_difference": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "libyear_only_rf",
+    "absolute_ap_difference": 0.0
+  },
+  {
+    "origin": "2023-12-31",
+    "model": "drop_libyear_rf",
+    "absolute_ap_difference": 0.0
+  }
+]

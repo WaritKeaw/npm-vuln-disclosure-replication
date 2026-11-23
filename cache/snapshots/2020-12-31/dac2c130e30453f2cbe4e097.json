@@ -1,0 +1,50 @@
+{
+  "project": "lint-staged/lint-staged",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "29a0b68a38d4b74d2ffd265b75b06afd250fe1cf",
+  "commit_date": "2020-12-27T10:47:31+02:00",
+  "frozen_branch_head": "48f9f4ea4b88eb605de3546e4599083de7a394b2",
+  "collected_at": "2026-10-14T10:28:12.305346+00:00",
+  "package_json_sha256": "7ccdd1d19658d191f7fdac6ba4c79214b10f2342038a5071733f0307c13ccfeb",
+  "package_json": {
+    "name": "lint-staged",
+    "version": "0.0.0-development",
+    "dependencies": {
+      "chalk": "^4.1.0",
+      "cli-truncate": "^2.1.0",
+      "commander": "^6.2.0",
+      "cosmiconfig": "^7.0.0",
+      "debug": "^4.2.0",
+      "dedent": "^0.7.0",
+      "enquirer": "^2.3.6",
+      "execa": "^4.1.0",
+      "listr2": "^3.2.2",
+      "log-symbols": "^4.0.0",
+      "micromatch": "^4.0.2",
+      "normalize-path": "^3.0.0",
+      "please-upgrade-node": "^3.2.0",
+      "string-argv": "0.3.1",
+      "stringify-object": "^3.3.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.3",
+      "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+      "@babel/preset-env": "^7.12.1",
+      "babel-eslint": "10.1.0",
+      "babel-jest": "^26.6.1",
+      "consolemock": "^1.1.0",
+      "eslint": "^7.12.1",
+      "eslint-config-prettier": "^6.15.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.1.4",
+      "fs-extra": "^9.0.1",
+      "husky": "^4.3.0",
+      "jest": "^26.6.1",
+      "jest-snapshot-serializer-ansi": "^1.0.0",
+      "prettier": "^2.1.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,38 @@
+{
+  "project": "auth0/node-jsonwebtoken",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "bc28861f1fa981ed9c009e29c044a19760a0b128",
+  "commit_date": "2023-08-30T13:25:33+01:00",
+  "frozen_branch_head": "b924272f29192e12926b5414546f7c5bfcc9579d",
+  "collected_at": "2026-10-14T10:22:13.370934+00:00",
+  "package_json_sha256": "ce124593970fc34c1e0a99a4f5052ae6f7afdfd8ddd561d694cf454cf6c026c1",
+  "package_json": {
+    "name": "jsonwebtoken",
+    "version": "9.0.2",
+    "dependencies": {
+      "jws": "^3.2.2",
+      "lodash.includes": "^4.3.0",
+      "lodash.isboolean": "^3.0.3",
+      "lodash.isinteger": "^4.0.4",
+      "lodash.isnumber": "^3.0.3",
+      "lodash.isplainobject": "^4.0.6",
+      "lodash.isstring": "^4.0.1",
+      "lodash.once": "^4.0.0",
+      "ms": "^2.1.1",
+      "semver": "^7.5.4"
+    },
+    "devDependencies": {
+      "atob": "^2.1.2",
+      "chai": "^4.1.2",
+      "conventional-changelog": "~1.1.0",
+      "cost-of-modules": "^1.0.1",
+      "eslint": "^4.19.1",
+      "mocha": "^5.2.0",
+      "nsp": "^2.6.2",
+      "nyc": "^11.9.0",
+      "sinon": "^6.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

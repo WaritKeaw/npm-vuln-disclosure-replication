@@ -1,0 +1,25 @@
+{
+  "status": "exploratory_completion_of_original_RQs_after_prior_results",
+  "scope": "same paired cohort, reference versions, labels, horizons and origins as date_12_paired; no new RQ/outcome/cohort",
+  "seed": 42,
+  "bootstrap_repeats": 1000,
+  "cluster_units": ["package", "project"],
+  "features": ["libyear", "major_versions_behind", "minor_versions_behind", "patch_versions_behind", "release_frequency", "package_age", "total_versions", "days_since_latest_release", "is_post_1_0"],
+  "origins": ["2020-12-31", "2021-12-31", "2022-12-31", "2023-12-31"],
+  "models": {
+    "lr": {"C": 1.0, "max_iter": 2000, "random_state": 42},
+    "rf": {"n_estimators": 200, "max_depth": 6, "min_samples_leaf": 5, "n_jobs": 2, "random_state": 42},
+    "xgb": {"n_estimators": 200, "max_depth": 3, "learning_rate": 0.05, "min_child_weight": 1, "subsample": 1.0, "colsample_bytree": 1.0, "reg_lambda": 1.0, "objective": "binary:logistic", "eval_metric": "logloss", "tree_method": "hist", "n_jobs": 2, "random_state": 42}
+  },
+  "importance": "drop-column refit: AP(full)-AP(without feature), plus descriptive standardized LR coefficients and RF/XGB native importances; not causal importance or conditional permutation",
+  "permutation_importance": "not used in completion; explicitly disclosed method change from source proposal to avoid unrealistic independent row perturbations; drop-column and native importances answer original relative-importance RQ with narrower interpretation",
+  "threshold_baseline_years": [0.25, 0.5, 1.0],
+  "threshold_rule": "libyear > threshold",
+  "model_operating_threshold": 0.5,
+  "inspection_budget_fraction": 0.1,
+  "inspection_tie_rule": "stable observation order within ties; ceil(n*0.1)",
+  "uncertainty": "paired percentile bootstrap of test predictions, independently resampling package clusters and project clusters; not simultaneous multiway correction and not training variability",
+  "multiplicity": "descriptive exploratory intervals only; no significance-count claim or unadjusted confirmatory testing",
+  "training": "origins strictly before test and training window_end <= test origin; availability audit reported separately",
+  "tuning": "none; fixed parameters; no outcome-dependent selection"
+}

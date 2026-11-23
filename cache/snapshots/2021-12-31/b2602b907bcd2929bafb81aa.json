@@ -1,0 +1,52 @@
+{
+  "project": "pcottle/learnGitBranching",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "278bdac0a4633cf12a1f8b6fa98df94f743c2cc1",
+  "commit_date": "2021-12-30T14:31:16-07:00",
+  "frozen_branch_head": "359713c3f8fbb63ce703247f760c3e942adc6de9",
+  "collected_at": "2026-10-14T10:29:51.915496+00:00",
+  "package_json_sha256": "c00f4ddfca39c2a449e0a575a35a6b8833ad704a3354d062d10e0390fe7c6fb9",
+  "package_json": {
+    "name": "LearnGitBranching",
+    "version": "0.8.0",
+    "dependencies": {
+      "backbone": "^1.4.0",
+      "flux": "^3.1.3",
+      "jquery": "^3.4.0",
+      "jquery-ui": "^1.13.0",
+      "marked": "^1.0.0",
+      "prop-types": "^15.7.2",
+      "q": "^1.5.1",
+      "raphael": "^2.1.0",
+      "react": "^16.13.0",
+      "react-dom": "^16.13.0",
+      "underscore": "~1.4.3"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.4.8",
+      "@babel/preset-react": "^7.0.0",
+      "babelify": "^10.0.0",
+      "browserify": "^16.5.0",
+      "contributor-faces": "^1.0.2",
+      "fancy-log": "^1.3.3",
+      "glob": "^7.1.6",
+      "gulp": "^4.0.2",
+      "gulp-clean": "^0.4.0",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-concat": "^2.6.1",
+      "gulp-hash": "^4.2.2",
+      "gulp-jasmine": "^4.0.0",
+      "gulp-jshint": "^2.1.0",
+      "gulp-terser": "^1.2.0",
+      "gulp-uglify": "^3.0.2",
+      "html-minifier": "^4.0.0",
+      "jasmine-spec-reporter": "^4.2.1",
+      "jshint": "^2.11.0",
+      "prompt": "^1.0.0",
+      "vinyl-buffer": "^1.0.1",
+      "vinyl-source-stream": "^2.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

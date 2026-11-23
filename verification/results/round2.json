@@ -1,0 +1,136 @@
+{
+ "rule_recall": {
+  "2021-12-31": {
+   "instance": 0.144,
+   "unique": 0.149,
+   "excl_top3": 0.143
+  },
+  "2022-12-31": {
+   "instance": 0.098,
+   "unique": 0.125,
+   "excl_top3": 0.125
+  },
+  "2023-12-31": {
+   "instance": 0.116,
+   "unique": 0.152,
+   "excl_top3": 0.121
+  }
+ },
+ "no_history": {
+  "2021-12-31": {
+   "n": 7178,
+   "pos": 199,
+   "share_rows_seen_in_training": 0.966,
+   "full_lr": {
+    "auc": 0.728,
+    "auc_ci": [
+     0.632,
+     0.808
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.101,
+     0.232
+    ]
+   },
+   "full_rf": {
+    "auc": 0.617,
+    "auc_ci": [
+     0.544,
+     0.705
+    ],
+    "auc_minus_libyear_only_ci": [
+     -0.025,
+     0.154
+    ]
+   },
+   "full_xgb": {
+    "auc": 0.597,
+    "auc_ci": [
+     0.515,
+     0.683
+    ],
+    "auc_minus_libyear_only_ci": [
+     -0.05,
+     0.127
+    ]
+   }
+  },
+  "2022-12-31": {
+   "n": 6912,
+   "pos": 86,
+   "share_rows_seen_in_training": 0.977,
+   "full_lr": {
+    "auc": 0.811,
+    "auc_ci": [
+     0.519,
+     0.902
+    ],
+    "auc_minus_libyear_only_ci": [
+     -0.029,
+     0.437
+    ]
+   },
+   "full_rf": {
+    "auc": 0.774,
+    "auc_ci": [
+     0.628,
+     0.837
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.104,
+     0.38
+    ]
+   },
+   "full_xgb": {
+    "auc": 0.791,
+    "auc_ci": [
+     0.58,
+     0.879
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.041,
+     0.399
+    ]
+   }
+  },
+  "2023-12-31": {
+   "n": 6768,
+   "pos": 147,
+   "share_rows_seen_in_training": 0.971,
+   "full_lr": {
+    "auc": 0.73,
+    "auc_ci": [
+     0.627,
+     0.847
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.008,
+     0.43
+    ]
+   },
+   "full_rf": {
+    "auc": 0.876,
+    "auc_ci": [
+     0.741,
+     0.945
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.196,
+     0.466
+    ]
+   },
+   "full_xgb": {
+    "auc": 0.8,
+    "auc_ci": [
+     0.648,
+     0.903
+    ],
+    "auc_minus_libyear_only_ci": [
+     0.156,
+     0.368
+    ]
+   }
+  }
+ },
+ "projects_without_production_deps_2023": 96
+}

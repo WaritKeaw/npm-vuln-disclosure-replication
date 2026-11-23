@@ -1,0 +1,34 @@
+{
+  "project": "bevacqua/dragula",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "e0bcdc72ae8e0b85e17f154957bdd0cc2e2e35db",
+  "commit_date": "2020-09-29T13:21:52-03:00",
+  "frozen_branch_head": "09ab978dd550490f1f8e456551a1a39ed0d7f984",
+  "collected_at": "2026-10-14T10:22:52.775919+00:00",
+  "package_json_sha256": "192e8aec2137b5a7b8bca1cb7c294b8b6c3c9707a9423f331263fe3f8ad738ec",
+  "package_json": {
+    "name": "dragula",
+    "version": "3.7.3",
+    "dependencies": {
+      "contra": "1.9.4",
+      "crossvent": "1.5.5"
+    },
+    "devDependencies": {
+      "browserify": "16.5.2",
+      "clean-css": "4.2.3",
+      "clean-css-cli": "^4.3.0",
+      "hihat": "2.6.4",
+      "jshint": "2.12.0",
+      "jshint-stylish": "2.2.1",
+      "nib": "1.1.2",
+      "stylus": "0.54.8",
+      "tap-dev-tool": "1.3.0",
+      "tape": "5.0.1",
+      "tape-run": "8.0.0",
+      "uglify-js": "3.11.0",
+      "watchify": "3.11.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

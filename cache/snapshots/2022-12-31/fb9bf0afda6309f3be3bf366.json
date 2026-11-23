@@ -1,0 +1,38 @@
+{
+  "project": "react/create-react-app",
+  "stratum": "high",
+  "origin": "2022-12-31",
+  "commit_sha": "d960b9e38c062584ff6cfb1a70e1512509a966e7",
+  "commit_date": "2022-09-08T00:40:47-07:00",
+  "frozen_branch_head": "6254386531d263688ccfa542d0e628fbc0de0b28",
+  "collected_at": "2026-10-14T10:31:15.603553+00:00",
+  "package_json_sha256": "6e9251dbe7328220594824cab712724c8f64695215e308012e139c9397e08ee9",
+  "package_json": {
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.15.1",
+      "@testing-library/react": "^12.1.2",
+      "@testing-library/user-event": "^13.5.0",
+      "alex": "^8.2.0",
+      "eslint": "^8.3.0",
+      "execa": "^5.1.1",
+      "fs-extra": "^10.0.0",
+      "get-port": "^5.1.1",
+      "globby": "^11.0.4",
+      "husky": "^4.3.8",
+      "jest": "^27.4.3",
+      "lerna": "^4.0.0",
+      "lerna-changelog": "^2.2.0",
+      "lint-staged": "^12.1.2",
+      "meow": "^9.0.0",
+      "multimatch": "^5.0.0",
+      "prettier": "^2.5.0",
+      "puppeteer": "^12.0.1",
+      "strip-ansi": "^6.0.1",
+      "svg-term-cli": "^2.1.1",
+      "tempy": "^1.0.1",
+      "wait-for-localhost": "^3.3.0",
+      "web-vitals": "^2.1.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

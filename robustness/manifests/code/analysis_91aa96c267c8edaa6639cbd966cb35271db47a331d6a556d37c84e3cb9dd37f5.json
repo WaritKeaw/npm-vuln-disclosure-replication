@@ -1,0 +1,18 @@
+{
+  "design_status": "exploratory_followup_designed_after_initial_results",
+  "seed": 42,
+  "bootstrap_repeats": 1000,
+  "cluster_units": ["package", "project"],
+  "ap_margin_grid": [0.005, 0.01, 0.02],
+  "margin_interpretation": "posthoc_interval_containment_sensitivity_not_formal_equivalence_or_preregistered_SESOI",
+  "fixed_hyperparameters": true,
+  "variants": [
+    {"id":"date_12_paired","latest_rule":"publication_date","horizon_months":12,"cohort":"paired","clamp_negative":false},
+    {"id":"date_12_all","latest_rule":"publication_date","horizon_months":12,"cohort":"all_available","clamp_negative":false},
+    {"id":"semver_12_signed","latest_rule":"highest_semver","horizon_months":12,"cohort":"paired","clamp_negative":false},
+    {"id":"semver_12_clamped","latest_rule":"highest_semver","horizon_months":12,"cohort":"paired","clamp_negative":true},
+    {"id":"date_6_paired","latest_rule":"publication_date","horizon_months":6,"cohort":"paired","clamp_negative":false},
+    {"id":"semver_6_clamped","latest_rule":"highest_semver","horizon_months":6,"cohort":"paired","clamp_negative":true},
+    {"id":"date_12_exact","latest_rule":"publication_date","horizon_months":12,"cohort":"paired","clamp_negative":false,"constraint_subset":"exact_stable_version"}
+  ]
+}

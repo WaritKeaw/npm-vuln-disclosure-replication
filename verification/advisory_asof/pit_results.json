@@ -1,0 +1,85 @@
+{
+ "2022-12-31": {
+  "training_label_changes": {
+   "2020-12-31": {
+    "rows": 7377,
+    "current_pos": 175,
+    "pit_pos": 175,
+    "pos_to_neg": 2,
+    "neg_to_pos": 2
+   },
+   "2021-12-31": {
+    "rows": 7373,
+    "current_pos": 268,
+    "pit_pos": 284,
+    "pos_to_neg": 21,
+    "neg_to_pos": 37
+   }
+  },
+  "test_performance": {
+   "lr": {
+    "ap_current_labels": 0.0879,
+    "ap_pit_labels": 0.1148,
+    "auc_current_labels": 0.8034,
+    "auc_pit_labels": 0.821
+   },
+   "rf": {
+    "ap_current_labels": 0.0488,
+    "ap_pit_labels": 0.0561,
+    "auc_current_labels": 0.7873,
+    "auc_pit_labels": 0.8085
+   },
+   "xgb": {
+    "ap_current_labels": 0.0503,
+    "ap_pit_labels": 0.0412,
+    "auc_current_labels": 0.7782,
+    "auc_pit_labels": 0.7662
+   }
+  }
+ },
+ "2023-12-31": {
+  "training_label_changes": {
+   "2020-12-31": {
+    "rows": 7377,
+    "current_pos": 175,
+    "pit_pos": 175,
+    "pos_to_neg": 2,
+    "neg_to_pos": 2
+   },
+   "2021-12-31": {
+    "rows": 7373,
+    "current_pos": 268,
+    "pit_pos": 269,
+    "pos_to_neg": 12,
+    "neg_to_pos": 13
+   },
+   "2022-12-31": {
+    "rows": 7330,
+    "current_pos": 140,
+    "pit_pos": 143,
+    "pos_to_neg": 0,
+    "neg_to_pos": 3
+   }
+  },
+  "test_performance": {
+   "lr": {
+    "ap_current_labels": 0.1148,
+    "ap_pit_labels": 0.1154,
+    "auc_current_labels": 0.741,
+    "auc_pit_labels": 0.7561
+   },
+   "rf": {
+    "ap_current_labels": 0.2835,
+    "ap_pit_labels": 0.3149,
+    "auc_current_labels": 0.8498,
+    "auc_pit_labels": 0.8517
+   },
+   "xgb": {
+    "ap_current_labels": 0.1133,
+    "ap_pit_labels": 0.1065,
+    "auc_current_labels": 0.7869,
+    "auc_pit_labels": 0.7762
+   }
+  }
+ }
+}

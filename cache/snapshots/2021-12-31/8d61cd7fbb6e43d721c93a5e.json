@@ -1,0 +1,23 @@
+{
+  "project": "mdbootstrap/TW-Elements",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "6d0cb17154f7d2bb9bf31dee1dd53af299650fc2",
+  "commit_date": "2021-12-13T17:07:09+01:00",
+  "frozen_branch_head": "9b442c410d8de1c44fbad6728668235c36c4b712",
+  "collected_at": "2026-10-14T10:28:42.549572+00:00",
+  "package_json_sha256": "96747a5aa60c2ba266f892b0fa388385cfe3290b26b9d254fd55c71d75e37738",
+  "package_json": {
+    "name": "perfect-scrollbar",
+    "version": "1.5.3",
+    "devDependencies": {
+      "chokidar-cli": "^2.1.0",
+      "prettier": "^1.19.1",
+      "rollup": "^1.27.8",
+      "rollup-plugin-babel": "^4.3.3",
+      "rollup-plugin-babel-minify": "^9.1.1",
+      "rollup-plugin-buble": "^0.19.8"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

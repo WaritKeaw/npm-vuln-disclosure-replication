@@ -1,0 +1,37 @@
+{
+  "project": "systemjs/systemjs",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "4fa1d0d54d8bea496182334182983f993ed49148",
+  "commit_date": "2021-11-02T14:30:04-07:00",
+  "frozen_branch_head": "9647576d43294e938ddae8fe231beb62255f4e46",
+  "collected_at": "2026-10-14T10:32:06.466635+00:00",
+  "package_json_sha256": "8b6d948dbc483ac4cde6841eda44c9f9af4c8c4a0fe11eb7d88f21b5a17f55f4",
+  "package_json": {
+    "name": "systemjs",
+    "version": "6.11.0",
+    "devDependencies": {
+      "@jsenv/file-size-impact": "^5.2.0",
+      "@rollup/plugin-json": "^4.0.2",
+      "@rollup/plugin-node-resolve": "^7.1.1",
+      "@rollup/plugin-replace": "^2.3.1",
+      "@zeit/ncc": "^0.22.1",
+      "bluebird": "^3.7.2",
+      "concurrently": "^5.1.0",
+      "construct-style-sheets-polyfill": "^2.3.5",
+      "cross-env": "^7.0.2",
+      "mkdirp": "^1.0.4",
+      "mocha": "^7.1.1",
+      "node-fetch": "^2.6.0",
+      "open": "^7.0.3",
+      "rimraf": "^3.0.2",
+      "rollup": "^2.33.3",
+      "rollup-plugin-terser": "^5.3.0",
+      "source-map-support": "^0.5.16",
+      "symbol-es6": "^0.1.2",
+      "terser": "^5.5.0",
+      "whatwg-fetch": "^3.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

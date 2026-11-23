@@ -1,0 +1,283 @@
+[
+  {
+    "variant": {
+      "id": "date_12_paired",
+      "latest_rule": "publication_date",
+      "horizon_months": 12,
+      "cohort": "paired",
+      "clamp_negative": false
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 238,
+        "instances": 7377,
+        "positive": 175,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 238,
+        "instances": 7373,
+        "positive": 268,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 238,
+        "instances": 7330,
+        "positive": 140,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 238,
+        "instances": 7299,
+        "positive": 211,
+        "negative_libyear_before_clamp": 0
+      }
+    ],
+    "data_sha256": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c"
+  },
+  {
+    "variant": {
+      "id": "date_12_all",
+      "latest_rule": "publication_date",
+      "horizon_months": 12,
+      "cohort": "all_available",
+      "clamp_negative": false
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 241,
+        "instances": 7439,
+        "positive": 179,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 248,
+        "instances": 7691,
+        "positive": 276,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 246,
+        "instances": 7659,
+        "positive": 148,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 247,
+        "instances": 7591,
+        "positive": 223,
+        "negative_libyear_before_clamp": 0
+      }
+    ],
+    "data_sha256": "8beb5f24ef56aa15600d8176577d1e824b94a66a8d1985b66f62b5a9e45943ea"
+  },
+  {
+    "variant": {
+      "id": "semver_12_signed",
+      "latest_rule": "highest_semver",
+      "horizon_months": 12,
+      "cohort": "paired",
+      "clamp_negative": false
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 238,
+        "instances": 7377,
+        "positive": 175,
+        "negative_libyear_before_clamp": 94
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 238,
+        "instances": 7373,
+        "positive": 268,
+        "negative_libyear_before_clamp": 55
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 238,
+        "instances": 7330,
+        "positive": 140,
+        "negative_libyear_before_clamp": 116
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 238,
+        "instances": 7299,
+        "positive": 211,
+        "negative_libyear_before_clamp": 61
+      }
+    ],
+    "data_sha256": "5d95411c3d73a5c62250055e9dc6c870bedd0e2aac29b056a4ce8e902f623584"
+  },
+  {
+    "variant": {
+      "id": "semver_12_clamped",
+      "latest_rule": "highest_semver",
+      "horizon_months": 12,
+      "cohort": "paired",
+      "clamp_negative": true
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 238,
+        "instances": 7377,
+        "positive": 175,
+        "negative_libyear_before_clamp": 94
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 238,
+        "instances": 7373,
+        "positive": 268,
+        "negative_libyear_before_clamp": 55
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 238,
+        "instances": 7330,
+        "positive": 140,
+        "negative_libyear_before_clamp": 116
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 238,
+        "instances": 7299,
+        "positive": 211,
+        "negative_libyear_before_clamp": 61
+      }
+    ],
+    "data_sha256": "a137f3689bf52cc1b8add333b4d746f2b776c6f1d488893ef07b6b2a9e5ac67e"
+  },
+  {
+    "variant": {
+      "id": "date_6_paired",
+      "latest_rule": "publication_date",
+      "horizon_months": 6,
+      "cohort": "paired",
+      "clamp_negative": false
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 238,
+        "instances": 7377,
+        "positive": 154,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 238,
+        "instances": 7373,
+        "positive": 202,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 238,
+        "instances": 7330,
+        "positive": 87,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 238,
+        "instances": 7299,
+        "positive": 74,
+        "negative_libyear_before_clamp": 0
+      }
+    ],
+    "data_sha256": "0eabb156db955bc02ea18e48975eee17c3b819d470d7b75d3c16b647bd8c4ac0"
+  },
+  {
+    "variant": {
+      "id": "semver_6_clamped",
+      "latest_rule": "highest_semver",
+      "horizon_months": 6,
+      "cohort": "paired",
+      "clamp_negative": true
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 238,
+        "instances": 7377,
+        "positive": 154,
+        "negative_libyear_before_clamp": 94
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 238,
+        "instances": 7373,
+        "positive": 202,
+        "negative_libyear_before_clamp": 55
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 238,
+        "instances": 7330,
+        "positive": 87,
+        "negative_libyear_before_clamp": 116
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 238,
+        "instances": 7299,
+        "positive": 74,
+        "negative_libyear_before_clamp": 61
+      }
+    ],
+    "data_sha256": "e5f06f3b9846e0633002b8146847812b23f6418a950a972c191981e91fa13844"
+  },
+  {
+    "variant": {
+      "id": "date_12_exact",
+      "latest_rule": "publication_date",
+      "horizon_months": 12,
+      "cohort": "paired",
+      "clamp_negative": false,
+      "constraint_subset": "exact_stable_version"
+    },
+    "summary": [
+      {
+        "origin": "2020-12-31",
+        "projects": 122,
+        "instances": 1320,
+        "positive": 34,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2021-12-31",
+        "projects": 125,
+        "instances": 1395,
+        "positive": 61,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2022-12-31",
+        "projects": 122,
+        "instances": 1370,
+        "positive": 30,
+        "negative_libyear_before_clamp": 0
+      },
+      {
+        "origin": "2023-12-31",
+        "projects": 124,
+        "instances": 1421,
+        "positive": 40,
+        "negative_libyear_before_clamp": 0
+      }
+    ],
+    "data_sha256": "2a212061713657c3de4f5ba65f5a6f80f896d0ed207cc6d910fed9e75c739ba9"
+  }
+]

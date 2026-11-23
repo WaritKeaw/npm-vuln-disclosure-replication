@@ -1,0 +1,314 @@
+{
+  "requested_packages": 3789,
+  "errors": [
+    {
+      "package": "@ava/test",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "@hapi/joi-legacy-test",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "@next/swc",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "@sweetalert2/execute",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "angular-input-dropdown",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "archive-view",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "atom-dark-syntax",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "atom-dark-ui",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "atom-light-syntax",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "atom-light-ui",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "autocomplete-atom-api",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "autocomplete-css",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "autocomplete-html",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "autocomplete-snippets",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "background-tips",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "base16-tomorrow-dark-theme",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "base16-tomorrow-light-theme",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "cordova-plugin-iap",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "cordova-plugin-server",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "cordova-plugin-sftp",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "deprecation-cop",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "dev-live-reload",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "encoding-selector",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "exception-reporting",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "go-to-line",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "grammar-selector",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "incompatible-packages",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "keybinding-resolver",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-clojure",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-coffee-script",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-csharp",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-css",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-gfm",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-git",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-go",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-hyperlink",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-java",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-make",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-mustache",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-objective-c",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-perl",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-php",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-property-list",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-python",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-ruby",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-ruby-on-rails",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-rust-bundled",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-sass",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-shellscript",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-source",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-sql",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-text",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-todo",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-toml",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-typescript",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-xml",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "language-yaml",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "legacy-readable-stream",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "line-ending-selector",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "one-dark-ui",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "one-light-syntax",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "one-light-ui",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "pretty-format-v24",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "react-18",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "react-dom-17",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "react18-dom",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "react18-test-renderer",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "settings-view",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "setwindowpos-binding",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "solarized-dark-syntax",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "spell-check",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "stylis-plugin-rtl-sc",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "symbols-view",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "uWebSockets.js",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "update-package-dependencies",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "wmi-bridge",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    },
+    {
+      "package": "wrap-guide",
+      "error": "RuntimeError: HTTP 404 from registry.npmjs.org"
+    }
+  ],
+  "finished_at": "2026-10-14T11:21:48.197230+00:00"
+}

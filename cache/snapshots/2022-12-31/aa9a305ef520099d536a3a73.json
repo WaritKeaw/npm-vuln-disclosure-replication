@@ -1,0 +1,26 @@
+{
+  "project": "google/closure-compiler",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "6806f040aa5b5bee7daae234a4856c6773e1d4d4",
+  "commit_date": "2022-12-29T17:14:08-08:00",
+  "frozen_branch_head": "64f9fa628f1bd94939c68cb812723079bd437c4a",
+  "collected_at": "2026-10-14T10:26:21.934186+00:00",
+  "package_json_sha256": "9dee5bef651f431c227073a7f4d1f5709be5789a999fa9e454ced355df07e9ee",
+  "package_json": {
+    "name": "closure-compiler",
+    "version": "1.0.0",
+    "dependencies": {
+      "chalk": "^4.1.0",
+      "future-event": "^1.5.0",
+      "glob": "^7.1.6",
+      "google-closure-library": "^20200719.0.0",
+      "jest": "^26.1.0",
+      "jsdom": "^16.3.0"
+    },
+    "devDependencies": {
+      "closure-compiler-npm": "google/closure-compiler-npm"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

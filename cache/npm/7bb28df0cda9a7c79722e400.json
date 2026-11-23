@@ -1,0 +1,8 @@
+{
+  "package": "@simonbrunel/vuepress-plugin-versions",
+  "collected_at": "2026-10-14T11:17:54.073522+00:00",
+  "times": {
+    "0.1.0": "2021-04-10T19:41:40.841Z",
+    "0.2.0": "2021-04-11T17:21:02.535Z"
+  }
+}

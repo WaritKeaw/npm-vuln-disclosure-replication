@@ -1,0 +1,35 @@
+{
+  "project": "jsdoc/jsdoc",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "635437d777531c3b93d683626c6d2d3987ca9b3d",
+  "commit_date": "2022-12-27T14:31:32-08:00",
+  "frozen_branch_head": "b11c8e8e72ef6fc7e9105da4391d1245f80ce5e1",
+  "collected_at": "2026-10-14T10:27:41.055489+00:00",
+  "package_json_sha256": "eafa914e28a6d47f5200032d0d91ace720b27455444eeaee437446c7fba3d0d5",
+  "package_json": {
+    "name": "jsdoc",
+    "devDependencies": {
+      "@jsdoc/eslint-config": "^1.0.8",
+      "@jsdoc/test-matchers": "^0.1.9",
+      "ajv": "^8.11.2",
+      "eslint": "^8.28.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "gulp": "^4.0.2",
+      "gulp-eslint-new": "^1.7.1",
+      "gulp-prettier": "^4.0.0",
+      "jasmine": "^3.99.0",
+      "jasmine-console-reporter": "^3.1.0",
+      "js-green-licenses": "^3.0.1",
+      "klaw-sync": "^6.0.0",
+      "lerna": "^6.0.3",
+      "lodash": "^4.17.21",
+      "mock-fs": "^5.2.0",
+      "nyc": "^15.1.0",
+      "prettier": "^2.7.1",
+      "taffydb": "2.6.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

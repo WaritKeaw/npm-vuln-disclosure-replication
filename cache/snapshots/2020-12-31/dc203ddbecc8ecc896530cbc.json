@@ -1,0 +1,21 @@
+{
+  "project": "ejci/favico.js",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "6a3f430be559f93d96573e2a4a0116e154c11319",
+  "commit_date": "2016-12-18T17:13:04+01:00",
+  "frozen_branch_head": "6a3f430be559f93d96573e2a4a0116e154c11319",
+  "collected_at": "2026-10-14T10:24:17.249741+00:00",
+  "package_json_sha256": "b072d4d1bfac1bb6c9b3cee815429215b7d943a0f2919641867c339f3c4fb3dc",
+  "package_json": {
+    "name": "favico.js",
+    "version": "0.3.10",
+    "dependencies": {},
+    "devDependencies": {
+      "uglify-js": "~2.4.0",
+      "jshint": "~2.1.11",
+      "semver": "~2.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,27 @@
+{
+  "project": "faisalman/ua-parser-js",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "0c49d7507473e5ae26678fd41c7ca548e431c80b",
+  "commit_date": "2023-12-29T20:59:44+07:00",
+  "frozen_branch_head": "bd7480198cd0d237b43a24a964f424727abb78e9",
+  "collected_at": "2026-10-14T10:24:53.223076+00:00",
+  "package_json_sha256": "1a59fe7fe70522aade1bb9d29c686a16dce61e36e2c6dd3874ac201165721337",
+  "package_json": {
+    "name": "ua-parser-js",
+    "version": "2.0.0-beta.1",
+    "devDependencies": {
+      "@babel/parser": "7.15.8",
+      "@babel/traverse": "7.23.2",
+      "@jazzer.js/core": "^1.4.0",
+      "@playwright/test": "~1.32.2",
+      "jshint": "~2.13.6",
+      "mocha": "~8.2.0",
+      "requirejs": "2.3.2",
+      "safe-regex": "^2.1.1",
+      "tsd": "^0.29.0",
+      "uglify-js": "~3.12.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

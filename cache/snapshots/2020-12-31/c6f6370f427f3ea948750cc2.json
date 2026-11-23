@@ -1,0 +1,26 @@
+{
+  "project": "Kong/unirest-nodejs",
+  "stratum": "niche",
+  "origin": "2020-12-31",
+  "commit_sha": "a06ba4e6c58fea028d377c170cb4cbf7cf3c6049",
+  "commit_date": "2019-02-21T12:41:01-08:00",
+  "frozen_branch_head": "c8dab848b9a6609c62b6557ab2da3763ea650218",
+  "collected_at": "2026-10-14T10:20:27.343433+00:00",
+  "package_json_sha256": "9cef4bfd02e03c393a9abaabacb9fe09478a89aa94c6753a8829b4938e23374e",
+  "package_json": {
+    "name": "unirest",
+    "version": "0.6.0",
+    "dependencies": {
+      "form-data": "^0.2.0",
+      "mime": "^2.4.0",
+      "request": "^2.88.0"
+    },
+    "devDependencies": {
+      "body-parser": "^1.15.1",
+      "express": "^4.13.4",
+      "mocha": "^6.0.0",
+      "should": "~8.3.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

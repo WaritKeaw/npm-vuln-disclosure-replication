@@ -1,0 +1,9 @@
+{
+  "config_sha256": "6e667d85b9b65811434e2c4d000eb3f2e7b8227f9f20ae440daf8c7331368927",
+  "script_sha256": "3f187ebffdb3dce67d0550c212772db411cbe4ffa8dd62df58509c4316fb6b4f",
+  "prediction_sha256": "9b81c9615aa86df41fedac89de4b4d14d8f7f76093bc4b1bf120cf63b1f42797",
+  "train_n": 14750,
+  "test_n": 7330,
+  "models_and_scores": 38,
+  "completed_at": "2026-10-23T18:58:31.123345+00:00"
+}

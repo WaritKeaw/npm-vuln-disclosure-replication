@@ -1,0 +1,36 @@
+{
+  "project": "kefranabg/readme-md-generator",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+  "commit_date": "2019-12-05T16:35:39+01:00",
+  "frozen_branch_head": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+  "collected_at": "2026-10-14T10:27:42.931962+00:00",
+  "package_json_sha256": "be22509abc48353b459b90d08540156df1b4e058ded8e29ab4be83bb3023d41c",
+  "package_json": {
+    "name": "readme-md-generator",
+    "version": "1.0.0",
+    "dependencies": {
+      "boxen": "^4.0.0",
+      "date-fns": "^2.0.1",
+      "ejs": "^3.0.1",
+      "git-repo-name": "^1.0.1",
+      "inquirer": "~7.0.0",
+      "load-json-file": "^6.0.0",
+      "lodash": "^4.17.11",
+      "markdown-escape": "^1.0.2",
+      "node-fetch": "^2.6.0",
+      "ora": "4.0.3",
+      "yargs": "^15.0.1"
+    },
+    "devDependencies": {
+      "codecov": "^3.5.0",
+      "eslint": "^6.0.0",
+      "eslint-config-airbnb-base": "^14.0.0",
+      "eslint-plugin-import": "^2.17.3",
+      "jest": "^24.8.0",
+      "prettier": "^1.17.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,29 @@
+{
+  "project": "adobe-webplatform/Snap.svg",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "b365287722a72526000ac4bfcf0ce4cac2faa015",
+  "commit_date": "2021-07-27T07:25:21+01:00",
+  "frozen_branch_head": "c8e483c9694517e24b282f8f59f985629f4994ce",
+  "collected_at": "2026-10-14T10:21:13.240880+00:00",
+  "package_json_sha256": "adefe802d690f3d7ee022dd9aa0f1b2f1740c5868d6ec2eeb8755f0958d2aa19",
+  "package_json": {
+    "name": "snapsvg",
+    "version": "0.5.1",
+    "dependencies": {
+      "eve": "~0.5.1"
+    },
+    "devDependencies": {
+      "grunt": "~0.4.1",
+      "grunt-contrib-uglify": "~0.2.0",
+      "grunt-contrib-concat": "~0.3.0",
+      "grunt-exec": "~0.4.2",
+      "grunt-prettify": "0.4.0",
+      "mocha": "*",
+      "expect.js": "*",
+      "eslint": "*",
+      "dr.js": "~0.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

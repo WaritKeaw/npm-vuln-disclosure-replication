@@ -1,0 +1,73 @@
+{
+  "frame_strata": {
+    "low": 60,
+    "high": 33,
+    "niche": 26,
+    "medium": 131
+  },
+  "paired_strata": {
+    "low": 59,
+    "high": 28,
+    "niche": 25,
+    "medium": 126
+  },
+  "excluded_strata": {
+    "high": 5,
+    "medium": 5,
+    "low": 1,
+    "niche": 1
+  },
+  "all_available_projects": 249,
+  "frame_projects": 250,
+  "paired_projects": 238,
+  "excluded_projects": [
+    {
+      "project": "Snailclimb/JavaGuide",
+      "stratum": "high"
+    },
+    {
+      "project": "ToolJet/ToolJet",
+      "stratum": "medium"
+    },
+    {
+      "project": "airbnb/javascript",
+      "stratum": "high"
+    },
+    {
+      "project": "automatisch/automatisch",
+      "stratum": "medium"
+    },
+    {
+      "project": "clientIO/joint",
+      "stratum": "low"
+    },
+    {
+      "project": "gatsbyjs/gatsby",
+      "stratum": "high"
+    },
+    {
+      "project": "louislam/uptime-kuma",
+      "stratum": "high"
+    },
+    {
+      "project": "microsoft/Web-Dev-For-Beginners",
+      "stratum": "high"
+    },
+    {
+      "project": "notionnext-org/NotionNext",
+      "stratum": "medium"
+    },
+    {
+      "project": "philc/vimium",
+      "stratum": "medium"
+    },
+    {
+      "project": "pistazie/cdk-dia",
+      "stratum": "niche"
+    },
+    {
+      "project": "videojs/video.js",
+      "stratum": "medium"
+    }
+  ]
+}

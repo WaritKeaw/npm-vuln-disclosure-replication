@@ -1,0 +1,24 @@
+{
+  "project": "opentypejs/opentype.js",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "39272c5d87c5168a311a2ad4506c9b893f7a817c",
+  "commit_date": "2023-12-26T12:46:41+01:00",
+  "frozen_branch_head": "5d65b6dcfab5115f90d375f8ba6b7942fdaa0138",
+  "collected_at": "2026-10-14T10:29:53.188966+00:00",
+  "package_json_sha256": "cebb3fecfee37ebb7d2c93e31f0ee2c65ea160f61ced093fe130a3ed99a15e35",
+  "package_json": {
+    "name": "opentype.js",
+    "dependencies": {
+      "eslint-plugin-local-rules": "^2.0.1"
+    },
+    "devDependencies": {
+      "mocha": "^8.4.0",
+      "esbuild": "^0.19.10",
+      "eslint": "^8.56.0",
+      "eslint-plugin-import": "^2.29.1",
+      "reify": "^0.20.12"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

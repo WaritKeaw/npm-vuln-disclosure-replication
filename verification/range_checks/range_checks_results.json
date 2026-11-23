@@ -1,0 +1,3091 @@
+{
+ "meta": {
+  "data": "robustness/data/date_12_paired.csv",
+  "rows": 29379,
+  "positives": 794,
+  "hard_negatives": 289,
+  "advisories_of_interest": 298,
+  "cves_of_interest": 286,
+  "cves_cached": 286,
+  "semver": "node semver 7.8.5"
+ },
+ "label_reproduction": {
+  "rows_checked": 1083,
+  "matched_set_mismatches": 0
+ },
+ "check1_nvd": {
+  "source": "NVD CVE API 2.0, raw JSON cached in verification/range_checks/cache/nvd/",
+  "matching_heuristic": "vulnerable=true CPE matches with part \"a\" (non-negated nodes); product matched to the npm name after lower-casing and removing non-alphanumerics: \"exact\" = product equals the package name (or scope+name for scoped packages); \"affix\" = equal after stripping a leading \"node\" and trailing \"js\" (min. 3 chars); otherwise (ambiguous, reported separately) \"fallback_name_overlap\" = exactly one application product whose compact name contains or is contained in the package name (>= 4 chars, e.g. lodash-es -> lodash), else \"fallback_single_product\" = the CVE lists exactly one application product; among matched entries only target_sw in {node.js, nodejs, node, npm, *, -} are kept; entries with version \"-\" and no bounds are unusable. NVD bounds are compared with npm semver ordering (non-semver bounds coerced, flagged). An advisory with several usable entries is \"affected\" if any entry covers used_version.",
+  "primary_levels": [
+   "exact",
+   "affix"
+  ],
+  "inclusive_levels": [
+   "exact",
+   "affix",
+   "fallback_name_overlap",
+   "fallback_single_product"
+  ],
+  "coverage": {
+   "positive_matched_advisories": {
+    "n": 259,
+    "with_cve": 249,
+    "status_counts": {
+     "usable": 220,
+     "no_configurations": 20,
+     "no_cve": 10,
+     "non_node_target_only": 4,
+     "no_usable_version_info": 3,
+     "rejected": 1,
+     "no_product_match": 1
+    },
+    "usable_match_level_counts": {
+     "exact": 189,
+     "affix": 19,
+     "fallback_name_overlap": 6,
+     "fallback_single_product": 6
+    },
+    "nvd_has_configurations": 228
+   },
+   "hard_negative_advisories": {
+    "n": 66,
+    "with_cve": 64,
+    "status_counts": {
+     "usable": 56,
+     "no_configurations": 7,
+     "no_cve": 2,
+     "no_product_match": 1
+    },
+    "usable_match_level_counts": {
+     "exact": 51,
+     "fallback_name_overlap": 3,
+     "affix": 1,
+     "fallback_single_product": 1
+    },
+    "nvd_has_configurations": 57
+   },
+   "all_advisories": {
+    "n": 301,
+    "with_cve": 289,
+    "status_counts": {
+     "usable": 256,
+     "no_configurations": 23,
+     "no_cve": 12,
+     "non_node_target_only": 4,
+     "no_usable_version_info": 3,
+     "no_product_match": 2,
+     "rejected": 1
+    },
+    "usable_match_level_counts": {
+     "exact": 221,
+     "affix": 20,
+     "fallback_name_overlap": 9,
+     "fallback_single_product": 6
+    },
+    "nvd_has_configurations": 265
+   }
+  },
+  "row_coverage": {
+   "2020-12-31": {
+    "positives": {
+     "rows": 175,
+     "any_advisory_with_cve": 174,
+     "any_usable_primary": 163,
+     "any_usable_inclusive": 172
+    },
+    "hard_negatives": {
+     "rows": 42,
+     "any_advisory_with_cve": 41,
+     "any_usable_primary": 38,
+     "any_usable_inclusive": 41
+    }
+   },
+   "2021-12-31": {
+    "positives": {
+     "rows": 268,
+     "any_advisory_with_cve": 263,
+     "any_usable_primary": 260,
+     "any_usable_inclusive": 262
+    },
+    "hard_negatives": {
+     "rows": 138,
+     "any_advisory_with_cve": 135,
+     "any_usable_primary": 123,
+     "any_usable_inclusive": 135
+    }
+   },
+   "2022-12-31": {
+    "positives": {
+     "rows": 140,
+     "any_advisory_with_cve": 138,
+     "any_usable_primary": 133,
+     "any_usable_inclusive": 136
+    },
+    "hard_negatives": {
+     "rows": 63,
+     "any_advisory_with_cve": 63,
+     "any_usable_primary": 61,
+     "any_usable_inclusive": 61
+    }
+   },
+   "2023-12-31": {
+    "positives": {
+     "rows": 211,
+     "any_advisory_with_cve": 208,
+     "any_usable_primary": 156,
+     "any_usable_inclusive": 163
+    },
+    "hard_negatives": {
+     "rows": 46,
+     "any_advisory_with_cve": 46,
+     "any_usable_primary": 35,
+     "any_usable_inclusive": 35
+    }
+   },
+   "all": {
+    "positives": {
+     "rows": 794,
+     "any_advisory_with_cve": 783,
+     "any_usable_primary": 712,
+     "any_usable_inclusive": 733
+    },
+    "hard_negatives": {
+     "rows": 289,
+     "any_advisory_with_cve": 285,
+     "any_usable_primary": 257,
+     "any_usable_inclusive": 272
+    }
+   }
+  },
+  "agreement": {
+   "primary": {
+    "2020-12-31": {
+     "positives_nvd_affected": {
+      "k": 155,
+      "n": 163,
+      "rate": 0.950920245398773,
+      "wilson95": [
+       0.9061523601829166,
+       0.9749236088181822
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 36,
+      "n": 38,
+      "rate": 0.9473684210526315,
+      "wilson95": [
+       0.8271453786822962,
+       0.9854457918527075
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 77,
+      "n": 89,
+      "rate": 0.8651685393258427,
+      "wilson95": [
+       0.7789609654865195,
+       0.921157287992622
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 15,
+      "n": 21,
+      "rate": 0.7142857142857143,
+      "wilson95": [
+       0.5004361928391441,
+       0.8618613704787788
+      ]
+     }
+    },
+    "2021-12-31": {
+     "positives_nvd_affected": {
+      "k": 246,
+      "n": 260,
+      "rate": 0.9461538461538461,
+      "wilson95": [
+       0.9116585591120859,
+       0.9676573794708131
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 120,
+      "n": 123,
+      "rate": 0.975609756097561,
+      "wilson95": [
+       0.9307404043771317,
+       0.9916709356358664
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 190,
+      "n": 199,
+      "rate": 0.9547738693467337,
+      "wilson95": [
+       0.9162958276873201,
+       0.976026683954635
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 37,
+      "n": 40,
+      "rate": 0.925,
+      "wilson95": [
+       0.8013576647568946,
+       0.9741639742254119
+      ]
+     }
+    },
+    "2022-12-31": {
+     "positives_nvd_affected": {
+      "k": 109,
+      "n": 133,
+      "rate": 0.8195488721804511,
+      "wilson95": [
+       0.7455242198663831,
+       0.8756325606337215
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 60,
+      "n": 61,
+      "rate": 0.9836065573770492,
+      "wilson95": [
+       0.9128113995535841,
+       0.9971002692007002
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 87,
+      "n": 92,
+      "rate": 0.9456521739130435,
+      "wilson95": [
+       0.8790146952375347,
+       0.9765649360513676
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 21,
+      "n": 22,
+      "rate": 0.9545454545454546,
+      "wilson95": [
+       0.7820195416134267,
+       0.991930572378736
+      ]
+     }
+    },
+    "2023-12-31": {
+     "positives_nvd_affected": {
+      "k": 150,
+      "n": 156,
+      "rate": 0.9615384615384616,
+      "wilson95": [
+       0.9186371108322398,
+       0.9822555678409157
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 4,
+      "n": 35,
+      "rate": 0.11428571428571428,
+      "wilson95": [
+       0.04535179333097357,
+       0.2595146864621381
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 66,
+      "n": 71,
+      "rate": 0.9295774647887324,
+      "wilson95": [
+       0.8455098688621009,
+       0.969546397560289
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 3,
+      "n": 11,
+      "rate": 0.2727272727272727,
+      "wilson95": [
+       0.09746059290024889,
+       0.5656453011761291
+      ]
+     }
+    },
+    "all": {
+     "positives_nvd_affected": {
+      "k": 660,
+      "n": 712,
+      "rate": 0.9269662921348315,
+      "wilson95": [
+       0.9054773611397559,
+       0.9438727184178651
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 220,
+      "n": 257,
+      "rate": 0.8560311284046692,
+      "wilson95": [
+       0.8078634758967922,
+       0.8937121126901302
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 420,
+      "n": 451,
+      "rate": 0.9312638580931264,
+      "wilson95": [
+       0.9040866830648268,
+       0.9511563746120025
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 76,
+      "n": 94,
+      "rate": 0.8085106382978723,
+      "wilson95": [
+       0.7174971706384233,
+       0.8752985695221128
+      ]
+     }
+    }
+   },
+   "inclusive": {
+    "2020-12-31": {
+     "positives_nvd_affected": {
+      "k": 163,
+      "n": 172,
+      "rate": 0.9476744186046512,
+      "wilson95": [
+       0.9035586714558714,
+       0.9722302410839985
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 39,
+      "n": 41,
+      "rate": 0.9512195121951219,
+      "wilson95": [
+       0.8386102112962914,
+       0.9865190546348308
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 83,
+      "n": 96,
+      "rate": 0.8645833333333334,
+      "wilson95": [
+       0.7819886149785562,
+       0.9191229355418891
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 17,
+      "n": 23,
+      "rate": 0.7391304347826086,
+      "wilson95": [
+       0.5352999516257462,
+       0.8745138395501366
+      ]
+     }
+    },
+    "2021-12-31": {
+     "positives_nvd_affected": {
+      "k": 248,
+      "n": 262,
+      "rate": 0.9465648854961832,
+      "wilson95": [
+       0.9123175490517041,
+       0.9679063296392014
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 132,
+      "n": 135,
+      "rate": 0.9777777777777777,
+      "wilson95": [
+       0.9367032029591469,
+       0.9924140873352181
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 192,
+      "n": 201,
+      "rate": 0.9552238805970149,
+      "wilson95": [
+       0.9171068176047671,
+       0.9762670191837471
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 39,
+      "n": 42,
+      "rate": 0.9285714285714286,
+      "wilson95": [
+       0.8099057319884169,
+       0.9754095901266941
+      ]
+     }
+    },
+    "2022-12-31": {
+     "positives_nvd_affected": {
+      "k": 112,
+      "n": 136,
+      "rate": 0.8235294117647058,
+      "wilson95": [
+       0.7508362271277043,
+       0.8784478259858599
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 60,
+      "n": 61,
+      "rate": 0.9836065573770492,
+      "wilson95": [
+       0.9128113995535841,
+       0.9971002692007002
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 90,
+      "n": 95,
+      "rate": 0.9473684210526315,
+      "wilson95": [
+       0.882651138829621,
+       0.9773118869508504
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 21,
+      "n": 22,
+      "rate": 0.9545454545454546,
+      "wilson95": [
+       0.7820195416134267,
+       0.991930572378736
+      ]
+     }
+    },
+    "2023-12-31": {
+     "positives_nvd_affected": {
+      "k": 157,
+      "n": 163,
+      "rate": 0.9631901840490797,
+      "wilson95": [
+       0.9220283411139559,
+       0.9830224841864924
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 4,
+      "n": 35,
+      "rate": 0.11428571428571428,
+      "wilson95": [
+       0.04535179333097357,
+       0.2595146864621381
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 72,
+      "n": 77,
+      "rate": 0.935064935064935,
+      "wilson95": [
+       0.8568357493578059,
+       0.9719469195522837
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 3,
+      "n": 11,
+      "rate": 0.2727272727272727,
+      "wilson95": [
+       0.09746059290024889,
+       0.5656453011761291
+      ]
+     }
+    },
+    "all": {
+     "positives_nvd_affected": {
+      "k": 680,
+      "n": 733,
+      "rate": 0.927694406548431,
+      "wilson95": [
+       0.9066318563528947,
+       0.9442974616085374
+      ]
+     },
+     "hard_negatives_nvd_not_affected": {
+      "k": 235,
+      "n": 272,
+      "rate": 0.8639705882352942,
+      "wilson95": [
+       0.8181293973951415,
+       0.8996742309880249
+      ]
+     },
+     "positive_triples_nvd_affected": {
+      "k": 437,
+      "n": 469,
+      "rate": 0.9317697228144989,
+      "wilson95": [
+       0.9052662908444102,
+       0.9512575871803797
+      ]
+     },
+     "hard_negative_triples_nvd_not_affected": {
+      "k": 80,
+      "n": 98,
+      "rate": 0.8163265306122449,
+      "wilson95": [
+       0.7282500277598462,
+       0.8805393662448048
+      ]
+     }
+    }
+   }
+  },
+  "agreement_note": "rows are clustered (the same package/version/advisory appears in many projects); Wilson intervals treat rows as independent, so the unique (package, used_version, advisory) triples are the more honest denominator",
+  "advisory_version_sets": {
+   "method": "all published non-prerelease npm versions of the package (cache/npm) evaluated against the GHSA range(s) of that advisory and the selected NVD entries",
+   "primary": {
+    "n": 241,
+    "identical_version_sets": 181,
+    "nvd_superset_strict": 29,
+    "nvd_subset_strict": 30,
+    "both_differ": 1,
+    "median_jaccard": 1.0
+   },
+   "inclusive": {
+    "n": 256,
+    "identical_version_sets": 193,
+    "nvd_superset_strict": 31,
+    "nvd_subset_strict": 31,
+    "both_differ": 1,
+    "median_jaccard": 1.0
+   }
+  },
+  "unbounded_vs_nvd": {
+   "unit": "unique (advisory, package, used_version) of positives with usable primary NVD entries; NVD entries that cover used_version are inspected",
+   "crosstab": {
+    "ghsa_unbounded|nvd_covering_entry_unbounded_below": 296,
+    "ghsa_bounded|nvd_covering_entry_lower_bounded_or_exact": 77,
+    "ghsa_bounded|nvd_covering_entry_unbounded_below": 26,
+    "ghsa_unbounded|nvd_not_affected": 25,
+    "ghsa_unbounded|nvd_covering_entry_lower_bounded_or_exact": 21,
+    "ghsa_bounded|nvd_not_affected": 6
+   }
+  },
+  "disagreements": {
+   "unique_rows_in_csv": 50,
+   "by_kind": {
+    "positive": 31,
+    "hard_negative": 18,
+    "positive_advisory_level_only": 1
+   },
+   "row_advisory_pairs_by_kind": {
+    "positive_advisory_level_only": 1,
+    "hard_negative": 41,
+    "positive": 60
+   },
+   "distinct_instances_by_kind": {
+    "positive": 53,
+    "hard_negative": 37,
+    "positive_advisory_level_only": 1
+   },
+   "distinct_instances_by_kind_and_snapshot": {
+    "positive": {
+     "2020-12-31": 9,
+     "2021-12-31": 14,
+     "2022-12-31": 24,
+     "2023-12-31": 6
+    },
+    "hard_negative": {
+     "2020-12-31": 2,
+     "2021-12-31": 3,
+     "2022-12-31": 1,
+     "2023-12-31": 31
+    },
+    "positive_advisory_level_only": {
+     "2020-12-31": 1
+    }
+   },
+   "mean_libyear_of_disagreeing_instances": {
+    "positive": {
+     "2020-12-31": 1.0438356164383562,
+     "2021-12-31": 1.5481409001956947,
+     "2022-12-31": 0.49474885844748856,
+     "2023-12-31": 6.458447488584475
+    },
+    "hard_negative": {
+     "2020-12-31": 1.7041095890410958,
+     "2021-12-31": 7.54703196347032,
+     "2022-12-31": 9.6,
+     "2023-12-31": 3.010251878038003
+    },
+    "positive_advisory_level_only": {
+     "2020-12-31": 1.5616438356164384
+    }
+   },
+   "by_category": {
+    "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound": 18,
+    "NVD narrower: NVD lower bound above used_version": 16,
+    "NVD lists explicit versions only; used_version not listed": 12,
+    "NVD narrower: NVD upper bound at/below used_version": 3,
+    "NVD narrower: NVD upper bound at/below used_version; product matched only by fallback_name_overlap": 1
+   },
+   "list": [
+    {
+     "kind": "hard_negative",
+     "package": "async",
+     "used_version": "0.1.23",
+     "ghsa_id": "GHSA-fwr7-v2mv-hh25",
+     "cves": "CVE-2021-43138",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 3.0.0, < 3.2.2 | >= 2.0.0, < 2.6.4",
+     "nvd_range": "async_project:async[*] <2.6.4 | async_project:async[*] >=3.0.0 <3.2.2",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "async",
+     "used_version": "0.2.10",
+     "ghsa_id": "GHSA-fwr7-v2mv-hh25",
+     "cves": "CVE-2021-43138",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 3.0.0, < 3.2.2 | >= 2.0.0, < 2.6.4",
+     "nvd_range": "async_project:async[*] <2.6.4 | async_project:async[*] >=3.0.0 <3.2.2",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "async",
+     "used_version": "1.5.2",
+     "ghsa_id": "GHSA-fwr7-v2mv-hh25",
+     "cves": "CVE-2021-43138",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 3.0.0, < 3.2.2 | >= 2.0.0, < 2.6.4",
+     "nvd_range": "async_project:async[*] <2.6.4 | async_project:async[*] >=3.0.0 <3.2.2",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "1.12.1",
+     "ghsa_id": "GHSA-33f9-j839-rf8h",
+     "cves": "CVE-2021-23436",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 9.0.6",
+     "nvd_range": "immer_project:immer[node.js] <9.0.6",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "1.12.1",
+     "ghsa_id": "GHSA-9qmh-276g-x5pj",
+     "cves": "CVE-2020-28477",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 8.0.1",
+     "nvd_range": "immer_project:immer[node.js] <8.0.1",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "1.12.1",
+     "ghsa_id": "GHSA-c36v-fmgq-m8hx",
+     "cves": "CVE-2021-3757",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 9.0.6",
+     "nvd_range": "immer_project:immer[node.js] <=9.0.5",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "3.0.0",
+     "ghsa_id": "GHSA-33f9-j839-rf8h",
+     "cves": "CVE-2021-23436",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 9.0.6",
+     "nvd_range": "immer_project:immer[node.js] <9.0.6",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "3.0.0",
+     "ghsa_id": "GHSA-9qmh-276g-x5pj",
+     "cves": "CVE-2020-28477",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 8.0.1",
+     "nvd_range": "immer_project:immer[node.js] <8.0.1",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "immer",
+     "used_version": "3.0.0",
+     "ghsa_id": "GHSA-c36v-fmgq-m8hx",
+     "cves": "CVE-2021-3757",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 9.0.6",
+     "nvd_range": "immer_project:immer[node.js] <=9.0.5",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "semver",
+     "used_version": "1.1.4",
+     "ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+     "cves": "CVE-2022-25883",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 7.0.0, < 7.5.2 | >= 6.0.0, < 6.3.1 | >= 2.0.0-alpha, < 5.7.2",
+     "nvd_range": "npmjs:semver[node.js] <5.7.2 | npmjs:semver[node.js] >=6.0.0 <6.3.1 | npmjs:semver[node.js] >=7.0.0 <7.5.3",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Analyzed",
+     "rows": 1,
+     "origins": "2022-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "1.11.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "1.15.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 6,
+     "origins": "2023-12-31",
+     "projects": 6
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "2.7.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2023-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "3.12.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2023-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "4.25.1",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "4.30.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "4.46.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2023-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "hard_negative",
+     "package": "webpack",
+     "used_version": "4.47.0",
+     "ghsa_id": "GHSA-4vvj-4cpr-p986",
+     "cves": "CVE-2024-43788",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 5.0.0-alpha.0, < 5.94.0",
+     "nvd_range": "webpack.js:webpack[node.js] <5.94.0",
+     "category": "NVD broader: NVD range includes used_version; GHSA excludes: used_version below GHSA lower bound",
+     "nvd_vulnStatus": "Modified",
+     "rows": 15,
+     "origins": "2023-12-31",
+     "projects": 15
+    },
+    {
+     "kind": "positive",
+     "package": "ajv",
+     "used_version": "5.0.0",
+     "ghsa_id": "GHSA-v88g-cgmw-v5xw",
+     "cves": "CVE-2020-15366",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 6.12.3",
+     "nvd_range": "ajv.js:ajv[*] =6.12.2",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "ajv",
+     "used_version": "5.5.2",
+     "ghsa_id": "GHSA-v88g-cgmw-v5xw",
+     "cves": "CVE-2020-15366",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 6.12.3",
+     "nvd_range": "ajv.js:ajv[*] =6.12.2",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "axios",
+     "used_version": "0.18.1",
+     "ghsa_id": "GHSA-wf5p-g6vw-rhxx",
+     "cves": "CVE-2023-45857",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 1.0.0, < 1.6.0 | >= 0.8.1, < 0.28.0",
+     "nvd_range": "axios:axios[node.js] =1.5.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2022-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "axios",
+     "used_version": "0.21.4",
+     "ghsa_id": "GHSA-wf5p-g6vw-rhxx",
+     "cves": "CVE-2023-45857",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 1.0.0, < 1.6.0 | >= 0.8.1, < 0.28.0",
+     "nvd_range": "axios:axios[node.js] =1.5.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2022-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "positive",
+     "package": "axios",
+     "used_version": "0.24.0",
+     "ghsa_id": "GHSA-wf5p-g6vw-rhxx",
+     "cves": "CVE-2023-45857",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 1.0.0, < 1.6.0 | >= 0.8.1, < 0.28.0",
+     "nvd_range": "axios:axios[node.js] =1.5.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2022-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "positive",
+     "package": "axios",
+     "used_version": "0.27.2",
+     "ghsa_id": "GHSA-wf5p-g6vw-rhxx",
+     "cves": "CVE-2023-45857",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 1.0.0, < 1.6.0 | >= 0.8.1, < 0.28.0",
+     "nvd_range": "axios:axios[node.js] =1.5.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2022-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "positive",
+     "package": "ejs",
+     "used_version": "2.7.4",
+     "ghsa_id": "GHSA-phwq-j96m-2c2q",
+     "cves": "CVE-2022-29078",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 3.1.7",
+     "nvd_range": "ejs:ejs[node.js] =3.1.6",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "1.8.8",
+     "ghsa_id": "GHSA-hvf8-h2qh-37m9",
+     "cves": "CVE-2020-26272",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 9.4.0 | >= 10.0.0, < 10.2.0 | >= 11.0.0, < 11.1.0",
+     "nvd_range": "electronjs:electron[*] >=9.0.0 <9.4.0 | electronjs:electron[*] >=10.0.0 <10.2.0 | electronjs:electron[*] >=11.0.0 <11.1.0 | electronjs:electron[*] =9.0.0-beta1 | electronjs:electron[*] =9.0.0-beta10 | electronjs:electron[*] =9.0.0-beta11 | electronjs:electron[*] =9.0.0-beta12 | electronjs:electron[*] =9.0.0-beta13 | electronjs:electron[*] =9.0.0-beta14 | electronjs:electron[*] =9.0.0-beta15 | electronjs:electron[*] =9.0.0-beta16 | electronjs:electron[*] =9.0.0-beta17 | electronjs:electron[*] =9.0.0-beta18 | electronjs:electron[*] =9.0.0-beta19 | electronjs:electron[*] =9.0.0-beta2 | electronjs:electron[*] =9.0.0-beta20 | electronjs:electron[*] =9.0.0-beta21 | electronjs:electron[*] =9.0.0-beta22 | electronjs:electron[*] =9.0.0-beta23 | electronjs:electron[*] =9.0.0-beta24 | electronjs:electron[*] =9.0.0-beta3 | electronjs:electron[*] =9.0.0-beta4 | electronjs:electron[*] =9.0.0-beta5 | electronjs:electron[*] =9.0.0-beta6 | electronjs:electron[*] =9.0.0-beta7 | electronjs:electron[*] =9.0.0-beta8 | electronjs:electron[*] =9.0.0-beta9 | electronjs:electron[*] =10.0.0-beta1 | electronjs:electron[*] =10.0.0-beta10 | electronjs:electron[*] =10.0.0-beta11 | electronjs:electron[*] =10.0.0-beta12 | electronjs:electron[*] =10.0.0-beta13 | electronjs:electron[*] =10.0.0-beta14 | electronjs:electron[*] =10.0.0-beta15 | electronjs:electron[*] =10.0.0-beta17 | electronjs:electron[*] =10.0.0-beta19 | electronjs:electron[*] =10.0.0-beta2 | electronjs:electron[*] =10.0.0-beta20 | electronjs:electron[*] =10.0.0-beta21 | electronjs:electron[*] =10.0.0-beta23 | electronjs:electron[*] =10.0.0-beta24 | electronjs:electron[*] =10.0.0-beta25 | electronjs:electron[*] =10.0.0-beta3 | electronjs:electron[*] =10.0.0-beta4 | electronjs:electron[*] =10.0.0-beta5 | electronjs:electron[*] =10.0.0-beta6 | electronjs:electron[*] =10.0.0-beta7 | electronjs:electron[*] =10.0.0-beta8 | electronjs:electron[*] =10.0.0-beta9 | electronjs:electron[*] =11.0.0-beta1 | electronjs:electron[*] =11.0.0-beta10 | electronjs:electron[*] =11.0.0-beta11 | electronjs:electron[*] =11.0.0-beta12 | electronjs:electron[*] =11.0.0-beta13 | electronjs:electron[*] =11.0.0-beta14 | electronjs:electron[*] =11.0.0-beta15 | electronjs:electron[*] =11.0.0-beta16 | electronjs:electron[*] =11.0.0-beta17 | electronjs:electron[*] =11.0.0-beta18 | electronjs:electron[*] =11.0.0-beta19 | electronjs:electron[*] =11.0.0-beta20 | electronjs:electron[*] =11.0.0-beta21 | electronjs:electron[*] =11.0.0-beta22 | electronjs:electron[*] =11.0.0-beta23 | electronjs:electron[*] =11.0.0-beta3 | electronjs:electron[*] =11.0.0-beta4 | electronjs:electron[*] =11.0.0-beta5 | electronjs:electron[*] =11.0.0-beta6 | electronjs:electron[*] =11.0.0-beta7 | electronjs:electron[*] =11.0.0-beta8 | electronjs:electron[*] =11.0.0-beta9 | electronjs:electron[*] =12.0.0-beta1 | electronjs:electron[*] =12.0.0-beta3 | electronjs:electron[*] =12.0.0-beta4 | electronjs:electron[*] =12.0.0-beta5 | electronjs:electron[*] =12.0.0-beta6 | electronjs:electron[*] =12.0.0-beta7 | electronjs:electron[*] =12.0.0-beta8 | electronjs:electron[*] =12.0.0-beta9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "1.8.8",
+     "ghsa_id": "GHSA-mpjm-v997-c4h4",
+     "cves": "CVE-2021-39184",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 11.5.0 | >= 12.0.0, < 12.1.0 | >= 13.0.0, < 13.3.0",
+     "nvd_range": "electronjs:electron[*] >=10.1.0 <11.5.0 | electronjs:electron[*] >=12.0.0 <12.1.0 | electronjs:electron[*] >=13.0.0 <13.3.0 | electronjs:electron[*] =14.0.0-beta1 | electronjs:electron[*] =14.0.0-beta10 | electronjs:electron[*] =14.0.0-beta11 | electronjs:electron[*] =14.0.0-beta12 | electronjs:electron[*] =14.0.0-beta13 | electronjs:electron[*] =14.0.0-beta14 | electronjs:electron[*] =14.0.0-beta15 | electronjs:electron[*] =14.0.0-beta16 | electronjs:electron[*] =14.0.0-beta17 | electronjs:electron[*] =14.0.0-beta18 | electronjs:electron[*] =14.0.0-beta19 | electronjs:electron[*] =14.0.0-beta2 | electronjs:electron[*] =14.0.0-beta20 | electronjs:electron[*] =14.0.0-beta21 | electronjs:electron[*] =14.0.0-beta22 | electronjs:electron[*] =14.0.0-beta23 | electronjs:electron[*] =14.0.0-beta24 | electronjs:electron[*] =14.0.0-beta25 | electronjs:electron[*] =14.0.0-beta3 | electronjs:electron[*] =14.0.0-beta4 | electronjs:electron[*] =14.0.0-beta5 | electronjs:electron[*] =14.0.0-beta6 | electronjs:electron[*] =14.0.0-beta7 | electronjs:electron[*] =14.0.0-beta8 | electronjs:electron[*] =14.0.0-beta9 | electronjs:electron[*] =15.0.0-alpha1 | electronjs:electron[*] =15.0.0-alpha2 | electronjs:electron[*] =15.0.0-alpha3 | electronjs:electron[*] =15.0.0-alpha4 | electronjs:electron[*] =15.0.0-alpha5 | electronjs:electron[*] =15.0.0-alpha6 | electronjs:electron[*] =15.0.0-alpha7 | electronjs:electron[*] =15.0.0-alpha8 | electronjs:electron[*] =15.0.0-alpha9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "2.0.18",
+     "ghsa_id": "GHSA-hvf8-h2qh-37m9",
+     "cves": "CVE-2020-26272",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 9.4.0 | >= 10.0.0, < 10.2.0 | >= 11.0.0, < 11.1.0",
+     "nvd_range": "electronjs:electron[*] >=9.0.0 <9.4.0 | electronjs:electron[*] >=10.0.0 <10.2.0 | electronjs:electron[*] >=11.0.0 <11.1.0 | electronjs:electron[*] =9.0.0-beta1 | electronjs:electron[*] =9.0.0-beta10 | electronjs:electron[*] =9.0.0-beta11 | electronjs:electron[*] =9.0.0-beta12 | electronjs:electron[*] =9.0.0-beta13 | electronjs:electron[*] =9.0.0-beta14 | electronjs:electron[*] =9.0.0-beta15 | electronjs:electron[*] =9.0.0-beta16 | electronjs:electron[*] =9.0.0-beta17 | electronjs:electron[*] =9.0.0-beta18 | electronjs:electron[*] =9.0.0-beta19 | electronjs:electron[*] =9.0.0-beta2 | electronjs:electron[*] =9.0.0-beta20 | electronjs:electron[*] =9.0.0-beta21 | electronjs:electron[*] =9.0.0-beta22 | electronjs:electron[*] =9.0.0-beta23 | electronjs:electron[*] =9.0.0-beta24 | electronjs:electron[*] =9.0.0-beta3 | electronjs:electron[*] =9.0.0-beta4 | electronjs:electron[*] =9.0.0-beta5 | electronjs:electron[*] =9.0.0-beta6 | electronjs:electron[*] =9.0.0-beta7 | electronjs:electron[*] =9.0.0-beta8 | electronjs:electron[*] =9.0.0-beta9 | electronjs:electron[*] =10.0.0-beta1 | electronjs:electron[*] =10.0.0-beta10 | electronjs:electron[*] =10.0.0-beta11 | electronjs:electron[*] =10.0.0-beta12 | electronjs:electron[*] =10.0.0-beta13 | electronjs:electron[*] =10.0.0-beta14 | electronjs:electron[*] =10.0.0-beta15 | electronjs:electron[*] =10.0.0-beta17 | electronjs:electron[*] =10.0.0-beta19 | electronjs:electron[*] =10.0.0-beta2 | electronjs:electron[*] =10.0.0-beta20 | electronjs:electron[*] =10.0.0-beta21 | electronjs:electron[*] =10.0.0-beta23 | electronjs:electron[*] =10.0.0-beta24 | electronjs:electron[*] =10.0.0-beta25 | electronjs:electron[*] =10.0.0-beta3 | electronjs:electron[*] =10.0.0-beta4 | electronjs:electron[*] =10.0.0-beta5 | electronjs:electron[*] =10.0.0-beta6 | electronjs:electron[*] =10.0.0-beta7 | electronjs:electron[*] =10.0.0-beta8 | electronjs:electron[*] =10.0.0-beta9 | electronjs:electron[*] =11.0.0-beta1 | electronjs:electron[*] =11.0.0-beta10 | electronjs:electron[*] =11.0.0-beta11 | electronjs:electron[*] =11.0.0-beta12 | electronjs:electron[*] =11.0.0-beta13 | electronjs:electron[*] =11.0.0-beta14 | electronjs:electron[*] =11.0.0-beta15 | electronjs:electron[*] =11.0.0-beta16 | electronjs:electron[*] =11.0.0-beta17 | electronjs:electron[*] =11.0.0-beta18 | electronjs:electron[*] =11.0.0-beta19 | electronjs:electron[*] =11.0.0-beta20 | electronjs:electron[*] =11.0.0-beta21 | electronjs:electron[*] =11.0.0-beta22 | electronjs:electron[*] =11.0.0-beta23 | electronjs:electron[*] =11.0.0-beta3 | electronjs:electron[*] =11.0.0-beta4 | electronjs:electron[*] =11.0.0-beta5 | electronjs:electron[*] =11.0.0-beta6 | electronjs:electron[*] =11.0.0-beta7 | electronjs:electron[*] =11.0.0-beta8 | electronjs:electron[*] =11.0.0-beta9 | electronjs:electron[*] =12.0.0-beta1 | electronjs:electron[*] =12.0.0-beta3 | electronjs:electron[*] =12.0.0-beta4 | electronjs:electron[*] =12.0.0-beta5 | electronjs:electron[*] =12.0.0-beta6 | electronjs:electron[*] =12.0.0-beta7 | electronjs:electron[*] =12.0.0-beta8 | electronjs:electron[*] =12.0.0-beta9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "2.0.18",
+     "ghsa_id": "GHSA-mpjm-v997-c4h4",
+     "cves": "CVE-2021-39184",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 11.5.0 | >= 12.0.0, < 12.1.0 | >= 13.0.0, < 13.3.0",
+     "nvd_range": "electronjs:electron[*] >=10.1.0 <11.5.0 | electronjs:electron[*] >=12.0.0 <12.1.0 | electronjs:electron[*] >=13.0.0 <13.3.0 | electronjs:electron[*] =14.0.0-beta1 | electronjs:electron[*] =14.0.0-beta10 | electronjs:electron[*] =14.0.0-beta11 | electronjs:electron[*] =14.0.0-beta12 | electronjs:electron[*] =14.0.0-beta13 | electronjs:electron[*] =14.0.0-beta14 | electronjs:electron[*] =14.0.0-beta15 | electronjs:electron[*] =14.0.0-beta16 | electronjs:electron[*] =14.0.0-beta17 | electronjs:electron[*] =14.0.0-beta18 | electronjs:electron[*] =14.0.0-beta19 | electronjs:electron[*] =14.0.0-beta2 | electronjs:electron[*] =14.0.0-beta20 | electronjs:electron[*] =14.0.0-beta21 | electronjs:electron[*] =14.0.0-beta22 | electronjs:electron[*] =14.0.0-beta23 | electronjs:electron[*] =14.0.0-beta24 | electronjs:electron[*] =14.0.0-beta25 | electronjs:electron[*] =14.0.0-beta3 | electronjs:electron[*] =14.0.0-beta4 | electronjs:electron[*] =14.0.0-beta5 | electronjs:electron[*] =14.0.0-beta6 | electronjs:electron[*] =14.0.0-beta7 | electronjs:electron[*] =14.0.0-beta8 | electronjs:electron[*] =14.0.0-beta9 | electronjs:electron[*] =15.0.0-alpha1 | electronjs:electron[*] =15.0.0-alpha2 | electronjs:electron[*] =15.0.0-alpha3 | electronjs:electron[*] =15.0.0-alpha4 | electronjs:electron[*] =15.0.0-alpha5 | electronjs:electron[*] =15.0.0-alpha6 | electronjs:electron[*] =15.0.0-alpha7 | electronjs:electron[*] =15.0.0-alpha8 | electronjs:electron[*] =15.0.0-alpha9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "3.1.13",
+     "ghsa_id": "GHSA-hvf8-h2qh-37m9",
+     "cves": "CVE-2020-26272",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 9.4.0 | >= 10.0.0, < 10.2.0 | >= 11.0.0, < 11.1.0",
+     "nvd_range": "electronjs:electron[*] >=9.0.0 <9.4.0 | electronjs:electron[*] >=10.0.0 <10.2.0 | electronjs:electron[*] >=11.0.0 <11.1.0 | electronjs:electron[*] =9.0.0-beta1 | electronjs:electron[*] =9.0.0-beta10 | electronjs:electron[*] =9.0.0-beta11 | electronjs:electron[*] =9.0.0-beta12 | electronjs:electron[*] =9.0.0-beta13 | electronjs:electron[*] =9.0.0-beta14 | electronjs:electron[*] =9.0.0-beta15 | electronjs:electron[*] =9.0.0-beta16 | electronjs:electron[*] =9.0.0-beta17 | electronjs:electron[*] =9.0.0-beta18 | electronjs:electron[*] =9.0.0-beta19 | electronjs:electron[*] =9.0.0-beta2 | electronjs:electron[*] =9.0.0-beta20 | electronjs:electron[*] =9.0.0-beta21 | electronjs:electron[*] =9.0.0-beta22 | electronjs:electron[*] =9.0.0-beta23 | electronjs:electron[*] =9.0.0-beta24 | electronjs:electron[*] =9.0.0-beta3 | electronjs:electron[*] =9.0.0-beta4 | electronjs:electron[*] =9.0.0-beta5 | electronjs:electron[*] =9.0.0-beta6 | electronjs:electron[*] =9.0.0-beta7 | electronjs:electron[*] =9.0.0-beta8 | electronjs:electron[*] =9.0.0-beta9 | electronjs:electron[*] =10.0.0-beta1 | electronjs:electron[*] =10.0.0-beta10 | electronjs:electron[*] =10.0.0-beta11 | electronjs:electron[*] =10.0.0-beta12 | electronjs:electron[*] =10.0.0-beta13 | electronjs:electron[*] =10.0.0-beta14 | electronjs:electron[*] =10.0.0-beta15 | electronjs:electron[*] =10.0.0-beta17 | electronjs:electron[*] =10.0.0-beta19 | electronjs:electron[*] =10.0.0-beta2 | electronjs:electron[*] =10.0.0-beta20 | electronjs:electron[*] =10.0.0-beta21 | electronjs:electron[*] =10.0.0-beta23 | electronjs:electron[*] =10.0.0-beta24 | electronjs:electron[*] =10.0.0-beta25 | electronjs:electron[*] =10.0.0-beta3 | electronjs:electron[*] =10.0.0-beta4 | electronjs:electron[*] =10.0.0-beta5 | electronjs:electron[*] =10.0.0-beta6 | electronjs:electron[*] =10.0.0-beta7 | electronjs:electron[*] =10.0.0-beta8 | electronjs:electron[*] =10.0.0-beta9 | electronjs:electron[*] =11.0.0-beta1 | electronjs:electron[*] =11.0.0-beta10 | electronjs:electron[*] =11.0.0-beta11 | electronjs:electron[*] =11.0.0-beta12 | electronjs:electron[*] =11.0.0-beta13 | electronjs:electron[*] =11.0.0-beta14 | electronjs:electron[*] =11.0.0-beta15 | electronjs:electron[*] =11.0.0-beta16 | electronjs:electron[*] =11.0.0-beta17 | electronjs:electron[*] =11.0.0-beta18 | electronjs:electron[*] =11.0.0-beta19 | electronjs:electron[*] =11.0.0-beta20 | electronjs:electron[*] =11.0.0-beta21 | electronjs:electron[*] =11.0.0-beta22 | electronjs:electron[*] =11.0.0-beta23 | electronjs:electron[*] =11.0.0-beta3 | electronjs:electron[*] =11.0.0-beta4 | electronjs:electron[*] =11.0.0-beta5 | electronjs:electron[*] =11.0.0-beta6 | electronjs:electron[*] =11.0.0-beta7 | electronjs:electron[*] =11.0.0-beta8 | electronjs:electron[*] =11.0.0-beta9 | electronjs:electron[*] =12.0.0-beta1 | electronjs:electron[*] =12.0.0-beta3 | electronjs:electron[*] =12.0.0-beta4 | electronjs:electron[*] =12.0.0-beta5 | electronjs:electron[*] =12.0.0-beta6 | electronjs:electron[*] =12.0.0-beta7 | electronjs:electron[*] =12.0.0-beta8 | electronjs:electron[*] =12.0.0-beta9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "3.1.13",
+     "ghsa_id": "GHSA-mpjm-v997-c4h4",
+     "cves": "CVE-2021-39184",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 11.5.0 | >= 12.0.0, < 12.1.0 | >= 13.0.0, < 13.3.0",
+     "nvd_range": "electronjs:electron[*] >=10.1.0 <11.5.0 | electronjs:electron[*] >=12.0.0 <12.1.0 | electronjs:electron[*] >=13.0.0 <13.3.0 | electronjs:electron[*] =14.0.0-beta1 | electronjs:electron[*] =14.0.0-beta10 | electronjs:electron[*] =14.0.0-beta11 | electronjs:electron[*] =14.0.0-beta12 | electronjs:electron[*] =14.0.0-beta13 | electronjs:electron[*] =14.0.0-beta14 | electronjs:electron[*] =14.0.0-beta15 | electronjs:electron[*] =14.0.0-beta16 | electronjs:electron[*] =14.0.0-beta17 | electronjs:electron[*] =14.0.0-beta18 | electronjs:electron[*] =14.0.0-beta19 | electronjs:electron[*] =14.0.0-beta2 | electronjs:electron[*] =14.0.0-beta20 | electronjs:electron[*] =14.0.0-beta21 | electronjs:electron[*] =14.0.0-beta22 | electronjs:electron[*] =14.0.0-beta23 | electronjs:electron[*] =14.0.0-beta24 | electronjs:electron[*] =14.0.0-beta25 | electronjs:electron[*] =14.0.0-beta3 | electronjs:electron[*] =14.0.0-beta4 | electronjs:electron[*] =14.0.0-beta5 | electronjs:electron[*] =14.0.0-beta6 | electronjs:electron[*] =14.0.0-beta7 | electronjs:electron[*] =14.0.0-beta8 | electronjs:electron[*] =14.0.0-beta9 | electronjs:electron[*] =15.0.0-alpha1 | electronjs:electron[*] =15.0.0-alpha2 | electronjs:electron[*] =15.0.0-alpha3 | electronjs:electron[*] =15.0.0-alpha4 | electronjs:electron[*] =15.0.0-alpha5 | electronjs:electron[*] =15.0.0-alpha6 | electronjs:electron[*] =15.0.0-alpha7 | electronjs:electron[*] =15.0.0-alpha8 | electronjs:electron[*] =15.0.0-alpha9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "4.2.12",
+     "ghsa_id": "GHSA-hvf8-h2qh-37m9",
+     "cves": "CVE-2020-26272",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 9.4.0 | >= 10.0.0, < 10.2.0 | >= 11.0.0, < 11.1.0",
+     "nvd_range": "electronjs:electron[*] >=9.0.0 <9.4.0 | electronjs:electron[*] >=10.0.0 <10.2.0 | electronjs:electron[*] >=11.0.0 <11.1.0 | electronjs:electron[*] =9.0.0-beta1 | electronjs:electron[*] =9.0.0-beta10 | electronjs:electron[*] =9.0.0-beta11 | electronjs:electron[*] =9.0.0-beta12 | electronjs:electron[*] =9.0.0-beta13 | electronjs:electron[*] =9.0.0-beta14 | electronjs:electron[*] =9.0.0-beta15 | electronjs:electron[*] =9.0.0-beta16 | electronjs:electron[*] =9.0.0-beta17 | electronjs:electron[*] =9.0.0-beta18 | electronjs:electron[*] =9.0.0-beta19 | electronjs:electron[*] =9.0.0-beta2 | electronjs:electron[*] =9.0.0-beta20 | electronjs:electron[*] =9.0.0-beta21 | electronjs:electron[*] =9.0.0-beta22 | electronjs:electron[*] =9.0.0-beta23 | electronjs:electron[*] =9.0.0-beta24 | electronjs:electron[*] =9.0.0-beta3 | electronjs:electron[*] =9.0.0-beta4 | electronjs:electron[*] =9.0.0-beta5 | electronjs:electron[*] =9.0.0-beta6 | electronjs:electron[*] =9.0.0-beta7 | electronjs:electron[*] =9.0.0-beta8 | electronjs:electron[*] =9.0.0-beta9 | electronjs:electron[*] =10.0.0-beta1 | electronjs:electron[*] =10.0.0-beta10 | electronjs:electron[*] =10.0.0-beta11 | electronjs:electron[*] =10.0.0-beta12 | electronjs:electron[*] =10.0.0-beta13 | electronjs:electron[*] =10.0.0-beta14 | electronjs:electron[*] =10.0.0-beta15 | electronjs:electron[*] =10.0.0-beta17 | electronjs:electron[*] =10.0.0-beta19 | electronjs:electron[*] =10.0.0-beta2 | electronjs:electron[*] =10.0.0-beta20 | electronjs:electron[*] =10.0.0-beta21 | electronjs:electron[*] =10.0.0-beta23 | electronjs:electron[*] =10.0.0-beta24 | electronjs:electron[*] =10.0.0-beta25 | electronjs:electron[*] =10.0.0-beta3 | electronjs:electron[*] =10.0.0-beta4 | electronjs:electron[*] =10.0.0-beta5 | electronjs:electron[*] =10.0.0-beta6 | electronjs:electron[*] =10.0.0-beta7 | electronjs:electron[*] =10.0.0-beta8 | electronjs:electron[*] =10.0.0-beta9 | electronjs:electron[*] =11.0.0-beta1 | electronjs:electron[*] =11.0.0-beta10 | electronjs:electron[*] =11.0.0-beta11 | electronjs:electron[*] =11.0.0-beta12 | electronjs:electron[*] =11.0.0-beta13 | electronjs:electron[*] =11.0.0-beta14 | electronjs:electron[*] =11.0.0-beta15 | electronjs:electron[*] =11.0.0-beta16 | electronjs:electron[*] =11.0.0-beta17 | electronjs:electron[*] =11.0.0-beta18 | electronjs:electron[*] =11.0.0-beta19 | electronjs:electron[*] =11.0.0-beta20 | electronjs:electron[*] =11.0.0-beta21 | electronjs:electron[*] =11.0.0-beta22 | electronjs:electron[*] =11.0.0-beta23 | electronjs:electron[*] =11.0.0-beta3 | electronjs:electron[*] =11.0.0-beta4 | electronjs:electron[*] =11.0.0-beta5 | electronjs:electron[*] =11.0.0-beta6 | electronjs:electron[*] =11.0.0-beta7 | electronjs:electron[*] =11.0.0-beta8 | electronjs:electron[*] =11.0.0-beta9 | electronjs:electron[*] =12.0.0-beta1 | electronjs:electron[*] =12.0.0-beta3 | electronjs:electron[*] =12.0.0-beta4 | electronjs:electron[*] =12.0.0-beta5 | electronjs:electron[*] =12.0.0-beta6 | electronjs:electron[*] =12.0.0-beta7 | electronjs:electron[*] =12.0.0-beta8 | electronjs:electron[*] =12.0.0-beta9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2020-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "4.2.12",
+     "ghsa_id": "GHSA-mpjm-v997-c4h4",
+     "cves": "CVE-2021-39184",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 11.5.0 | >= 12.0.0, < 12.1.0 | >= 13.0.0, < 13.3.0",
+     "nvd_range": "electronjs:electron[*] >=10.1.0 <11.5.0 | electronjs:electron[*] >=12.0.0 <12.1.0 | electronjs:electron[*] >=13.0.0 <13.3.0 | electronjs:electron[*] =14.0.0-beta1 | electronjs:electron[*] =14.0.0-beta10 | electronjs:electron[*] =14.0.0-beta11 | electronjs:electron[*] =14.0.0-beta12 | electronjs:electron[*] =14.0.0-beta13 | electronjs:electron[*] =14.0.0-beta14 | electronjs:electron[*] =14.0.0-beta15 | electronjs:electron[*] =14.0.0-beta16 | electronjs:electron[*] =14.0.0-beta17 | electronjs:electron[*] =14.0.0-beta18 | electronjs:electron[*] =14.0.0-beta19 | electronjs:electron[*] =14.0.0-beta2 | electronjs:electron[*] =14.0.0-beta20 | electronjs:electron[*] =14.0.0-beta21 | electronjs:electron[*] =14.0.0-beta22 | electronjs:electron[*] =14.0.0-beta23 | electronjs:electron[*] =14.0.0-beta24 | electronjs:electron[*] =14.0.0-beta25 | electronjs:electron[*] =14.0.0-beta3 | electronjs:electron[*] =14.0.0-beta4 | electronjs:electron[*] =14.0.0-beta5 | electronjs:electron[*] =14.0.0-beta6 | electronjs:electron[*] =14.0.0-beta7 | electronjs:electron[*] =14.0.0-beta8 | electronjs:electron[*] =14.0.0-beta9 | electronjs:electron[*] =15.0.0-alpha1 | electronjs:electron[*] =15.0.0-alpha2 | electronjs:electron[*] =15.0.0-alpha3 | electronjs:electron[*] =15.0.0-alpha4 | electronjs:electron[*] =15.0.0-alpha5 | electronjs:electron[*] =15.0.0-alpha6 | electronjs:electron[*] =15.0.0-alpha7 | electronjs:electron[*] =15.0.0-alpha8 | electronjs:electron[*] =15.0.0-alpha9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2020-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "7.3.3",
+     "ghsa_id": "GHSA-hvf8-h2qh-37m9",
+     "cves": "CVE-2020-26272",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 9.4.0 | >= 10.0.0, < 10.2.0 | >= 11.0.0, < 11.1.0",
+     "nvd_range": "electronjs:electron[*] >=9.0.0 <9.4.0 | electronjs:electron[*] >=10.0.0 <10.2.0 | electronjs:electron[*] >=11.0.0 <11.1.0 | electronjs:electron[*] =9.0.0-beta1 | electronjs:electron[*] =9.0.0-beta10 | electronjs:electron[*] =9.0.0-beta11 | electronjs:electron[*] =9.0.0-beta12 | electronjs:electron[*] =9.0.0-beta13 | electronjs:electron[*] =9.0.0-beta14 | electronjs:electron[*] =9.0.0-beta15 | electronjs:electron[*] =9.0.0-beta16 | electronjs:electron[*] =9.0.0-beta17 | electronjs:electron[*] =9.0.0-beta18 | electronjs:electron[*] =9.0.0-beta19 | electronjs:electron[*] =9.0.0-beta2 | electronjs:electron[*] =9.0.0-beta20 | electronjs:electron[*] =9.0.0-beta21 | electronjs:electron[*] =9.0.0-beta22 | electronjs:electron[*] =9.0.0-beta23 | electronjs:electron[*] =9.0.0-beta24 | electronjs:electron[*] =9.0.0-beta3 | electronjs:electron[*] =9.0.0-beta4 | electronjs:electron[*] =9.0.0-beta5 | electronjs:electron[*] =9.0.0-beta6 | electronjs:electron[*] =9.0.0-beta7 | electronjs:electron[*] =9.0.0-beta8 | electronjs:electron[*] =9.0.0-beta9 | electronjs:electron[*] =10.0.0-beta1 | electronjs:electron[*] =10.0.0-beta10 | electronjs:electron[*] =10.0.0-beta11 | electronjs:electron[*] =10.0.0-beta12 | electronjs:electron[*] =10.0.0-beta13 | electronjs:electron[*] =10.0.0-beta14 | electronjs:electron[*] =10.0.0-beta15 | electronjs:electron[*] =10.0.0-beta17 | electronjs:electron[*] =10.0.0-beta19 | electronjs:electron[*] =10.0.0-beta2 | electronjs:electron[*] =10.0.0-beta20 | electronjs:electron[*] =10.0.0-beta21 | electronjs:electron[*] =10.0.0-beta23 | electronjs:electron[*] =10.0.0-beta24 | electronjs:electron[*] =10.0.0-beta25 | electronjs:electron[*] =10.0.0-beta3 | electronjs:electron[*] =10.0.0-beta4 | electronjs:electron[*] =10.0.0-beta5 | electronjs:electron[*] =10.0.0-beta6 | electronjs:electron[*] =10.0.0-beta7 | electronjs:electron[*] =10.0.0-beta8 | electronjs:electron[*] =10.0.0-beta9 | electronjs:electron[*] =11.0.0-beta1 | electronjs:electron[*] =11.0.0-beta10 | electronjs:electron[*] =11.0.0-beta11 | electronjs:electron[*] =11.0.0-beta12 | electronjs:electron[*] =11.0.0-beta13 | electronjs:electron[*] =11.0.0-beta14 | electronjs:electron[*] =11.0.0-beta15 | electronjs:electron[*] =11.0.0-beta16 | electronjs:electron[*] =11.0.0-beta17 | electronjs:electron[*] =11.0.0-beta18 | electronjs:electron[*] =11.0.0-beta19 | electronjs:electron[*] =11.0.0-beta20 | electronjs:electron[*] =11.0.0-beta21 | electronjs:electron[*] =11.0.0-beta22 | electronjs:electron[*] =11.0.0-beta23 | electronjs:electron[*] =11.0.0-beta3 | electronjs:electron[*] =11.0.0-beta4 | electronjs:electron[*] =11.0.0-beta5 | electronjs:electron[*] =11.0.0-beta6 | electronjs:electron[*] =11.0.0-beta7 | electronjs:electron[*] =11.0.0-beta8 | electronjs:electron[*] =11.0.0-beta9 | electronjs:electron[*] =12.0.0-beta1 | electronjs:electron[*] =12.0.0-beta3 | electronjs:electron[*] =12.0.0-beta4 | electronjs:electron[*] =12.0.0-beta5 | electronjs:electron[*] =12.0.0-beta6 | electronjs:electron[*] =12.0.0-beta7 | electronjs:electron[*] =12.0.0-beta8 | electronjs:electron[*] =12.0.0-beta9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "electron",
+     "used_version": "7.3.3",
+     "ghsa_id": "GHSA-mpjm-v997-c4h4",
+     "cves": "CVE-2021-39184",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 11.5.0 | >= 12.0.0, < 12.1.0 | >= 13.0.0, < 13.3.0",
+     "nvd_range": "electronjs:electron[*] >=10.1.0 <11.5.0 | electronjs:electron[*] >=12.0.0 <12.1.0 | electronjs:electron[*] >=13.0.0 <13.3.0 | electronjs:electron[*] =14.0.0-beta1 | electronjs:electron[*] =14.0.0-beta10 | electronjs:electron[*] =14.0.0-beta11 | electronjs:electron[*] =14.0.0-beta12 | electronjs:electron[*] =14.0.0-beta13 | electronjs:electron[*] =14.0.0-beta14 | electronjs:electron[*] =14.0.0-beta15 | electronjs:electron[*] =14.0.0-beta16 | electronjs:electron[*] =14.0.0-beta17 | electronjs:electron[*] =14.0.0-beta18 | electronjs:electron[*] =14.0.0-beta19 | electronjs:electron[*] =14.0.0-beta2 | electronjs:electron[*] =14.0.0-beta20 | electronjs:electron[*] =14.0.0-beta21 | electronjs:electron[*] =14.0.0-beta22 | electronjs:electron[*] =14.0.0-beta23 | electronjs:electron[*] =14.0.0-beta24 | electronjs:electron[*] =14.0.0-beta25 | electronjs:electron[*] =14.0.0-beta3 | electronjs:electron[*] =14.0.0-beta4 | electronjs:electron[*] =14.0.0-beta5 | electronjs:electron[*] =14.0.0-beta6 | electronjs:electron[*] =14.0.0-beta7 | electronjs:electron[*] =14.0.0-beta8 | electronjs:electron[*] =14.0.0-beta9 | electronjs:electron[*] =15.0.0-alpha1 | electronjs:electron[*] =15.0.0-alpha2 | electronjs:electron[*] =15.0.0-alpha3 | electronjs:electron[*] =15.0.0-alpha4 | electronjs:electron[*] =15.0.0-alpha5 | electronjs:electron[*] =15.0.0-alpha6 | electronjs:electron[*] =15.0.0-alpha7 | electronjs:electron[*] =15.0.0-alpha8 | electronjs:electron[*] =15.0.0-alpha9",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "gh-pages",
+     "used_version": "2.2.0",
+     "ghsa_id": "GHSA-8mmm-9v2q-x3f9",
+     "cves": "CVE-2022-37611",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 5.0.0",
+     "nvd_range": "gh-pages_project:gh-pages[node.js] =3.1.0",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 3,
+     "origins": "2021-12-31",
+     "projects": 3
+    },
+    {
+     "kind": "positive",
+     "package": "gh-pages",
+     "used_version": "3.2.3",
+     "ghsa_id": "GHSA-8mmm-9v2q-x3f9",
+     "cves": "CVE-2022-37611",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 5.0.0",
+     "nvd_range": "gh-pages_project:gh-pages[node.js] =3.1.0",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "grunt-karma",
+     "used_version": "3.0.2",
+     "ghsa_id": "GHSA-hcj4-xf6x-63wj",
+     "cves": "CVE-2022-37602",
+     "nvd_match_level": "exact",
+     "ghsa_range": "<= 4.0.1",
+     "nvd_range": "grunt-karma_project:grunt-karma[node.js] =4.0.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2021-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "grunt-karma",
+     "used_version": "4.0.0",
+     "ghsa_id": "GHSA-hcj4-xf6x-63wj",
+     "cves": "CVE-2022-37602",
+     "nvd_match_level": "exact",
+     "ghsa_range": "<= 4.0.1",
+     "nvd_range": "grunt-karma_project:grunt-karma[node.js] =4.0.1",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2021-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "positive",
+     "package": "html-parse-stringify2",
+     "used_version": "2.0.1",
+     "ghsa_id": "GHSA-545q-3fg6-48m7",
+     "cves": "CVE-2021-23346",
+     "nvd_match_level": "fallback_name_overlap",
+     "ghsa_range": "<= 2.0.1",
+     "nvd_range": "html-parse-stringify_project:html-parse-stringify[node.js] <2.0.1",
+     "category": "NVD narrower: NVD upper bound at/below used_version; product matched only by fallback_name_overlap",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "node-sass",
+     "used_version": "5.0.0",
+     "ghsa_id": "GHSA-r8f7-9pfq-mjmv",
+     "cves": "CVE-2020-24025",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 2.0.0, < 7.0.0",
+     "nvd_range": "sass-lang:node-sass[node.js] >=2.0.0 <=4.14.1",
+     "category": "NVD narrower: NVD upper bound at/below used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2021-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "positive",
+     "package": "node-sass",
+     "used_version": "6.0.1",
+     "ghsa_id": "GHSA-r8f7-9pfq-mjmv",
+     "cves": "CVE-2020-24025",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 2.0.0, < 7.0.0",
+     "nvd_range": "sass-lang:node-sass[node.js] >=2.0.0 <=4.14.1",
+     "category": "NVD narrower: NVD upper bound at/below used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2021-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "positive",
+     "package": "quill",
+     "used_version": "1.3.7",
+     "ghsa_id": "GHSA-4943-9vgg-gr5r",
+     "cves": "CVE-2021-3163",
+     "nvd_match_level": "exact",
+     "ghsa_range": "<= 1.3.7",
+     "nvd_range": "slab:quill[node.js] =4.8.0",
+     "category": "NVD lists explicit versions only; used_version not listed",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "request",
+     "used_version": "2.88.2",
+     "ghsa_id": "GHSA-p8p7-x288-28g6",
+     "cves": "CVE-2023-28155",
+     "nvd_match_level": "exact",
+     "ghsa_range": "<= 2.88.2",
+     "nvd_range": "request_project:request[node.js] <=2.88.1",
+     "category": "NVD narrower: NVD upper bound at/below used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 15,
+     "origins": "2022-12-31",
+     "projects": 15
+    },
+    {
+     "kind": "positive",
+     "package": "rollup",
+     "used_version": "0.36.1",
+     "ghsa_id": "GHSA-gcx4-mw62-g8wm",
+     "cves": "CVE-2024-47068",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 4.0.0, < 4.22.4 | >= 3.0.0, < 3.29.5 | < 2.79.2",
+     "nvd_range": "rollupjs:rollup[node.js] >=0.59.0 <2.79.2 | rollupjs:rollup[node.js] >=3.0.0 <3.29.5 | rollupjs:rollup[node.js] >=4.0.0 <4.22.4",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "rollup",
+     "used_version": "0.45.2",
+     "ghsa_id": "GHSA-gcx4-mw62-g8wm",
+     "cves": "CVE-2024-47068",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 4.0.0, < 4.22.4 | >= 3.0.0, < 3.29.5 | < 2.79.2",
+     "nvd_range": "rollupjs:rollup[node.js] >=0.59.0 <2.79.2 | rollupjs:rollup[node.js] >=3.0.0 <3.29.5 | rollupjs:rollup[node.js] >=4.0.0 <4.22.4",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "rollup",
+     "used_version": "0.47.6",
+     "ghsa_id": "GHSA-gcx4-mw62-g8wm",
+     "cves": "CVE-2024-47068",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 4.0.0, < 4.22.4 | >= 3.0.0, < 3.29.5 | < 2.79.2",
+     "nvd_range": "rollupjs:rollup[node.js] >=0.59.0 <2.79.2 | rollupjs:rollup[node.js] >=3.0.0 <3.29.5 | rollupjs:rollup[node.js] >=4.0.0 <4.22.4",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 2,
+     "origins": "2023-12-31",
+     "projects": 2
+    },
+    {
+     "kind": "positive",
+     "package": "rollup",
+     "used_version": "0.49.3",
+     "ghsa_id": "GHSA-gcx4-mw62-g8wm",
+     "cves": "CVE-2024-47068",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 4.0.0, < 4.22.4 | >= 3.0.0, < 3.29.5 | < 2.79.2",
+     "nvd_range": "rollupjs:rollup[node.js] >=0.59.0 <2.79.2 | rollupjs:rollup[node.js] >=3.0.0 <3.29.5 | rollupjs:rollup[node.js] >=4.0.0 <4.22.4",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive",
+     "package": "rollup",
+     "used_version": "0.53.4",
+     "ghsa_id": "GHSA-gcx4-mw62-g8wm",
+     "cves": "CVE-2024-47068",
+     "nvd_match_level": "exact",
+     "ghsa_range": ">= 4.0.0, < 4.22.4 | >= 3.0.0, < 3.29.5 | < 2.79.2",
+     "nvd_range": "rollupjs:rollup[node.js] >=0.59.0 <2.79.2 | rollupjs:rollup[node.js] >=3.0.0 <3.29.5 | rollupjs:rollup[node.js] >=4.0.0 <4.22.4",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2023-12-31",
+     "projects": 1
+    },
+    {
+     "kind": "positive_advisory_level_only",
+     "package": "axios",
+     "used_version": "0.18.1",
+     "ghsa_id": "GHSA-4w2v-q235-vp99",
+     "cves": "CVE-2020-28168",
+     "nvd_match_level": "exact",
+     "ghsa_range": "< 0.21.1",
+     "nvd_range": "axios:axios[node.js] >=0.19.0 <=0.21.0",
+     "category": "NVD narrower: NVD lower bound above used_version",
+     "nvd_vulnStatus": "Modified",
+     "rows": 1,
+     "origins": "2020-12-31",
+     "projects": 1
+    }
+   ]
+  }
+ },
+ "check2_unbounded": {
+  "definition": "A matched advisory is \"bounded\" for an instance if a comparator set of its GHSA range that covers used_version has a >=, > or exact lower bound > 0.0.0 (node semver Range parse, commas -> spaces as in src/semver_batch.cjs); otherwise \"unbounded below\" (e.g. \"< 4.17.21\", \"<= x\", \">= 0.0.0, < y\", \"> 0.0.0\"). An instance is \"unbounded-only\" if ALL its matched advisories are unbounded. Secondary rule \"effectively unbounded\": also counts a bounded range whose lower bound is <= the lowest non-prerelease version ever published for the package (npm cache).",
+  "per_snapshot": {
+   "2020-12-31": {
+    "positives": 175,
+    "unbounded_only": 136,
+    "share_unbounded_only": 0.7771428571428571,
+    "effectively_unbounded_only": 136,
+    "share_effectively_unbounded_only": 0.7771428571428571,
+    "mixed_unbounded_and_bounded": 1,
+    "unique_matched_advisory_package_pairs": 56,
+    "unique_pairs_unbounded": 42,
+    "packages_with_unbounded_only_positives": 34,
+    "all_nvd_pre_origin": 18,
+    "all_nvd_pre_origin_and_unbounded_only": 18,
+    "top_packages_unbounded_only": {
+     "lodash": 49,
+     "grunt": 15,
+     "electron": 11,
+     "axios": 9,
+     "handlebars": 5,
+     "nodemailer": 4,
+     "lodash-es": 3,
+     "pug": 3
+    }
+   },
+   "2021-12-31": {
+    "positives": 268,
+    "unbounded_only": 181,
+    "share_unbounded_only": 0.6753731343283582,
+    "effectively_unbounded_only": 181,
+    "share_effectively_unbounded_only": 0.6753731343283582,
+    "mixed_unbounded_and_bounded": 18,
+    "unique_matched_advisory_package_pairs": 93,
+    "unique_pairs_unbounded": 67,
+    "packages_with_unbounded_only_positives": 42,
+    "all_nvd_pre_origin": 29,
+    "all_nvd_pre_origin_and_unbounded_only": 9,
+    "top_packages_unbounded_only": {
+     "karma": 30,
+     "grunt": 30,
+     "marked": 13,
+     "minimatch": 9,
+     "shelljs": 9,
+     "electron": 9,
+     "node-fetch": 8,
+     "got": 6
+    }
+   },
+   "2022-12-31": {
+    "positives": 140,
+    "unbounded_only": 73,
+    "share_unbounded_only": 0.5214285714285715,
+    "effectively_unbounded_only": 73,
+    "share_effectively_unbounded_only": 0.5214285714285715,
+    "mixed_unbounded_and_bounded": 1,
+    "unique_matched_advisory_package_pairs": 45,
+    "unique_pairs_unbounded": 35,
+    "packages_with_unbounded_only_positives": 22,
+    "all_nvd_pre_origin": 1,
+    "all_nvd_pre_origin_and_unbounded_only": 1,
+    "top_packages_unbounded_only": {
+     "request": 17,
+     "postcss": 17,
+     "electron": 10,
+     "chromedriver": 4,
+     "crypto-js": 3,
+     "mongoose": 3,
+     "simple-git": 2,
+     "@babel/traverse": 2
+    }
+   },
+   "2023-12-31": {
+    "positives": 211,
+    "unbounded_only": 140,
+    "share_unbounded_only": 0.6635071090047393,
+    "effectively_unbounded_only": 140,
+    "share_effectively_unbounded_only": 0.6635071090047393,
+    "mixed_unbounded_and_bounded": 2,
+    "unique_matched_advisory_package_pairs": 65,
+    "unique_pairs_unbounded": 43,
+    "packages_with_unbounded_only_positives": 31,
+    "all_nvd_pre_origin": 0,
+    "all_nvd_pre_origin_and_unbounded_only": 0,
+    "top_packages_unbounded_only": {
+     "rollup": 34,
+     "express": 25,
+     "body-parser": 13,
+     "webpack-dev-middleware": 8,
+     "serve-static": 6,
+     "cross-spawn": 5,
+     "ejs": 5,
+     "cookie": 4
+    }
+   }
+  },
+  "overall": {
+   "positives": 794,
+   "unbounded_only": 530,
+   "share_unbounded_only": 0.6675062972292192,
+   "effectively_unbounded_only": 530,
+   "unique_bounded_advisory_package_pairs": 79,
+   "bounded_pairs_with_lower_bound_below_1_0_0": [
+    "GHSA-4gmj-3p3h-gm8h es5-ext >= 0.10.0",
+    "GHSA-56x4-j7p9-fcf9 moment-timezone >= 0.1.0",
+    "GHSA-78cj-fxph-m83p ua-parser-js >= 0.7.14",
+    "GHSA-7f53-fmmv-mfjv react-native >= 0.63.0",
+    "GHSA-9m6j-fcg5-2442 url-parse >= 0.1.0",
+    "GHSA-9wv6-86v2-598j path-to-regexp >= 0.2.0",
+    "GHSA-fhg7-m89q-25r3 ua-parser-js >= 0.7.30",
+    "GHSA-hh27-ffr2-f2jc url-parse >= 0.1.0",
+    "GHSA-jf5r-8hm2-f872 url-parse >= 0.1.0",
+    "GHSA-mrcj-5qxr-vhp2 angular-ui-notification >= 0.1.0",
+    "GHSA-rqff-837h-mm52 url-parse >= 0.1.0",
+    "GHSA-v78c-4p63-2j6c moment-timezone >= 0.1.0",
+    "GHSA-wf5p-g6vw-rhxx axios >= 0.8.1"
+   ]
+  }
+ },
+ "check2_backtests": {
+  "protocol": "executed_source.py fixed parameters, expanding window (train origins < test, window_end <= test origin), seed 42; package-cluster bootstrap 1,000 draws, default_rng(42) per origin, np.unique cluster order, draws without both classes skipped; recall10 = stable order top ceil(0.1n) as executed_source.py, recall10_expected = tie-aware expectation (relevant for the 0/1 libyear>1 rule)",
+  "versions": {
+   "numpy": "2.5.4",
+   "pandas": "3.0.1",
+   "sklearn": "1.9.1",
+   "scipy": "1.18.1",
+   "xgboost": "3.0.5"
+  },
+  "reproduction": {
+   "max_abs_diff_vs_metrics_and_intervals_json": {
+    "ap": 0.0,
+    "auc": 0.0,
+    "recall": 0.0,
+    "ci": 0
+   },
+   "rows": {
+    "2021-12-31:full_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:full_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:full_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:drop_libyear_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:drop_libyear_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:drop_libyear_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:libyear_only_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:libyear_gt_1.0": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2021-12-31:ci:full_lr-drop_libyear_lr": {
+     "ci": 0.0
+    },
+    "2021-12-31:ci:full_lr-libyear_only_lr": {
+     "ci": 0.0
+    },
+    "2021-12-31:ci:full_rf-drop_libyear_rf": {
+     "ci": 0.0
+    },
+    "2021-12-31:ci:full_xgb-drop_libyear_xgb": {
+     "ci": 0.0
+    },
+    "2022-12-31:full_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:full_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:full_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:drop_libyear_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:drop_libyear_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:drop_libyear_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:libyear_only_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:libyear_gt_1.0": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2022-12-31:ci:full_lr-drop_libyear_lr": {
+     "ci": 0.0
+    },
+    "2022-12-31:ci:full_lr-libyear_only_lr": {
+     "ci": 0.0
+    },
+    "2022-12-31:ci:full_rf-drop_libyear_rf": {
+     "ci": 0.0
+    },
+    "2022-12-31:ci:full_xgb-drop_libyear_xgb": {
+     "ci": 0.0
+    },
+    "2023-12-31:full_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:full_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:full_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:drop_libyear_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:drop_libyear_rf": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:drop_libyear_xgb": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:libyear_only_lr": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:libyear_gt_1.0": {
+     "ap": 0.0,
+     "auc": 0.0,
+     "recall": 0.0
+    },
+    "2023-12-31:ci:full_lr-drop_libyear_lr": {
+     "ci": 0.0
+    },
+    "2023-12-31:ci:full_lr-libyear_only_lr": {
+     "ci": 0.0
+    },
+    "2023-12-31:ci:full_rf-drop_libyear_rf": {
+     "ci": 0.0
+    },
+    "2023-12-31:ci:full_xgb-drop_libyear_xgb": {
+     "ci": 0.0
+    }
+   }
+  },
+  "main": {
+   "2021-12-31": {
+    "train_n": 7377,
+    "train_pos": 175,
+    "test_n": 7373,
+    "test_pos": 268,
+    "prevalence": 0.036348840363488406,
+    "models": {
+     "full_lr": {
+      "ap": 0.11553295203181835,
+      "roc_auc": 0.7578056235360845,
+      "recall10": 0.2798507462686567,
+      "recall10_expected": 0.2798507462686567
+     },
+     "full_rf": {
+      "ap": 0.06840837126840885,
+      "roc_auc": 0.6689211402522924,
+      "recall10": 0.19402985074626866,
+      "recall10_expected": 0.19402985074626866
+     },
+     "full_xgb": {
+      "ap": 0.06385518279342271,
+      "roc_auc": 0.652025061182476,
+      "recall10": 0.1044776119402985,
+      "recall10_expected": 0.1044776119402985
+     },
+     "drop_libyear_lr": {
+      "ap": 0.10232953576323438,
+      "roc_auc": 0.7624680958332894,
+      "recall10": 0.25,
+      "recall10_expected": 0.25
+     },
+     "drop_libyear_rf": {
+      "ap": 0.0662935299710286,
+      "roc_auc": 0.6814745764492107,
+      "recall10": 0.19029850746268656,
+      "recall10_expected": 0.19029850746268656
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.06379056691989807,
+      "roc_auc": 0.6606189670927558,
+      "recall10": 0.11940298507462686,
+      "recall10_expected": 0.11940298507462686
+     },
+     "libyear_only_lr": {
+      "ap": 0.056452125294970866,
+      "roc_auc": 0.5792769964393374,
+      "recall10": 0.15671641791044777,
+      "recall10_expected": 0.15671641791044777
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.043060357142724055,
+      "roc_auc": 0.5666266661064837,
+      "recall10": 0.11567164179104478,
+      "recall10_expected": 0.14392767890427605
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": 0.01320341626858397,
+      "d_ap_ci": [
+       -0.022028187708343326,
+       0.06385053262962653
+      ],
+      "d_auc": -0.004662472297204956,
+      "d_auc_ci": [
+       -0.0171548098556041,
+       0.004225951809062922
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": 0.0021148412973802516,
+      "d_ap_ci": [
+       -0.028499645452962553,
+       0.04629193046453543
+      ],
+      "d_auc": -0.012553436196918288,
+      "d_auc_ci": [
+       -0.02820116476342837,
+       0.002577978567294365
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": 6.461587352464548e-05,
+      "d_ap_ci": [
+       -0.010652421229624306,
+       0.028734910319937877
+      ],
+      "d_auc": -0.008593905910279753,
+      "d_auc_ci": [
+       -0.026292856594007343,
+       0.009004906471675421
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.05908082673684748,
+      "d_ap_ci": [
+       0.022098500211931514,
+       0.12518223529246167
+      ],
+      "d_auc": 0.1785286270967471,
+      "d_auc_ci": [
+       0.10819266624857493,
+       0.2408864544946693
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.01195624597343798,
+      "d_ap_ci": [
+       -0.011674374529832126,
+       0.08066704658171615
+      ],
+      "d_auc": 0.08964414381295505,
+      "d_auc_ci": [
+       0.011980795214909403,
+       0.1697217539617342
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.007403057498451847,
+      "d_ap_ci": [
+       -0.014621304622065835,
+       0.04348966527081885
+      ],
+      "d_auc": 0.07274806474313866,
+      "d_auc_ci": [
+       -0.019966802483449963,
+       0.1632377947247583
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   },
+   "2022-12-31": {
+    "train_n": 14750,
+    "train_pos": 443,
+    "test_n": 7330,
+    "test_pos": 140,
+    "prevalence": 0.019099590723055934,
+    "models": {
+     "full_lr": {
+      "ap": 0.08792916849007691,
+      "roc_auc": 0.8033846612358435,
+      "recall10": 0.42857142857142855,
+      "recall10_expected": 0.42857142857142855
+     },
+     "full_rf": {
+      "ap": 0.048796511753341106,
+      "roc_auc": 0.7873475064573814,
+      "recall10": 0.15,
+      "recall10_expected": 0.15
+     },
+     "full_xgb": {
+      "ap": 0.0502884684354735,
+      "roc_auc": 0.7782346513014107,
+      "recall10": 0.3142857142857143,
+      "recall10_expected": 0.3142857142857143
+     },
+     "drop_libyear_lr": {
+      "ap": 0.0866423602469876,
+      "roc_auc": 0.8105871249751639,
+      "recall10": 0.42142857142857143,
+      "recall10_expected": 0.42142857142857143
+     },
+     "drop_libyear_rf": {
+      "ap": 0.058193696894407884,
+      "roc_auc": 0.8060321875620903,
+      "recall10": 0.2714285714285714,
+      "recall10_expected": 0.2714285714285714
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.04486837859094562,
+      "roc_auc": 0.7615587124975164,
+      "recall10": 0.36428571428571427,
+      "recall10_expected": 0.36428571428571427
+     },
+     "libyear_only_lr": {
+      "ap": 0.01892409056887316,
+      "roc_auc": 0.5031109676137493,
+      "recall10": 0.03571428571428571,
+      "recall10_expected": 0.03571428571428571
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.018947309788185308,
+      "roc_auc": 0.495832505463938,
+      "recall10": 0.08571428571428572,
+      "recall10_expected": 0.09751951277199622
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": 0.001286808243089313,
+      "d_ap_ci": [
+       -0.018250454762330042,
+       0.014234151611341155
+      ],
+      "d_auc": -0.0072024637393204305,
+      "d_auc_ci": [
+       -0.01860751767703687,
+       -0.0006575742746465082
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.009397185141066779,
+      "d_ap_ci": [
+       -0.028677156201823133,
+       0.00039611734256225284
+      ],
+      "d_auc": -0.01868468110470889,
+      "d_auc_ci": [
+       -0.03721653850721918,
+       0.0012165612815840333
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": 0.005420089844527881,
+      "d_ap_ci": [
+       -0.007371341015685414,
+       0.03009956932178751
+      ],
+      "d_auc": 0.016675938803894286,
+      "d_auc_ci": [
+       -0.02645561290335704,
+       0.04782750999173793
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.06900507792120375,
+      "d_ap_ci": [
+       0.015048601225029474,
+       0.18666294881719822
+      ],
+      "d_auc": 0.3002736936220942,
+      "d_auc_ci": [
+       0.14221087323026502,
+       0.3906504628995937
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.029872421184467944,
+      "d_ap_ci": [
+       0.01307672190700697,
+       0.059892665888440874
+      ],
+      "d_auc": 0.2842365388436321,
+      "d_auc_ci": [
+       0.19375855128755773,
+       0.341710201582667
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.03136437786660034,
+      "d_ap_ci": [
+       0.008555611946333662,
+       0.08445232471523037
+      ],
+      "d_auc": 0.2751236836876614,
+      "d_auc_ci": [
+       0.16710059526796625,
+       0.3444522392264801
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   },
+   "2023-12-31": {
+    "train_n": 22080,
+    "train_pos": 583,
+    "test_n": 7299,
+    "test_pos": 211,
+    "prevalence": 0.028908069598575146,
+    "models": {
+     "full_lr": {
+      "ap": 0.1147548434596942,
+      "roc_auc": 0.7410294951483316,
+      "recall10": 0.35545023696682465,
+      "recall10_expected": 0.35545023696682465
+     },
+     "full_rf": {
+      "ap": 0.2835392507891265,
+      "roc_auc": 0.849752401763076,
+      "recall10": 0.5355450236966824,
+      "recall10_expected": 0.5355450236966824
+     },
+     "full_xgb": {
+      "ap": 0.11333382119428284,
+      "roc_auc": 0.7868689354145046,
+      "recall10": 0.36492890995260663,
+      "recall10_expected": 0.36492890995260663
+     },
+     "drop_libyear_lr": {
+      "ap": 0.12264778536895012,
+      "roc_auc": 0.7338456024734415,
+      "recall10": 0.35071090047393366,
+      "recall10_expected": 0.35071090047393366
+     },
+     "drop_libyear_rf": {
+      "ap": 0.28413184062072827,
+      "roc_auc": 0.8443862131310645,
+      "recall10": 0.4976303317535545,
+      "recall10_expected": 0.4976303317535545
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.10945211100964643,
+      "roc_auc": 0.7778766996886801,
+      "recall10": 0.2938388625592417,
+      "recall10_expected": 0.2938388625592417
+     },
+     "libyear_only_lr": {
+      "ap": 0.0318941251493018,
+      "roc_auc": 0.5282300771345737,
+      "recall10": 0.11848341232227488,
+      "recall10_expected": 0.11848341232227488
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.03088121899972884,
+      "roc_auc": 0.5302012345811089,
+      "recall10": 0.12796208530805686,
+      "recall10_expected": 0.11638187167558009
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": -0.007892941909255921,
+      "d_ap_ci": [
+       -0.07623055306473046,
+       0.002484358435725431
+      ],
+      "d_auc": 0.007183892674890058,
+      "d_auc_ci": [
+       -0.002395179094006372,
+       0.017262007402289527
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.0005925898316017641,
+      "d_ap_ci": [
+       -0.025981578737371197,
+       0.021305282778371033
+      ],
+      "d_auc": 0.005366188632011437,
+      "d_auc_ci": [
+       -0.003612095772995513,
+       0.016838496291100753
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": 0.003881710184636414,
+      "d_ap_ci": [
+       -0.007443781506993731,
+       0.01380684910586502
+      ],
+      "d_auc": 0.008992235725824527,
+      "d_auc_ci": [
+       -0.005103340302556822,
+       0.019830063786124452
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.08286071831039239,
+      "d_ap_ci": [
+       0.010727380837677353,
+       0.22503263669013993
+      ],
+      "d_auc": 0.2127994180137579,
+      "d_auc_ci": [
+       0.03756000392052305,
+       0.4179596155325253
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.2516451256398247,
+      "d_ap_ci": [
+       0.030626891181767275,
+       0.5005369276025181
+      ],
+      "d_auc": 0.3215223246285023,
+      "d_auc_ci": [
+       0.19242510259058748,
+       0.43939276737587196
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.08143969604498104,
+      "d_ap_ci": [
+       0.017059820104564326,
+       0.21754475735075524
+      ],
+      "d_auc": 0.25863885827993094,
+      "d_auc_ci": [
+       0.1506800634527186,
+       0.373054979444966
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   }
+  },
+  "secondary_rule_flags_same_instances": true,
+  "A_drop_unbounded_only_positives": {
+   "2021-12-31": {
+    "train_n": 7241,
+    "train_pos": 39,
+    "test_n": 7192,
+    "test_pos": 87,
+    "prevalence": 0.012096774193548387,
+    "models": {
+     "full_lr": {
+      "ap": 0.035096038985375215,
+      "roc_auc": 0.7370655277568816,
+      "recall10": 0.26436781609195403,
+      "recall10_expected": 0.26436781609195403
+     },
+     "full_rf": {
+      "ap": 0.022919282564437767,
+      "roc_auc": 0.6682156810405495,
+      "recall10": 0.1839080459770115,
+      "recall10_expected": 0.1839080459770115
+     },
+     "full_xgb": {
+      "ap": 0.022378717081770763,
+      "roc_auc": 0.6756315368002136,
+      "recall10": 0.21839080459770116,
+      "recall10_expected": 0.21839080459770116
+     },
+     "drop_libyear_lr": {
+      "ap": 0.03102533807936735,
+      "roc_auc": 0.7372742200328407,
+      "recall10": 0.25287356321839083,
+      "recall10_expected": 0.25287356321839083
+     },
+     "drop_libyear_rf": {
+      "ap": 0.0254741070760996,
+      "roc_auc": 0.6902780137025083,
+      "recall10": 0.26436781609195403,
+      "recall10_expected": 0.26436781609195403
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.02273606170901878,
+      "roc_auc": 0.6825822838053176,
+      "recall10": 0.22988505747126436,
+      "recall10_expected": 0.22988505747126436
+     },
+     "libyear_only_lr": {
+      "ap": 0.012409800917530448,
+      "roc_auc": 0.5088823638849118,
+      "recall10": 0.05747126436781609,
+      "recall10_expected": 0.05747126436781609
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.012226279980880137,
+      "roc_auc": 0.5052310579404176,
+      "recall10": 0.11494252873563218,
+      "recall10_expected": 0.10369754881595346
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": 0.004070700906007866,
+      "d_ap_ci": [
+       -0.020034595573759747,
+       0.025700463049061553
+      ],
+      "d_auc": -0.00020869227595909923,
+      "d_auc_ci": [
+       -0.016164925224642978,
+       0.018977225127944093
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.002554824511661835,
+      "d_ap_ci": [
+       -0.009884537590136957,
+       0.003473672676456053
+      ],
+      "d_auc": -0.022062332661958783,
+      "d_auc_ci": [
+       -0.04601381571601987,
+       -0.0024698023216860134
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": -0.00035734462724801644,
+      "d_ap_ci": [
+       -0.004474124495437768,
+       0.005033792481338689
+      ],
+      "d_auc": -0.006950747005104008,
+      "d_auc_ci": [
+       -0.03245077811470807,
+       0.020298648028281005
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.02268623806784477,
+      "d_ap_ci": [
+       0.004018991762205269,
+       0.08844716452583799
+      ],
+      "d_auc": 0.2281831638719698,
+      "d_auc_ci": [
+       0.11728079276398234,
+       0.3609994901753296
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.010509481646907319,
+      "d_ap_ci": [
+       -0.0014131508213751963,
+       0.038733141686035685
+      ],
+      "d_auc": 0.1593333171556377,
+      "d_auc_ci": [
+       0.043867477905358006,
+       0.29795420666400046
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.009968916164240315,
+      "d_ap_ci": [
+       -0.001710120412614891,
+       0.03146387197655842
+      ],
+      "d_auc": 0.16674917291530178,
+      "d_auc_ci": [
+       0.07029422187844313,
+       0.2799173637255068
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   },
+   "2022-12-31": {
+    "train_n": 14433,
+    "train_pos": 126,
+    "test_n": 7257,
+    "test_pos": 67,
+    "prevalence": 0.009232465206007992,
+    "models": {
+     "full_lr": {
+      "ap": 0.08807292718043466,
+      "roc_auc": 0.8243455877773856,
+      "recall10": 0.6716417910447762,
+      "recall10_expected": 0.6716417910447762
+     },
+     "full_rf": {
+      "ap": 0.04156634576816036,
+      "roc_auc": 0.8265491042700267,
+      "recall10": 0.43283582089552236,
+      "recall10_expected": 0.43283582089552236
+     },
+     "full_xgb": {
+      "ap": 0.036342704265205326,
+      "roc_auc": 0.8346085981774023,
+      "recall10": 0.582089552238806,
+      "recall10_expected": 0.582089552238806
+     },
+     "drop_libyear_lr": {
+      "ap": 0.11585797976126008,
+      "roc_auc": 0.8345421709256222,
+      "recall10": 0.6716417910447762,
+      "recall10_expected": 0.6716417910447762
+     },
+     "drop_libyear_rf": {
+      "ap": 0.04853905610525581,
+      "roc_auc": 0.8268303821642828,
+      "recall10": 0.43283582089552236,
+      "recall10_expected": 0.43283582089552236
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.03732976568272885,
+      "roc_auc": 0.8373009777261122,
+      "recall10": 0.582089552238806,
+      "recall10_expected": 0.582089552238806
+     },
+     "libyear_only_lr": {
+      "ap": 0.010259179655247166,
+      "roc_auc": 0.49304174537604056,
+      "recall10": 0.029850746268656716,
+      "recall10_expected": 0.029850746268656716
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.00877630438939981,
+      "roc_auc": 0.46944657795860745,
+      "recall10": 0.07462686567164178,
+      "recall10_expected": 0.08164285312658141
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": -0.02778505258082542,
+      "d_ap_ci": [
+       -0.11886631308585793,
+       0.0011654052871791858
+      ],
+      "d_auc": -0.010196583148236571,
+      "d_auc_ci": [
+       -0.04873384668466041,
+       0.0046840578141473166
+      ],
+      "valid_repeats": 999
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.006972710337095449,
+      "d_ap_ci": [
+       -0.04783541521446407,
+       0.0015675591554992327
+      ],
+      "d_auc": -0.0002812778942561378,
+      "d_auc_ci": [
+       -0.035982173273106946,
+       0.03142038818307231
+      ],
+      "valid_repeats": 999
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": -0.0009870614175235201,
+      "d_ap_ci": [
+       -0.006090369811007167,
+       0.0007940297069602174
+      ],
+      "d_auc": -0.0026923795487099333,
+      "d_auc_ci": [
+       -0.014312185610818583,
+       0.00455840449054038
+      ],
+      "valid_repeats": 999
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.0778137475251875,
+      "d_ap_ci": [
+       0.0008220699044332185,
+       0.27508708409767013
+      ],
+      "d_auc": 0.3313038424013451,
+      "d_auc_ci": [
+       -0.01282451062790222,
+       0.4542418121464376
+      ],
+      "valid_repeats": 999
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.03130716611291319,
+      "d_ap_ci": [
+       0.0013917592218758473,
+       0.15351021747992388
+      ],
+      "d_auc": 0.33350735889398614,
+      "d_auc_ci": [
+       0.09235311769323101,
+       0.417405339200762
+      ],
+      "valid_repeats": 999
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.02608352460995816,
+      "d_ap_ci": [
+       0.001383484694020235,
+       0.0746443833189017
+      ],
+      "d_auc": 0.34156685280136173,
+      "d_auc_ci": [
+       0.06085324674505737,
+       0.49175422215181785
+      ],
+      "valid_repeats": 999
+     }
+    }
+   },
+   "2023-12-31": {
+    "train_n": 21690,
+    "train_pos": 193,
+    "test_n": 7159,
+    "test_pos": 71,
+    "prevalence": 0.009917586255063556,
+    "models": {
+     "full_lr": {
+      "ap": 0.13452831083084663,
+      "roc_auc": 0.840519982195657,
+      "recall10": 0.4507042253521127,
+      "recall10_expected": 0.4507042253521127
+     },
+     "full_rf": {
+      "ap": 0.314822277161106,
+      "roc_auc": 0.8593953676914761,
+      "recall10": 0.5070422535211268,
+      "recall10_expected": 0.5070422535211268
+     },
+     "full_xgb": {
+      "ap": 0.28604636865746147,
+      "roc_auc": 0.8526323005754619,
+      "recall10": 0.5352112676056338,
+      "recall10_expected": 0.5352112676056338
+     },
+     "drop_libyear_lr": {
+      "ap": 0.12450162353445768,
+      "roc_auc": 0.8432740915016055,
+      "recall10": 0.5070422535211268,
+      "recall10_expected": 0.5070422535211268
+     },
+     "drop_libyear_rf": {
+      "ap": 0.31895758844589917,
+      "roc_auc": 0.8707575588974025,
+      "recall10": 0.5774647887323944,
+      "recall10_expected": 0.5774647887323944
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.28960928380613166,
+      "roc_auc": 0.8597917925158173,
+      "recall10": 0.5211267605633803,
+      "recall10_expected": 0.5211267605633803
+     },
+     "libyear_only_lr": {
+      "ap": 0.010989429033343927,
+      "roc_auc": 0.5532481003401901,
+      "recall10": 0.028169014084507043,
+      "recall10_expected": 0.10335134042791208
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.00905227792962951,
+      "roc_auc": 0.39913521762629955,
+      "recall10": 0.07042253521126761,
+      "recall10_expected": 0.04369026288491088
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": 0.010026687296388948,
+      "d_ap_ci": [
+       -0.011837625296350181,
+       0.05688174003839363
+      ],
+      "d_auc": -0.002754109305948438,
+      "d_auc_ci": [
+       -0.01578269382140663,
+       0.005162099892688008
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.004135311284793164,
+      "d_ap_ci": [
+       -0.020010259003910603,
+       0.009128377069220012
+      ],
+      "d_auc": -0.011362191205926409,
+      "d_auc_ci": [
+       -0.04896198228929021,
+       0.016375037889145877
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": -0.003562915148670187,
+      "d_ap_ci": [
+       -0.017068622851016523,
+       0.00951021695234698
+      ],
+      "d_auc": -0.007159491940355367,
+      "d_auc_ci": [
+       -0.02457490744385124,
+       0.007299712503294261
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.12353888179750269,
+      "d_ap_ci": [
+       0.005491142725054743,
+       0.4348173427534112
+      ],
+      "d_auc": 0.2872718818554669,
+      "d_auc_ci": [
+       0.13491691399640407,
+       0.409248938648981
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.30383284812776207,
+      "d_ap_ci": [
+       0.0052339396214409525,
+       0.6513122020948839
+      ],
+      "d_auc": 0.30614726735128595,
+      "d_auc_ci": [
+       0.17579460204924932,
+       0.4233232432486777
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.27505693962411754,
+      "d_ap_ci": [
+       0.006581380060058422,
+       0.6189856057719709
+      ],
+      "d_auc": 0.2993842002352718,
+      "d_auc_ci": [
+       0.20059543221648185,
+       0.37238182798639036
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   }
+  },
+  "B_relabel0_unbounded_only_positives": {
+   "2021-12-31": {
+    "train_n": 7377,
+    "train_pos": 39,
+    "test_n": 7373,
+    "test_pos": 87,
+    "prevalence": 0.011799810117998102,
+    "models": {
+     "full_lr": {
+      "ap": 0.03359322949022716,
+      "roc_auc": 0.7316677236457259,
+      "recall10": 0.21839080459770116,
+      "recall10_expected": 0.21839080459770116
+     },
+     "full_rf": {
+      "ap": 0.02311410234107621,
+      "roc_auc": 0.649350352273767,
+      "recall10": 0.3103448275862069,
+      "recall10_expected": 0.3103448275862069
+     },
+     "full_xgb": {
+      "ap": 0.020651753569902016,
+      "roc_auc": 0.67346130667853,
+      "recall10": 0.09195402298850575,
+      "recall10_expected": 0.09195402298850575
+     },
+     "drop_libyear_lr": {
+      "ap": 0.030124344338086445,
+      "roc_auc": 0.7346020237205032,
+      "recall10": 0.25287356321839083,
+      "recall10_expected": 0.25287356321839083
+     },
+     "drop_libyear_rf": {
+      "ap": 0.02774312015966556,
+      "roc_auc": 0.6910205684969759,
+      "recall10": 0.367816091954023,
+      "recall10_expected": 0.367816091954023
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.021364227750093293,
+      "roc_auc": 0.6738754216084382,
+      "recall10": 0.16091954022988506,
+      "recall10_expected": 0.16091954022988506
+     },
+     "libyear_only_lr": {
+      "ap": 0.01198424260616174,
+      "roc_auc": 0.505939591280396,
+      "recall10": 0.05747126436781609,
+      "recall10_expected": 0.05747126436781609
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.011867377789731865,
+      "roc_auc": 0.5028428003950263,
+      "recall10": 0.11494252873563218,
+      "recall10_expected": 0.10201282337554626
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": 0.0034688851521407146,
+      "d_ap_ci": [
+       -0.018586253992426884,
+       0.02409461854973888
+      ],
+      "d_auc": -0.0029343000747773518,
+      "d_auc_ci": [
+       -0.024322977503904383,
+       0.018183986497213384
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.004629017818589352,
+      "d_ap_ci": [
+       -0.014864442565482977,
+       -0.0008030298126219237
+      ],
+      "d_auc": -0.04167021622320888,
+      "d_auc_ci": [
+       -0.06488834082074062,
+       -0.018578606226691066
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": -0.0007124741801912762,
+      "d_ap_ci": [
+       -0.007102872370688771,
+       0.002235441587376489
+      ],
+      "d_auc": -0.00041411492990817145,
+      "d_auc_ci": [
+       -0.032991883748812845,
+       0.027202735815023218
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.02160898688406542,
+      "d_ap_ci": [
+       0.003271710818236607,
+       0.08651141811088904
+      ],
+      "d_auc": 0.22572813236532985,
+      "d_auc_ci": [
+       0.10942326539971119,
+       0.36879081837768324
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.01112985973491447,
+      "d_ap_ci": [
+       -0.0008321923329019351,
+       0.04495114282811754
+      ],
+      "d_auc": 0.14341076099337102,
+      "d_auc_ci": [
+       0.010364707302735856,
+       0.2948959800045953
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.008667510963740277,
+      "d_ap_ci": [
+       -0.0010010278939874982,
+       0.025635984902299895
+      ],
+      "d_auc": 0.16752171539813399,
+      "d_auc_ci": [
+       0.07782524384694307,
+       0.2830780903510967
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   },
+   "2022-12-31": {
+    "train_n": 14750,
+    "train_pos": 126,
+    "test_n": 7330,
+    "test_pos": 67,
+    "prevalence": 0.009140518417462483,
+    "models": {
+     "full_lr": {
+      "ap": 0.09049703142949553,
+      "roc_auc": 0.827613276040286,
+      "recall10": 0.6716417910447762,
+      "recall10_expected": 0.6716417910447762
+     },
+     "full_rf": {
+      "ap": 0.03958600562120834,
+      "roc_auc": 0.8351139798734539,
+      "recall10": 0.29850746268656714,
+      "recall10_expected": 0.3102906520031422
+     },
+     "full_xgb": {
+      "ap": 0.03844138042856287,
+      "roc_auc": 0.8438692534847448,
+      "recall10": 0.5970149253731343,
+      "recall10_expected": 0.5970149253731343
+     },
+     "drop_libyear_lr": {
+      "ap": 0.11435504456538999,
+      "roc_auc": 0.8359380298014266,
+      "recall10": 0.6716417910447762,
+      "recall10_expected": 0.6716417910447762
+     },
+     "drop_libyear_rf": {
+      "ap": 0.04638762203315346,
+      "roc_auc": 0.840518596608038,
+      "recall10": 0.43283582089552236,
+      "recall10_expected": 0.43283582089552236
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.045092222993966105,
+      "roc_auc": 0.8479668982637412,
+      "recall10": 0.5970149253731343,
+      "recall10_expected": 0.5970149253731343
+     },
+     "libyear_only_lr": {
+      "ap": 0.010169214797791896,
+      "roc_auc": 0.4928609739407054,
+      "recall10": 0.029850746268656716,
+      "recall10_expected": 0.029850746268656716
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.008686438249560632,
+      "roc_auc": 0.46924505929665994,
+      "recall10": 0.07462686567164178,
+      "recall10_expected": 0.08150884649599684
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": -0.02385801313589446,
+      "d_ap_ci": [
+       -0.1113772460216959,
+       -0.0003023153262927676
+      ],
+      "d_auc": -0.008324753761140613,
+      "d_auc_ci": [
+       -0.041710897726649786,
+       0.005476352427693979
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.00680161641194512,
+      "d_ap_ci": [
+       -0.04500933563641022,
+       0.002112791815133094
+      ],
+      "d_auc": -0.0054046167345840335,
+      "d_auc_ci": [
+       -0.03753644034593485,
+       0.0428741308081562
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": -0.006650842565403235,
+      "d_ap_ci": [
+       -0.029363481038709012,
+       0.0017992317667723248
+      ],
+      "d_auc": -0.004097644778996323,
+      "d_auc_ci": [
+       -0.03897938076635202,
+       0.05939609261722801
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.08032781663170363,
+      "d_ap_ci": [
+       0.0006768365021545157,
+       0.27579206470567114
+      ],
+      "d_auc": 0.3347523020995806,
+      "d_auc_ci": [
+       -0.01843871120662846,
+       0.4539720980622943
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.029416790823416444,
+      "d_ap_ci": [
+       0.001572813707357843,
+       0.11257529932047299
+      ],
+      "d_auc": 0.34225300593274854,
+      "d_auc_ci": [
+       0.12243218050593876,
+       0.431121249755171
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.028272165630770972,
+      "d_ap_ci": [
+       0.002319178537812877,
+       0.08120122353295876
+      ],
+      "d_auc": 0.35100827954403946,
+      "d_auc_ci": [
+       0.12252506809643628,
+       0.5114799832304462
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   },
+   "2023-12-31": {
+    "train_n": 22080,
+    "train_pos": 193,
+    "test_n": 7299,
+    "test_pos": 71,
+    "prevalence": 0.009727359912316757,
+    "models": {
+     "full_lr": {
+      "ap": 0.11827668903985358,
+      "roc_auc": 0.8359119854712114,
+      "recall10": 0.4507042253521127,
+      "recall10_expected": 0.4507042253521127
+     },
+     "full_rf": {
+      "ap": 0.30604026075659213,
+      "roc_auc": 0.8258844711879467,
+      "recall10": 0.4507042253521127,
+      "recall10_expected": 0.4507042253521127
+     },
+     "full_xgb": {
+      "ap": 0.304070462632876,
+      "roc_auc": 0.8371776035293108,
+      "recall10": 0.4225352112676056,
+      "recall10_expected": 0.4225352112676056
+     },
+     "drop_libyear_lr": {
+      "ap": 0.12410649199086457,
+      "roc_auc": 0.8384841422636539,
+      "recall10": 0.4507042253521127,
+      "recall10_expected": 0.4507042253521127
+     },
+     "drop_libyear_rf": {
+      "ap": 0.31226067774970473,
+      "roc_auc": 0.8625026306149013,
+      "recall10": 0.5211267605633803,
+      "recall10_expected": 0.5211267605633803
+     },
+     "drop_libyear_xgb": {
+      "ap": 0.3034650602182522,
+      "roc_auc": 0.8314399401388963,
+      "recall10": 0.39436619718309857,
+      "recall10_expected": 0.39436619718309857
+     },
+     "libyear_only_lr": {
+      "ap": 0.01081658274823752,
+      "roc_auc": 0.5546856122902327,
+      "recall10": 0.028169014084507043,
+      "recall10_expected": 0.10372449070209402
+     },
+     "libyear_gt_1.0": {
+      "ap": 0.008871766441816547,
+      "roc_auc": 0.39726279648004237,
+      "recall10": 0.07042253521126761,
+      "recall10_expected": 0.04323340655554119
+     }
+    },
+    "package_cluster_ci": {
+     "full_lr-drop_libyear_lr": {
+      "d_ap": -0.005829802951010987,
+      "d_ap_ci": [
+       -0.02708042351811748,
+       0.0014712443272926095
+      ],
+      "d_auc": -0.0025721567924424926,
+      "d_auc_ci": [
+       -0.011099496254047391,
+       0.004391747083903401
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-drop_libyear_rf": {
+      "d_ap": -0.0062204169931125985,
+      "d_ap_ci": [
+       -0.018039581648808315,
+       0.002867335086924595
+      ],
+      "d_auc": -0.036618159426954566,
+      "d_auc_ci": [
+       -0.08536494567150747,
+       -0.0017920892919309115
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-drop_libyear_xgb": {
+      "d_ap": 0.0006054024146238124,
+      "d_ap_ci": [
+       -0.001047558918276019,
+       0.0023175584036039905
+      ],
+      "d_auc": 0.0057376633904144825,
+      "d_auc_ci": [
+       -0.0007952303922043047,
+       0.017008540113433192
+      ],
+      "valid_repeats": 1000
+     },
+     "full_lr-libyear_only_lr": {
+      "d_ap": 0.10746010629161606,
+      "d_ap_ci": [
+       0.005290213110877386,
+       0.3886807741247949
+      ],
+      "d_auc": 0.28122637318097865,
+      "d_auc_ci": [
+       0.12006530962947944,
+       0.4103212736182074
+      ],
+      "valid_repeats": 1000
+     },
+     "full_rf-libyear_only_lr": {
+      "d_ap": 0.2952236780083546,
+      "d_ap_ci": [
+       0.004299443595380947,
+       0.6477208894231299
+      ],
+      "d_auc": 0.271198858897714,
+      "d_auc_ci": [
+       0.147058575891509,
+       0.40518292178518966
+      ],
+      "valid_repeats": 1000
+     },
+     "full_xgb-libyear_only_lr": {
+      "d_ap": 0.29325387988463847,
+      "d_ap_ci": [
+       0.005026879500808636,
+       0.6476695807292128
+      ],
+      "d_auc": 0.2824919912390781,
+      "d_auc_ci": [
+       0.18850728387407348,
+       0.3601529037835315
+      ],
+      "valid_repeats": 1000
+     }
+    }
+   }
+  }
+ },
+ "check2_libyear": {
+  "definition": "Cohen d with pooled SD (ddof=1), instance level (every row) and unique package/version level, as thesis Table 5.10; libyear AUC = P(libyear_pos > libyear_neg) with ties 1/2",
+  "2020-12-31": {
+   "n_negatives": 7202,
+   "n_pos": 175,
+   "n_pos_unbounded_only": 136,
+   "n_pos_bounded": 39,
+   "mean_libyear": {
+    "negatives": 0.7094543753067071,
+    "positives_all": 1.167013698630137,
+    "positives_unbounded_only": 1.2279411764705883,
+    "positives_bounded": 0.9545486476993325,
+    "positives_effectively_unbounded_only": 1.2279411764705883,
+    "positives_effectively_bounded": 0.9545486476993325
+   },
+   "median_libyear": {
+    "positives_unbounded_only": 0.0,
+    "positives_bounded": 0.0
+   },
+   "d_instance": {
+    "main": 0.3419261077065424,
+    "A_without_unbounded_only": 0.18578597081955037,
+    "B_unbounded_only_relabelled_0": 0.17575015215479017,
+    "unbounded_only_vs_negatives": 0.38927155477161884,
+    "A_eff_without_effectively_unbounded_only": 0.18578597081955037
+   },
+   "auc_libyear_instance": {
+    "main": 0.5339596143928274,
+    "A_without_unbounded_only": 0.48132997244355197,
+    "unbounded_only_vs_negatives": 0.5490519381871048
+   },
+   "d_unique_package_version": {
+    "main": 0.2553246161913731,
+    "A_without_unbounded_only": 0.018236417370220883,
+    "B_unbounded_only_relabelled_0": 0.012989395661504491,
+    "n_pos_pairs": {
+     "main": 81,
+     "A": 19,
+     "B": 19
+    },
+    "max_within_pair_libyear_sd": 0.0
+   }
+  },
+  "2021-12-31": {
+   "n_negatives": 7105,
+   "n_pos": 268,
+   "n_pos_unbounded_only": 181,
+   "n_pos_bounded": 87,
+   "mean_libyear": {
+    "negatives": 0.929654786808441,
+    "positives_all": 1.4022388059701496,
+    "positives_unbounded_only": 1.6806175736017561,
+    "positives_bounded": 0.8230829790584159,
+    "positives_effectively_unbounded_only": 1.6806175736017561,
+    "positives_effectively_bounded": 0.8230829790584159
+   },
+   "median_libyear": {
+    "positives_unbounded_only": 0.4821917808219178,
+    "positives_bounded": 0.0
+   },
+   "d_instance": {
+    "main": 0.29218717001317973,
+    "A_without_unbounded_only": -0.06666126315066562,
+    "B_unbounded_only_relabelled_0": -0.07731216984895811,
+    "unbounded_only_vs_negatives": 0.46420532695507893,
+    "A_eff_without_effectively_unbounded_only": -0.06666126315066562
+   },
+   "auc_libyear_instance": {
+    "main": 0.5792769964393374,
+    "A_without_unbounded_only": 0.5088823638849118,
+    "unbounded_only_vs_negatives": 0.6131130905400833
+   },
+   "d_unique_package_version": {
+    "main": 0.29565872518062936,
+    "A_without_unbounded_only": 0.0751302095159262,
+    "B_unbounded_only_relabelled_0": 0.06617992264732968,
+    "n_pos_pairs": {
+     "main": 130,
+     "A": 40,
+     "B": 40
+    },
+    "max_within_pair_libyear_sd": 0.0
+   }
+  },
+  "2022-12-31": {
+   "n_negatives": 7190,
+   "n_pos": 140,
+   "n_pos_unbounded_only": 73,
+   "n_pos_bounded": 67,
+   "mean_libyear": {
+    "negatives": 1.1323188599081677,
+    "positives_all": 0.9589823874755382,
+    "positives_unbounded_only": 1.0135860386564084,
+    "positives_bounded": 0.8994888570844408,
+    "positives_effectively_unbounded_only": 1.0135860386564084,
+    "positives_effectively_bounded": 0.8994888570844408
+   },
+   "median_libyear": {
+    "positives_unbounded_only": 0.0,
+    "positives_bounded": 0.0
+   },
+   "d_instance": {
+    "main": -0.09464746570940415,
+    "A_without_unbounded_only": -0.12695204348455752,
+    "B_unbounded_only_relabelled_0": -0.12647983299418958,
+    "unbounded_only_vs_negatives": -0.06478258603898336,
+    "A_eff_without_effectively_unbounded_only": -0.12695204348455752
+   },
+   "auc_libyear_instance": {
+    "main": 0.5031109676137493,
+    "A_without_unbounded_only": 0.49304174537604056,
+    "unbounded_only_vs_negatives": 0.512352582544249
+   },
+   "d_unique_package_version": {
+    "main": 0.06590759583097623,
+    "A_without_unbounded_only": 0.14499691432692732,
+    "B_unbounded_only_relabelled_0": 0.14494619927379343,
+    "n_pos_pairs": {
+     "main": 71,
+     "A": 25,
+     "B": 25
+    },
+    "max_within_pair_libyear_sd": 0.0
+   }
+  },
+  "2023-12-31": {
+   "n_negatives": 7088,
+   "n_pos": 211,
+   "n_pos_unbounded_only": 140,
+   "n_pos_bounded": 71,
+   "mean_libyear": {
+    "negatives": 1.3350776152633044,
+    "positives_all": 1.5005907940011687,
+    "positives_unbounded_only": 1.8960469667318982,
+    "positives_bounded": 0.7208180590391664,
+    "positives_effectively_unbounded_only": 1.8960469667318982,
+    "positives_effectively_bounded": 0.7208180590391664
+   },
+   "median_libyear": {
+    "positives_unbounded_only": 1.2712328767123289,
+    "positives_bounded": 0.0
+   },
+   "d_instance": {
+    "main": 0.07918196443845389,
+    "A_without_unbounded_only": -0.29474648830402733,
+    "B_unbounded_only_relabelled_0": -0.29916414266825747,
+    "unbounded_only_vs_negatives": 0.2682564146557091,
+    "A_eff_without_effectively_unbounded_only": -0.29474648830402733
+   },
+   "auc_libyear_instance": {
+    "main": 0.5282300771345737,
+    "A_without_unbounded_only": 0.4467518996598098,
+    "unbounded_only_vs_negatives": 0.5695511528539181
+   },
+   "d_unique_package_version": {
+    "main": 0.4669762403962934,
+    "A_without_unbounded_only": 0.006032562605206023,
+    "B_unbounded_only_relabelled_0": -0.00433939718749168,
+    "n_pos_pairs": {
+     "main": 94,
+     "A": 30,
+     "B": 30
+    },
+    "max_within_pair_libyear_sd": 0.0
+   }
+  }
+ }
+}

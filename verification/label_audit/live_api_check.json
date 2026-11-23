@@ -1,0 +1,387 @@
+[
+ {
+  "id": "GHSA-28xr-mwxg-3qc8",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-08-17T05:02:41Z"
+ },
+ {
+  "id": "GHSA-29mw-wpgm-hmr9",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-09-29T20:19:46Z"
+ },
+ {
+  "id": "GHSA-35jh-r3h4-6jhm",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-08-12T21:44:25Z"
+ },
+ {
+  "id": "GHSA-3f95-r44v-8mrg",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-01-27T05:00:39Z"
+ },
+ {
+  "id": "GHSA-3f99-hvg4-qjwj",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:06:29Z"
+ },
+ {
+  "id": "GHSA-3h5v-q93c-6h6q",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2026-05-13T15:25:52Z"
+ },
+ {
+  "id": "GHSA-3w3w-pxmm-2w2j",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2026-03-16T21:32:01Z"
+ },
+ {
+  "id": "GHSA-3xgq-45jj-v275",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-05-19T19:56:26Z"
+ },
+ {
+  "id": "GHSA-48ww-j4fc-435p",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:26Z"
+ },
+ {
+  "id": "GHSA-49w6-73cw-chjr",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-27T08:02:40Z"
+ },
+ {
+  "id": "GHSA-4vvj-4cpr-p986",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-09-03T17:09:21Z"
+ },
+ {
+  "id": "GHSA-579v-mp3v-rrw5",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2026-01-14T21:43:53Z"
+ },
+ {
+  "id": "GHSA-5rc4-8qqh-vq7f",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-09-12T20:58:59Z"
+ },
+ {
+  "id": "GHSA-5w9c-rv96-fr7g",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-01-11T05:06:08Z"
+ },
+ {
+  "id": "GHSA-67hx-6x53-jw92",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-04-04T14:26:11Z"
+ },
+ {
+  "id": "GHSA-73rg-x683-m3qw",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:28Z"
+ },
+ {
+  "id": "GHSA-7fh5-64p2-3v2j",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-04T16:45:03Z"
+ },
+ {
+  "id": "GHSA-7x7c-qm48-pq9c",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-03T05:05:41Z"
+ },
+ {
+  "id": "GHSA-8hfj-j24r-96c4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-04T16:35:44Z"
+ },
+ {
+  "id": "GHSA-9gj3-hwp5-pmwc",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-09-26T21:52:24Z"
+ },
+ {
+  "id": "GHSA-9h6g-pr28-7cqp",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-09-03T15:21:05Z"
+ },
+ {
+  "id": "GHSA-9m93-w8w6-76hh",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-11-29T22:05:59Z"
+ },
+ {
+  "id": "GHSA-9p95-fxvg-qgq2",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-08-17T05:02:31Z"
+ },
+ {
+  "id": "GHSA-9vvw-cc9w-f27h",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-10-24T22:46:24Z"
+ },
+ {
+  "id": "GHSA-c2qf-rxjj-qqgw",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2026-02-04T20:39:10Z"
+ },
+ {
+  "id": "GHSA-c4pw-33h3-35xw",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-27T08:01:15Z"
+ },
+ {
+  "id": "GHSA-cf4h-3jhx-xvhq",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-04T16:34:00Z"
+ },
+ {
+  "id": "GHSA-cm5g-3pgc-8rg4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-12-19T17:52:11Z"
+ },
+ {
+  "id": "GHSA-f982-mxwc-3mrx",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-09-25T19:28:42Z"
+ },
+ {
+  "id": "GHSA-fq9m-v26v-2m4f",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-11-01T21:39:33Z"
+ },
+ {
+  "id": "GHSA-gcx4-mw62-g8wm",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-09-26T21:11:54Z"
+ },
+ {
+  "id": "GHSA-gpqq-952q-5327",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-04T19:36:07Z"
+ },
+ {
+  "id": "GHSA-grv7-fg5c-xmjg",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-07-05T21:25:08Z"
+ },
+ {
+  "id": "GHSA-hc6q-2mpp-qw7j",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-10-30T13:11:26Z"
+ },
+ {
+  "id": "GHSA-hrpp-h998-j3pp",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-04-29T15:41:45Z"
+ },
+ {
+  "id": "GHSA-hvf8-h2qh-37m9",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-05-27T15:20:20Z"
+ },
+ {
+  "id": "GHSA-hwj9-h5mp-3pm3",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:31Z"
+ },
+ {
+  "id": "GHSA-hwqf-gcqm-7353",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:49Z"
+ },
+ {
+  "id": "GHSA-j383-35pm-c5h4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-04-06T22:55:45Z"
+ },
+ {
+  "id": "GHSA-j7qv-pgf6-hvh4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-09-26T18:11:05Z"
+ },
+ {
+  "id": "GHSA-jg8v-48h5-wgxg",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-09-21T05:03:51Z"
+ },
+ {
+  "id": "GHSA-jj78-5fmv-mv28",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-10-09T23:46:56Z"
+ },
+ {
+  "id": "GHSA-m5pj-vjjf-4m3h",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:28Z"
+ },
+ {
+  "id": "GHSA-m85w-3h95-hcf9",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-11-27T08:00:45Z"
+ },
+ {
+  "id": "GHSA-m8gw-hjpr-rjv7",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-01-31T01:30:12Z"
+ },
+ {
+  "id": "GHSA-mjxr-4v3x-q3m4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-01T05:05:21Z"
+ },
+ {
+  "id": "GHSA-mpjm-v997-c4h4",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-01-30T05:02:56Z"
+ },
+ {
+  "id": "GHSA-p493-635q-r6gr",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2025-05-28T19:42:37Z"
+ },
+ {
+  "id": "GHSA-p8p7-x288-28g6",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-03-21T17:47:21Z"
+ },
+ {
+  "id": "GHSA-pfrx-2q88-qq97",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-01-27T05:05:01Z"
+ },
+ {
+  "id": "GHSA-qw6h-vgh9-j6wx",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2024-11-18T16:27:12Z"
+ },
+ {
+  "id": "GHSA-r683-j2x4-v87g",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-11-29T22:08:39Z"
+ },
+ {
+  "id": "GHSA-rc3x-jf5g-xvc5",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-02-03T05:06:16Z"
+ },
+ {
+  "id": "GHSA-rjqq-98f6-6j3r",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-04-21T19:19:09Z"
+ },
+ {
+  "id": "GHSA-rm36-94g8-835r",
+  "published_same": true,
+  "ranges_same": true,
+  "withdrawn_now": false,
+  "live_updated": "2023-04-06T22:55:43Z"
+ }
+]

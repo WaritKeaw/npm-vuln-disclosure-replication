@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "protected_inputs_unchanged": true,
+  "ghsa_pagination_page_hashes_verified": 22,
+  "all_paired_project_origins_audited": 952,
+  "lockfile_counts_reconcile": true,
+  "audit_source_sha256": "3acaf189acc36c6e95a48df0ebde534d98589389450ab1738572c2c606475002"
+}

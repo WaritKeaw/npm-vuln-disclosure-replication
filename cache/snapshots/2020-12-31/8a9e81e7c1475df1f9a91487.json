@@ -1,0 +1,49 @@
+{
+  "project": "FormidableLabs/webpack-dashboard",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "1e91bbff5488e416c2d6c8de7877fb4254d031fe",
+  "commit_date": "2020-12-16T13:14:49-08:00",
+  "frozen_branch_head": "9333a27e4b8f784fee13132df4f88e73aca3ca31",
+  "collected_at": "2026-10-14T10:20:21.212892+00:00",
+  "package_json_sha256": "df2469e38370dd5fc26cf3c50d4a083dd2412071df3611dea71cd0ba27db115a",
+  "package_json": {
+    "name": "webpack-dashboard",
+    "version": "3.2.1",
+    "dependencies": {
+      "chalk": "^2.0.0",
+      "commander": "^2.15.1",
+      "cross-spawn": "^6.0.5",
+      "filesize": "^3.6.1",
+      "handlebars": "^4.1.2",
+      "inspectpack": "^4.2.1",
+      "most": "^1.7.3",
+      "neo-blessed": "^0.2.0",
+      "socket.io": "^2.1.1",
+      "socket.io-client": "^2.1.1"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "chai": "^4.1.2",
+      "cross-env": "^5.2.0",
+      "eslint": "^5.16.0",
+      "eslint-config-formidable": "^4.0.0",
+      "eslint-config-prettier": "^4.0.0",
+      "eslint-plugin-filenames": "^1.1.0",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-prettier": "^3.0.1",
+      "eslint-plugin-promise": "^3.7.0",
+      "mocha": "^5.2.0",
+      "npm-run-all": "^4.1.5",
+      "nyc": "^14.0.0",
+      "prettier": "^1.16.4",
+      "sinon": "^5.0.7",
+      "sinon-chai": "^3.0.0",
+      "typescript": "^3.2.4",
+      "webpack": "^4.8.3",
+      "webpack-cli": "^3.2.3",
+      "webpack-stats-plugin": "^0.2.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

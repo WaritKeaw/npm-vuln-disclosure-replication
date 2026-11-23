@@ -1,0 +1,46 @@
+[
+  {
+    "origin": "2020-12-31",
+    "instances": 7377,
+    "positive": 175,
+    "positive_rate": 0.023722380371424698,
+    "libyear_mean": 0.7203087716170772,
+    "mean_difference": 0.45755932332342986,
+    "cohens_d": 0.3419261077065424,
+    "mann_whitney_p_unadjusted": 0.07637398068734709,
+    "inference_note": "descriptive association; unadjusted p assumes independent rows and is not confirmatory"
+  },
+  {
+    "origin": "2021-12-31",
+    "instances": 7373,
+    "positive": 268,
+    "positive_rate": 0.036348840363488406,
+    "libyear_mean": 0.9468326678792855,
+    "mean_difference": 0.47258401916170856,
+    "cohens_d": 0.29218717001317973,
+    "mann_whitney_p_unadjusted": 8.672995395462969e-07,
+    "inference_note": "descriptive association; unadjusted p assumes independent rows and is not confirmatory"
+  },
+  {
+    "origin": "2022-12-31",
+    "instances": 7330,
+    "positive": 140,
+    "positive_rate": 0.019099590723055934,
+    "libyear_mean": 1.1290082042273262,
+    "mean_difference": -0.1733364724326295,
+    "cohens_d": -0.09464746570940415,
+    "mann_whitney_p_unadjusted": 0.8891685852523656,
+    "inference_note": "descriptive association; unadjusted p assumes independent rows and is not confirmatory"
+  },
+  {
+    "origin": "2023-12-31",
+    "instances": 7299,
+    "positive": 211,
+    "positive_rate": 0.028908069598575146,
+    "libyear_mean": 1.3398622817537402,
+    "mean_difference": 0.1655131787378643,
+    "cohens_d": 0.07918196443845389,
+    "mann_whitney_p_unadjusted": 0.12663967989500438,
+    "inference_note": "descriptive association; unadjusted p assumes independent rows and is not confirmatory"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "project": "RaspberryPiFoundation/blockly",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "21a7c30e8ec31e54988ac036ce70fdbd55cece0f",
+  "commit_date": "2020-12-29T08:45:04+01:00",
+  "frozen_branch_head": "c538b11347bb3fa3f5a142778764e4877a0f3589",
+  "collected_at": "2026-10-14T10:20:50.153907+00:00",
+  "package_json_sha256": "b3b7b74bae814a2bf36d2ace1009559415d76f337272a01e541eaaefe2da0b0e",
+  "package_json": {
+    "name": "blockly",
+    "version": "4.20201217.0",
+    "dependencies": {
+      "jsdom": "15.2.1"
+    },
+    "devDependencies": {
+      "@blockly/block-test": "^1.0.0",
+      "@blockly/dev-tools": "^2.0.1",
+      "@blockly/theme-modern": "^2.1.1",
+      "babel-eslint": "^10.1.0",
+      "chai": "^4.2.0",
+      "concurrently": "^5.3.0",
+      "eslint": "^7.6.0",
+      "eslint-plugin-es5": "^1.5.0",
+      "google-closure-compiler": "^20201102.0.1",
+      "google-closure-deps": "^20201102.0.1",
+      "gulp": "^4.0.2",
+      "gulp-concat": "^2.6.1",
+      "gulp-insert": "^0.5.0",
+      "gulp-rename": "^2.0.0",
+      "gulp-replace": "^1.0.0",
+      "gulp-series": "^1.0.2",
+      "gulp-shell": "^0.8.0",
+      "gulp-sourcemaps": "^3.0.0",
+      "gulp-umd": "^2.0.0",
+      "js-green-licenses": "^2.0.1",
+      "mocha": "^8.1.1",
+      "rimraf": "^3.0.2",
+      "selenium-standalone": "^6.17.0",
+      "through2": "^4.0.2",
+      "typescript-closure-tools": "^0.0.7",
+      "webdriverio": "^6.5.2",
+      "yargs": "^16.0.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

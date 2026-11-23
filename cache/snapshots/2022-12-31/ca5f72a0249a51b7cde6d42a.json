@@ -1,0 +1,28 @@
+{
+  "project": "javve/list.js",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+  "commit_date": "2022-12-11T12:07:58+01:00",
+  "frozen_branch_head": "44ae2396072a617f6a418b5d10c5adbcbc34842f",
+  "collected_at": "2026-10-14T10:27:04.713028+00:00",
+  "package_json_sha256": "ff71e83aa5c27d710fbc6d35eb7fa966a338bc1af4207f88162ef08a7be2862e",
+  "package_json": {
+    "name": "list.js",
+    "version": "2.3.1",
+    "dependencies": {
+      "string-natural-compare": "^2.0.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.7",
+      "@babel/preset-env": "^7.12.7",
+      "babel-loader": "^8.2.1",
+      "jest": "^26.6.3",
+      "jquery": "^3.5.1",
+      "prettier": "^2.2.0",
+      "webpack": "^5.6.0",
+      "webpack-cli": "^4.2.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

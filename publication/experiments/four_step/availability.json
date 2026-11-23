@@ -1,0 +1,29 @@
+[
+  {
+    "test_origin": "2021-12-31",
+    "train_n": 7377,
+    "training_positives": 175,
+    "any_match_late_review": 0,
+    "no_match_reviewed_by_fit_cutoff": 0,
+    "any_late_but_some_ready": 0,
+    "any_missing_review": 0
+  },
+  {
+    "test_origin": "2022-12-31",
+    "train_n": 14750,
+    "training_positives": 443,
+    "any_match_late_review": 19,
+    "no_match_reviewed_by_fit_cutoff": 16,
+    "any_late_but_some_ready": 3,
+    "any_missing_review": 0
+  },
+  {
+    "test_origin": "2023-12-31",
+    "train_n": 22080,
+    "training_positives": 583,
+    "any_match_late_review": 13,
+    "no_match_reviewed_by_fit_cutoff": 10,
+    "any_late_but_some_ready": 3,
+    "any_missing_review": 0
+  }
+]

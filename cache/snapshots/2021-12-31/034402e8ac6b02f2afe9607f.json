@@ -1,0 +1,35 @@
+{
+  "project": "qrohlf/trianglify",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "ffa5d40e52f3f03c2c6afe97054e381b1de8fbc7",
+  "commit_date": "2021-12-22T20:15:14-08:00",
+  "frozen_branch_head": "b959ccd656ca7294ebe363ee0c1dfbe72929a16e",
+  "collected_at": "2026-10-14T10:30:56.242761+00:00",
+  "package_json_sha256": "7a9efb9d9767d31591470c49375e6f25c8b2b58fdf4b7121c8d614c1adfe4a90",
+  "package_json": {
+    "name": "trianglify",
+    "version": "4.1.1",
+    "dependencies": {
+      "chroma-js": "^2.1.0",
+      "delaunator": "^4.0.1",
+      "canvas": "^2.6.1"
+    },
+    "devDependencies": {
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/plugin-syntax-class-properties": "^7.8.3",
+      "@babel/preset-env": "^7.9.6",
+      "@rollup/plugin-babel": "^5.0.0",
+      "@rollup/plugin-commonjs": "^11.1.0",
+      "@rollup/plugin-node-resolve": "^7.1.3",
+      "babel-eslint": "^10.1.0",
+      "jest": "^25.5.4",
+      "jest-canvas-mock": "^2.2.0",
+      "rollup": "^2.7.2",
+      "rollup-plugin-bundle-size": "^1.0.3",
+      "rollup-plugin-terser": "^5.3.0",
+      "standard": "^14.3.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

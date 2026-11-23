@@ -1,0 +1,26 @@
+{
+  "project": "auchenberg/volkswagen",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "538316195ac0fa6988b49490836d46202ab455d8",
+  "commit_date": "2018-04-25T16:27:43+02:00",
+  "frozen_branch_head": "ae379b4459ee4dd71b4783246b99f6a3135fdc4b",
+  "collected_at": "2026-10-14T10:22:06.731219+00:00",
+  "package_json_sha256": "5e45746f37e837278123c66e26b9ae40d50d9e963f659b467432dd698b8bab76",
+  "package_json": {
+    "name": "volkswagen",
+    "version": "1.4.2",
+    "dependencies": {
+      "emitter-listener": "^1.1.1",
+      "is-ci": "^1.1.0",
+      "mockery": "^2.1.0"
+    },
+    "devDependencies": {
+      "chai": "^4.1.2",
+      "standard": "^11.0.1",
+      "tap": "^11.1.2",
+      "tape": "^4.9.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

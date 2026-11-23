@@ -1,0 +1,24 @@
+{
+  "project": "iissnan/hexo-theme-next",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "9c8cea69bf0d4f91c07779d71b01814b27bbb6a1",
+  "commit_date": "2022-11-10T14:22:37+08:00",
+  "frozen_branch_head": "9c8cea69bf0d4f91c07779d71b01814b27bbb6a1",
+  "collected_at": "2026-10-14T10:26:50.702048+00:00",
+  "package_json_sha256": "bdbb69e66285af5fe1a54405c43805c21120247a81097b039e08cc798ee0f8f2",
+  "package_json": {
+    "name": "hexo-theme-next",
+    "version": "5.1.4",
+    "devDependencies": {
+      "coffee-script": "^1.10.0",
+      "gulp": "^3.9.0",
+      "gulp-jshint": "^1.12.0",
+      "gulp-shell": "^0.6.1",
+      "js-yaml": "^3.8.1",
+      "jshint-stylish": "^2.1.0",
+      "stylint": "^1.5.9"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

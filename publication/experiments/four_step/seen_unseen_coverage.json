@@ -1,0 +1,53 @@
+[
+  {
+    "origin": "2021-12-31",
+    "slices": [
+      {
+        "slice": "seen",
+        "instances": 7130,
+        "packages": 2674,
+        "positive_instances": 264
+      },
+      {
+        "slice": "unseen",
+        "instances": 243,
+        "packages": 236,
+        "positive_instances": 4
+      }
+    ]
+  },
+  {
+    "origin": "2022-12-31",
+    "slices": [
+      {
+        "slice": "seen",
+        "instances": 7174,
+        "packages": 2700,
+        "positive_instances": 139
+      },
+      {
+        "slice": "unseen",
+        "instances": 156,
+        "packages": 148,
+        "positive_instances": 1
+      }
+    ]
+  },
+  {
+    "origin": "2023-12-31",
+    "slices": [
+      {
+        "slice": "seen",
+        "instances": 7101,
+        "packages": 2678,
+        "positive_instances": 209
+      },
+      {
+        "slice": "unseen",
+        "instances": 198,
+        "packages": 186,
+        "positive_instances": 2
+      }
+    ]
+  }
+]

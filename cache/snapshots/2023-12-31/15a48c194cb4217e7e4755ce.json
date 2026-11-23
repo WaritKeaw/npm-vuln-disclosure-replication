@@ -1,0 +1,37 @@
+{
+  "project": "sindresorhus/fkill-cli",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "0288e35b0f8a312bc20472d405c730ceb2771481",
+  "commit_date": "2023-11-07T16:56:50+07:00",
+  "frozen_branch_head": "2afe64c9110612ef377d0aa8fdcf8c0ba8d940a1",
+  "collected_at": "2026-10-14T10:31:48.696153+00:00",
+  "package_json_sha256": "852c55382aa02cde0375a2aabf5d9516b5e5b4bd6eef3f2a36be8c2e58a9c2a6",
+  "package_json": {
+    "name": "fkill-cli",
+    "version": "8.0.0",
+    "dependencies": {
+      "chalk": "^5.3.0",
+      "cli-truncate": "^4.0.0",
+      "esc-exit": "^3.0.0",
+      "fkill": "^9.0.0",
+      "fuzzy-search": "^3.2.1",
+      "inquirer": "^9.2.11",
+      "inquirer-autocomplete-prompt": "^3.0.1",
+      "meow": "^12.1.1",
+      "num-sort": "^3.0.0",
+      "pid-port": "^1.0.0",
+      "ps-list": "^8.1.1"
+    },
+    "devDependencies": {
+      "ava": "^5.3.1",
+      "delay": "^6.0.0",
+      "execa": "^8.0.1",
+      "get-port": "^7.0.0",
+      "noop-process": "^5.0.0",
+      "process-exists": "^5.0.0",
+      "xo": "^0.56.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

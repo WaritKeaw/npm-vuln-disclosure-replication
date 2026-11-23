@@ -1,0 +1,111 @@
+[
+  {
+    "origin": "2021-12-31",
+    "variant": "lag_30_days",
+    "train_n": 0,
+    "removed_training_rows": 7377,
+    "training_signature": "2c924b5ba2ebb51bc903991ee02513e1568cc36b9079a80a52282ed632bfdd35",
+    "train_origins": [],
+    "status": "not_estimable",
+    "reason": "no eligible two-class historical training set"
+  },
+  {
+    "origin": "2021-12-31",
+    "variant": "lag_90_days",
+    "train_n": 0,
+    "removed_training_rows": 7377,
+    "training_signature": "2c924b5ba2ebb51bc903991ee02513e1568cc36b9079a80a52282ed632bfdd35",
+    "train_origins": [],
+    "status": "not_estimable",
+    "reason": "no eligible two-class historical training set"
+  },
+  {
+    "origin": "2021-12-31",
+    "variant": "exclude_no_reviewed_match",
+    "train_n": 7377,
+    "removed_training_rows": 0,
+    "training_signature": "56b6135149d06e1ee7b2356170caf2ed532e64a5010e5a234b8396bee63364b3",
+    "train_origins": [
+      "2020-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": "primary_reference_predictions"
+  },
+  {
+    "origin": "2022-12-31",
+    "variant": "lag_30_days",
+    "train_n": 7377,
+    "removed_training_rows": 7373,
+    "training_signature": "56b6135149d06e1ee7b2356170caf2ed532e64a5010e5a234b8396bee63364b3",
+    "train_origins": [
+      "2020-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": null
+  },
+  {
+    "origin": "2022-12-31",
+    "variant": "lag_90_days",
+    "train_n": 7377,
+    "removed_training_rows": 7373,
+    "training_signature": "56b6135149d06e1ee7b2356170caf2ed532e64a5010e5a234b8396bee63364b3",
+    "train_origins": [
+      "2020-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": "lag_30_days"
+  },
+  {
+    "origin": "2022-12-31",
+    "variant": "exclude_no_reviewed_match",
+    "train_n": 14734,
+    "removed_training_rows": 16,
+    "training_signature": "92b9d7eb3b004c664bbaf2187b79d78998504c766d4003f54d18948007dbe910",
+    "train_origins": [
+      "2020-12-31",
+      "2021-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": null
+  },
+  {
+    "origin": "2023-12-31",
+    "variant": "lag_30_days",
+    "train_n": 14750,
+    "removed_training_rows": 7330,
+    "training_signature": "8159bb2bf3be488b7ce1302b74f8d0e4b21875fce327a8d5563f6c3b61b3a6eb",
+    "train_origins": [
+      "2020-12-31",
+      "2021-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": null
+  },
+  {
+    "origin": "2023-12-31",
+    "variant": "lag_90_days",
+    "train_n": 14750,
+    "removed_training_rows": 7330,
+    "training_signature": "8159bb2bf3be488b7ce1302b74f8d0e4b21875fce327a8d5563f6c3b61b3a6eb",
+    "train_origins": [
+      "2020-12-31",
+      "2021-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": "lag_30_days"
+  },
+  {
+    "origin": "2023-12-31",
+    "variant": "exclude_no_reviewed_match",
+    "train_n": 22070,
+    "removed_training_rows": 10,
+    "training_signature": "1d6830902e557c5398ef59172366e12b4307b83afffd240ae44fe04a7bd5efaa",
+    "train_origins": [
+      "2020-12-31",
+      "2021-12-31",
+      "2022-12-31"
+    ],
+    "status": "estimable",
+    "prediction_alias": null
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "origins": [
+    "2020-12-31",
+    "2021-12-31",
+    "2022-12-31",
+    "2023-12-31"
+  ],
+  "paired_projects": 238,
+  "paired_instances": 29379,
+  "prediction_rows": 132012,
+  "original_source_hashes_unchanged": true,
+  "checks": [
+    "unique keys",
+    "paired cohort identity",
+    "feature publication cutoff",
+    "fixed label horizon",
+    "complete GHSA pagination",
+    "prediction coverage",
+    "training window maturity",
+    "metric ranges",
+    "paired interval ordering",
+    "dataset and original hashes"
+  ]
+}

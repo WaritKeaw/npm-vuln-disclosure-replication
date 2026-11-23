@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "test_observation_rows": 22002,
+  "score_values": 836076,
+  "independently_recomputed_model_metrics": 114,
+  "importance_rows": 81,
+  "interval_rows": 234,
+  "max_independent_brier_absolute_error": 2.884567570915486e-09,
+  "xgb_brier_float32_tolerance": 2e-08,
+  "prediction_coverage_verified": true,
+  "threshold_rules_verified": true,
+  "training_window_coverage_verified": true,
+  "source_config_and_protected_hashes_verified": true
+}

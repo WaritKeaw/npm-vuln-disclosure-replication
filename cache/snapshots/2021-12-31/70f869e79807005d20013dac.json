@@ -1,0 +1,29 @@
+{
+  "project": "trekhleb/javascript-algorithms",
+  "stratum": "high",
+  "origin": "2021-12-31",
+  "commit_sha": "9bb60fa72f9d146e931b4634764dff7aebc7c1a2",
+  "commit_date": "2021-10-28T21:10:23+02:00",
+  "frozen_branch_head": "85293e3e2b88f4d2ce330d956b139cf628aa1e82",
+  "collected_at": "2026-10-14T10:32:21.281916+00:00",
+  "package_json_sha256": "72be648547430d17fdb8042503ddedccb2f639b212f601ce0013f9a92f43ff96",
+  "package_json": {
+    "name": "javascript-algorithms-and-data-structures",
+    "version": "0.0.4",
+    "devDependencies": {
+      "@babel/cli": "7.15.7",
+      "@babel/preset-env": "7.15.8",
+      "@types/jest": "27.0.2",
+      "canvas": "2.8.0",
+      "eslint": "8.0.1",
+      "eslint-config-airbnb": "18.2.1",
+      "eslint-plugin-import": "2.25.2",
+      "eslint-plugin-jest": "25.2.2",
+      "eslint-plugin-jsx-a11y": "6.4.1",
+      "eslint-plugin-react": "7.26.1",
+      "husky": "7.0.2",
+      "jest": "27.3.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

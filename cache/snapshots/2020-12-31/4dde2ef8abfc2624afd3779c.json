@@ -1,0 +1,40 @@
+{
+  "project": "h5bp/html5-boilerplate",
+  "stratum": "high",
+  "origin": "2020-12-31",
+  "commit_sha": "5406f918c4f655fb8db50836a213b3fd1c30fe9c",
+  "commit_date": "2020-12-14T17:34:37-05:00",
+  "frozen_branch_head": "b6597338e695dc4a8165c5abcb2bfffa586c3ee5",
+  "collected_at": "2026-10-14T10:26:22.904438+00:00",
+  "package_json_sha256": "514c38637b800f16b8aabcc3de6f63e9048f65bf12adefa6493f417eaf91e60f",
+  "package_json": {
+    "name": "html5-boilerplate",
+    "version": "8.0.0",
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/core": "^7.12.10",
+      "@babel/preset-env": "^7.12.7",
+      "@babel/register": "^7.12.10",
+      "apache-server-configs": "^4.0.0",
+      "archiver": "^5.1.0",
+      "del": "^6.0.0",
+      "eslint": "^7.15.0",
+      "eslint-config-recommended": "^4.1.0",
+      "eslint-plugin-mocha": "^8.0.0",
+      "glob": "^7.1.6",
+      "gulp": "^4.0.2",
+      "gulp-autoprefixer": "^7.0.1",
+      "gulp-eslint": "^6.0.0",
+      "gulp-header": "^2.0.9",
+      "gulp-load-plugins": "^2.0.6",
+      "gulp-rename": "^2.0.0",
+      "gulp-replace": "^1.0.0",
+      "main.css": "2.1.0",
+      "mocha": "^8.2.1",
+      "modernizr": "3.11.4",
+      "normalize.css": "8.0.1",
+      "strip-json-comments": "^3.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

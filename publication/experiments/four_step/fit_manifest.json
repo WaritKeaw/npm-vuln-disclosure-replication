@@ -1,0 +1,15 @@
+{
+  "source_sha256": "6b56beec16e6cd603c6f2872a45aedb9d8b2338b868c79986e09eb209e385c61",
+  "protocol_sha256": "29d3049cd8486c9e67c9faf9815841481812d5be69d719c67b47f6af05959003",
+  "primary_data_sha256": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c",
+  "completion_config_sha256": "6e667d85b9b65811434e2c4d000eb3f2e7b8227f9f20ae440daf8c7331368927",
+  "proxy_exclusions_sha256": "da0e362f122cb9b7a16039e77985c0e7af5182682f853818ed7e49f18d3a3c5f",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "xgboost": "3.0.5"
+  },
+  "started_at": "2026-10-23T18:59:38.242886+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "project": "tighten/ziggy",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "4777dafd683873978ccc529085187d03b750d39f",
+  "commit_date": "2020-12-06T17:07:45-05:00",
+  "frozen_branch_head": "766315d44ae1930b862df583d1094704c4e2626f",
+  "collected_at": "2026-10-14T10:32:14.982658+00:00",
+  "package_json_sha256": "91be2d57ee3137fc9781d2d2223fb46f8152aa71c6c9e5e0ffd1dbffba240672",
+  "package_json": {
+    "name": "ziggy-js",
+    "version": "1.0.4",
+    "dependencies": {
+      "qs": "^6.8.0"
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.11.0",
+      "babel-preset-power-assert": "^3.0.0",
+      "jest": "^26.2.2",
+      "microbundle": "^0.12.3",
+      "power-assert": "^1.6.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

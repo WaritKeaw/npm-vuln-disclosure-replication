@@ -1,0 +1,47 @@
+{
+  "project": "lint-staged/lint-staged",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "a230b0350885194e5f07be667312316ad869b7fc",
+  "commit_date": "2021-12-24T11:18:17+02:00",
+  "frozen_branch_head": "48f9f4ea4b88eb605de3546e4599083de7a394b2",
+  "collected_at": "2026-10-14T10:28:13.529758+00:00",
+  "package_json_sha256": "fb21e148ea737d1007a6e1dc27e03df8916ba2d2d7bdcd4fdfc5a4d409d57b59",
+  "package_json": {
+    "name": "lint-staged",
+    "version": "0.0.0-development",
+    "dependencies": {
+      "cli-truncate": "^3.1.0",
+      "colorette": "^2.0.16",
+      "commander": "^8.3.0",
+      "debug": "^4.3.3",
+      "execa": "^5.1.1",
+      "lilconfig": "2.0.4",
+      "listr2": "^3.13.5",
+      "micromatch": "^4.0.4",
+      "normalize-path": "^3.0.0",
+      "object-inspect": "^1.11.1",
+      "string-argv": "^0.3.1",
+      "supports-color": "^9.2.1",
+      "yaml": "^1.10.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.16.5",
+      "@babel/eslint-parser": "^7.16.5",
+      "@babel/preset-env": "^7.16.5",
+      "babel-jest": "^27.4.5",
+      "consolemock": "^1.1.0",
+      "eslint": "^8.4.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.25.3",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "fs-extra": "^10.0.0",
+      "husky": "^7.0.4",
+      "jest": "^27.4.5",
+      "jest-snapshot-serializer-ansi": "^1.0.0",
+      "prettier": "^2.5.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

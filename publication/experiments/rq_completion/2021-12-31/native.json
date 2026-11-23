@@ -1,0 +1,191 @@
+[
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "libyear",
+    "native_type": "standardized_coefficient",
+    "value": 0.2264506064954029
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "major_versions_behind",
+    "native_type": "standardized_coefficient",
+    "value": -0.47277152588294935
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "minor_versions_behind",
+    "native_type": "standardized_coefficient",
+    "value": -0.16031319865425614
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "patch_versions_behind",
+    "native_type": "standardized_coefficient",
+    "value": -0.023412765952535768
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "release_frequency",
+    "native_type": "standardized_coefficient",
+    "value": -0.4160985629712727
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "package_age",
+    "native_type": "standardized_coefficient",
+    "value": 1.016101265179386
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "total_versions",
+    "native_type": "standardized_coefficient",
+    "value": 0.3657608313160755
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "days_since_latest_release",
+    "native_type": "standardized_coefficient",
+    "value": -1.3854259019843893
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "lr",
+    "feature": "is_post_1_0",
+    "native_type": "standardized_coefficient",
+    "value": -0.18698015094258597
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "libyear",
+    "native_type": "impurity_importance",
+    "value": 0.0941321353476671
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "major_versions_behind",
+    "native_type": "impurity_importance",
+    "value": 0.0281376988433327
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "minor_versions_behind",
+    "native_type": "impurity_importance",
+    "value": 0.01727751979816406
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "patch_versions_behind",
+    "native_type": "impurity_importance",
+    "value": 0.01957452579075506
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "release_frequency",
+    "native_type": "impurity_importance",
+    "value": 0.18092751260157275
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "package_age",
+    "native_type": "impurity_importance",
+    "value": 0.23975823662480084
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "total_versions",
+    "native_type": "impurity_importance",
+    "value": 0.23809558810625486
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "days_since_latest_release",
+    "native_type": "impurity_importance",
+    "value": 0.1684822508111193
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "rf",
+    "feature": "is_post_1_0",
+    "native_type": "impurity_importance",
+    "value": 0.013614532076333225
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "libyear",
+    "native_type": "normalized_gain",
+    "value": 0.1341007947921753
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "major_versions_behind",
+    "native_type": "normalized_gain",
+    "value": 0.06657149642705917
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "minor_versions_behind",
+    "native_type": "normalized_gain",
+    "value": 0.03561331704258919
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "patch_versions_behind",
+    "native_type": "normalized_gain",
+    "value": 0.07288509607315063
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "release_frequency",
+    "native_type": "normalized_gain",
+    "value": 0.08790301531553268
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "package_age",
+    "native_type": "normalized_gain",
+    "value": 0.22929030656814575
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "total_versions",
+    "native_type": "normalized_gain",
+    "value": 0.12018492072820663
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "days_since_latest_release",
+    "native_type": "normalized_gain",
+    "value": 0.1402926743030548
+  },
+  {
+    "origin": "2021-12-31",
+    "algorithm": "xgb",
+    "feature": "is_post_1_0",
+    "native_type": "normalized_gain",
+    "value": 0.11315838992595673
+  }
+]

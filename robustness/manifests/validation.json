@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "protected_inputs_unchanged": true,
+  "variants": 7,
+  "baseline_features_labels_reproduced": true,
+  "baseline_metrics_reproduced_within_0_001_ap": true,
+  "analysis_status": "exploratory_followup_designed_after_initial_results",
+  "no_network_collection": true
+}

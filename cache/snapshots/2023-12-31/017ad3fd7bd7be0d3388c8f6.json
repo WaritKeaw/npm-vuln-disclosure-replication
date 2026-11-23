@@ -1,0 +1,39 @@
+{
+  "project": "gruntjs/grunt",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "e1bb073f108dd7b69b257a91f025994d5bd495b1",
+  "commit_date": "2023-12-05T20:36:47-05:00",
+  "frozen_branch_head": "50a8a686522b0cf1938df344b9684e843f9eae9c",
+  "collected_at": "2026-10-14T10:26:08.448505+00:00",
+  "package_json_sha256": "47c444c480e7e395756b238fdd6b9b62bfe8ed8fca4e4b834b10ae25333a9aa2",
+  "package_json": {
+    "name": "grunt",
+    "version": "1.6.1",
+    "dependencies": {
+      "dateformat": "~4.6.2",
+      "eventemitter2": "~0.4.13",
+      "exit": "~0.1.2",
+      "findup-sync": "~5.0.0",
+      "glob": "~7.1.6",
+      "grunt-cli": "~1.4.3",
+      "grunt-known-options": "~2.0.0",
+      "grunt-legacy-log": "~3.0.0",
+      "grunt-legacy-util": "~2.0.1",
+      "iconv-lite": "~0.6.3",
+      "js-yaml": "~3.14.0",
+      "minimatch": "~3.0.4",
+      "nopt": "~3.0.6"
+    },
+    "devDependencies": {
+      "difflet": "~1.0.1",
+      "eslint-config-grunt": "~2.0.1",
+      "grunt-contrib-nodeunit": "~5.0.0",
+      "grunt-contrib-watch": "~1.1.0",
+      "grunt-eslint": "~24.1.0",
+      "temporary": "~1.1.0",
+      "through2": "~4.0.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

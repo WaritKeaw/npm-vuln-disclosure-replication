@@ -1,0 +1,8 @@
+{
+  "package": "eslint-plugin-prettier-internal-rules",
+  "collected_at": "2026-10-14T11:19:16.550652+00:00",
+  "times": {
+    "2.0.0": "2021-07-20T11:52:29.711Z",
+    "2.0.1": "2021-07-20T12:05:25.292Z"
+  }
+}

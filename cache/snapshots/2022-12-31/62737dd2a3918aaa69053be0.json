@@ -1,0 +1,23 @@
+{
+  "project": "crypto-utils/keygrip",
+  "stratum": "niche",
+  "origin": "2022-12-31",
+  "commit_sha": "70be53a7c8cd2c8e2f30036d2bbb40e911562542",
+  "commit_date": "2021-01-04T15:56:54-05:00",
+  "frozen_branch_head": "70be53a7c8cd2c8e2f30036d2bbb40e911562542",
+  "collected_at": "2026-10-14T10:23:50.313220+00:00",
+  "package_json_sha256": "2584d3fe1dcabb0375c2bd00f51a6bec345acb295464fbcae2454c3b73a5ddb3",
+  "package_json": {
+    "name": "keygrip",
+    "version": "1.1.0",
+    "dependencies": {
+      "tsscmp": "1.0.6"
+    },
+    "devDependencies": {
+      "eslint": "7.16.0",
+      "mocha": "8.2.1",
+      "nyc": "15.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

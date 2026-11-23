@@ -1,0 +1,44 @@
+{
+  "project": "myliang/x-spreadsheet",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "04fdc9d3bf00839206472d40f4466674760b55d7",
+  "commit_date": "2021-12-08T14:26:37+08:00",
+  "frozen_branch_head": "0c55f3ee1e708002eaef280432d6efeaeabdc886",
+  "collected_at": "2026-10-14T10:29:12.898549+00:00",
+  "package_json_sha256": "925d6abe95622b010a71acf692a8f7ae7af2ef72edac545d4dbc1413e8826785",
+  "package_json": {
+    "name": "x-data-spreadsheet",
+    "version": "1.1.8",
+    "dependencies": {
+      "opencollective": "^1.0.3",
+      "opencollective-postinstall": "^2.0.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.3.4",
+      "@babel/plugin-proposal-class-properties": "^7.4.4",
+      "@babel/preset-env": "^7.3.4",
+      "@babel/register": "^7.0.0",
+      "babel-loader": "^8.0.5",
+      "clean-webpack-plugin": "^0.1.19",
+      "codecov": "^3.3.0",
+      "css-loader": "^1.0.0",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^13.1.0",
+      "eslint-plugin-import": "^2.14.0",
+      "file-loader": "^2.0.0",
+      "html-webpack-plugin": "^3.2.0",
+      "less": "^3.8.1",
+      "less-loader": "^4.1.0",
+      "mini-css-extract-plugin": "^0.4.4",
+      "mocha": "^5.2.0",
+      "nyc": "^13.3.0",
+      "style-loader": "^0.23.0",
+      "webpack": "^4.29.6",
+      "webpack-cli": "^3.1.0",
+      "webpack-dev-server": "^3.10.2",
+      "webpack-merge": "^4.1.4"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

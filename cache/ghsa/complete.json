@@ -1,0 +1,121 @@
+{
+  "complete": true,
+  "query": "https://api.github.com/advisories?ecosystem=npm&type=reviewed&published=2021-01-01..2024-12-31&per_page=100&sort=published&direction=asc",
+  "published_start": "2021-01-01",
+  "published_end": "2024-12-31",
+  "completed_at": "2026-10-14T10:15:48.057977+00:00",
+  "advisories": 2103,
+  "pages": [
+    {
+      "file": "page-1.json",
+      "sha256": "64781998a6974bc36415b9eb93d900c5ae62e684bb169761469deed204c9971b",
+      "collected_at": "2026-10-14T10:15:13.894876+00:00"
+    },
+    {
+      "file": "page-2.json",
+      "sha256": "6cd7805524e20f9db2a3c310196adafc104f3b6b9e8921338225c7b352f0b95d",
+      "collected_at": "2026-10-14T10:15:15.350594+00:00"
+    },
+    {
+      "file": "page-3.json",
+      "sha256": "dc181eae9d8c3b86946b6b3b5685a950e7bb0b288613a098994776b21b3205c1",
+      "collected_at": "2026-10-14T10:15:16.876057+00:00"
+    },
+    {
+      "file": "page-4.json",
+      "sha256": "31b8ae1f3e3df13db1aae9e28bb5259091251997b2d0b51ba4c24866c01ec56d",
+      "collected_at": "2026-10-14T10:15:18.660360+00:00"
+    },
+    {
+      "file": "page-5.json",
+      "sha256": "3c49742c34af85fc8baa24f12fa3c7376cdfc6dc48e233782a024a55749611c7",
+      "collected_at": "2026-10-14T10:15:19.970596+00:00"
+    },
+    {
+      "file": "page-6.json",
+      "sha256": "5713df031e6354d5730132b5469f719b99118ebfee4ffdd346e4ee61d90fd58a",
+      "collected_at": "2026-10-14T10:15:21.452751+00:00"
+    },
+    {
+      "file": "page-7.json",
+      "sha256": "dc5fe5f2f6a661a97cd6b8de2f95608d39ec8e66b1a7aacb06948f46639d9619",
+      "collected_at": "2026-10-14T10:15:23.118913+00:00"
+    },
+    {
+      "file": "page-8.json",
+      "sha256": "d462e46b1ba942dd44b2bbaac6482b900473c671b43dae4b5c938e2cb98868e1",
+      "collected_at": "2026-10-14T10:15:24.873500+00:00"
+    },
+    {
+      "file": "page-9.json",
+      "sha256": "647b4d735ad8221df21992985d6766928cac0431e5c99a32e21d6b3bf0ff72a2",
+      "collected_at": "2026-10-14T10:15:26.217861+00:00"
+    },
+    {
+      "file": "page-10.json",
+      "sha256": "0236421150e10dce7ab847a3fa5831a67f3995cb31791afe2df89d75a856835b",
+      "collected_at": "2026-10-14T10:15:27.379557+00:00"
+    },
+    {
+      "file": "page-11.json",
+      "sha256": "c9e2ff6e75a868e428494c4ebdf828d9b6c863703d9b82ac6529b093ea074140",
+      "collected_at": "2026-10-14T10:15:28.562426+00:00"
+    },
+    {
+      "file": "page-12.json",
+      "sha256": "429f954aeeb41699afc24ca0b63ebabe6383e11106ae335fb7432041592fd3f9",
+      "collected_at": "2026-10-14T10:15:30.179551+00:00"
+    },
+    {
+      "file": "page-13.json",
+      "sha256": "5aac5087393971d4e62ed54b2edb5d00b7e275ba1714ae3feb807ee987f7b0e3",
+      "collected_at": "2026-10-14T10:15:31.590751+00:00"
+    },
+    {
+      "file": "page-14.json",
+      "sha256": "d9d176c5cdd9383abb0cac02a9f3c90ac51c39fac171366390d13d94311e6afa",
+      "collected_at": "2026-10-14T10:15:33.706492+00:00"
+    },
+    {
+      "file": "page-15.json",
+      "sha256": "0e1f4ae7812f7c39d1f370f2ad942248d312ed2019baf2103880d4371544b028",
+      "collected_at": "2026-10-14T10:15:35.225829+00:00"
+    },
+    {
+      "file": "page-16.json",
+      "sha256": "c55fdb63afab5f5d58a3c794c240e4f5463570eb351f8b59aba98ebc3f907601",
+      "collected_at": "2026-10-14T10:15:36.538416+00:00"
+    },
+    {
+      "file": "page-17.json",
+      "sha256": "6cebe7ed6e72e359fa611f5ae0ff9b516db589cc9f8080a4050b28a4705d1244",
+      "collected_at": "2026-10-14T10:15:37.942724+00:00"
+    },
+    {
+      "file": "page-18.json",
+      "sha256": "f9d51daf28f6d19e8a6a008d6363f2c2070549c9f21341db9752e077190b1d31",
+      "collected_at": "2026-10-14T10:15:40.958065+00:00"
+    },
+    {
+      "file": "page-19.json",
+      "sha256": "66b4afe1f1c1786689c3d7d4d7f6bd71542be3a1a3b65e4468126d0a11756d4e",
+      "collected_at": "2026-10-14T10:15:42.279014+00:00"
+    },
+    {
+      "file": "page-20.json",
+      "sha256": "fbe9c253e4f5d8f11cfc259e933efb4617a966d212a730406cf95013d6c5c459",
+      "collected_at": "2026-10-14T10:15:43.639726+00:00"
+    },
+    {
+      "file": "page-21.json",
+      "sha256": "994ebb7406a23d1ccaa57458b9b08adf862aa626b2cc850752b5bfedc853115d",
+      "collected_at": "2026-10-14T10:15:46.257232+00:00"
+    },
+    {
+      "file": "page-22.json",
+      "sha256": "c89a4c1df3c390dcba5c614d1554b2568e223e359c622a7805f96bc49e19c1b5",
+      "collected_at": "2026-10-14T10:15:47.028005+00:00"
+    }
+  ],
+  "history_is_current_metadata": true
+}

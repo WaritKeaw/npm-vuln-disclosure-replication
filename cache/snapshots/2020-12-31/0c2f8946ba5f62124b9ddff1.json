@@ -1,0 +1,18 @@
+{
+  "project": "basecamp/trix",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "520cc50afff2b90120f49038945eb0cb73d82535",
+  "commit_date": "2020-12-15T11:51:06-05:00",
+  "frozen_branch_head": "e2df97a56bcf1b6689ccd08d0d11a3f96006da8b",
+  "collected_at": "2026-10-14T10:22:51.428907+00:00",
+  "package_json_sha256": "859ef47a3dabfb991ef4545bdec298409c57044bf9b76f509fd246af51efbfe4",
+  "package_json": {
+    "name": "trix",
+    "version": "1.3.1",
+    "devDependencies": {
+      "svgo": "^0.6.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

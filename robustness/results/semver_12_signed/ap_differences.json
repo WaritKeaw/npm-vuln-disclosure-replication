@@ -1,0 +1,362 @@
+[
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.005418225297262394,
+    "valid_repeats": 1000,
+    "ci_low": -0.007927839715958982,
+    "ci_high": 0.031426956292597966,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.0292778295338567,
+    "valid_repeats": 1000,
+    "ci_low": -0.026503748007497576,
+    "ci_high": 0.10309696130420305,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.05488175145143428,
+    "valid_repeats": 1000,
+    "ci_low": 0.021925296379228156,
+    "ci_high": 0.12195033102034977,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.06627777567673662,
+    "valid_repeats": 1000,
+    "ci_low": 0.011439921728447431,
+    "ci_high": 0.1687666550236103,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.005418225297262394,
+    "valid_repeats": 1000,
+    "ci_low": -0.0013465108445969648,
+    "ci_high": 0.013301052947619503,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.0292778295338567,
+    "valid_repeats": 1000,
+    "ci_low": 0.0083645946394192,
+    "ci_high": 0.050803508647856925,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.05488175145143428,
+    "valid_repeats": 1000,
+    "ci_low": 0.03353472887508815,
+    "ci_high": 0.07923112134168657,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.06627777567673662,
+    "valid_repeats": 1000,
+    "ci_low": 0.03983502385391375,
+    "ci_high": 0.0949254023537893,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": -0.004143493230515535,
+    "valid_repeats": 1000,
+    "ci_low": -0.018726221809657214,
+    "ci_high": 0.001371780614288952,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": -0.003434001873798047,
+    "valid_repeats": 1000,
+    "ci_low": -0.017317854127276128,
+    "ci_high": 0.0034181935042580085,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.07568447303705034,
+    "valid_repeats": 1000,
+    "ci_low": 0.017954126324809895,
+    "ci_high": 0.1999236477298469,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.028718602680352617,
+    "valid_repeats": 1000,
+    "ci_low": 0.00930642746038045,
+    "ci_high": 0.06103740208709735,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": -0.004143493230515535,
+    "valid_repeats": 1000,
+    "ci_low": -0.009562241034857259,
+    "ci_high": -0.0009634296052111255,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": true,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": -0.003434001873798047,
+    "valid_repeats": 1000,
+    "ci_low": -0.008561873856079953,
+    "ci_high": 0.0007770650083729158,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": true,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.07568447303705034,
+    "valid_repeats": 1000,
+    "ci_low": 0.05255543538414246,
+    "ci_high": 0.10762823768322277,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.028718602680352617,
+    "valid_repeats": 1000,
+    "ci_low": 0.01980505646690661,
+    "ci_high": 0.04067148769929564,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": -0.011499853461848036,
+    "valid_repeats": 1000,
+    "ci_low": -0.08634862064159936,
+    "ci_high": 0.0015826192251237842,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": -0.00351255308744175,
+    "valid_repeats": 1000,
+    "ci_low": -0.021787543554051606,
+    "ci_high": 0.013334331948560072,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.08339259015846466,
+    "valid_repeats": 1000,
+    "ci_low": 0.011137123755991865,
+    "ci_high": 0.22824983626799733,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.24938718281158237,
+    "valid_repeats": 1000,
+    "ci_low": 0.035215090128080356,
+    "ci_high": 0.4839124999458781,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": -0.011499853461848036,
+    "valid_repeats": 1000,
+    "ci_low": -0.021210207706575494,
+    "ci_high": -0.004994819124559789,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": -0.00351255308744175,
+    "valid_repeats": 1000,
+    "ci_low": -0.01345909298430269,
+    "ci_high": 0.0054907114046460585,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.08339259015846466,
+    "valid_repeats": 1000,
+    "ci_low": 0.05719103600834546,
+    "ci_high": 0.1186259672775544,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "semver_12_signed",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.24938718281158237,
+    "valid_repeats": 1000,
+    "ci_low": 0.19618235771270903,
+    "ci_high": 0.3174991427439186,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  }
+]

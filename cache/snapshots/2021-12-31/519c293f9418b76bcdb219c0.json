@@ -1,0 +1,30 @@
+{
+  "project": "gridsome/gridsome",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "149dbff92d8ea612553e7479991f2b43e4a903dd",
+  "commit_date": "2021-12-07T03:05:39+01:00",
+  "frozen_branch_head": "e396e60ddb9435813dc56cc2d1f98c91c7d64367",
+  "collected_at": "2026-10-14T10:26:12.391720+00:00",
+  "package_json_sha256": "8bf766e2a53a81f07630752b3e1d85c72f3b818b7ced2a69af0094a9b1172953",
+  "package_json": {
+    "devDependencies": {
+      "@lerna/conventional-commits": "^3.22.0",
+      "babel-eslint": "^10.0.1",
+      "cheerio": "^1.0.0-rc.2",
+      "conventional-changelog": "^3.1.21",
+      "eslint": "^5.2.0",
+      "eslint-plugin-import": "^2.17.3",
+      "eslint-plugin-node": "^7.0.1",
+      "eslint-plugin-vue": "^4.7.1",
+      "eslint-plugin-vue-libs": "^3.0.0",
+      "execa": "^1.0.0",
+      "jest": "^24.1.0",
+      "lerna": "^3.22.0",
+      "minimist": "^1.2.0",
+      "puppeteer": "^5.5.0",
+      "supertest": "^4.0.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

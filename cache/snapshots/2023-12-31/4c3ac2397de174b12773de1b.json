@@ -1,0 +1,46 @@
+{
+  "project": "twitter/typeahead.js",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "588440f66559714280628a4f9799f0c4eb880a4a",
+  "commit_date": "2015-04-26T21:02:14-07:00",
+  "frozen_branch_head": "588440f66559714280628a4f9799f0c4eb880a4a",
+  "collected_at": "2026-10-14T10:32:23.219588+00:00",
+  "package_json_sha256": "63ca4aa2e67419be2c92e85211842c72c5dd1ee37e53f0ead06d5020ba08145a",
+  "package_json": {
+    "name": "typeahead.js",
+    "version": "0.11.1",
+    "dependencies": {
+      "jquery": ">=1.7"
+    },
+    "devDependencies": {
+      "chai": "^1.9.1",
+      "colors": "^0.6.2",
+      "grunt": "~0.4",
+      "grunt-concurrent": "^0.5.0",
+      "grunt-contrib-clean": "~0.4.0",
+      "grunt-contrib-concat": "~0.1",
+      "grunt-contrib-connect": "~0.1",
+      "grunt-contrib-jshint": "~0.8",
+      "grunt-contrib-uglify": "~0.2.6",
+      "grunt-contrib-watch": "~0.2",
+      "grunt-exec": "~0.4.5",
+      "grunt-sed": "~0.1",
+      "grunt-step": "~0.2.0",
+      "grunt-umd": "^2.3.3",
+      "karma": "^0.12.22",
+      "karma-chrome-launcher": "^0.1.4",
+      "karma-coverage": "^0.2.6",
+      "karma-firefox-launcher": "^0.1.3",
+      "karma-jasmine": "^0.1.5",
+      "karma-opera-launcher": "^0.1.0",
+      "karma-phantomjs-launcher": "^0.1.4",
+      "karma-safari-launcher": "^0.1.1",
+      "mocha": "^1.20.1",
+      "semver": "~1.1.3",
+      "underscore": "^1.6.0",
+      "yiewd": "^0.5.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

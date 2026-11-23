@@ -1,0 +1,16 @@
+{
+  "completed_at": "2026-10-23T18:54:23.503272+00:00",
+  "config_sha256": "1e8dad716c07f0278ced3222cdd2d06df527ff88f39ec0e2eab1021ab64ee536",
+  "script_sha256": "3a24332538f8dfc7a15dcf54ec15e2e56df1524757448adff66074cb541d4546",
+  "semver_script_sha256": "23126bc86a5827cafb1825372927e55d7359a435fdcca6cd252ed7df6762006e",
+  "dataset_sha256": "2fb930db6c5e9a800dfd9bc6c7796d7bfefe2bd7850c7f2bea06cfa686d50fe2",
+  "evaluation": "retrospective backtest; historical metadata availability not fully verified",
+  "fixed_hyperparameters": true,
+  "models": [
+    "libyear_only_lr",
+    "other_features_lr",
+    "full_lr",
+    "full_rf"
+  ],
+  "xgboost_included": false
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "duckdb": "1.5.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "joblib": "1.6.0",
+    "node_semver": "7.8.5"
+  },
+  "initialized_at": "2026-10-14T11:02:51.756869+00:00",
+  "config_sha256": "1e8dad716c07f0278ced3222cdd2d06df527ff88f39ec0e2eab1021ab64ee536"
+}

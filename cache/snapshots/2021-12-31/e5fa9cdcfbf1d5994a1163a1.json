@@ -1,0 +1,17 @@
+{
+  "project": "automatisch/automatisch",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "a58411ee992a8c8a22a0b9ff1ca647fbc98f3fcb",
+  "commit_date": "2021-12-24T21:01:07+03:00",
+  "frozen_branch_head": "41f3c56a163103cae761bb44f03638cb84e859ee",
+  "collected_at": "2026-10-14T10:22:12.875355+00:00",
+  "package_json_sha256": "754d51679b799e1df90d7bef4fc8436d11b07e9eee3ab41b0006899ccce394ee",
+  "package_json": {
+    "name": "@automatisch/root",
+    "devDependencies": {
+      "lerna": "^4.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

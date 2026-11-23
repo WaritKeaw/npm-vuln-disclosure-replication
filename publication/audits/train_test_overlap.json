@@ -1,0 +1,20 @@
+[
+  {
+    "test_origin": "2021-12-31",
+    "test_packages_seen_in_training": 2674,
+    "test_packages_total": 2910,
+    "test_projects_seen_in_training": 238
+  },
+  {
+    "test_origin": "2022-12-31",
+    "test_packages_seen_in_training": 2700,
+    "test_packages_total": 2848,
+    "test_projects_seen_in_training": 238
+  },
+  {
+    "test_origin": "2023-12-31",
+    "test_packages_seen_in_training": 2678,
+    "test_packages_total": 2864,
+    "test_projects_seen_in_training": 238
+  }
+]

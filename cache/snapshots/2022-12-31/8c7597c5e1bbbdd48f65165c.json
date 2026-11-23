@@ -1,0 +1,51 @@
+{
+  "project": "negomi/react-burger-menu",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "3b3c843033a600be7645258af3ac3755d26b1e58",
+  "commit_date": "2022-07-31T15:06:37+01:00",
+  "frozen_branch_head": "a3df3e6d7b6718faf215a6d15f7cf1f8ebf77acb",
+  "collected_at": "2026-10-14T10:29:30.471793+00:00",
+  "package_json_sha256": "2bab32fba1c0efe6e7cf9d361e4a35bd53bdcaf09cb19634ce3db50c5b8fbb2b",
+  "package_json": {
+    "name": "react-burger-menu",
+    "version": "3.0.8",
+    "dependencies": {
+      "browserify-optional": "^1.0.0",
+      "classnames": "^2.2.6",
+      "eve": "~0.5.1",
+      "prop-types": "^15.7.2",
+      "snapsvg-cjs": "0.0.6"
+    },
+    "devDependencies": {
+      "acorn": "^6.3.0",
+      "ajv": "5.0.0",
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^8.2.6",
+      "babel-plugin-istanbul": "^4.1.6",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.3.13",
+      "babel-register": "^6.3.13",
+      "chai": "^4.2.0",
+      "cross-env": "^5.2.1",
+      "eslint": "^4.19.1",
+      "eslint-plugin-react": "^7.16.0",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "gulp": "^3.9.0",
+      "gulp-git": "^2.9.0",
+      "jsdom": "^16.5.0",
+      "jsdom-global": "^3.0.2",
+      "mocha": "^5.2.0",
+      "nyc": "^13.3.0",
+      "pre-commit": "^1.2.2",
+      "prettier": "^1.19.1",
+      "react": "^17.0.1",
+      "react-component-gulp-tasks": "github:negomi/react-component-gulp-tasks",
+      "react-dom": "^17.0.1",
+      "react-test-renderer": "^17.0.1",
+      "request": "^2.88.0",
+      "sinon": "^4.5.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

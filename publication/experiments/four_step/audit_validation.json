@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-23T18:59:36.129262+00:00",
+  "all_disagreement_instances": 32,
+  "range_checks": 64,
+  "trace_method": "automated frozen-record consistency review; same SemVer library as construction; not independent vulnerability adjudication or archived-history verification",
+  "inputs": {
+    "robustness/data/date_12_paired.csv": "418b4c2479f5dca5900275c60ed349a648f4edb8466406f6a0318fae81f63b9c",
+    "data/processed/all_available.csv": "361c1440778d488cd72ea8376147f949bde3923fdbfde9b0e5453dd025004399",
+    "cache/ghsa/advisories.json": "2607d868b3ea022a872ed1c71f2aaed59da2446212520592df95a9e7832ce34a",
+    "publication/experiments/lockfile_sensitivity/recorded.csv": "97cf3661ea969ca4d766fee93c2d38d8de3a76d505ffb17f7f322f6efa66faba",
+    "publication/experiments/lockfile_sensitivity/inferred_matched.csv": "3ca9ff5fa6e0ed29193c56948550f79f391989fb6f2bcc57c12e04899026c8dc",
+    "publication/audits/lockfiles.json": "75468837bf35cf43a6fa9959e53458def01eebf08a21efdd7002574fac662b10",
+    "publication/protocol/four_step_followup.json": "29d3049cd8486c9e67c9faf9815841481812d5be69d719c67b47f6af05959003",
+    "src/four_step_dataset_audit.py": "b0868d07ede74bae0cb74ff2426f7f72ebd36cf6ce27eeaff48d565538f34611",
+    "src/four_step_range_check.cjs": "9e3655d09700608df918b4502e1b33cfc2bf90911a5248635802e052209f4a39"
+  }
+}

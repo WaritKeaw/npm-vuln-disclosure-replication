@@ -1,0 +1,47 @@
+{
+  "project": "sockjs/sockjs-client",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "18ff02e6362360c6dae870b41819596f39f94195",
+  "commit_date": "2020-11-12T11:23:56-05:00",
+  "frozen_branch_head": "71dbb9275f93c02df9f532d3becd5d240f98a946",
+  "collected_at": "2026-10-14T10:31:51.046761+00:00",
+  "package_json_sha256": "3df7fe263a8257190890f2f1f648d3288fee90d90d3f0f5703e7cb2ad1690016",
+  "package_json": {
+    "name": "sockjs-client",
+    "version": "1.5.0",
+    "dependencies": {
+      "debug": "^3.2.6",
+      "eventsource": "^1.0.7",
+      "faye-websocket": "^0.11.3",
+      "inherits": "^2.0.4",
+      "json3": "^3.3.3",
+      "url-parse": "^1.4.7"
+    },
+    "devDependencies": {
+      "browserify": "^16.5.1",
+      "envify": "^4.0.0",
+      "eslint": "^7.6.0",
+      "expect.js": "~0.3.1",
+      "gulp": "^4.0.2",
+      "gulp-header": "^2.0.9",
+      "gulp-rename": "^2.0.0",
+      "gulp-replace": "^1.0.0",
+      "gulp-sourcemaps": "^2.6.5",
+      "gulp-uglify": "^3.0.2",
+      "karma": "^5.1.1",
+      "karma-browserify": "^7.0.0",
+      "karma-browserstack-launcher": "^1.6.0",
+      "karma-chrome-launcher": "^3.1.0",
+      "karma-mocha": "^2.0.1",
+      "mocha": "^8.1.0",
+      "proxyquire": "^2.1.3",
+      "pump": "^3.0.0",
+      "serve-static": "^1.14.1",
+      "sockjs": "^0.3.21",
+      "vinyl-buffer": "~1.0.0",
+      "vinyl-source-stream": "^2.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,31 @@
+{
+  "project": "Snailclimb/JavaGuide",
+  "stratum": "high",
+  "origin": "2023-12-31",
+  "commit_sha": "fd23fda9aec85e79dacfaf26043fd0ce645231d4",
+  "commit_date": "2023-12-30T21:44:04+08:00",
+  "frozen_branch_head": "c1f760553abfb0a1dafaa0704a5995388f8c91e5",
+  "collected_at": "2026-10-14T10:20:48.430783+00:00",
+  "package_json_sha256": "94e6c56f79ea02ec54a14ee7bbfdcb48a4f54ce49e31ec34c936414dcb3733c0",
+  "package_json": {
+    "name": "javaguide",
+    "version": "2.0.0-alpha.40",
+    "dependencies": {
+      "@vuepress/client": "2.0.0-rc.0",
+      "@vuepress/plugin-search": "2.0.0-rc.0",
+      "@vuepress/utils": "2.0.0-rc.0",
+      "husky": "8.0.3",
+      "markdownlint-cli2": "0.11.0",
+      "mathjax-full": "3.2.2",
+      "nano-staged": "0.8.0",
+      "nodejs-jieba": "0.1.2",
+      "prettier": "3.1.1",
+      "vue": "3.4.1",
+      "vuepress": "2.0.0-rc.0",
+      "vuepress-plugin-copyright2": "2.0.0-rc.10",
+      "vuepress-plugin-feed2": "2.0.0-rc.10",
+      "vuepress-theme-hope": "2.0.0-rc.10"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,36 @@
+{
+  "project": "sdc-alibaba/SUI-Mobile",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "813a668467a7fcf86d37a9f45b845213b7623b1f",
+  "commit_date": "2016-11-10T11:09:29+08:00",
+  "frozen_branch_head": "bc8e60b028b0fadf6530d78447ff16f54fb055df",
+  "collected_at": "2026-10-14T10:31:29.086538+00:00",
+  "package_json_sha256": "e5be6e8663386c6ab8ee2e9e29a468143104d453733ef0dfe8033d665ac3dffb",
+  "package_json": {
+    "name": "sm",
+    "version": "0.6.2",
+    "dependencies": {
+      "grunt-contrib-less": "^1.0.1",
+      "grunt-contrib-qunit": "^0.7.0"
+    },
+    "devDependencies": {
+      "grunt": "^0.4.5",
+      "grunt-autoprefixer": "~3.0.0",
+      "grunt-banner": "~0.3.1",
+      "grunt-cli": "^0.1.13",
+      "grunt-contrib-clean": "~0.6.0",
+      "grunt-contrib-concat": "^0.5.1",
+      "grunt-contrib-connect": "~0.10.1",
+      "grunt-contrib-copy": "~0.8.0",
+      "grunt-contrib-cssmin": "~0.14.0",
+      "grunt-contrib-jshint": "~0.11.1",
+      "grunt-contrib-uglify": "^0.11.0",
+      "grunt-contrib-watch": "~0.6.1",
+      "grunt-jekyll": "~0.4.2",
+      "load-grunt-tasks": "~3.1.0",
+      "time-grunt": "~1.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

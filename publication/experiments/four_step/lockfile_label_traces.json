@@ -1,0 +1,995 @@
+[
+  {
+    "case_id": 1,
+    "origin": "2020-12-31",
+    "project": "Dogfalo/materialize",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "824e78248b3de81e383445e76ffb04cc3264fe7d",
+    "manifest_constraint": "^1.0.1",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "e0b61f6494333737e72e6e337e2df8b82a9b6cd18022cd49df974f06e12f1725",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 2,
+    "origin": "2020-12-31",
+    "project": "jsbin/jsbin",
+    "package": "aws-sdk",
+    "dependency_type": "production",
+    "window_end": "2021-12-31",
+    "commit_sha": "966131fa6698bb16cad34baa1bcf3f88dd200c11",
+    "manifest_constraint": "^2.0.18",
+    "inferred_version": "2.820.0",
+    "recorded_version": "2.152.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-rrc9-gqf8-8rwg"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "ec4b9b4dbf72464b69d1fa25bd5da01fd6327effb5dd98f36dc51fea25fa6af0",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-rrc9-gqf8-8rwg",
+        "range": "< 2.814.0",
+        "published_at": "2021-11-16T21:26:43Z",
+        "reviewed_at": "2021-04-06T20:37:10Z",
+        "updated_at": "2023-01-29T05:06:10Z"
+      }
+    ]
+  },
+  {
+    "case_id": 3,
+    "origin": "2020-12-31",
+    "project": "jsbin/jsbin",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "966131fa6698bb16cad34baa1bcf3f88dd200c11",
+    "manifest_constraint": "^1.0.1",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "ec4b9b4dbf72464b69d1fa25bd5da01fd6327effb5dd98f36dc51fea25fa6af0",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 4,
+    "origin": "2020-12-31",
+    "project": "karma-runner/karma",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "1c9c2de54fa1abcb2c0edceebb159440b77e4863",
+    "manifest_constraint": "^1.2.1",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.2.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "99b839c7d98abdda6c804f96e9e9d7961ad8e7f7eb70118cc42faad9e0792724",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 5,
+    "origin": "2020-12-31",
+    "project": "jwagner/smartcrop.js",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "de0b1773d5f80df0cb06911b4a8e197284333f5a",
+    "manifest_constraint": "^1.0.4",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.4",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "96a74bb47784a5772fdb5911684d173c66014f42a13454da026ec30d27eb6dfd",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 6,
+    "origin": "2020-12-31",
+    "project": "processing/p5.js",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "e133685427039a25e7092a3bb1da39041149c804",
+    "manifest_constraint": "^1.0.4",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.4",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "c141e6a1b862b77341d2877e92c3af2e3ecf61ac8425b5ac0c2a10cf7f1b535b",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 7,
+    "origin": "2020-12-31",
+    "project": "node-pcap/node_pcap",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "5a88ce16b4e83cd7120008c993ed2c59de55f50c",
+    "manifest_constraint": "^1.0.4",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.4",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "0a6bddcae607cd0c1b6a2778b19b0a8ce33db382a58e8671c1611522dcaea616",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 8,
+    "origin": "2020-12-31",
+    "project": "bramstein/fontfaceobserver",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "20e40d09331510957d238f55790c83670de40af1",
+    "manifest_constraint": "^1.0.3",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.3",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "6456b2c65734bb6d09429ae1ed10db1b810617bbd2a605855b68e6d978918a2b",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 9,
+    "origin": "2020-12-31",
+    "project": "luin/medis",
+    "package": "codemirror",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "18e95989f54a0e510f41f83750892f6eac4ac88d",
+    "manifest_constraint": "^5.46.0",
+    "inferred_version": "5.59.1",
+    "recorded_version": "5.46.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-4gw3-8f77-f72c"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "d2da7367f5e7468a37254b69b37fbe77b3e362fefcb33a7c74780ae907d981ba",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-4gw3-8f77-f72c",
+        "range": "< 5.58.2",
+        "published_at": "2021-05-10T18:46:27Z",
+        "reviewed_at": "2021-04-21T17:29:09Z",
+        "updated_at": "2023-02-01T05:05:26Z"
+      }
+    ]
+  },
+  {
+    "case_id": 10,
+    "origin": "2020-12-31",
+    "project": "madebymany/sir-trevor-js",
+    "package": "grunt",
+    "dependency_type": "development",
+    "window_end": "2021-12-31",
+    "commit_sha": "9efba5ac18b167dbb614c3cb82db312143168dfb",
+    "manifest_constraint": "^1.0.4",
+    "inferred_version": "1.3.0",
+    "recorded_version": "1.0.4",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-m5pj-vjjf-4m3h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "5b2971c18155d9f51075b672083d0a67da12810fad30c8720ab57261b8ad47ec",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-m5pj-vjjf-4m3h",
+        "range": "< 1.3.0",
+        "published_at": "2021-05-06T18:27:18Z",
+        "reviewed_at": "2021-05-04T22:57:23Z",
+        "updated_at": "2023-02-01T05:05:28Z"
+      }
+    ]
+  },
+  {
+    "case_id": 11,
+    "origin": "2021-12-31",
+    "project": "Yomguithereal/react-blessed",
+    "package": "lodash",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "b686438af2726111637ef17b998f0f6967623640",
+    "manifest_constraint": "^4.17.20",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.20",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "afad5821d48c745f00a4b75e05ecf60cc550cdc24a96ca0df757215055eb1cd9",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 12,
+    "origin": "2021-12-31",
+    "project": "kefranabg/readme-md-generator",
+    "package": "lodash",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "manifest_constraint": "^4.17.11",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.13",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "e98c264f41b19b1365f1e4996760a3706d6ff6fd87e38c5cfbf871b6ad42a533",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 13,
+    "origin": "2021-12-31",
+    "project": "kefranabg/readme-md-generator",
+    "package": "codecov",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "manifest_constraint": "^3.5.0",
+    "inferred_version": "3.8.3",
+    "recorded_version": "3.5.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-mh2h-6j8q-x246"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "e98c264f41b19b1365f1e4996760a3706d6ff6fd87e38c5cfbf871b6ad42a533",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-mh2h-6j8q-x246",
+        "range": "<= 3.6.1",
+        "published_at": "2022-05-24T17:07:19Z",
+        "reviewed_at": "2022-06-23T17:49:55Z",
+        "updated_at": "2023-01-27T05:02:34Z"
+      }
+    ]
+  },
+  {
+    "case_id": 14,
+    "origin": "2021-12-31",
+    "project": "webslides/WebSlides",
+    "package": "codecov",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "9ec4fae96b9e2395745f8d6c89c595edd3886f79",
+    "manifest_constraint": "^3.0.0",
+    "inferred_version": "3.8.3",
+    "recorded_version": "3.2.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-mh2h-6j8q-x246"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "bb5566b3036960e3ebd77148623ead2098eec9c1562aadb603fe01701c83924b",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-mh2h-6j8q-x246",
+        "range": "<= 3.6.1",
+        "published_at": "2022-05-24T17:07:19Z",
+        "reviewed_at": "2022-06-23T17:49:55Z",
+        "updated_at": "2023-01-27T05:02:34Z"
+      }
+    ]
+  },
+  {
+    "case_id": 15,
+    "origin": "2021-12-31",
+    "project": "jsbin/jsbin",
+    "package": "handlebars",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "b6635207200326febf0af99c7fe1b189b8278395",
+    "manifest_constraint": "^4.0.6",
+    "inferred_version": "4.7.7",
+    "recorded_version": "4.0.11",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-3cqr-58rm-57f8",
+      "GHSA-62gr-4qp9-h98f",
+      "GHSA-765h-qjxv-5f44"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "ec4b9b4dbf72464b69d1fa25bd5da01fd6327effb5dd98f36dc51fea25fa6af0",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-3cqr-58rm-57f8",
+        "range": "< 3.0.8",
+        "published_at": "2022-02-10T20:38:19Z",
+        "reviewed_at": "2021-04-22T23:38:32Z",
+        "updated_at": "2023-11-29T20:34:33Z"
+      },
+      {
+        "id": "GHSA-3cqr-58rm-57f8",
+        "range": ">= 4.0.0, < 4.5.3",
+        "published_at": "2022-02-10T20:38:19Z",
+        "reviewed_at": "2021-04-22T23:38:32Z",
+        "updated_at": "2023-11-29T20:34:33Z"
+      },
+      {
+        "id": "GHSA-62gr-4qp9-h98f",
+        "range": ">= 4.0.0, < 4.4.5",
+        "published_at": "2022-02-10T20:38:22Z",
+        "reviewed_at": "2021-04-22T23:31:21Z",
+        "updated_at": "2023-11-29T20:32:12Z"
+      },
+      {
+        "id": "GHSA-765h-qjxv-5f44",
+        "range": "< 4.7.7",
+        "published_at": "2022-02-10T23:51:42Z",
+        "reviewed_at": "2021-05-19T21:17:59Z",
+        "updated_at": "2025-02-12T05:06:20Z"
+      }
+    ]
+  },
+  {
+    "case_id": 16,
+    "origin": "2021-12-31",
+    "project": "myliang/x-spreadsheet",
+    "package": "codecov",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "04fdc9d3bf00839206472d40f4466674760b55d7",
+    "manifest_constraint": "^3.3.0",
+    "inferred_version": "3.8.3",
+    "recorded_version": "3.5.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-mh2h-6j8q-x246"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "007b2fd0776d98f42a02e6f04d61b2190da0f0c52058c21c8e24006a193b95c0",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-mh2h-6j8q-x246",
+        "range": "<= 3.6.1",
+        "published_at": "2022-05-24T17:07:19Z",
+        "reviewed_at": "2022-06-23T17:49:55Z",
+        "updated_at": "2023-01-27T05:02:34Z"
+      }
+    ]
+  },
+  {
+    "case_id": 17,
+    "origin": "2021-12-31",
+    "project": "catamphetamine/react-phone-number-input",
+    "package": "postcss",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "7a9b9abec2307cb713e84a0c4a5ad18b8337be4b",
+    "manifest_constraint": "^8.0.8",
+    "inferred_version": "8.4.5",
+    "recorded_version": "8.0.8",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-566m-qj78-rww5"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "63a3d8c0dae486ec6bc774783a944d2638458544fc35adf17ffcd02e487d3c40",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-566m-qj78-rww5",
+        "range": ">= 8.0.0, < 8.2.13",
+        "published_at": "2022-01-07T00:21:36Z",
+        "reviewed_at": "2021-05-20T21:23:19Z",
+        "updated_at": "2023-09-08T19:35:15Z"
+      },
+      {
+        "id": "GHSA-566m-qj78-rww5",
+        "range": "< 7.0.36",
+        "published_at": "2022-01-07T00:21:36Z",
+        "reviewed_at": "2021-05-20T21:23:19Z",
+        "updated_at": "2023-09-08T19:35:15Z"
+      }
+    ]
+  },
+  {
+    "case_id": 18,
+    "origin": "2021-12-31",
+    "project": "faressoft/terminalizer",
+    "package": "lodash",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "fb079fc3e4a2a7e4939c65f9fe29c7fc96e1a73d",
+    "manifest_constraint": "^4.17.15",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.15",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "5d2172152bd5d5b568ae66500ef3818d8500175d78e5b27a616c32c9564de8f8",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 19,
+    "origin": "2021-12-31",
+    "project": "faressoft/terminalizer",
+    "package": "ajv",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "fb079fc3e4a2a7e4939c65f9fe29c7fc96e1a73d",
+    "manifest_constraint": "^6.12.0",
+    "inferred_version": "6.12.6",
+    "recorded_version": "6.12.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-v88g-cgmw-v5xw"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "5d2172152bd5d5b568ae66500ef3818d8500175d78e5b27a616c32c9564de8f8",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-v88g-cgmw-v5xw",
+        "range": "< 6.12.3",
+        "published_at": "2022-02-10T23:30:59Z",
+        "reviewed_at": "2021-05-10T21:23:41Z",
+        "updated_at": "2024-06-21T21:33:49Z"
+      }
+    ]
+  },
+  {
+    "case_id": 20,
+    "origin": "2021-12-31",
+    "project": "moment/moment",
+    "package": "lodash",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "e96809208c9d1b1bbe22d605e76985770024de42",
+    "manifest_constraint": ">=4.17.19",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.20",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "be874242dcb4e5bcd9868480f9496bb73ee961df2a1603ea2823e22858d6d75a",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 21,
+    "origin": "2021-12-31",
+    "project": "addyosmani/critical",
+    "package": "async",
+    "dependency_type": "development",
+    "window_end": "2022-12-31",
+    "commit_sha": "e3a4e8cdfaf52d7693bb077c7e0f7902c8ee97b9",
+    "manifest_constraint": "^3.2.0",
+    "inferred_version": "3.2.2",
+    "recorded_version": "3.2.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-fwr7-v2mv-hh25"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "1cfa58b4727c2fc46435f0b15eae1e0c013051486dd87e6838a933d497bae8c7",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-fwr7-v2mv-hh25",
+        "range": ">= 3.0.0, < 3.2.2",
+        "published_at": "2022-04-07T00:00:17Z",
+        "reviewed_at": "2022-04-07T22:13:35Z",
+        "updated_at": "2024-06-24T21:23:11Z"
+      },
+      {
+        "id": "GHSA-fwr7-v2mv-hh25",
+        "range": ">= 2.0.0, < 2.6.4",
+        "published_at": "2022-04-07T00:00:17Z",
+        "reviewed_at": "2022-04-07T22:13:35Z",
+        "updated_at": "2024-06-24T21:23:11Z"
+      }
+    ]
+  },
+  {
+    "case_id": 22,
+    "origin": "2021-12-31",
+    "project": "luin/medis",
+    "package": "jquery.terminal",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "1485ed2a70514dda0121684655394d9079f2d3f5",
+    "manifest_constraint": "^2.5.1",
+    "inferred_version": "2.31.1",
+    "recorded_version": "2.5.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-x9r5-jxvq-4387"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "3350c428e5158ed709ae24d22e681063da0444c1f4806a2967a05ce2236ce531",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-x9r5-jxvq-4387",
+        "range": "< 2.31.1",
+        "published_at": "2022-01-06T22:48:56Z",
+        "reviewed_at": "2022-01-06T19:18:42Z",
+        "updated_at": "2023-01-30T05:02:59Z"
+      }
+    ]
+  },
+  {
+    "case_id": 23,
+    "origin": "2021-12-31",
+    "project": "Foundry376/Mailspring",
+    "package": "npm",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "9ee21cf2b98094128584b3e661ec1a76bdf58552",
+    "manifest_constraint": ">=7",
+    "inferred_version": "8.3.0",
+    "recorded_version": "7.8.0",
+    "inferred_label": 1,
+    "recorded_label": 0,
+    "inferred_matched_ids": [
+      "GHSA-hj9c-8jmm-8c52"
+    ],
+    "recorded_matched_ids": [],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "3fe9cb01693d5d6c0926b6d28664cc7ce93827efb6e3a0e34dd59fa0151bf252",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-hj9c-8jmm-8c52",
+        "range": ">= 7.9.0, < 8.11.0",
+        "published_at": "2022-06-02T15:37:27Z",
+        "reviewed_at": "2022-06-02T15:37:27Z",
+        "updated_at": "2023-01-27T05:03:54Z"
+      }
+    ]
+  },
+  {
+    "case_id": 24,
+    "origin": "2021-12-31",
+    "project": "ConciseCSS/concise.css",
+    "package": "postcss",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "0001edd279146618c2066e7262bf219708ff3db1",
+    "manifest_constraint": "^7.0.27",
+    "inferred_version": "7.0.39",
+    "recorded_version": "7.0.27",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-566m-qj78-rww5"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "d27dcf1ab29f9b9bf5326645ef8dee7e1f67699da17072e31fa0c10df43cc56d",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-566m-qj78-rww5",
+        "range": ">= 8.0.0, < 8.2.13",
+        "published_at": "2022-01-07T00:21:36Z",
+        "reviewed_at": "2021-05-20T21:23:19Z",
+        "updated_at": "2023-09-08T19:35:15Z"
+      },
+      {
+        "id": "GHSA-566m-qj78-rww5",
+        "range": "< 7.0.36",
+        "published_at": "2022-01-07T00:21:36Z",
+        "reviewed_at": "2021-05-20T21:23:19Z",
+        "updated_at": "2023-09-08T19:35:15Z"
+      }
+    ]
+  },
+  {
+    "case_id": 25,
+    "origin": "2021-12-31",
+    "project": "dylang/npm-check",
+    "package": "lodash",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "f92f4490f9f53d4e198bf6a4ed297755c945cf40",
+    "manifest_constraint": "^4.17.15",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.15",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "5d442089f897fd0b0cf5113c7347cba2024ed19d1f6b7fb66c44904b825b94a1",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 26,
+    "origin": "2021-12-31",
+    "project": "notwaldorf/tiny-care-terminal",
+    "package": "async",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "fd7f710f735721ceb7b73c96ff322a0c8c6f668b",
+    "manifest_constraint": "^3.2.0",
+    "inferred_version": "3.2.2",
+    "recorded_version": "3.2.0",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-fwr7-v2mv-hh25"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "7de2e9c80185394959347b3d1bc8ebbe05534a370c8b388103d28db493762ce0",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-fwr7-v2mv-hh25",
+        "range": ">= 3.0.0, < 3.2.2",
+        "published_at": "2022-04-07T00:00:17Z",
+        "reviewed_at": "2022-04-07T22:13:35Z",
+        "updated_at": "2024-06-24T21:23:11Z"
+      },
+      {
+        "id": "GHSA-fwr7-v2mv-hh25",
+        "range": ">= 2.0.0, < 2.6.4",
+        "published_at": "2022-04-07T00:00:17Z",
+        "reviewed_at": "2022-04-07T22:13:35Z",
+        "updated_at": "2024-06-24T21:23:11Z"
+      }
+    ]
+  },
+  {
+    "case_id": 27,
+    "origin": "2021-12-31",
+    "project": "dtjohnson/xlsx-populate",
+    "package": "lodash",
+    "dependency_type": "production",
+    "window_end": "2022-12-31",
+    "commit_sha": "7480a02575c9140c0e7995623ea192c88c1886d3",
+    "manifest_constraint": "^4.17.15",
+    "inferred_version": "4.17.21",
+    "recorded_version": "4.17.15",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-29mw-wpgm-hmr9"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "e3f9d9bcaa3d0a980ab7d34e5894242f7851b9e21bff325aaf784dbcfa581ef9",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-29mw-wpgm-hmr9",
+        "range": ">= 4.0.0, < 4.17.21",
+        "published_at": "2022-01-06T20:30:46Z",
+        "reviewed_at": "2021-03-19T22:45:28Z",
+        "updated_at": "2025-09-29T20:19:46Z"
+      }
+    ]
+  },
+  {
+    "case_id": 28,
+    "origin": "2022-12-31",
+    "project": "faressoft/terminalizer",
+    "package": "webpack",
+    "dependency_type": "development",
+    "window_end": "2023-12-31",
+    "commit_sha": "dc65dbebf124419b200394e6f1fffea0d6090a9c",
+    "manifest_constraint": "^5.74.0",
+    "inferred_version": "5.75.0",
+    "recorded_version": "4.42.0",
+    "inferred_label": 1,
+    "recorded_label": 0,
+    "inferred_matched_ids": [
+      "GHSA-hc6q-2mpp-qw7j"
+    ],
+    "recorded_matched_ids": [],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "3431a8562c728d2f94efaa7d85693c1f63ade0d82abae4e8f67f6419c996b326",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-hc6q-2mpp-qw7j",
+        "range": ">= 5.0.0, < 5.76.0",
+        "published_at": "2023-03-13T03:30:15Z",
+        "reviewed_at": "2023-03-14T15:03:08Z",
+        "updated_at": "2023-10-30T13:11:26Z"
+      }
+    ]
+  },
+  {
+    "case_id": 29,
+    "origin": "2022-12-31",
+    "project": "futurepress/epub.js",
+    "package": "jszip",
+    "dependency_type": "production",
+    "window_end": "2023-12-31",
+    "commit_sha": "3565e476c9806b6fc78108a65a6829c5c45c2c3b",
+    "manifest_constraint": "^3.7.1",
+    "inferred_version": "3.10.1",
+    "recorded_version": "3.7.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-36fh-84j7-cv5h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "4093979b14aafde68ef3030f8a1ddccbbfb01d0f40bc52ae3235dbca550597bc",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-36fh-84j7-cv5h",
+        "range": "< 3.8.0",
+        "published_at": "2023-01-29T06:30:52Z",
+        "reviewed_at": "2023-02-01T18:08:04Z",
+        "updated_at": "2024-11-18T16:26:29Z"
+      }
+    ]
+  },
+  {
+    "case_id": 30,
+    "origin": "2022-12-31",
+    "project": "Modernizr/Modernizr",
+    "package": "ua-parser-js",
+    "dependency_type": "development",
+    "window_end": "2023-12-31",
+    "commit_sha": "86ebb0447a8f698b22320b2bb560968050d47cf7",
+    "manifest_constraint": "^0.7.28",
+    "inferred_version": "0.7.32",
+    "recorded_version": "0.7.28",
+    "inferred_label": 1,
+    "recorded_label": 0,
+    "inferred_matched_ids": [
+      "GHSA-fhg7-m89q-25r3"
+    ],
+    "recorded_matched_ids": [],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "2c4ab19334f003de2e9c11ceb9a05088bf0049b91204609b630d72bbc98d11c7",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-fhg7-m89q-25r3",
+        "range": ">= 0.8.0, < 1.0.33",
+        "published_at": "2023-01-24T15:36:32Z",
+        "reviewed_at": "2023-01-24T15:36:32Z",
+        "updated_at": "2025-10-17T16:52:25Z"
+      },
+      {
+        "id": "GHSA-fhg7-m89q-25r3",
+        "range": ">= 0.7.30, < 0.7.33",
+        "published_at": "2023-01-24T15:36:32Z",
+        "reviewed_at": "2023-01-24T15:36:32Z",
+        "updated_at": "2025-10-17T16:52:25Z"
+      }
+    ]
+  },
+  {
+    "case_id": 31,
+    "origin": "2022-12-31",
+    "project": "dtjohnson/xlsx-populate",
+    "package": "jszip",
+    "dependency_type": "production",
+    "window_end": "2023-12-31",
+    "commit_sha": "7480a02575c9140c0e7995623ea192c88c1886d3",
+    "manifest_constraint": "^3.2.2",
+    "inferred_version": "3.10.1",
+    "recorded_version": "3.2.2",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-36fh-84j7-cv5h"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "e3f9d9bcaa3d0a980ab7d34e5894242f7851b9e21bff325aaf784dbcfa581ef9",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-36fh-84j7-cv5h",
+        "range": "< 3.8.0",
+        "published_at": "2023-01-29T06:30:52Z",
+        "reviewed_at": "2023-02-01T18:08:04Z",
+        "updated_at": "2024-11-18T16:26:29Z"
+      }
+    ]
+  },
+  {
+    "case_id": 32,
+    "origin": "2023-12-31",
+    "project": "karma-runner/karma",
+    "package": "socket.io",
+    "dependency_type": "production",
+    "window_end": "2024-12-31",
+    "commit_sha": "450fdfdac5b999967daec1020f1ac69cf9b854ab",
+    "manifest_constraint": "^4.4.1",
+    "inferred_version": "4.7.2",
+    "recorded_version": "4.4.1",
+    "inferred_label": 0,
+    "recorded_label": 1,
+    "inferred_matched_ids": [],
+    "recorded_matched_ids": [
+      "GHSA-25hc-qcg6-38wj"
+    ],
+    "root_lockfile": "package-lock.json",
+    "lockfile_sha256": "6f6198ccc780b666362c52bd1f031a9cfb1436506795110c32269eb2a9863280",
+    "advisory_evidence": [
+      {
+        "id": "GHSA-25hc-qcg6-38wj",
+        "range": ">= 3.0.0, < 4.6.2",
+        "published_at": "2024-06-19T15:04:41Z",
+        "reviewed_at": "2024-06-19T15:04:41Z",
+        "updated_at": "2026-09-24T14:45:27Z"
+      },
+      {
+        "id": "GHSA-25hc-qcg6-38wj",
+        "range": "< 2.5.1",
+        "published_at": "2024-06-19T15:04:41Z",
+        "reviewed_at": "2024-06-19T15:04:41Z",
+        "updated_at": "2026-09-24T14:45:27Z"
+      }
+    ]
+  }
+]

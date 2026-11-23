@@ -1,0 +1,21 @@
+{
+  "project": "Snailclimb/JavaGuide",
+  "stratum": "high",
+  "origin": "2021-12-31",
+  "commit_sha": "70253498e313313b13232787ec4b3bd654f27b11",
+  "commit_date": "2021-12-31T13:35:15+08:00",
+  "frozen_branch_head": "c1f760553abfb0a1dafaa0704a5995388f8c91e5",
+  "collected_at": "2026-10-14T10:20:45.054356+00:00",
+  "package_json_sha256": "72036807bd59f2427eba7a0bfaaa2ea6ba00c8d7b0c24278f4ff7949427b13e5",
+  "package_json": {
+    "name": "javaguide-blog",
+    "version": "1.0.0",
+    "dependencies": {},
+    "devDependencies": {
+      "compression-webpack-plugin": "^5.0.0",
+      "vuepress": "^1.8.2",
+      "vuepress-theme-hope": "^1.20.5"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,31 @@
+{
+  "project": "select2/select2",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "3df83c83b56ba0886afbe55c64b49d6c2fd39298",
+  "commit_date": "2020-12-04T10:55:55-08:00",
+  "frozen_branch_head": "67428e8a07461005384508af81638ab92d6e25c0",
+  "collected_at": "2026-10-14T10:31:31.440063+00:00",
+  "package_json_sha256": "0049a9574cec27007974030af8a0e7f93d18a07328aac06003a78326d6111973",
+  "package_json": {
+    "name": "select2",
+    "version": "4.1.0-beta.1",
+    "dependencies": {},
+    "devDependencies": {
+      "almond": "~0.3.1",
+      "grunt": "^1.0.4",
+      "grunt-cli": "^1.3.2",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-connect": "^2.0.0",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-qunit": "^1.3.0",
+      "grunt-contrib-requirejs": "^1.0.0",
+      "grunt-contrib-uglify": "~4.0.1",
+      "grunt-contrib-watch": "~1.1.0",
+      "grunt-sass": "^2.1.0",
+      "jquery-mousewheel": "~3.1.13",
+      "node-sass": "^4.12.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

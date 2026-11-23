@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+cache/git/
+tools/vendor/
+publication/tools/vendor/
+verification/exposure/cache/
+verification/advisory_asof/db_*/
+.built_by_build_replication_package

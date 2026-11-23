@@ -1,0 +1,2342 @@
+[
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.01320341626858397,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.022028187708343326,
+    "ci_high": 0.06385053262962653
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.005045632158900817,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.036089557250948465,
+    "ci_high": 0.05481486884640281
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.006283137632461092,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.005715118521429582,
+    "ci_high": 0.024824692835969206
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.00053366514579542,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.006176328136862235,
+    "ci_high": 0.00597345505404895
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.002147820119968183,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.016113126818106307,
+    "ci_high": 0.012696385996309794
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.022992470428300216,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.010531352000306428,
+    "ci_high": 0.07941705259726871
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.002210546692374818,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.01775541767205191,
+    "ci_high": 0.015952086060909518
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.014815693491702836,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.01704087302239525,
+    "ci_high": 0.054718915987342694
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.016148455049876567,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0017622735505757217,
+    "ci_high": 0.04436991868017718
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.05908082673684748,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.022098500211931514,
+    "ci_high": 0.12518223529246167
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.07365011005248037,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.02450717839071909,
+    "ci_high": 0.18263989825906835
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.07323511503954361,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.024359111021340564,
+    "ci_high": 0.18195947297803647
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0724725948890943,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.023717216128425443,
+    "ci_high": 0.1813184334055147
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0021148412973802516,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.028499645452962553,
+    "ci_high": 0.04629193046453543
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0333245665403929,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07723305666361575,
+    "ci_high": 0.004545398048497848
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.030008575027628007,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07303143395748923,
+    "ci_high": 0.00213007910236326
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.040115726810493704,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.08384238908133397,
+    "ci_high": 0.0005457343145822934
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0334102584437993,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0781455049117034,
+    "ci_high": 0.00016358922802340775
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.03915830935816547,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.08827392958388089,
+    "ci_high": 0.01292661927698174
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.018415350260231195,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.03871840607828652,
+    "ci_high": -0.0004951909985208199
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.059724472384199645,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.1040737141458965,
+    "ci_high": -0.006074308755615496
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.024894212537442284,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0690505981183495,
+    "ci_high": 0.004063231423870394
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.03742608773472981,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.009235413059882099,
+    "ci_high": 0.14120151880590504
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.02652552928907087,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.002936748176995036,
+    "ci_high": 0.12837163478394145
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0261105342761341,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0019329381537912598,
+    "ci_high": 0.12723073314362174
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.02534801412568479,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0011982257851998795,
+    "ci_high": 0.12732233371971652
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 6.461587352464548e-05,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.010652421229624306,
+    "ci_high": 0.028734910319937877
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.006894825917709069,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0006112481757943261,
+    "ci_high": 0.030699487464555815
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.003949275237858749,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.003566616331235469,
+    "ci_high": 0.021356961138484544
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0009376480897937967,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.006981943655170376,
+    "ci_high": 0.0015074721077765016
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0023441368281719027,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.006700197882233373,
+    "ci_high": 0.01324802883564498
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.004963862966620006,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.05602072759896463,
+    "ci_high": 0.02004221573534628
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.005413908538419214,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.012126915377454878,
+    "ci_high": 0.03074898148996888
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.004611677836397252,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.03263254253968012,
+    "ci_high": 0.01876758048294109
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.004005593712693795,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.003262465888665237,
+    "ci_high": 0.008707734623168505
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.025750222515360965,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0037871471443428357,
+    "ci_high": 0.07509362867676624
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.021972340814084737,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0005110652674781282,
+    "ci_high": 0.0852640659296461
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.021557345801147966,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.00012070583370715816,
+    "ci_high": 0.08426434571850645
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.020794825650698658,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.000489917344377325,
+    "ci_high": 0.08368561957162456
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.01320341626858397,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -5.974674146261481e-05,
+    "ci_high": 0.029108113727517374
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.005045632158900817,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007940799418121694,
+    "ci_high": 0.021283933050266206
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.006283137632461092,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0010736417703381869,
+    "ci_high": 0.014374138823976843
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.00053366514579542,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0043089789070364076,
+    "ci_high": 0.002468140244546859
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.002147820119968183,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007095634245536143,
+    "ci_high": 0.004357160937392617
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.022992470428300216,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.011592206019579982,
+    "ci_high": 0.039506811306407215
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.002210546692374818,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.008567814119178467,
+    "ci_high": 0.006236549561464369
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.014815693491702836,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0016295819803369348,
+    "ci_high": 0.03064409065644569
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.016148455049876567,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.007309168328862935,
+    "ci_high": 0.028956432975812497
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.05908082673684748,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.04073241319195536,
+    "ci_high": 0.08499953742443916
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.07365011005248037,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0522135721136302,
+    "ci_high": 0.10433296967302712
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.07323511503954361,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.05195271222024743,
+    "ci_high": 0.10343107707782183
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0724725948890943,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.05090880653290601,
+    "ci_high": 0.10273538806496843
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0021148412973802516,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.004357078504873969,
+    "ci_high": 0.010755012972809848
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0333245665403929,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.04984852543500409,
+    "ci_high": -0.01630863699744025
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.030008575027628007,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.04484091213423362,
+    "ci_high": -0.015030794438444812
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.040115726810493704,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05454052776889647,
+    "ci_high": -0.02292754023713802
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0334102584437993,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.048556573491075214,
+    "ci_high": -0.018172303995628896
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.03915830935816547,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05702629002689392,
+    "ci_high": -0.019236839905264553
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.018415350260231195,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.028179049349566596,
+    "ci_high": -0.010019363524511916
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.059724472384199645,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.07665587051868272,
+    "ci_high": -0.040537117344889184
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.024894212537442284,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.03967608619492279,
+    "ci_high": -0.011957592775520928
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.03742608773472981,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.023862583071855455,
+    "ci_high": 0.056019887594871816
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.02652552928907087,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.015142751880107276,
+    "ci_high": 0.04381723954609667
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0261105342761341,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.014707313078817053,
+    "ci_high": 0.04360936142520665
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.02534801412568479,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.014130988824325105,
+    "ci_high": 0.04216989768560625
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 6.461587352464548e-05,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.00815570777609655,
+    "ci_high": 0.0073110637057044224
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.006894825917709069,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0034542931514573235,
+    "ci_high": 0.011958705590097847
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.003949275237858749,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0021842490386354795,
+    "ci_high": 0.008798262497542782
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.0009376480897937967,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0024010898640894622,
+    "ci_high": 0.0003562906704022091
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.0023441368281719027,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0011537967630164845,
+    "ci_high": 0.005107872565305826
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.004963862966620006,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.014147128702814545,
+    "ci_high": 0.002243153532950697
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.005413908538419214,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.006509312144700552,
+    "ci_high": 0.014926792636694402
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": -0.004611677836397252,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.014367340573136572,
+    "ci_high": 0.004022923208594458
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.004005593712693795,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0003171809972135791,
+    "ci_high": 0.007197779134372301
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.025750222515360965,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.01135790405724989,
+    "ci_high": 0.04374302164022228
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.021972340814084737,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.010248696250853414,
+    "ci_high": 0.03805240000315456
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.021557345801147966,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.010027925959851384,
+    "ci_high": 0.03833459208018343
+  },
+  {
+    "origin": "2021-12-31",
+    "ap_difference": 0.020794825650698658,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.009058710164348772,
+    "ci_high": 0.03739966503010229
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.001286808243089313,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.018250454762330042,
+    "ci_high": 0.014234151611341155
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.001431905243785364,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.02190262346516252,
+    "ci_high": 0.015461786730931461
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.01849616144414712,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.011783946091182548,
+    "ci_high": 0.07554100275776518
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.004455945227729588,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.022182035415872537,
+    "ci_high": 0.05120311558844399
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.004344736984868161,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.01614027645166562,
+    "ci_high": 0.0024740525658107646
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.1222606451303337,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.357318221501667,
+    "ci_high": 0.04982143489605293
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0009002911639009736,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.001411389693955745,
+    "ci_high": 0.004101844837496794
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.021763733418900574,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.09977263496841565,
+    "ci_high": 0.037840107006011925
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0011079228014347214,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.043267206114134066,
+    "ci_high": 0.016977745465462837
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06900507792120375,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.015048601225029474,
+    "ci_high": 0.18666294881719822
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06806486899682004,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.014279760391646329,
+    "ci_high": 0.18707344548257124
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0690795280076409,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.014437089694377602,
+    "ci_high": 0.1877801354265562
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06898185870189161,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.01571087945016929,
+    "ci_high": 0.18799054661315015
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.009397185141066779,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.028677156201823133,
+    "ci_high": 0.00039611734256225284
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.005038355647504919,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.03371352339992591,
+    "ci_high": 0.017127916321102842
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0025876568146129403,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.015296394883639042,
+    "ci_high": 0.005692154520299216
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.012275533969149995,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.033585482620983355,
+    "ci_high": 0.00019745110359808927
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.016000927412262507,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.04254170334226228,
+    "ci_high": -0.004504285660120205
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0005469834105473817,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.009928352619503611,
+    "ci_high": 0.013792860952837665
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.01947482987180158,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.05902953336921751,
+    "ci_high": -0.003684089938221448
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.009841983722102918,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.028923397765425605,
+    "ci_high": 0.0052554370330380965
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0017635105459141917,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.017712173311735212,
+    "ci_high": 0.008274376055400618
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.02683377313067309,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.008734685532566505,
+    "ci_high": 0.05784809536268223
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.028932212260084245,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.012620722977749832,
+    "ci_high": 0.05937508330921971
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.029946871270905097,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.013086275195525713,
+    "ci_high": 0.061000159397317094
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.029849201965155798,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.013149478790579044,
+    "ci_high": 0.061226882163416894
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.005420089844527881,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.007371341015685414,
+    "ci_high": 0.03009956932178751
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.004411290182144305,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0014133383875368259,
+    "ci_high": 0.016135634421675173
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0030655630324474964,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.006687699508598094,
+    "ci_high": 0.012922505989362128
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0015450475104684946,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.005391155498832775,
+    "ci_high": 0.011236337819936975
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0034483905586473393,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0050039470508098545,
+    "ci_high": 0.02045335607152175
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.010668982547596101,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0017720176742619805,
+    "ci_high": 0.03859649207285483
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0015739372537904792,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.03176521512015631,
+    "ci_high": 0.03594134141661408
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0015112865814399731,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.04764233310646704,
+    "ci_high": 0.022215707549935442
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.010491469722171728,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0009686557066018313,
+    "ci_high": 0.03656073660015421
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.030309925637256985,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0060712613409563574,
+    "ci_high": 0.08878318736029524
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03042416894221664,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.007415063168802448,
+    "ci_high": 0.08664554163577412
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03143882795303749,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.007639231026167043,
+    "ci_high": 0.08841008182456815
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03134115864728819,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.007986733503450536,
+    "ci_high": 0.08795518555179127
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.001286808243089313,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.005268028403592942,
+    "ci_high": 0.006966316485787759
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.001431905243785364,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.013814348942792107,
+    "ci_high": 0.006765849508595763
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.01849616144414712,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.004410218844032309,
+    "ci_high": 0.039656788072941186
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.004455945227729588,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007916296060827185,
+    "ci_high": 0.02199327529701802
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.004344736984868161,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007003793687215481,
+    "ci_high": -0.0020698589594792083
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.1222606451303337,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.18833506199120292,
+    "ci_high": -0.06763407929308282
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0009002911639009736,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0002141669447650648,
+    "ci_high": 0.0017294994540953987
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.021763733418900574,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.044066428991051135,
+    "ci_high": -0.005668641298944842
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0011079228014347214,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007560298688113789,
+    "ci_high": 0.009015081246010649
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06900507792120375,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.04660636505325364,
+    "ci_high": 0.09787357438361104
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06806486899682004,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.04783345052974237,
+    "ci_high": 0.0982521028960978
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0690795280076409,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.048474289345543764,
+    "ci_high": 0.09922786461368895
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.06898185870189161,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.04860944388371637,
+    "ci_high": 0.09912194280308094
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.009397185141066779,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.015945082174253906,
+    "ci_high": -0.00436761519885588
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.005038355647504919,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.010998230499930178,
+    "ci_high": 0.0020053073578026673
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0025876568146129403,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0061984646278040855,
+    "ci_high": 0.0011482703218025463
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.012275533969149995,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.018630084351905017,
+    "ci_high": -0.007267168003114883
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.016000927412262507,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.02740948054972276,
+    "ci_high": -0.008897565515836316
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0005469834105473817,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.004040195141400154,
+    "ci_high": 0.006021930388409509
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.01947482987180158,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.033847298471077154,
+    "ci_high": -0.011440305054605804
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.009841983722102918,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.015673277966062167,
+    "ci_high": -0.004749805016227114
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0017635105459141917,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.005485504689771499,
+    "ci_high": 0.0018000661999856967
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.02683377313067309,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.019178926494461984,
+    "ci_high": 0.03842084661588149
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.028932212260084245,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.021843747933355674,
+    "ci_high": 0.0408148681819385
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.029946871270905097,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.02276385583553563,
+    "ci_high": 0.04186709127708976
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.029849201965155798,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.022731974335687896,
+    "ci_high": 0.04164893079734093
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.005420089844527881,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0018361052653098672,
+    "ci_high": 0.009614970451412805
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.004411290182144305,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0024879399198066035,
+    "ci_high": 0.00710238366934511
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0030655630324474964,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0005665402069697391,
+    "ci_high": 0.006627184994989405
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0015450475104684946,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0014843987551322187,
+    "ci_high": 0.004459818884019892
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0034483905586473393,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0005222388820985089,
+    "ci_high": 0.006410206394247679
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.010668982547596101,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.006136843377636049,
+    "ci_high": 0.0155412466463538
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": -0.0015739372537904792,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.008686683408935747,
+    "ci_high": 0.004605984257409234
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.0015112865814399731,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.007310394980218166,
+    "ci_high": 0.008900848215934625
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.010491469722171728,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.007338512699357425,
+    "ci_high": 0.01460622957054896
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.030309925637256985,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.021523448011508274,
+    "ci_high": 0.0407361290911408
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03042416894221664,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.022488070885490357,
+    "ci_high": 0.04047752124867592
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03143882795303749,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.02328892823635504,
+    "ci_high": 0.042046164576280014
+  },
+  {
+    "origin": "2022-12-31",
+    "ap_difference": 0.03134115864728819,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.023641730692782817,
+    "ci_high": 0.041610300743889814
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.007892941909255921,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07623055306473046,
+    "ci_high": 0.002484358435725431
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.008062096328903812,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07677313776004795,
+    "ci_high": -0.00012853291371478991
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.026199285496449537,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.09080405980640445,
+    "ci_high": -0.0015738798651578434
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.011461370083348937,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.02219782276531478,
+    "ci_high": -0.001386328579146074
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01685117587959123,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -8.153011133982602e-06,
+    "ci_high": 0.04361053445655561
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.03313381994163342,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.09639875455613157,
+    "ci_high": 0.02141593700339526
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.03243115041701905,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0026309309997850365,
+    "ci_high": 0.09154301721481856
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.013701753179456932,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07060998423320416,
+    "ci_high": 0.02359117463575966
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.009717647190943035,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.08575393665035853,
+    "ci_high": 0.006401724587415147
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08286071831039239,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.010727380837677353,
+    "ci_high": 0.22503263669013993
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08436810052713029,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.015584347987959117,
+    "ci_high": 0.22488293478364987
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08475119102014868,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.015960026490426996,
+    "ci_high": 0.22493994017221167
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08387362445996535,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.014520737798927574,
+    "ci_high": 0.22465805211875836
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.0005925898316017641,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.025981578737371197,
+    "ci_high": 0.021305282778371033
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.014578988322525965,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.02960051288074463,
+    "ci_high": 0.12264077860596892
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.03293964059485521,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07107143179546896,
+    "ci_high": 0.01797519765322135
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.009823419226343666,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.024808249674142427,
+    "ci_high": 0.017865865718654738
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.026225110620852532,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.058010182131256825,
+    "ci_high": 0.03465008481315588
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.15735118142603996,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.010672910078864107,
+    "ci_high": 0.3044948840397193
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01888124724034118,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.06168376336017396,
+    "ci_high": 0.1997975854248363
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01394701191653075,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.02931620550004003,
+    "ci_high": 0.07552977453288987
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.015119158357159046,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.04406489660524814,
+    "ci_high": 0.01937287328498774
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25093887370354573,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0362943441422681,
+    "ci_high": 0.4819776566031224
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25315250785656257,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.036367669906179054,
+    "ci_high": 0.5020385951637091
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.253535598349581,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.035931965726127474,
+    "ci_high": 0.5039187097753147
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25265803178939766,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.03488854587602043,
+    "ci_high": 0.5026060786295615
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.003881710184636414,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.007443781506993731,
+    "ci_high": 0.01380684910586502
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.034028613923393486,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.0927680514160052,
+    "ci_high": 0.016998926732584914
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.02464337840104558,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.12058830100685132,
+    "ci_high": 0.05040188453030256
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.014109268074576797,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.04514957310194894,
+    "ci_high": 0.0023588144381805304
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.018503077739491475,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.07448974989363329,
+    "ci_high": 0.019671237591338684
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.05546295083243436,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.014720812360568155,
+    "ci_high": 0.19298759994631326
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.022714150410292677,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.01525426382573539,
+    "ci_high": 0.11235421181742034
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.06334143005196222,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.11877051212469963,
+    "ci_high": 0.005344689652451077
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.006439876353985061,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": -0.02918131739196595,
+    "ci_high": 0.044193635059584666
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.07806054801136882,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.0182589916753677,
+    "ci_high": 0.2039964715539641
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08294707826171893,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.020095303052507243,
+    "ci_high": 0.22044325892965227
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08333016875473732,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.01980112001140455,
+    "ci_high": 0.2210502441082151
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.082452602194554,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "package",
+    "valid_repeats": 1000,
+    "ci_low": 0.019038065676342593,
+    "ci_high": 0.22000807452731552
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.007892941909255921,
+    "model_a": "full_lr",
+    "model_b": "drop_libyear_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.014785719917118103,
+    "ci_high": -0.0029168602188552675
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.008062096328903812,
+    "model_a": "full_lr",
+    "model_b": "drop_major_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.014304228189791926,
+    "ci_high": -0.004068472172684748
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.026199285496449537,
+    "model_a": "full_lr",
+    "model_b": "drop_minor_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.03994851664537779,
+    "ci_high": -0.015142975909144039
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.011461370083348937,
+    "model_a": "full_lr",
+    "model_b": "drop_patch_versions_behind_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.018712528709587197,
+    "ci_high": -0.006131558473560595
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01685117587959123,
+    "model_a": "full_lr",
+    "model_b": "drop_release_frequency_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.011074354396871726,
+    "ci_high": 0.025075642227262978
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.03313381994163342,
+    "model_a": "full_lr",
+    "model_b": "drop_package_age_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05076348295376679,
+    "ci_high": -0.018109294928131695
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.03243115041701905,
+    "model_a": "full_lr",
+    "model_b": "drop_total_versions_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.019098898731700294,
+    "ci_high": 0.04895925089151848
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.013701753179456932,
+    "model_a": "full_lr",
+    "model_b": "drop_days_since_latest_release_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.026246106740657547,
+    "ci_high": -0.0026451628472285863
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.009717647190943035,
+    "model_a": "full_lr",
+    "model_b": "drop_is_post_1_0_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.019665847962789737,
+    "ci_high": -0.0023055061310882905
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08286071831039239,
+    "model_a": "full_lr",
+    "model_b": "libyear_only_lr",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.05686609464702864,
+    "ci_high": 0.117744344399272
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08436810052713029,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.06000496099550203,
+    "ci_high": 0.12090117980021416
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08475119102014868,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.060741715004233025,
+    "ci_high": 0.12123649715019215
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08387362445996535,
+    "model_a": "full_lr",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.05956734961824267,
+    "ci_high": 0.1196675402196597
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.0005925898316017641,
+    "model_a": "full_rf",
+    "model_b": "drop_libyear_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.01109305043261612,
+    "ci_high": 0.008437457867935615
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.014578988322525965,
+    "model_a": "full_rf",
+    "model_b": "drop_major_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.0008200610698997579,
+    "ci_high": 0.028513593319324747
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.03293964059485521,
+    "model_a": "full_rf",
+    "model_b": "drop_minor_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05327065390151778,
+    "ci_high": -0.015512119878688644
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.009823419226343666,
+    "model_a": "full_rf",
+    "model_b": "drop_patch_versions_behind_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.01928248434983468,
+    "ci_high": 0.00019264382908452173
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.026225110620852532,
+    "model_a": "full_rf",
+    "model_b": "drop_release_frequency_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.04602288490198191,
+    "ci_high": -0.005866237143981312
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.15735118142603996,
+    "model_a": "full_rf",
+    "model_b": "drop_package_age_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.12169678599387446,
+    "ci_high": 0.20557561878250613
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01888124724034118,
+    "model_a": "full_rf",
+    "model_b": "drop_total_versions_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.017861997053042637,
+    "ci_high": 0.055727582235223644
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.01394701191653075,
+    "model_a": "full_rf",
+    "model_b": "drop_days_since_latest_release_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.001970418034745372,
+    "ci_high": 0.028704111066799327
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.015119158357159046,
+    "model_a": "full_rf",
+    "model_b": "drop_is_post_1_0_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.02916793612937177,
+    "ci_high": -0.003358911424574982
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25093887370354573,
+    "model_a": "full_rf",
+    "model_b": "libyear_only_rf",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.1989615107325357,
+    "ci_high": 0.31787788889759466
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25315250785656257,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.2011509446648217,
+    "ci_high": 0.32207156969014494
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.253535598349581,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.20159506024930735,
+    "ci_high": 0.3222229724414562
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.25265803178939766,
+    "model_a": "full_rf",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.20091168312931337,
+    "ci_high": 0.32136601114949137
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.003881710184636414,
+    "model_a": "full_xgb",
+    "model_b": "drop_libyear_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0005455274865452976,
+    "ci_high": 0.008359287642283329
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.034028613923393486,
+    "model_a": "full_xgb",
+    "model_b": "drop_major_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05592780893035983,
+    "ci_high": -0.016167853073865437
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.02464337840104558,
+    "model_a": "full_xgb",
+    "model_b": "drop_minor_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.05492406711352976,
+    "ci_high": -0.004831151477329443
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.014109268074576797,
+    "model_a": "full_xgb",
+    "model_b": "drop_patch_versions_behind_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.02407815858485431,
+    "ci_high": -0.007703753045593188
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.018503077739491475,
+    "model_a": "full_xgb",
+    "model_b": "drop_release_frequency_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.03409456304586609,
+    "ci_high": -0.006898006293218486
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.05546295083243436,
+    "model_a": "full_xgb",
+    "model_b": "drop_package_age_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.03530585468145464,
+    "ci_high": 0.08453058282567248
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.022714150410292677,
+    "model_a": "full_xgb",
+    "model_b": "drop_total_versions_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.011900739844326326,
+    "ci_high": 0.03699580272921541
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": -0.06334143005196222,
+    "model_a": "full_xgb",
+    "model_b": "drop_days_since_latest_release_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.09460582404575021,
+    "ci_high": -0.03952540141117939
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.006439876353985061,
+    "model_a": "full_xgb",
+    "model_b": "drop_is_post_1_0_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": -0.0002811714944743186,
+    "ci_high": 0.013551515107777157
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.07806054801136882,
+    "model_a": "full_xgb",
+    "model_b": "libyear_only_xgb",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.05686193619484515,
+    "ci_high": 0.10853553065093505
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08294707826171893,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.25",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.061655761068590394,
+    "ci_high": 0.11530027197156405
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.08333016875473732,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_0.5",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.062030202776449966,
+    "ci_high": 0.11565777703596902
+  },
+  {
+    "origin": "2023-12-31",
+    "ap_difference": 0.082452602194554,
+    "model_a": "full_xgb",
+    "model_b": "libyear_gt_1.0",
+    "cluster_unit": "project",
+    "valid_repeats": 1000,
+    "ci_low": 0.06104772319642519,
+    "ci_high": 0.11468163310059627
+  }
+]

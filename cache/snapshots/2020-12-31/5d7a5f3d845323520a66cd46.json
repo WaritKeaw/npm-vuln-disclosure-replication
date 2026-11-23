@@ -1,0 +1,19 @@
+{
+  "project": "react-static/react-static",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "c912e461a13b9b171f18dedc2c4438df14439c45",
+  "commit_date": "2020-12-27T20:18:10+01:00",
+  "frozen_branch_head": "82c412265560c164cc19daabde9064b4679090d6",
+  "collected_at": "2026-10-14T10:31:08.780075+00:00",
+  "package_json_sha256": "a90ecdbca0117f36ab6b834062b6d6b53c4fc9199ff6439122fb0287cdc1d334",
+  "package_json": {
+    "devDependencies": {
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-config-react-tools": "^1.1.7",
+      "husky": "^4.2.5",
+      "lerna": "^3.22.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

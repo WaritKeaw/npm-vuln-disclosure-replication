@@ -1,0 +1,39 @@
+{
+  "project": "GoogleChromeLabs/quicklink",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "e1db241cbd7f5b9c8107b1e3715ab954c1edeac4",
+  "commit_date": "2023-10-31T21:19:26+02:00",
+  "frozen_branch_head": "e2f081b78f518a108a47b9046428a36f96f74f1e",
+  "collected_at": "2026-10-14T10:20:27.900960+00:00",
+  "package_json_sha256": "556f259d148c13e1391b5c270c9d87eda759000cf564b68e66d1978c135c8593",
+  "package_json": {
+    "name": "quicklink",
+    "version": "2.3.0",
+    "dependencies": {
+      "route-manifest": "^1.0.0",
+      "throttles": "^1.0.1"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.22.10",
+      "@babel/core": "^7.22.10",
+      "@babel/preset-env": "^7.22.10",
+      "@babel/preset-react": "^7.22.5",
+      "@size-limit/file": "^8.2.6",
+      "conventional-changelog-cli": "^3.0.0",
+      "cross-env": "^7.0.3",
+      "eslint": "^8.47.0",
+      "eslint-config-google": "^0.14.0",
+      "eslint-plugin-react": "^7.33.1",
+      "microbundle": "0.15.1",
+      "npm-run-all2": "^6.0.6",
+      "puppeteer": "^21.0.3",
+      "react": "^16.14.0",
+      "react-dom": "^16.14.0",
+      "sirv-cli": "^2.0.2",
+      "size-limit": "^8.2.6",
+      "uvu": "^0.5.6"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

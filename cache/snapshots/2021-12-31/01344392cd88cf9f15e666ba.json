@@ -1,0 +1,32 @@
+{
+  "project": "forwardemail/supertest",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "f1b92fb2c68ae2eac9291176a82b635f5fc43720",
+  "commit_date": "2021-08-17T15:14:37-05:00",
+  "frozen_branch_head": "3634bddc2471b9cfda66ed4f5701187cee7b7f21",
+  "collected_at": "2026-10-14T10:25:08.602951+00:00",
+  "package_json_sha256": "95d9581cf7f8bcd280316ed6832908022ad2d8b1c4b0d9adea7e6246a42d1cf4",
+  "package_json": {
+    "name": "supertest",
+    "version": "6.1.6",
+    "dependencies": {
+      "methods": "^1.1.2",
+      "superagent": "^6.1.0"
+    },
+    "devDependencies": {
+      "body-parser": "1.19.0",
+      "cookie-parser": "1.4.5",
+      "coveralls": "3.1.0",
+      "eslint": "7.17.0",
+      "eslint-config-airbnb-base": "14.2.1",
+      "eslint-plugin-import": "2.22.1",
+      "express": "4.17.1",
+      "mocha": "8.2.1",
+      "nock": "13.0.5",
+      "nyc": "15.1.0",
+      "should": "13.2.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

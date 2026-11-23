@@ -1,0 +1,30 @@
+{
+  "project": "mrdoob/three.js",
+  "stratum": "high",
+  "origin": "2022-12-31",
+  "commit_sha": "2a4451c430b6756e9856c242edba4ba80379031b",
+  "commit_date": "2022-12-31T12:32:38+01:00",
+  "frozen_branch_head": "7d0d76bd6cd69a95c01e2913eed5b86ff758ca91",
+  "collected_at": "2026-10-14T10:29:19.650152+00:00",
+  "package_json_sha256": "75893ec292f5b53055561d233fe4fbe04ab592c1bd0ff8cb257dec5a0625dd94",
+  "package_json": {
+    "name": "three",
+    "version": "0.148.0",
+    "devDependencies": {
+      "@rollup/plugin-node-resolve": "^15.0.1",
+      "@rollup/plugin-terser": "^0.2.1",
+      "chalk": "^5.2.0",
+      "concurrently": "^7.6.0",
+      "eslint": "^8.30.0",
+      "eslint-config-mdcs": "^5.0.0",
+      "eslint-plugin-compat": "^4.0.2",
+      "eslint-plugin-html": "^7.1.0",
+      "eslint-plugin-import": "^2.26.0",
+      "rollup": "^3.8.1",
+      "rollup-plugin-filesize": "^9.1.2",
+      "rollup-plugin-visualizer": "^5.8.3",
+      "servez": "^1.14.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

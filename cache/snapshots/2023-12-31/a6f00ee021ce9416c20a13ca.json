@@ -1,0 +1,37 @@
+{
+  "project": "mrdoob/three.js",
+  "stratum": "high",
+  "origin": "2023-12-31",
+  "commit_sha": "3c1a47a4cb526dc6195dae63130b4107cb2cbf54",
+  "commit_date": "2023-12-31T22:25:41Z",
+  "frozen_branch_head": "7d0d76bd6cd69a95c01e2913eed5b86ff758ca91",
+  "collected_at": "2026-10-14T10:29:20.934341+00:00",
+  "package_json_sha256": "2aa4d3817dcad2943216ddf615ef9de725ff30bbc74475c02240513d22f0f9d1",
+  "package_json": {
+    "name": "three",
+    "version": "0.160.0",
+    "devDependencies": {
+      "@rollup/plugin-node-resolve": "^15.0.1",
+      "@rollup/plugin-terser": "^0.4.0",
+      "chalk": "^5.2.0",
+      "concurrently": "^8.0.1",
+      "dpdm": "^3.14.0",
+      "eslint": "^8.37.0",
+      "eslint-config-mdcs": "^5.0.0",
+      "eslint-plugin-compat": "^4.1.2",
+      "eslint-plugin-html": "^7.1.0",
+      "eslint-plugin-import": "^2.27.5",
+      "failonlyreporter": "^1.0.0",
+      "jimp": "^0.22.7",
+      "magic-string": "^0.30.0",
+      "pixelmatch": "^5.3.0",
+      "puppeteer": "^21.5.1",
+      "qunit": "^2.19.4",
+      "rollup": "^4.6.0",
+      "rollup-plugin-filesize": "^10.0.0",
+      "rollup-plugin-visualizer": "^5.9.0",
+      "servez": "^2.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

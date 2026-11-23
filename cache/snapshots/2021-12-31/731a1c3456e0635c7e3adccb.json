@@ -1,0 +1,18 @@
+{
+  "project": "microsoft/Web-Dev-For-Beginners",
+  "stratum": "high",
+  "origin": "2021-12-31",
+  "commit_sha": "668fcff0da975a5851966b30c2cc1f11c18fb502",
+  "commit_date": "2021-12-28T10:05:08-05:00",
+  "frozen_branch_head": "78085398be0dea7abaaf5eda914817f46f6ddbbc",
+  "collected_at": "2026-10-14T10:28:45.965132+00:00",
+  "package_json_sha256": "e6e7657b0b88cd354d538279a40760889b3f4cd54b27801ec9f207238a946c48",
+  "package_json": {
+    "name": "web-dev-for-beginners",
+    "version": "1.0.0",
+    "devDependencies": {
+      "docsify-to-pdf": "0.0.5"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

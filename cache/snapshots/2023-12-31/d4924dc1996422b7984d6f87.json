@@ -1,0 +1,25 @@
+{
+  "project": "WickyNilliams/headroom.js",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "0f53fc75f41b0025a80b6075bcdd0d1ea51478be",
+  "commit_date": "2020-10-16T14:08:56+01:00",
+  "frozen_branch_head": "0f53fc75f41b0025a80b6075bcdd0d1ea51478be",
+  "collected_at": "2026-10-14T10:20:58.349361+00:00",
+  "package_json_sha256": "8b9abbe3209156dd6602b79ba6ce3de3c2e5523729c8a8a2d7aa43c0adf5fbdd",
+  "package_json": {
+    "name": "headroom.js",
+    "version": "0.12.0",
+    "devDependencies": {
+      "cypress": "^3.4.1",
+      "eslint": "^6.5.0",
+      "eslint-plugin-cypress": "^2.7.0",
+      "rollup": "^1.19.4",
+      "rollup-plugin-eslint": "^7.0.0",
+      "rollup-plugin-filesize": "^6.2.0",
+      "rollup-plugin-license": "^0.12.1",
+      "rollup-plugin-uglify": "^6.0.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,33 @@
+{
+  "project": "validatorjs/validator.js",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "f055c111d8720dd5fad720f218f1399ce357e81a",
+  "commit_date": "2021-11-17T10:25:45+03:00",
+  "frozen_branch_head": "9ff342479591ca5a43cb30000195bcf55c1bbed9",
+  "collected_at": "2026-10-14T10:32:43.372058+00:00",
+  "package_json_sha256": "fc253f8cdcf7c4bf58909ef950f482140b2ae84e3dd05118324d57d7d1ba5ed9",
+  "package_json": {
+    "name": "validator",
+    "version": "13.7.0",
+    "devDependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.0.0",
+      "@babel/preset-env": "^7.0.0",
+      "@babel/register": "^7.0.0",
+      "babel-eslint": "^10.0.1",
+      "babel-plugin-add-module-exports": "^1.0.0",
+      "eslint": "^4.19.1",
+      "eslint-config-airbnb-base": "^12.1.0",
+      "eslint-plugin-import": "^2.11.0",
+      "mocha": "^6.2.3",
+      "npm-run-all": "^4.1.5",
+      "nyc": "^14.1.0",
+      "rimraf": "^3.0.0",
+      "rollup": "^0.47.0",
+      "rollup-plugin-babel": "^4.0.1",
+      "uglify-js": "^3.0.19"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

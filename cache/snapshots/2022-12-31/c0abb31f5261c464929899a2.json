@@ -1,0 +1,37 @@
+{
+  "project": "Stuk/jszip",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "2ceb998e29d4171b4f3f2ecab1a2195c696543c0",
+  "commit_date": "2022-08-02T15:59:39-07:00",
+  "frozen_branch_head": "609d95f4098a11507160cd101e0b181cfad6a582",
+  "collected_at": "2026-10-14T10:20:53.227815+00:00",
+  "package_json_sha256": "051a83974445d3cd32a25c8cecd2606547b78bbb0ead537617210a07f0d78589",
+  "package_json": {
+    "name": "jszip",
+    "version": "3.10.1",
+    "dependencies": {
+      "lie": "~3.3.0",
+      "pako": "~1.0.2",
+      "readable-stream": "~2.3.6",
+      "setimmediate": "^1.0.5"
+    },
+    "devDependencies": {
+      "benchmark": "^2.1.4",
+      "browserify": "~13.0.0",
+      "eslint": "^8.18.0",
+      "grunt": "~0.4.1",
+      "grunt-browserify": "~5.0.0",
+      "grunt-cli": "~1.1.0",
+      "grunt-contrib-uglify": "~4.0.1",
+      "http-server": "^13.0.2",
+      "jszip-utils": "~0.0.2",
+      "package-json-versionify": "1.0.2",
+      "playwright": "^1.15.2",
+      "qunit": "~2.9.2",
+      "tmp": "0.0.28",
+      "typescript": "^4.6.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

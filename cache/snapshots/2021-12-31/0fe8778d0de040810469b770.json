@@ -1,0 +1,20 @@
+{
+  "project": "plankanban/planka",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "76a77fefddbb6bf5fbe23f1240ccf04e88f7cfbe",
+  "commit_date": "2021-12-30T00:30:53+05:00",
+  "frozen_branch_head": "627701dda3459fa25830b0fd5bb2f5668d033284",
+  "collected_at": "2026-10-14T10:30:07.289659+00:00",
+  "package_json_sha256": "57b370fe21b6d0b14d6e54dd230937390a5463f9ed805d339fde09aab894c47b",
+  "package_json": {
+    "name": "planka",
+    "version": "0.1.0",
+    "dependencies": {
+      "concurrently": "^6.2.0",
+      "husky": "^7.0.1",
+      "lint-staged": "^11.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

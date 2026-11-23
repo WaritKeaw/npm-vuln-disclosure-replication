@@ -1,0 +1,26 @@
+{
+  "project": "maierfelix/Iroh",
+  "stratum": "niche",
+  "origin": "2022-12-31",
+  "commit_sha": "86608619d23c44f9ecf711c6baf5c6f098158c7e",
+  "commit_date": "2018-01-18T23:52:52+01:00",
+  "frozen_branch_head": "86608619d23c44f9ecf711c6baf5c6f098158c7e",
+  "collected_at": "2026-10-14T10:28:32.746266+00:00",
+  "package_json_sha256": "c42cf6ed2528bd829a578bce9a314a4c6f4512f1f9bca1c37a4be05fd114ce8e",
+  "package_json": {
+    "name": "iroh",
+    "version": "0.3.0",
+    "dependencies": {
+      "acorn": "^5.1.1",
+      "astring": "^1.0.5"
+    },
+    "devDependencies": {
+      "rollup": "^0.47.2",
+      "rollup-plugin-json": "^2.3.0",
+      "rollup-plugin-buble": "^0.15.0",
+      "rollup-plugin-commonjs": "^8.1.0",
+      "rollup-plugin-node-resolve": "^3.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

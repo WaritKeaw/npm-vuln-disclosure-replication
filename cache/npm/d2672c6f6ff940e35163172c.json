@@ -1,0 +1,8 @@
+{
+  "package": "eslint-plugin-no-function-declare-after-return",
+  "collected_at": "2026-10-14T11:19:15.883533+00:00",
+  "times": {
+    "1.0.0": "2020-08-29T10:41:28.712Z",
+    "1.1.0": "2020-10-05T03:52:37.852Z"
+  }
+}

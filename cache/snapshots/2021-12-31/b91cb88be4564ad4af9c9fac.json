@@ -1,0 +1,30 @@
+{
+  "project": "gnuns/allOrigins",
+  "stratum": "niche",
+  "origin": "2021-12-31",
+  "commit_sha": "c9e1617808003d6d7532ca1195e8f886ac05c747",
+  "commit_date": "2021-10-17T23:13:02-03:00",
+  "frozen_branch_head": "d4c5e23a5ebde834809afa25f0e833b0a38b7691",
+  "collected_at": "2026-10-14T10:25:41.096974+00:00",
+  "package_json_sha256": "ee4dcd30b21664994c39e568811835468905aa498194a967c99079a3eb2cfece",
+  "package_json": {
+    "name": "allorigins",
+    "version": "2.6.1",
+    "dependencies": {
+      "@logdna/logger": "^2.3.2",
+      "agentkeepalive": "^4.1.3",
+      "express": "^4.17.1",
+      "got": "^11.8.2",
+      "iconv-lite": "^0.6.3"
+    },
+    "devDependencies": {
+      "@types/jest": "^27.0.2",
+      "jest": "^27.1.0",
+      "nock": "^13.1.3",
+      "prettier": "^2.3.2",
+      "supertest": "^6.1.6",
+      "vpdate": "^0.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

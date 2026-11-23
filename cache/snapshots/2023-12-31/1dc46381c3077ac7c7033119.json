@@ -1,0 +1,43 @@
+{
+  "project": "jsdoc/jsdoc",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "65da78e6bb5c6b364d43548160d17988d978048f",
+  "commit_date": "2023-12-30T19:58:50-08:00",
+  "frozen_branch_head": "b11c8e8e72ef6fc7e9105da4391d1245f80ce5e1",
+  "collected_at": "2026-10-14T10:27:42.418239+00:00",
+  "package_json_sha256": "2aa6d371775d1f0b6d30b3faf0dfab7e3f758c51d006fdfcbfd607e363919d99",
+  "package_json": {
+    "name": "jsdoc",
+    "devDependencies": {
+      "@babel/eslint-parser": "7.23.3",
+      "@jsdoc/ast": "^0.2.5",
+      "@jsdoc/cli": "^0.3.5",
+      "@jsdoc/core": "^0.5.4",
+      "@jsdoc/doclet": "^0.2.5",
+      "@jsdoc/eslint-config": "^1.2.4",
+      "@jsdoc/parse": "^0.3.5",
+      "@jsdoc/prettier-config": "^0.2.3",
+      "@jsdoc/salty": "^0.2.5",
+      "@jsdoc/tag": "^0.2.5",
+      "@jsdoc/task-runner": "^0.2.2",
+      "@jsdoc/test-matchers": "^0.2.4",
+      "@jsdoc/util": "^0.3.0",
+      "ajv": "^8.12.0",
+      "c8": "^8.0.1",
+      "eslint": "^8.56.0",
+      "execa": "^8.0.1",
+      "hereby": "^1.8.8",
+      "jasmine": "^5.1.0",
+      "jasmine-console-reporter": "^3.1.0",
+      "js-green-licenses": "^4.0.0",
+      "klaw-sync": "^6.0.0",
+      "lerna": "^8.0.1",
+      "license-check-and-add": "^4.0.5",
+      "lodash": "^4.17.21",
+      "mock-fs": "^5.2.0",
+      "prettier": "^3.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

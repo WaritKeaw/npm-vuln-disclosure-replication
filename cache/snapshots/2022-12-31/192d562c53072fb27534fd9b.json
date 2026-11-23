@@ -1,0 +1,25 @@
+{
+  "project": "brianc/node-postgres",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "3e34816f6fcedb165618367045a3119849ff37cd",
+  "commit_date": "2022-12-30T22:45:42-06:00",
+  "frozen_branch_head": "0980cefebe0ae461da8883703be049fe13ca96cf",
+  "collected_at": "2026-10-14T10:23:42.454237+00:00",
+  "package_json_sha256": "39ae8566e7a30b4dcbfa1da9eb97e66d9b584cfa84b2edb1966ddbc5e601463f",
+  "package_json": {
+    "name": "node-postgres",
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^4.4.0",
+      "@typescript-eslint/parser": "^4.4.0",
+      "eslint": "^7.11.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.1.4",
+      "lerna": "^3.19.0",
+      "prettier": "2.7.1",
+      "typescript": "^4.0.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

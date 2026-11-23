@@ -1,0 +1,20 @@
+{
+  "project": "less/less.js",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "13864a6b5cf2946d31e370e1f67d6a9b2e7e8d02",
+  "commit_date": "2023-09-15T07:27:20+08:00",
+  "frozen_branch_head": "713331655e437401dfea6cd233893a69762734e1",
+  "collected_at": "2026-10-14T10:28:08.054733+00:00",
+  "package_json_sha256": "2c54927ad39c43bbdcd117207df8d711a38029886f40b764ec46853a932298af",
+  "package_json": {
+    "name": "@less/root",
+    "version": "4.2.0",
+    "devDependencies": {
+      "github-changes": "^1.1.2",
+      "lerna": "^3.22.1",
+      "npm-run-all": "^4.1.5"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

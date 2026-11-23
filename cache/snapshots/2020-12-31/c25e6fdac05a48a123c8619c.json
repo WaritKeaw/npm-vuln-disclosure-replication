@@ -1,0 +1,32 @@
+{
+  "project": "thlorenz/browserify-shim",
+  "stratum": "niche",
+  "origin": "2020-12-31",
+  "commit_sha": "464b32bbe142664cd9796059798f6c738ea3de8f",
+  "commit_date": "2020-04-29T16:37:15-07:00",
+  "frozen_branch_head": "c4d1b5bfbbba15b86cd1208c146a919f82509c0e",
+  "collected_at": "2026-10-14T10:32:08.797399+00:00",
+  "package_json_sha256": "76daecca07bd97cf7de999bf10d364a50ad1a0b0ecfa722b2f797352b3f99968",
+  "package_json": {
+    "name": "browserify-shim",
+    "version": "3.8.14",
+    "dependencies": {
+      "exposify": "~0.5.0",
+      "mothership": "~0.2.0",
+      "rename-function-calls": "~0.1.0",
+      "resolve": "~0.6.1",
+      "through": "~2.3.4"
+    },
+    "devDependencies": {
+      "browserify": ">= 13",
+      "jsdom": "^5.4.2",
+      "ncp": "~0.5.0",
+      "proxyquire": "~0.5.1",
+      "request": "~2.88.0",
+      "rimraf": "~2.2.6",
+      "tap": "^1.1.0",
+      "test-peer-range": "1.0.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

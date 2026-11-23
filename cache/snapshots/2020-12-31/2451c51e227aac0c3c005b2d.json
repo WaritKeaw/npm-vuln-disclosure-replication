@@ -1,0 +1,38 @@
+{
+  "project": "GoogleChromeLabs/quicklink",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "5205d62b7dd8dcc7e471d8a48921d13a84b84fbd",
+  "commit_date": "2020-11-13T09:09:59-08:00",
+  "frozen_branch_head": "e2f081b78f518a108a47b9046428a36f96f74f1e",
+  "collected_at": "2026-10-14T10:20:23.716072+00:00",
+  "package_json_sha256": "1bb0a02eba53bc02e24343fd5d0e1ecd920e8e74390420229426d601d7d41c7b",
+  "package_json": {
+    "name": "quicklink",
+    "version": "2.0.0",
+    "dependencies": {
+      "route-manifest": "^1.0.0",
+      "throttles": "^1.0.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.8.4",
+      "@babel/core": "^7.9.0",
+      "@babel/preset-env": "^7.9.5",
+      "@babel/preset-react": "^7.9.4",
+      "bundlesize": "^0.18.0",
+      "chai": "^4.2.0",
+      "conventional-changelog-cli": "^2.0.11",
+      "cross-var": "^1.1.0",
+      "eslint": "^6.7.1",
+      "eslint-config-google": "^0.14.0",
+      "http-server": "^0.12.0",
+      "lodash": "^4.17.11",
+      "microbundle": "0.11.0",
+      "mocha": "^6.2.2",
+      "puppeteer": "^2.0.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

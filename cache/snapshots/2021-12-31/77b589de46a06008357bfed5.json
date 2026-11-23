@@ -1,0 +1,37 @@
+{
+  "project": "dvajs/dva",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "3eaee309ede9cf1e255326150ee2210bd04c1abf",
+  "commit_date": "2021-04-16T16:06:38+08:00",
+  "frozen_branch_head": "b60e6c0baf59450ac9cba5a3100fd2c17a6851fa",
+  "collected_at": "2026-10-14T10:24:24.603192+00:00",
+  "package_json_sha256": "117cf1b9858df6a23020496e0d228546af715a19cbdd3ac84671ea8a6c68db2f",
+  "package_json": {
+    "devDependencies": {
+      "@types/jest": "^24.0.22",
+      "babel-eslint": "^9.0.0",
+      "chalk": "^2.3.2",
+      "coveralls": "^3.0.0",
+      "eslint": "^5.6.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-config-prettier": "^4.3.0",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-jsx-a11y": "^6.0.2",
+      "eslint-plugin-prettier": "^3.1.0",
+      "eslint-plugin-react": "^7.11.1",
+      "father-build": "^1.14.0",
+      "husky": "^0.14.3",
+      "lerna": "^3.4.0",
+      "lerna-changelog": "^0.8.0",
+      "lint-staged": "^7.2.2",
+      "prettier": "^1.14.3",
+      "react": "^16.8.4",
+      "react-dom": "^16.8.4",
+      "react-testing-library": "^6.0.0",
+      "shelljs": "^0.8.1",
+      "umi-test": "^1.5.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "origin": "2020-12-31",
+    "instances": 3226,
+    "projects": 98,
+    "inferred_positive": 83,
+    "recorded_positive": 93,
+    "label_disagreements": 10,
+    "version_disagreements": 954
+  },
+  {
+    "origin": "2021-12-31",
+    "instances": 3453,
+    "projects": 108,
+    "inferred_positive": 120,
+    "recorded_positive": 135,
+    "label_disagreements": 17,
+    "version_disagreements": 1012
+  },
+  {
+    "origin": "2022-12-31",
+    "instances": 3348,
+    "projects": 107,
+    "inferred_positive": 65,
+    "recorded_positive": 65,
+    "label_disagreements": 4,
+    "version_disagreements": 934
+  },
+  {
+    "origin": "2023-12-31",
+    "instances": 3485,
+    "projects": 113,
+    "inferred_positive": 102,
+    "recorded_positive": 103,
+    "label_disagreements": 1,
+    "version_disagreements": 927
+  }
+]

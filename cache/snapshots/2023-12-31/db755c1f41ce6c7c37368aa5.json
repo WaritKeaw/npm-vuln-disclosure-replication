@@ -1,0 +1,44 @@
+{
+  "project": "google-map-react/google-map-react",
+  "stratum": "low",
+  "origin": "2023-12-31",
+  "commit_sha": "6fe7e11c4f9e2519097eb59f039681ee573efb8f",
+  "commit_date": "2023-05-14T10:46:52-06:00",
+  "frozen_branch_head": "ba0ef4df4351c511e3dce67d0214f4c5270dcf52",
+  "collected_at": "2026-10-14T10:25:52.285320+00:00",
+  "package_json_sha256": "2e5c3df6cac5c29454593e60a4d6cd4a917b876e4893d664b9b49a212aa92eb3",
+  "package_json": {
+    "name": "google-map-react",
+    "version": "2.2.1",
+    "dependencies": {
+      "@googlemaps/js-api-loader": "^1.13.8",
+      "@mapbox/point-geometry": "^0.1.0",
+      "eventemitter3": "^4.0.4",
+      "prop-types": "^15.7.2"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.3",
+      "cross-env": "^7.0.2",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.7.0",
+      "eslint-config-standard": "^14.1.0",
+      "eslint-config-standard-react": "^9.2.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-node": "^11.0.0",
+      "eslint-plugin-prettier": "^3.1.1",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-react": "^7.17.0",
+      "eslint-plugin-standard": "^4.0.1",
+      "expect": "1.20.2",
+      "gh-pages": "^2.2.0",
+      "jsdom": "^16.5.0",
+      "microbundle-crl": "^0.13.10",
+      "npm-run-all": "^4.1.5",
+      "prettier": "^2.0.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "^3.4.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

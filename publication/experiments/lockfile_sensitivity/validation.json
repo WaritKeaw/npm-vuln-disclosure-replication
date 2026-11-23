@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "matched_keys_equal": true,
+  "candidate_instances": 13532,
+  "unresolved_root_lockfile_instances": 27,
+  "excluded_recorded_version_instances": 20,
+  "matched_eligible_instances": 13512,
+  "metrics_rows": 54,
+  "interval_rows": 72,
+  "original_inputs_unchanged": true,
+  "minimum_valid_bootstrap_repeats": 1000,
+  "completed_at": "2026-10-23T18:59:34.440362+00:00"
+}

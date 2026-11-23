@@ -1,0 +1,45 @@
+{
+  "project": "foreversd/forever",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "b2120f9ffeb345385cda0ae0a0c86389a946f5fb",
+  "commit_date": "2020-11-21T23:07:12+02:00",
+  "frozen_branch_head": "2ba8489f8d53f823494035e58fa4184749917084",
+  "collected_at": "2026-10-14T10:25:03.792620+00:00",
+  "package_json_sha256": "b3cd5806170a740aca535b229f212b32efaa5b6181a9a143b5823aba466a34c5",
+  "package_json": {
+    "name": "forever",
+    "version": "3.0.4",
+    "dependencies": {
+      "async": "^1.5.2",
+      "cliff": "^0.1.10",
+      "clone": "^2.1.2",
+      "colors": "^0.6.2",
+      "deep-equal": "^1.1.1",
+      "eventemitter2": "6.4.3",
+      "flatiron": "~0.4.3",
+      "forever-monitor": "^3.0.3",
+      "mkdirp": "^0.5.5",
+      "nconf": "^0.10.0",
+      "nssocket": "^0.6.0",
+      "object-assign": "^4.1.1",
+      "prettyjson": "^1.2.1",
+      "shush": "^1.0.0",
+      "winston": "~0.8.1",
+      "yargs": "^3.32.0"
+    },
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "cli-testlab": "^1.10.0",
+      "eslint": "^5.16.0",
+      "eslint-plugin-prettier": "^3.1.3",
+      "eslint-config-prettier": "^6.11.0",
+      "mocha": "^6.2.2",
+      "moment": "^2.24.0",
+      "prettier": "^1.19.1",
+      "request": "2.88.2",
+      "vows": "0.7.x"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

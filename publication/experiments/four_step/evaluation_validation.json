@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "budget_point_rows": 456,
+  "interval_rows": 660,
+  "macro_project_rows": 228,
+  "project_detail_rows": 54264,
+  "minimum_valid_repeats": 1000,
+  "weighted_ap_and_tie_checks_passed": true,
+  "inputs_and_source_unchanged": true,
+  "completed_at": "2026-10-23T19:00:10.820323+00:00"
+}

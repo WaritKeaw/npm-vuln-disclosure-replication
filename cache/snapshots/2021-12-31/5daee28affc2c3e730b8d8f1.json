@@ -1,0 +1,37 @@
+{
+  "project": "youzan/vant-weapp",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "8457af65116d0e8dc1ec516affa29bf99866d3e2",
+  "commit_date": "2021-12-31T09:53:35+08:00",
+  "frozen_branch_head": "5856ed6b1bc4fc8e9cdac73e61ebbf0df0be134f",
+  "collected_at": "2026-10-14T10:33:32.336931+00:00",
+  "package_json_sha256": "36cf89bc32202aae86d33af9178e2eb83fbb303cad502ca9f40283d0cb4f786d",
+  "package_json": {
+    "name": "@vant/weapp",
+    "version": "1.10.0",
+    "devDependencies": {
+      "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+      "@babel/preset-typescript": "^7.16.0",
+      "@types/jest": "^27.0.2",
+      "@vant/cli": "^4.0.0-beta.7",
+      "@vant/icons": "^1.7.1",
+      "@vue/compiler-sfc": "^3.2.13",
+      "gulp": "^4.0.2",
+      "gulp-insert": "^0.5.0",
+      "gulp-less": "^5.0.0",
+      "gulp-postcss": "^9.0.1",
+      "gulp-rename": "^2.0.0",
+      "gulp-typescript": "^6.0.0-alpha.1",
+      "jest": "^27.3.1",
+      "miniprogram-api-typings": "^3.1.6",
+      "miniprogram-ci": "^1.6.1",
+      "miniprogram-simulate": "^1.4.2",
+      "ts-jest": "^27.0.7",
+      "tscpaths": "^0.0.9",
+      "typescript": "^4.4.4",
+      "vue": "^3.2.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

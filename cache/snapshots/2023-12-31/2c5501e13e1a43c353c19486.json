@@ -1,0 +1,44 @@
+{
+  "project": "codesandbox/codesandbox-client",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "b565b2fc392282fccb1b20c188b2fab5b1b07945",
+  "commit_date": "2023-12-21T15:25:56+02:00",
+  "frozen_branch_head": "dcba8ebc49cd46838e298cfa1501811ac67fb0c9",
+  "collected_at": "2026-10-14T10:23:52.832517+00:00",
+  "package_json_sha256": "f8fa04db72547de7f26538635bd6104234bc1da217ba29b62ef5d66498e577b6",
+  "package_json": {
+    "name": "codesandbox",
+    "version": "0.1.0",
+    "dependencies": {
+      "postinstall-postinstall": "^2.1.0"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^6.9.0",
+      "@typescript-eslint/parser": "^6.9.0",
+      "all-contributors-cli": "^6.26.1",
+      "babel-eslint": "10.1.0",
+      "concurrently": "^4.1.0",
+      "cross-env": "^6.0.0",
+      "eslint": "5.16.0",
+      "eslint-config-airbnb": "^18.0.1",
+      "eslint-config-prettier": "^6.3.0",
+      "eslint-import-resolver-webpack": "^0.8.1",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-jsx-a11y": "^6.6.1",
+      "eslint-plugin-react": "~7.21.2",
+      "eslint-plugin-react-hooks": "^4.1.0",
+      "eslint-plugin-react_editor": "npm:eslint-plugin-react@7.29.4",
+      "gulp": "^4.0.2",
+      "husky": "^8.0.3",
+      "jest-environment-jsdom": "^29.7.0",
+      "lerna": "^6",
+      "lint-staged": "10.5.4",
+      "prettier": "2.1.1",
+      "pretty-quick": "^3.0.0",
+      "typescript": "^5.2.2",
+      "username": "^5.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,29 @@
+{
+  "project": "mysqljs/mysql",
+  "stratum": "medium",
+  "origin": "2021-12-31",
+  "commit_sha": "e56af3d50db72847063727c5cb0bf18ef60f9477",
+  "commit_date": "2021-12-28T00:12:56-05:00",
+  "frozen_branch_head": "dc9c152a87ec51a1f647447268917243d2eab1fd",
+  "collected_at": "2026-10-14T10:29:19.211298+00:00",
+  "package_json_sha256": "b234e7f855be36e15503ee67f575830851ff2de0122bbe505e177377b8183faf",
+  "package_json": {
+    "name": "mysql",
+    "version": "2.18.1",
+    "dependencies": {
+      "bignumber.js": "9.0.2",
+      "readable-stream": "2.3.7",
+      "safe-buffer": "5.2.1",
+      "sqlstring": "2.3.2"
+    },
+    "devDependencies": {
+      "after": "0.8.2",
+      "eslint": "7.32.0",
+      "seedrandom": "3.0.5",
+      "timezone-mock": "0.0.7",
+      "urun": "0.0.8",
+      "utest": "0.0.8"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

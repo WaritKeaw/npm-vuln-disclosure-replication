@@ -1,0 +1,24 @@
+{
+  "project": "listen1/listen1_chrome_extension",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "4eed624b2077596f478684e3be65946ce4a41685",
+  "commit_date": "2022-11-25T10:53:42+08:00",
+  "frozen_branch_head": "3f24efa045125875a609dcb0f3f3f0be4edb8b37",
+  "collected_at": "2026-10-14T10:28:14.391139+00:00",
+  "package_json_sha256": "899b30793a8190405a4eb05fb125aa644695bde76d0f2de96ee74fb016d4a03a",
+  "package_json": {
+    "name": "listen1_chrome_extension",
+    "version": "2.27.0",
+    "devDependencies": {
+      "eslint": "^7.30.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.23.4",
+      "husky": "^4.3.8",
+      "lint-staged": "^10.5.4",
+      "prettier": "^2.3.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

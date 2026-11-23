@@ -1,0 +1,36 @@
+{
+  "project": "sweetalert2/sweetalert2",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "91147e9c2f67c3e4195f573619d82fec944c54e7",
+  "commit_date": "2022-12-26T11:03:40+02:00",
+  "frozen_branch_head": "0bdf7205a4b165f60d156cebf7a8aa304bd6d240",
+  "collected_at": "2026-10-14T10:32:02.378844+00:00",
+  "package_json_sha256": "d5ad3d8548c1ad6af6200b9d986697a5aba8190eac50f95c0311fa99a6249b58",
+  "package_json": {
+    "name": "sweetalert2",
+    "version": "11.6.16",
+    "devDependencies": {
+      "@babel/core": "^7.19.6",
+      "@babel/preset-env": "^7.19.4",
+      "@rollup/plugin-babel": "^6.0.2",
+      "@rollup/plugin-terser": "^0.2.0",
+      "@sweetalert2/eslint-config": "^1.0.11",
+      "@sweetalert2/stylelint-config": "^2.0.6",
+      "cypress": "^12.0.0",
+      "eslint": "^8.24.0",
+      "eslint-plugin-cypress": "^2.12.1",
+      "eslint-plugin-jsdoc": "^39.3.6",
+      "eslint-plugin-no-unsanitized": "^4.0.1",
+      "jquery": "^3.6.1",
+      "prettier": "^2.7.1",
+      "rollup": "^3.2.2",
+      "sass": "^1.55.0",
+      "stylelint": "^14.14.0",
+      "typescript": "4.0.2",
+      "vite": "^4.0.0",
+      "zx": "^7.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,39 @@
+{
+  "project": "be5invis/Iosevka",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "031f6b8cf1c77ab4d81a7c2e3076b40a43fc634a",
+  "commit_date": "2022-12-27T06:37:08-08:00",
+  "frozen_branch_head": "2487637bb71f41b2a66134afd9faa6c316e5a438",
+  "collected_at": "2026-10-14T10:23:24.974296+00:00",
+  "package_json_sha256": "bcb2356f0b8a12a0ac577dedeecc1647f3de8e492b08e075753fd21799bced7f",
+  "package_json": {
+    "name": "iosevka",
+    "version": "17.0.2",
+    "dependencies": {
+      "@iarna/toml": "^2.2.5",
+      "@msgpack/msgpack": "^2.8.0",
+      "ot-builder": "^1.5.5",
+      "otb-ttc-bundle": "^1.5.5",
+      "semver": "^7.3.8",
+      "spiro": "^3.0.0",
+      "toposort": "^2.0.2",
+      "typo-geom": "^0.12.1",
+      "uuid": "^9.0.0",
+      "wawoff2": "^2.0.1",
+      "deep-equal": "^2.1.0"
+    },
+    "devDependencies": {
+      "@unicode/unicode-14.0.0": "^1.3.1",
+      "cldr": "^7.3.0",
+      "eslint": "^8.29.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-import": "^2.26.0",
+      "patel": "^0.38.0",
+      "prettier": "^2.8.0",
+      "verda": "^1.11.0",
+      "which": "^3.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

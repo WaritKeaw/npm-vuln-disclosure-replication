@@ -1,0 +1,33 @@
+{
+  "project": "sveltejs/svelte",
+  "stratum": "high",
+  "origin": "2023-12-31",
+  "commit_sha": "6307a3322c2087286e8013a9aa2e6911e9a36d01",
+  "commit_date": "2023-12-27T17:40:01Z",
+  "frozen_branch_head": "86eb09b76ef9c81e8b34adf7eaaf63974a66aaa9",
+  "collected_at": "2026-10-14T10:32:43.868981+00:00",
+  "package_json_sha256": "3f6ddec3d946c0697c1cbf55da60a3caec566b4226ddd8f858aebc7b03deb2d6",
+  "package_json": {
+    "name": "svelte-monorepo",
+    "version": "0.0.1",
+    "devDependencies": {
+      "@changesets/cli": "^2.26.1",
+      "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+      "@sveltejs/eslint-config": "^6.0.4",
+      "@types/node": "^18.18.8",
+      "@typescript-eslint/eslint-plugin": "^5.22.0",
+      "@vitest/coverage-v8": "^0.34.6",
+      "concurrently": "^8.2.0",
+      "cross-env": "^7.0.3",
+      "eslint": "^8.49.0",
+      "eslint-plugin-lube": "^0.1.7",
+      "jsdom": "22.0.0",
+      "playwright": "^1.35.1",
+      "prettier": "^3.0.1",
+      "prettier-plugin-svelte": "^3.0.3",
+      "typescript": "^5.2.2",
+      "vitest": "^0.34.6"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

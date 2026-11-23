@@ -1,0 +1,35 @@
+{
+  "project": "jonschlinkert/gray-matter",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "a5726b04f3167fadc764241deb545518c454eb82",
+  "commit_date": "2021-04-24T12:47:55+10:00",
+  "frozen_branch_head": "310f9349381775d10a221cef903989eb5acc8843",
+  "collected_at": "2026-10-14T10:27:10.912427+00:00",
+  "package_json_sha256": "cbc36e2be72fc48c3fbc6c522348a6d9aab8170a470cf572d073643f30784e2b",
+  "package_json": {
+    "name": "gray-matter",
+    "version": "4.0.3",
+    "dependencies": {
+      "js-yaml": "^3.13.1",
+      "kind-of": "^6.0.2",
+      "section-matter": "^1.0.0",
+      "strip-bom-string": "^1.0.0"
+    },
+    "devDependencies": {
+      "ansi-green": "^0.1.1",
+      "benchmarked": "^2.0.0",
+      "coffeescript": "^2.2.3",
+      "delimiter-regex": "^2.0.0",
+      "extend-shallow": "^3.0.2",
+      "front-matter": "^2.3.0",
+      "gulp-format-md": "^1.0.0",
+      "minimist": "^1.2.0",
+      "mocha": "^6.1.4",
+      "toml": "^2.3.3",
+      "vinyl": "^2.1.0",
+      "write": "^1.0.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

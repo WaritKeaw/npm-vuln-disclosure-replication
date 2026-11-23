@@ -1,0 +1,7 @@
+{
+  "package": "babel-plugin-fix-dce-for-classes-with-statics",
+  "collected_at": "2026-10-14T11:18:40.201098+00:00",
+  "times": {
+    "0.1.0": "2019-04-11T05:22:05.169Z"
+  }
+}

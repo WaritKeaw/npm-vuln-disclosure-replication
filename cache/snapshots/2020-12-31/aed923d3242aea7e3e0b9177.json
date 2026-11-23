@@ -1,0 +1,53 @@
+{
+  "project": "Modernizr/Modernizr",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "690e36addaeac60cedf9ceb0e911a3d3e7698f77",
+  "commit_date": "2020-12-16T20:03:57+01:00",
+  "frozen_branch_head": "612ec65ccdba311e8b1153b1076d18f0251943f6",
+  "collected_at": "2026-10-14T10:20:33.513145+00:00",
+  "package_json_sha256": "1113b64eb2c8cb4b43f3d8db65ef75a747cfbdbd738f2f7bb5f0327a58d8aac0",
+  "package_json": {
+    "name": "modernizr",
+    "version": "3.11.0",
+    "dependencies": {
+      "doctrine": "^3.0.0",
+      "file": "^0.2.2",
+      "lodash": "^4.17.20",
+      "markdown-it": "^12.0.3",
+      "mkdirp": "1.0.4",
+      "requirejs": "^2.3.6",
+      "yargs": "^16.2.0"
+    },
+    "devDependencies": {
+      "@alrra/travis-scripts": "^3.0.1",
+      "@babel/core": "^7.12.10",
+      "@babel/preset-env": "^7.12.10",
+      "@babel/register": "^7.12.10",
+      "auto-changelog": "^2.2.1",
+      "chai": "^4.2.0",
+      "codecov": "^3.8.1",
+      "del": "^6.0.0",
+      "eslint": "^7.15.0",
+      "eslint-plugin-jsdoc": "^30.7.8",
+      "find-parent-dir": "^0.3.0",
+      "fs-extra": "^9.0.1",
+      "globby": "^11.0.1",
+      "gulp": "^4.0.2",
+      "gulp-connect": "^5.7.0",
+      "gulp-eslint": "^6.0.0",
+      "gulp-pug": "^4.0.1",
+      "joi": "^17.3.0",
+      "jquery": "^3.5.1",
+      "json3": "^3.3.3",
+      "mocha": "^8.2.1",
+      "mocha-headless-chrome": "^3.1.0",
+      "nyc": "^15.1.0",
+      "proxyquire": "^2.1.3",
+      "serve-static": "^1.14.1",
+      "sinon": "^9.2.2",
+      "ua-parser-js": "^0.7.23"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

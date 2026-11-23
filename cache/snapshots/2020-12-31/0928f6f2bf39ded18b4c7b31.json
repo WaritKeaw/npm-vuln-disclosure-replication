@@ -1,0 +1,25 @@
+{
+  "project": "alexjoverm/v-lazy-image",
+  "stratum": "niche",
+  "origin": "2020-12-31",
+  "commit_sha": "a1f6c5c1baff45255eccab68c61d9ed8df99e6bb",
+  "commit_date": "2020-07-17T23:27:45+02:00",
+  "frozen_branch_head": "1c7b85c6920ef41bd5f99f8c1be6266a3a3b4fe0",
+  "collected_at": "2026-10-14T10:21:45.490873+00:00",
+  "package_json_sha256": "b1dd224eee59db7288e5dbdc6200a320a2154d71a7fbe0787b03ff9db252d140",
+  "package_json": {
+    "name": "v-lazy-image",
+    "version": "1.4.0",
+    "devDependencies": {
+      "@vue/test-utils": "^1.0.0-beta.28",
+      "babel-core": "^6.26.3",
+      "babel-jest": "^23.6.0",
+      "babel-preset-env": "^1.7.0",
+      "intersection-observer": "^0.5.1",
+      "jest": "^23.6.0",
+      "jest-serializer-vue": "^2.0.2",
+      "rollit": "0.0.8"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

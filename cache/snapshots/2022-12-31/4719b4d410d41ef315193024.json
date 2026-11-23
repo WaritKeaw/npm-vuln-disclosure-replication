@@ -1,0 +1,53 @@
+{
+  "project": "qeeqbox/social-analyzer",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "cd84ba0aba8f0b08a33d45d56e51e04bf7dea1ed",
+  "commit_date": "2022-12-28T03:11:42Z",
+  "frozen_branch_head": "1ba0905e00d054aab833eb3693739c354db09e0f",
+  "collected_at": "2026-10-14T10:30:55.906999+00:00",
+  "package_json_sha256": "8e43da79d5dfae1c9da007bb912bca6b2cc0aada6ab48dd32a4a09a946c27a24",
+  "package_json": {
+    "name": "social-analyzer",
+    "version": "2.0.32",
+    "dependencies": {
+      "async": "3.2.4",
+      "cheerio": "^1.0.0-rc.11",
+      "cli-table": "0.3.11",
+      "colors": "1.4.0",
+      "express": "^4.18.1",
+      "express-async-errors": "3.1.1",
+      "follow-redirects": "^1.15.1",
+      "franc": "^6.0.0",
+      "geckodriver": "^3.0.1",
+      "generatorics": "1.1.0",
+      "html-to-text": "8.2.0",
+      "https-proxy-agent": "5.0.1",
+      "ixora": "1.0.10",
+      "langs": "2.0.0",
+      "loadash": "^1.0.0",
+      "lodash": ">=4.17.21",
+      "most-common-words-by-language": "3.0.10",
+      "n": "^8.2.0",
+      "prettier": "2.7.1",
+      "pretty-error": "4.0.0",
+      "sanitize-html": ">=2.7.0",
+      "selenium-webdriver": "4.3.0",
+      "semver": "7.3.7",
+      "slash": "4.0.0",
+      "string-similarity": "4.0.4",
+      "tesseract.js": "2.1.5",
+      "wink-tokenizer": "5.3.0",
+      "wordsninja": "1.0.0",
+      "yargs": "17.5.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.18.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^6.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

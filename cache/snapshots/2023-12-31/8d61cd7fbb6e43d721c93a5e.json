@@ -1,0 +1,50 @@
+{
+  "project": "mdbootstrap/TW-Elements",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "dda3cf016223ce5d29434f1881b753a973110460",
+  "commit_date": "2023-12-28T17:46:32+01:00",
+  "frozen_branch_head": "9b442c410d8de1c44fbad6728668235c36c4b712",
+  "collected_at": "2026-10-14T10:28:44.939230+00:00",
+  "package_json_sha256": "100eabb672f9cf65a0bfd394039dd9a3cd7c65eb4ce67610608557208b058404",
+  "package_json": {
+    "name": "tw-elements",
+    "version": "1.1.0",
+    "dependencies": {
+      "@popperjs/core": "^2.6.0",
+      "chart.js": "^3.7.1",
+      "chartjs-plugin-datalabels": "^2.0.0",
+      "deepmerge": "^4.2.2",
+      "detect-autofill": "^1.1.3",
+      "perfect-scrollbar": "^1.5.5",
+      "tailwindcss": "3.3.0"
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.23.2",
+      "autoprefixer": "^10.4.13",
+      "babel-eslint": "^10.1.0",
+      "bestzip": "^2.2.0",
+      "cross-env": "^7.0.2",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-config-prettier": "^6.15.0",
+      "eslint-loader": "^3.0.3",
+      "eslint-plugin-import": "^2.20.2",
+      "eslint-plugin-prettier": "^3.1.3",
+      "fs-extra": "^9.1.0",
+      "husky": "^4.2.5",
+      "jest": "^26.0.1",
+      "lint-staged": "^10.2.4",
+      "prettier": "^2.8.1",
+      "prettier-plugin-go-template": "^0.0.13",
+      "prettier-plugin-tailwindcss": "^0.2.1",
+      "pretty-quick": "^2.0.1",
+      "sass": "^1.30.0",
+      "sass-loader": "^8.0.2",
+      "shelljs": "^0.8.5",
+      "postcss": "^8.4.21",
+      "vite": "^4.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

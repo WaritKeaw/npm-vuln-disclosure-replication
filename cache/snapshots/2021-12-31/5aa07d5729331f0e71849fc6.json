@@ -1,0 +1,36 @@
+{
+  "project": "reactjs/react-codemod",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "b34b92a1f0b8ad333efe5effb50d17d46d66588b",
+  "commit_date": "2020-10-21T00:33:24+01:00",
+  "frozen_branch_head": "5207d594fad6f8b39c51fd7edd2bcb51047dc872",
+  "collected_at": "2026-10-14T10:31:12.313438+00:00",
+  "package_json_sha256": "794a82bdc6f6eb695bee3d26d55d8bb801cd8b99fdb8a512f20e9e56e5ae1e27",
+  "package_json": {
+    "name": "react-codemod",
+    "version": "5.4.3",
+    "dependencies": {
+      "chalk": "^2.4.2",
+      "eslint": "^6.6.0",
+      "execa": "^3.2.0",
+      "globby": "^10.0.1",
+      "inquirer": "^7.0.0",
+      "is-git-clean": "^1.1.0",
+      "jscodeshift": "^0.11.0",
+      "meow": "^5.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.6.4",
+      "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+      "@babel/preset-env": "^7.6.3",
+      "babel-eslint": "^10.0.3",
+      "babel-jest": "^24.9.0",
+      "eslint": "^6.6.0",
+      "eslint-plugin-react": "^7.16.0",
+      "fbjs-scripts": "^0.7.1",
+      "jest": "^24.9.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

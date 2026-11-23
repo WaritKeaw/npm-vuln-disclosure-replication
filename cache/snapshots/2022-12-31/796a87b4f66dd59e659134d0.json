@@ -1,0 +1,23 @@
+{
+  "project": "mscdex/ssh2",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "24b497ddf2d727ecf3e3e6d414a5ba6172fe320f",
+  "commit_date": "2022-06-15T11:55:12-04:00",
+  "frozen_branch_head": "a3a39d795a8d7ff43d5f33aafadccfc03466d044",
+  "collected_at": "2026-10-14T10:29:04.873343+00:00",
+  "package_json_sha256": "d25d7b3955820949aaf4b69ed9142d06ca55d8bb37fe186e39cab9a4ab609326",
+  "package_json": {
+    "name": "ssh2",
+    "version": "1.11.0",
+    "dependencies": {
+      "asn1": "^0.2.4",
+      "bcrypt-pbkdf": "^1.0.2"
+    },
+    "devDependencies": {
+      "@mscdex/eslint-config": "^1.1.0",
+      "eslint": "^7.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

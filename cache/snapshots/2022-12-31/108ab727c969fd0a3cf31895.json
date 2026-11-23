@@ -1,0 +1,29 @@
+{
+  "project": "graphql/dataloader",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "420573bc45cc55df096053efd743bcf5e9258c0e",
+  "commit_date": "2022-12-08T13:51:19-05:00",
+  "frozen_branch_head": "65be452f5ffad3eede2d862dc26c96003fa87ef3",
+  "collected_at": "2026-10-14T10:25:57.527005+00:00",
+  "package_json_sha256": "47972073ab28398a5351e76610e6650d1d21caaecd51ab7422c2de689cca5a78",
+  "package_json": {
+    "name": "dataloader",
+    "version": "2.1.0",
+    "devDependencies": {
+      "@babel/cli": "7.7.0",
+      "@babel/core": "7.7.2",
+      "@babel/node": "7.7.0",
+      "@babel/preset-env": "7.7.1",
+      "@babel/preset-flow": "7.0.0",
+      "@changesets/cli": "2.24.3",
+      "@changesets/changelog-github": "0.4.6",
+      "babel-eslint": "10.0.3",
+      "eslint": "6.6.0",
+      "flow-bin": "0.112.0",
+      "jest": "24.9.0",
+      "sane": "4.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

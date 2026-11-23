@@ -1,0 +1,43 @@
+{
+  "project": "lovell/sharp",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "0499f59e710f8338779f7a29fec277a7b31da98f",
+  "commit_date": "2023-12-29T10:01:56Z",
+  "frozen_branch_head": "857281ae51452eb0e3678520d8a3462958638a4a",
+  "collected_at": "2026-10-14T10:28:29.647406+00:00",
+  "package_json_sha256": "239482e2d8a7c41c1aab094f08d4c75bea3f9793805d2e879a4524ebec90d5a1",
+  "package_json": {
+    "name": "sharp",
+    "version": "0.33.1",
+    "dependencies": {
+      "color": "^4.2.3",
+      "detect-libc": "^2.0.2",
+      "semver": "^7.5.4"
+    },
+    "devDependencies": {
+      "@emnapi/runtime": "^0.44.0",
+      "@img/sharp-libvips-dev": "1.0.0",
+      "@img/sharp-libvips-dev-wasm32": "1.0.0",
+      "@img/sharp-libvips-win32-ia32": "1.0.0",
+      "@img/sharp-libvips-win32-x64": "1.0.0",
+      "@types/node": "*",
+      "async": "^3.2.5",
+      "cc": "^3.0.1",
+      "emnapi": "^0.44.0",
+      "exif-reader": "^2.0.0",
+      "extract-zip": "^2.0.1",
+      "icc": "^3.0.0",
+      "jsdoc-to-markdown": "^8.0.0",
+      "license-checker": "^25.0.1",
+      "mocha": "^10.2.0",
+      "node-addon-api": "^7.0.0",
+      "nyc": "^15.1.0",
+      "prebuild": "^12.1.0",
+      "semistandard": "^17.0.0",
+      "tar-fs": "^3.0.4",
+      "tsd": "^0.29.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

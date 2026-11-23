@@ -1,0 +1,13 @@
+{
+  "title": "Replication package: How Reliable Is Machine Learning for Anticipating Vulnerability Disclosures in Software Dependencies? A Temporal Evaluation Against Libyear and Package-History Baselines",
+  "upload_type": "dataset",
+  "description": "Dataset, fixed source data, code, per-instance predictions and results for a temporal evaluation of machine learning for anticipating vulnerability disclosures in npm dependencies (29,379 direct-dependency instances from 238 GitHub JavaScript projects, year-end snapshots 2020-2023, labels from GitHub Security Advisories). See README.md for contents, environment and rerun instructions.",
+  "creators": [
+    {"name": "Keawpitak, Warit", "affiliation": "Chulalongkorn University"},
+    {"name": "Kantavat, Pittipol", "affiliation": "Chulalongkorn University"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["software supply chain", "dependency management", "vulnerability disclosure prediction", "libyear", "machine learning", "temporal validation", "npm"],
+  "version": "1.0.0",
+  "language": "eng"
+}

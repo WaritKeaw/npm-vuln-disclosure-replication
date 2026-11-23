@@ -1,0 +1,35 @@
+{
+  "project": "amsul/pickadate.js",
+  "stratum": "low",
+  "origin": "2022-12-31",
+  "commit_sha": "0fd34eab2b4127bc93dedca70285f1d38eb89983",
+  "commit_date": "2019-07-08T12:40:02-04:00",
+  "frozen_branch_head": "0fd34eab2b4127bc93dedca70285f1d38eb89983",
+  "collected_at": "2026-10-14T10:21:52.927409+00:00",
+  "package_json_sha256": "8b88fd725c27b0f94161696d811f6ce9ebfb20e4933a5507cd3ad691c032808f",
+  "package_json": {
+    "name": "pickadate",
+    "version": "3.6.4",
+    "dependencies": {
+      "jquery": ">=1.7"
+    },
+    "devDependencies": {
+      "commander": "^2.8.0",
+      "glob": "^5.0.5",
+      "grunt": "^0.4.5",
+      "grunt-autoprefixer": "^3.0.0",
+      "grunt-contrib-copy": "^0.8.0",
+      "grunt-contrib-cssmin": "^0.12.2",
+      "grunt-contrib-jshint": "^0.11.2",
+      "grunt-contrib-less": "^1.0.1",
+      "grunt-contrib-qunit": "^2.0.0",
+      "grunt-contrib-uglify": "^0.9.1",
+      "grunt-contrib-watch": "^0.6.1",
+      "qunitjs": "1.x",
+      "semver": "^4.3.3",
+      "shelljs": "^0.4.0",
+      "zlib-browserify": "0.0.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

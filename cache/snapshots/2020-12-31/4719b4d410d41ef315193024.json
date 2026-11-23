@@ -1,0 +1,37 @@
+{
+  "project": "qeeqbox/social-analyzer",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "9e20dd38ad3394450458f5eb098ff565836e33c7",
+  "commit_date": "2020-12-31T15:38:54-08:00",
+  "frozen_branch_head": "1ba0905e00d054aab833eb3693739c354db09e0f",
+  "collected_at": "2026-10-14T10:30:53.521060+00:00",
+  "package_json_sha256": "f3070bd7660e8efe2193e7ce4815a730b3c161ff53cbdb5405084dedf26c41d3",
+  "package_json": {
+    "name": "social-analyzer",
+    "version": "1.0.0",
+    "dependencies": {
+      "async": "3.2.0",
+      "axios": "0.21.0",
+      "express": "^4.16.3",
+      "express-async-errors": "3.1.1",
+      "follow-redirects": "1.13.0",
+      "geckodriver": "1.21.0",
+      "generatorics": "1.1.0",
+      "html-to-text": "6.0.0",
+      "lodash": "^4.17.20",
+      "most-common-words-by-language": "2.17.8",
+      "node-tesseract-ocr": "2.0.0",
+      "prettier": "2.1.2",
+      "pretty-error": "2.1.2",
+      "sanitize-html": "2.1.2",
+      "selenium-webdriver": "4.0.0-alpha.7",
+      "semver": "7.3.4",
+      "tmp": "0.2.1",
+      "wink-tokenizer": "1.1.0",
+      "wordsninja": "1.0.0",
+      "yargs": "16.2.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

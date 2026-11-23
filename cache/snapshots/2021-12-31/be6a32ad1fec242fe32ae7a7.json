@@ -1,0 +1,45 @@
+{
+  "project": "guillaumepotier/Parsley.js",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "da093ba0bc77f496606630b5eea73c52dee155c2",
+  "commit_date": "2021-09-30T12:21:55-05:00",
+  "frozen_branch_head": "97767175cce4cd4024aebc0f313d7d9c23e6e333",
+  "collected_at": "2026-10-14T10:26:19.109943+00:00",
+  "package_json_sha256": "181d9ca7a5b03f135db5b5798c6b012e40de5631e4c36b83e82c57e066e48ba9",
+  "package_json": {
+    "name": "parsleyjs",
+    "version": "2.9.2",
+    "dependencies": {
+      "jquery": ">=1.8.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "@babel/plugin-transform-object-assign": "^7.0.0",
+      "@babel/polyfill": "^7.0.0",
+      "@babel/preset-env": "^7.0.0",
+      "@babel/register": "^7.0.0",
+      "del": "^5.1.0",
+      "docco": "~0.6.3",
+      "expect.js": "*",
+      "glob": "^5.0.14",
+      "gulp": "~4.0.0",
+      "gulp-cli": "^2.0.0",
+      "gulp-eslint": "*",
+      "gulp-git": "*",
+      "gulp-load-plugins": "^0.10.0",
+      "gulp-mocha": "*",
+      "gulp-replace": "*",
+      "inputevent": "*",
+      "jsdom": "^9.2",
+      "mocha": "*",
+      "moment": "*",
+      "rollup": "*",
+      "rollup-plugin-babel": "*",
+      "rollup-plugin-replace": "*",
+      "rollup-plugin-uglify": "*",
+      "sinon": "^1.12.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

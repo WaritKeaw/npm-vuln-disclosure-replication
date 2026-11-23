@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "variant_rows": {
+    "date_12_paired": 29379,
+    "date_12_all": 30380,
+    "semver_12_signed": 29379,
+    "semver_12_clamped": 29379,
+    "date_6_paired": 29379,
+    "semver_6_clamped": 29379,
+    "date_12_exact": 5506
+  },
+  "prediction_rows": 1097096,
+  "protected_inputs_unchanged": true,
+  "horizon_labels_nested": true,
+  "prediction_and_training_coverage_verified": true,
+  "source_hashes_verified": true
+}

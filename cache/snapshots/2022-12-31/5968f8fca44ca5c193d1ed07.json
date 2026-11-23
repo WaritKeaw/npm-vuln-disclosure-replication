@@ -1,0 +1,31 @@
+{
+  "project": "debug-js/debug",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "d1616622e4d404863c5a98443f755b4006e971dc",
+  "commit_date": "2022-03-31T17:43:51+02:00",
+  "frozen_branch_head": "f405ade8a4b7a0dc353e0f7390c1be90060f3621",
+  "collected_at": "2026-10-14T10:24:06.649691+00:00",
+  "package_json_sha256": "56dd37785c85c4863e39ddf268fcde08bd5943adf24664806a739b2171b6601a",
+  "package_json": {
+    "name": "debug",
+    "version": "4.3.4",
+    "dependencies": {
+      "ms": "2.1.2"
+    },
+    "devDependencies": {
+      "brfs": "^2.0.1",
+      "browserify": "^16.2.3",
+      "coveralls": "^3.0.2",
+      "istanbul": "^0.4.5",
+      "karma": "^3.1.4",
+      "karma-browserify": "^6.0.0",
+      "karma-chrome-launcher": "^2.2.0",
+      "karma-mocha": "^1.3.0",
+      "mocha": "^5.2.0",
+      "mocha-lcov-reporter": "^1.2.0",
+      "xo": "^0.23.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,21 @@
+{
+  "project": "googleworkspace/apps-script-samples",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "25fff0c4333b3bb4f14cacae2168023bf2a3648a",
+  "commit_date": "2021-12-20T14:01:03-07:00",
+  "frozen_branch_head": "1f297d16fdb72f819ae27eb1b07b9fa3bae9103e",
+  "collected_at": "2026-10-14T10:25:50.786842+00:00",
+  "package_json_sha256": "c66c46bd7fe9fa557f1f2369ce8799f4554f458489cca6f46996774d3e25b90a",
+  "package_json": {
+    "name": "gsuite-apps-script-samples",
+    "version": "1.0.0",
+    "devDependencies": {
+      "eslint": "8.4.1",
+      "eslint-config-google": "0.14.0",
+      "eslint-plugin-async-await": "0.0.0",
+      "eslint-plugin-googleappsscript": "1.0.4"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

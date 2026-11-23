@@ -1,0 +1,50 @@
+{
+  "project": "typicode/lowdb",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "e00d056912ab2eed6f00c1659c74b3e6b211c448",
+  "commit_date": "2020-12-01T04:30:15+01:00",
+  "frozen_branch_head": "8a6fce9b72f769b22533f0979fbc2e73180f8112",
+  "collected_at": "2026-10-14T10:32:28.831135+00:00",
+  "package_json_sha256": "01aae57f124f04cc822dca6f88b8530d3435fd86bc78172a82a26ca9bbceb5b1",
+  "package_json": {
+    "name": "lowdb",
+    "version": "1.0.0",
+    "dependencies": {
+      "graceful-fs": "^4.1.3",
+      "is-promise": "^2.1.0",
+      "lodash": "^4.17.10",
+      "pify": "^3.0.0",
+      "steno": "^0.4.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.2.0",
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^8.2.3",
+      "babel-loader": "^7.1.4",
+      "babel-preset-env": "^1.7.0",
+      "delay": "^3.0.0",
+      "eslint": "^4.19.1",
+      "eslint-config-prettier": "^2.9.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-node": "^6.0.1",
+      "eslint-plugin-prettier": "^2.6.0",
+      "eslint-plugin-promise": "^3.8.0",
+      "eslint-plugin-standard": "^3.1.0",
+      "husky": "^1.0.0-rc.8",
+      "jest": "^22.4.4",
+      "lodash-id": "^0.14.0",
+      "mv": "^2.1.1",
+      "pkg-ok": "^2.0.0",
+      "prettier": "^1.13.4",
+      "ramda": "^0.25.0",
+      "regenerator-runtime": "^0.11.1",
+      "rimraf": "^2.6.2",
+      "sinon": "^4.5.0",
+      "tempfile": "^2.0.0",
+      "webpack": "^3.12.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

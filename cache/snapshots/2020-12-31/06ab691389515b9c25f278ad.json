@@ -1,0 +1,27 @@
+{
+  "project": "olivernn/lunr.js",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "aa5a878f62a6bba1e8e5b95714899e17e8150b38",
+  "commit_date": "2020-08-19T20:29:42Z",
+  "frozen_branch_head": "aa5a878f62a6bba1e8e5b95714899e17e8150b38",
+  "collected_at": "2026-10-14T10:29:49.661093+00:00",
+  "package_json_sha256": "63f1f7572c5e4a1aaa319d2213538a35e08444bd894a1b4bb78ff0a1163c799f",
+  "package_json": {
+    "name": "lunr",
+    "version": "2.3.9",
+    "devDependencies": {
+      "benchmark": "2.1.x",
+      "chai": "3.5.x",
+      "eslint-plugin-spellcheck": "0.0.8",
+      "eslint": "3.4.x",
+      "jsdoc": "3.5.x",
+      "mocha": "3.3.x",
+      "mustache": "2.2.x",
+      "node-static": "0.7.x",
+      "uglify-js": "2.6.x",
+      "word-list": "1.0.x"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

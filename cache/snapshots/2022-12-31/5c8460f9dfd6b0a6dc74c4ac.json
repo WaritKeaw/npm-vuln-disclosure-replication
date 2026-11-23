@@ -1,0 +1,50 @@
+{
+  "project": "faressoft/terminalizer",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "dc65dbebf124419b200394e6f1fffea0d6090a9c",
+  "commit_date": "2022-09-07T17:19:37+02:00",
+  "frozen_branch_head": "7b7da2913987f6d002b5c5555610788535a09979",
+  "collected_at": "2026-10-14T10:24:59.596807+00:00",
+  "package_json_sha256": "1a938b74027a365e6af32c91802f740a30421ec3bd55a76b3e1b46742e9e9b6a",
+  "package_json": {
+    "name": "terminalizer",
+    "version": "0.9.0",
+    "dependencies": {
+      "async": "^2.6.3",
+      "async-promises": "^0.2.2",
+      "chalk": "^2.4.2",
+      "death": "^1.1.0",
+      "deepmerge": "^2.2.1",
+      "electron": "17",
+      "flowa": "^4.0.2",
+      "fs-extra": "^5.0.0",
+      "gif-encoder": "^0.6.1",
+      "inquirer": "^6.5.2",
+      "is_js": "^0.9.0",
+      "js-yaml": "^3.13.1",
+      "lodash": "^4.17.15",
+      "node-pty-prebuilt-multiarch": "^0.10.1-pre.5",
+      "performance-now": "^2.1.0",
+      "pngjs": "^3.4.0",
+      "progress": "^2.0.3",
+      "request": "^2.88.2",
+      "require-dir": "^1.1.0",
+      "string-argv": "0.0.2",
+      "uuid": "^3.4.0",
+      "yargs": "^12.0.5"
+    },
+    "devDependencies": {
+      "ajv": "^6.12.0",
+      "clean-webpack-plugin": "^4.0.0",
+      "css-loader": "^1.0.0",
+      "jquery": "^3.4.1",
+      "mini-css-extract-plugin": "^2.6.1",
+      "terminalizer-player": "^0.4.1",
+      "webpack": "^5.74.0",
+      "webpack-cli": "^4.10.0",
+      "xterm": "^3.14.5"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

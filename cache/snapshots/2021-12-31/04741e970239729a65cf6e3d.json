@@ -1,0 +1,32 @@
+{
+  "project": "techfort/LokiJS",
+  "stratum": "low",
+  "origin": "2021-12-31",
+  "commit_sha": "ee5cd61c48ce9174b690693d6f88827eacbdad9d",
+  "commit_date": "2021-04-20T10:03:24+01:00",
+  "frozen_branch_head": "25b9a33d57509717d43b4da06d92064f2b7a6c95",
+  "collected_at": "2026-10-14T10:32:02.269011+00:00",
+  "package_json_sha256": "3a71047e2035ae9bfd8e895b3b05b7222a080253dbc85c1ce18179a712834140",
+  "package_json": {
+    "name": "lokijs",
+    "version": "1.5.12",
+    "dependencies": {},
+    "devDependencies": {
+      "istanbul": "^0.4.4",
+      "jasmine": "^2.4.1",
+      "jsdoc": "^3.5.5",
+      "jshint": "^2.9.2",
+      "karma": "^1.1.2",
+      "karma-cli": "^1.0.1",
+      "karma-coverage": "^1.1.1",
+      "karma-jasmine": "^1.0.2",
+      "karma-phantomjs-launcher": "^1.0.1",
+      "mocha": "^2.5.3",
+      "phantomjs": "^1.9.20",
+      "rimraf": "^2.5.4",
+      "should": "^4.6.5",
+      "uglify-js": "^2.7.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

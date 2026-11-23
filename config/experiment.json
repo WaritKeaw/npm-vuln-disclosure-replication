@@ -1,0 +1,14 @@
+{
+  "origins": ["2020-12-31", "2021-12-31", "2022-12-31", "2023-12-31"],
+  "horizon_months": 12,
+  "seed": 42,
+  "workers": 4,
+  "bootstrap_repeats": 1000,
+  "outcome": "any_matching_reviewed_nonwithdrawn_GHSA_in_next_12_months",
+  "cohort": "original_250_analyzed_projects",
+  "latest_version_rule": "latest_publication_date_among_stable_versions_available_at_origin",
+  "version_rule": "highest_semver_satisfying_root_package_json_constraint_available_at_origin",
+  "evaluation": "retrospective_expanding_origin_backtest_with_fixed_parameters",
+  "training_label_history": "current_advisory_metadata_reconstructed_by_published_at_not_archived_asof_records",
+  "features": ["libyear", "major_versions_behind", "minor_versions_behind", "patch_versions_behind", "release_frequency", "package_age", "total_versions", "days_since_latest_release", "is_post_1_0"]
+}

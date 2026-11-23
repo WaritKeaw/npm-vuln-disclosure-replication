@@ -1,0 +1,35 @@
+{
+  "project": "pure-css/pure",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "a34fe62bad1d6192d050c7e821ea30987d438333",
+  "commit_date": "2020-12-14T09:20:26-08:00",
+  "frozen_branch_head": "54bb4ab076d24206066c78c22ea42e71d8886462",
+  "collected_at": "2026-10-14T10:30:48.209573+00:00",
+  "package_json_sha256": "0fec59c7453aaac2d5a81b6d6b58bfb5d0096faa444755a1851eecdbcaa55c09",
+  "package_json": {
+    "name": "purecss",
+    "version": "2.0.3",
+    "devDependencies": {
+      "autoprefixer": "^9.6.1",
+      "eslint": "^7.0.0",
+      "eslint-plugin-react": "^7.20.0",
+      "grunt": "^1.0.1",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-clean": "^2.0.0",
+      "grunt-contrib-compress": "^1.4.3",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-csslint": "^2.0.0",
+      "grunt-contrib-cssmin": "^3.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-css-selectors": "^1.1.0",
+      "grunt-postcss": "^0.9.0",
+      "grunt-pure-grids": "^2.0.0",
+      "husky": "^4.2.5",
+      "normalize.css": "^8.0.1",
+      "tap": "^14.4.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

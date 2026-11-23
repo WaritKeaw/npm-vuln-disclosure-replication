@@ -1,0 +1,35 @@
+{
+  "project": "expressjs/multer",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "6b5fff5feaf740f249b1b2858e5d06009cbd245c",
+  "commit_date": "2020-04-24T09:27:18+01:00",
+  "frozen_branch_head": "dd9f0628e1288046b0f6a3c81f4aa13aa70622a4",
+  "collected_at": "2026-10-14T10:24:32.915344+00:00",
+  "package_json_sha256": "1a6c8c1ac3e54f9c3919438bf7b77905717a192983b447cfc3b071a2ee49c6f5",
+  "package_json": {
+    "name": "multer",
+    "version": "1.4.2",
+    "dependencies": {
+      "append-field": "^1.0.0",
+      "busboy": "^0.2.11",
+      "concat-stream": "^1.5.2",
+      "mkdirp": "^0.5.4",
+      "object-assign": "^4.1.1",
+      "on-finished": "^2.3.0",
+      "type-is": "^1.6.4",
+      "xtend": "^4.0.0"
+    },
+    "devDependencies": {
+      "deep-equal": "^2.0.3",
+      "express": "^4.13.1",
+      "form-data": "^1.0.0-rc1",
+      "fs-temp": "^1.1.2",
+      "mocha": "^3.5.3",
+      "rimraf": "^2.4.1",
+      "standard": "^14.3.3",
+      "testdata-w3c-json-form": "^1.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,50 @@
+{
+  "project": "piskelapp/piskel",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "21b8bdd0f3602c455e89f25fb337068fd9ea3a35",
+  "commit_date": "2021-07-02T15:12:00+02:00",
+  "frozen_branch_head": "bef52beb312e771bf0cbb915d873e8d638842d7a",
+  "collected_at": "2026-10-14T10:30:03.868696+00:00",
+  "package_json_sha256": "134e8a8c2bbb7848a125f879f6b36171fa01cedd694cdc99fbaf18bbd649faf0",
+  "package_json": {
+    "name": "piskel",
+    "version": "0.15.2-SNAPSHOT",
+    "dependencies": {
+      "minimist": "^1.2.5"
+    },
+    "devDependencies": {
+      "dateformat": "4.5.1",
+      "fs-extra": "10.0.0",
+      "grunt": "1.4.1",
+      "grunt-casperjs": "^2.2.1",
+      "grunt-cli": "^1.4.3",
+      "grunt-contrib-clean": "2.0.0",
+      "grunt-contrib-concat": "1.0.1",
+      "grunt-contrib-connect": "3.0.0",
+      "grunt-contrib-copy": "1.0.0",
+      "grunt-contrib-jshint": "3.0.0",
+      "grunt-contrib-uglify": "5.0.1",
+      "grunt-contrib-watch": "^1.1.0",
+      "grunt-eslint": "23.0.0",
+      "grunt-include-replace": "5.0.0",
+      "grunt-jscs": "3.0.1",
+      "grunt-karma": "4.0.2",
+      "grunt-leading-indent": "0.2.0",
+      "grunt-nw-builder": "3.1.0",
+      "grunt-replace": "2.0.2",
+      "grunt-spritesmith": "^6.9.0",
+      "jasmine-core": "3.8.0",
+      "karma": "6.3.4",
+      "karma-jasmine": "4.0.1",
+      "karma-phantomjs-launcher": "1.0.4",
+      "load-grunt-tasks": "5.1.0",
+      "nw": "0.54.0",
+      "phantomjs": "2.1.7",
+      "phantomjs-polyfill-object-assign": "0.0.2",
+      "promise-polyfill": "8.2.0",
+      "rmdir": "1.2.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

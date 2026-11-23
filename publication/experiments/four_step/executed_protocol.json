@@ -1,0 +1,37 @@
+{
+  "status": "exploratory_followup_after_inspection_of_all_reference_tests_and_first_budget_example",
+  "authorization": "User instructed implementation of the four-step review; original RQs, primary data, outcome and models retained.",
+  "seed": 42,
+  "bootstrap_repeats": 1000,
+  "budgets": [0.01, 0.05, 0.10, 0.20],
+  "focal_budget": 0.10,
+  "tie_policy": "uniform selection within the cutoff tie, evaluated analytically; no outcome-dependent tie ordering",
+  "evaluation_views": ["instance", "unique_package_version_origin", "macro_project", "seen_unseen_package_slices"],
+  "unique_version_training": "unchanged instance-trained models; evaluation-only deduplication; not a deduplicated-training experiment",
+  "new_fixed_models": {
+    "package_age_only_lr": ["package_age"],
+    "recency_only_lr": ["days_since_latest_release"],
+    "drop_lag_recency_family": ["libyear", "major_versions_behind", "minor_versions_behind", "patch_versions_behind", "days_since_latest_release"]
+  },
+  "group_ablation": "remove the declared five-feature family, retain release_frequency, package_age, total_versions, is_post_1_0; fit LR/RF/XGB with existing parameters",
+  "parameter_selection": "no tuning or threshold selection; identical imputation, scaling and estimator parameters to completion protocol",
+  "training_sensitivities": {
+    "maturity_lag_days": [30, 90],
+    "lag_eligibility": "earlier origin and window_end plus lag <= end-of-day test origin; preserve 12-month labels; nonestimable tests reported",
+    "late_review_exclusion": "omit positive training rows with no matching advisory reviewed by fit cutoff; never relabel as zero; proxy exclusion sensitivity using current ranges, not historical reconstruction",
+    "scores": ["full", "without_libyear"],
+    "algorithms": ["lr", "rf", "xgb"],
+    "identical_training_sets": "reuse fits only for byte-identical ordered feature/label training rows at the same test origin; record alias, not an independent replication"
+  },
+  "uncertainty": {
+    "instance_units": ["package", "project", "package_times_project_pigeonhole"],
+    "unique_version_units": ["package"],
+    "macro_project_units": ["project"],
+    "scope": "paired conditional test-score intervals at focal budget; exploratory percentile; pigeonhole is an additional sensitivity, not proof of full crossed/advisory correction; no training variability",
+    "outputs": ["delta_ap", "delta_hits_at_budget", "delta_precision_at_budget", "delta_recall_at_budget"],
+    "comparisons": ["full minus no-Libyear within each algorithm", "full minus Libyear-only within each algorithm", "full LR minus each new simple LR comparator", "full minus drop-family within each algorithm"]
+  },
+  "calibration": "descriptive reliability bins [0,.01,.02,.05,.1,.2,.5,1], with counts; Brier skill vs constant training positive rate; no recalibration or probability deployment claim",
+  "dataset_audit": "all-match review timing, all 32 lockfile-label-disagreement instance traces, exact shared-feature/label unit checks, retained/excluded stratum counts; use frozen caches only",
+  "scope_exclusions": "No first-disclosure target, new cohort, prospective deployment, graph forecasting, new algorithm or causal update effect. No public upload."
+}

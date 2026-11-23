@@ -1,0 +1,31 @@
+{
+  "project": "gulpjs/gulp",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "c26ebcb1c9842251c8dd716461d735e26feb862a",
+  "commit_date": "2020-10-21T12:26:14-07:00",
+  "frozen_branch_head": "61f22dc11bb14234b555253095fa1d224ce0eab1",
+  "collected_at": "2026-10-14T10:26:18.142240+00:00",
+  "package_json_sha256": "35f5f050df155ad8695d3f614ca2118385db7358c7672038ba13896c81058355",
+  "package_json": {
+    "name": "gulp",
+    "version": "4.0.2",
+    "dependencies": {
+      "glob-watcher": "^5.0.3",
+      "gulp-cli": "^2.2.0",
+      "undertaker": "^1.2.1",
+      "vinyl-fs": "^3.0.0"
+    },
+    "devDependencies": {
+      "coveralls": "github:phated/node-coveralls#2.x",
+      "eslint": "^2.13.1",
+      "eslint-config-gulp": "^3.0.1",
+      "expect": "^1.20.2",
+      "mkdirp": "^0.5.1",
+      "mocha": "^3.0.0",
+      "nyc": "^10.3.2",
+      "rimraf": "^2.6.3"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

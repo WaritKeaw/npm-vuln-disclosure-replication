@@ -1,0 +1,47 @@
+{
+  "project": "i18next/i18next-browser-languageDetector",
+  "stratum": "niche",
+  "origin": "2023-12-31",
+  "commit_sha": "9ad3019513beed29cbd6f070e8f6581564767e96",
+  "commit_date": "2023-11-10T15:05:51+01:00",
+  "frozen_branch_head": "a05f0c5e8c49ec22d88f80feff0291df523dc362",
+  "collected_at": "2026-10-14T10:26:46.578080+00:00",
+  "package_json_sha256": "0ca806c3818bca2a095cf20a732e62a38cd100dd7403e91d2e782bf329959453",
+  "package_json": {
+    "name": "i18next-browser-languagedetector",
+    "version": "7.2.0",
+    "dependencies": {
+      "@babel/runtime": "^7.23.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.23.3",
+      "@babel/plugin-transform-runtime": "^7.23.3",
+      "@babel/preset-env": "^7.23.3",
+      "@babel/eslint-parser": "^7.23.3",
+      "babel-polyfill": "^6.26.0",
+      "babelify": "^10.0.0",
+      "browserify": "17.0.0",
+      "browserify-istanbul": "3.0.1",
+      "chai": "4.3.10",
+      "coveralls": "3.1.1",
+      "cpy-cli": "^5.0.0",
+      "dtslint": "^4.2.1",
+      "eslint": "8.53.0",
+      "eslint-config-airbnb": "19.0.4",
+      "expect.js": "0.3.1",
+      "i18next": "23.7.1",
+      "mkdirp": "3.0.1",
+      "mocha": "10.2.0",
+      "rimraf": "5.0.5",
+      "rollup": "^2.79.1",
+      "@rollup/plugin-babel": "^5.3.1",
+      "@rollup/plugin-node-resolve": "^14.1.0",
+      "rollup-plugin-terser": "^7.0.2",
+      "tslint": "^5.20.1",
+      "tsd": "0.29.0",
+      "typescript": "5.1.3",
+      "yargs": "17.7.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.0014967345527230058,
+    "valid_repeats": 1000,
+    "ci_low": -0.01349005057278247,
+    "ci_high": 0.018100065077449663,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.0002574849643450644,
+    "valid_repeats": 1000,
+    "ci_low": -0.040286168744655904,
+    "ci_high": 0.031251557492729946,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.04898068858045879,
+    "valid_repeats": 1000,
+    "ci_low": -0.028186075521745867,
+    "ci_high": 0.12314955759354526,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.04048227500797995,
+    "valid_repeats": 1000,
+    "ci_low": 0.004616959587850449,
+    "ci_high": 0.09685892790267428,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.0014967345527230058,
+    "valid_repeats": 1000,
+    "ci_low": -0.008294244615632327,
+    "ci_high": 0.012836129301989936,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": true
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.0002574849643450644,
+    "valid_repeats": 1000,
+    "ci_low": -0.025109193433364766,
+    "ci_high": 0.023040791167800966,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.04898068858045879,
+    "valid_repeats": 1000,
+    "ci_low": -0.0021407209059375707,
+    "ci_high": 0.08605224016506746,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2021-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.04048227500797995,
+    "valid_repeats": 1000,
+    "ci_low": 0.014272440823607966,
+    "ci_high": 0.0723062369655036,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": -0.02848107477312707,
+    "valid_repeats": 1000,
+    "ci_low": -0.09071930622205708,
+    "ci_high": 0.003612865299914312,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": -0.024398690662430757,
+    "valid_repeats": 1000,
+    "ci_low": -0.09262307304692459,
+    "ci_high": -0.0016112404812201528,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.07782852925838694,
+    "valid_repeats": 1000,
+    "ci_low": 0.014789431702204531,
+    "ci_high": 0.240662812104134,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.02829212624617117,
+    "valid_repeats": 1000,
+    "ci_low": 0.0006177974742012643,
+    "ci_high": 0.0910164230441833,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": -0.02848107477312707,
+    "valid_repeats": 1000,
+    "ci_low": -0.053909450767825086,
+    "ci_high": -0.00015081725699928167,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": -0.024398690662430757,
+    "valid_repeats": 1000,
+    "ci_low": -0.05484335238648452,
+    "ci_high": -0.008808639018388383,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.07782852925838694,
+    "valid_repeats": 1000,
+    "ci_low": 0.03715335370381798,
+    "ci_high": 0.1579684512782712,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2022-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.02829212624617117,
+    "valid_repeats": 1000,
+    "ci_low": 0.007438166982831962,
+    "ci_high": 0.055233914007341074,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.01720580462438867,
+    "valid_repeats": 1000,
+    "ci_low": -0.0027725817953361902,
+    "ci_high": 0.040960764404676366,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.012412287625079649,
+    "valid_repeats": 1000,
+    "ci_low": -0.013141147894664208,
+    "ci_high": 0.03429267142914617,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "package",
+    "ap_difference": 0.17741915449041404,
+    "valid_repeats": 1000,
+    "ci_low": -0.039636885597359284,
+    "ci_high": 0.43412000569223363,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "package",
+    "ap_difference": 0.1986402119530945,
+    "valid_repeats": 1000,
+    "ci_low": 0.03417895374842706,
+    "ci_high": 0.43086940849518357,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus other_features_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.01720580462438867,
+    "valid_repeats": 1000,
+    "ci_low": -0.0015699692170551614,
+    "ci_high": 0.04005851515145818,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus other_features_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.012412287625079649,
+    "valid_repeats": 1000,
+    "ci_low": -0.0072299288176530425,
+    "ci_high": 0.049229937099169764,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_lr minus libyear_only_lr",
+    "cluster_unit": "project",
+    "ap_difference": 0.17741915449041404,
+    "valid_repeats": 1000,
+    "ci_low": 0.022154899324330624,
+    "ci_high": 0.2949033492617294,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  },
+  {
+    "variant": "date_12_exact",
+    "origin": "2023-12-31",
+    "comparison": "full_rf minus libyear_only_rf",
+    "cluster_unit": "project",
+    "ap_difference": 0.1986402119530945,
+    "valid_repeats": 1000,
+    "ci_low": 0.10770637262222682,
+    "ci_high": 0.3441856882849957,
+    "interval_within_margin": {
+      "0.005": false,
+      "0.01": false,
+      "0.02": false
+    }
+  }
+]

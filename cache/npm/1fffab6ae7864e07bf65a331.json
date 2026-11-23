@@ -1,0 +1,8 @@
+{
+  "package": "scheduler-experimental-builtin",
+  "collected_at": "2026-10-14T11:21:12.708485+00:00",
+  "times": {
+    "10.0.1": "2025-07-25T15:26:28.647Z",
+    "0.0.1-security": "2025-07-28T02:20:34.912Z"
+  }
+}

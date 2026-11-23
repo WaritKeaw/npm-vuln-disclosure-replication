@@ -1,0 +1,26 @@
+{
+  "project": "plankanban/planka",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "752a73711b57a293f7848664e4f68549d2a8d4a0",
+  "commit_date": "2023-12-21T00:51:17+01:00",
+  "frozen_branch_head": "627701dda3459fa25830b0fd5bb2f5668d033284",
+  "collected_at": "2026-10-14T10:30:10.088578+00:00",
+  "package_json_sha256": "f8b9f897889de09fd60a4b945a200a60508234a653223efa806c51b66cbbe7c8",
+  "package_json": {
+    "name": "planka",
+    "version": "1.15.3",
+    "dependencies": {
+      "concurrently": "^8.2.2",
+      "husky": "^8.0.3",
+      "lint-staged": "^15.1.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.53.0",
+      "eslint-config-prettier": "^9.0.0",
+      "eslint-plugin-prettier": "^5.0.1",
+      "prettier": "^3.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

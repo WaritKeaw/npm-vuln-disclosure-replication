@@ -1,0 +1,49 @@
+{
+  "project": "hapijs/hapi",
+  "stratum": "medium",
+  "origin": "2023-12-31",
+  "commit_sha": "23d65502a6cf5372f6db0acfaac9a5188b9050cd",
+  "commit_date": "2023-09-18T07:40:11-04:00",
+  "frozen_branch_head": "b90c41b9006143421dc715c01d86e6f4933af1e4",
+  "collected_at": "2026-10-14T10:26:40.262375+00:00",
+  "package_json_sha256": "2ac2a597ebf52a3940b3d50a385a8e3ac8b425ae2771d537e8d0be40ffad991a",
+  "package_json": {
+    "name": "@hapi/hapi",
+    "version": "21.3.2",
+    "dependencies": {
+      "@hapi/accept": "^6.0.1",
+      "@hapi/ammo": "^6.0.1",
+      "@hapi/boom": "^10.0.1",
+      "@hapi/bounce": "^3.0.1",
+      "@hapi/call": "^9.0.1",
+      "@hapi/catbox": "^12.1.1",
+      "@hapi/catbox-memory": "^6.0.1",
+      "@hapi/heavy": "^8.0.1",
+      "@hapi/hoek": "^11.0.2",
+      "@hapi/mimos": "^7.0.1",
+      "@hapi/podium": "^5.0.1",
+      "@hapi/shot": "^6.0.1",
+      "@hapi/somever": "^4.1.1",
+      "@hapi/statehood": "^8.1.1",
+      "@hapi/subtext": "^8.1.0",
+      "@hapi/teamwork": "^6.0.0",
+      "@hapi/topo": "^6.0.1",
+      "@hapi/validate": "^2.0.1"
+    },
+    "devDependencies": {
+      "@hapi/code": "^9.0.3",
+      "@hapi/eslint-plugin": "*",
+      "@hapi/inert": "^7.0.1",
+      "@hapi/joi-legacy-test": "npm:@hapi/joi@^15.0.0",
+      "@hapi/lab": "^25.1.2",
+      "@hapi/vision": "^7.0.1",
+      "@hapi/wreck": "^18.0.1",
+      "@types/node": "^18.11.9",
+      "handlebars": "^4.7.4",
+      "joi": "^17.0.0",
+      "legacy-readable-stream": "npm:readable-stream@^1.0.34",
+      "typescript": "^4.9.4"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

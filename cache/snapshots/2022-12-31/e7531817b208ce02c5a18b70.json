@@ -1,0 +1,32 @@
+{
+  "project": "auth0/node-jsonwebtoken",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "e1fa9dcc12054a8681db4e6373da1b30cf7016e3",
+  "commit_date": "2022-12-21T13:36:01+01:00",
+  "frozen_branch_head": "b924272f29192e12926b5414546f7c5bfcc9579d",
+  "collected_at": "2026-10-14T10:22:11.305178+00:00",
+  "package_json_sha256": "83008f24ff950daaeb78fbe7c828437bd390fa5bcc08ffab7e0d9e4e5c44aa48",
+  "package_json": {
+    "name": "jsonwebtoken",
+    "version": "9.0.0",
+    "dependencies": {
+      "jws": "^3.2.2",
+      "lodash": "^4.17.21",
+      "ms": "^2.1.1",
+      "semver": "^7.3.8"
+    },
+    "devDependencies": {
+      "atob": "^2.1.2",
+      "chai": "^4.1.2",
+      "conventional-changelog": "~1.1.0",
+      "cost-of-modules": "^1.0.1",
+      "eslint": "^4.19.1",
+      "mocha": "^5.2.0",
+      "nsp": "^2.6.2",
+      "nyc": "^11.9.0",
+      "sinon": "^6.0.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

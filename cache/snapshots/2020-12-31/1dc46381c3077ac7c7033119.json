@@ -1,0 +1,28 @@
+{
+  "project": "jsdoc/jsdoc",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "2bee44a6baae5ec0e265703e31d775b46f9af79f",
+  "commit_date": "2020-12-30T07:17:15Z",
+  "frozen_branch_head": "b11c8e8e72ef6fc7e9105da4391d1245f80ce5e1",
+  "collected_at": "2026-10-14T10:27:38.322429+00:00",
+  "package_json_sha256": "63c1bb2837cbbda2f1959d9c52675b95488e921f2dc357382ec7062f60452985",
+  "package_json": {
+    "name": "jsdoc",
+    "devDependencies": {
+      "@jsdoc/eslint-config": "^1.0.8",
+      "@jsdoc/test-matchers": "^0.1.0",
+      "ajv": "^7.0.2",
+      "eslint": "^7.16.0",
+      "gulp": "^4.0.2",
+      "gulp-eslint": "^6.0.0",
+      "jasmine": "^3.6.3",
+      "jasmine-console-reporter": "^3.1.0",
+      "klaw-sync": "^6.0.0",
+      "lerna": "^3.22.1",
+      "mock-fs": "^4.13.0",
+      "nyc": "^15.1.0"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

@@ -1,0 +1,18 @@
+{
+  "project": "graphql/graphql-spec",
+  "stratum": "medium",
+  "origin": "2020-12-31",
+  "commit_sha": "a3084aabe16e1a45ab45bb7e67c3cd64640e02e3",
+  "commit_date": "2020-11-19T14:35:57-05:00",
+  "frozen_branch_head": "3f1ef846019884a8c9c3a32b65ea03168f24ecff",
+  "collected_at": "2026-10-14T10:25:56.019709+00:00",
+  "package_json_sha256": "2134d6e915b52fab01af29d592c3e40577542bc9d789504984e6966600ce69dc",
+  "package_json": {
+    "name": "graphql-spec",
+    "devDependencies": {
+      "nodemon": "1.19.1",
+      "spec-md": "1.1.1"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

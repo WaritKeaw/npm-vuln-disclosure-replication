@@ -1,0 +1,23 @@
+{
+  "project": "burlesco/burlesco",
+  "stratum": "niche",
+  "origin": "2023-12-31",
+  "commit_sha": "2723fd212f39a418a56e9058c70a8e1dc6b65938",
+  "commit_date": "2023-10-16T00:46:07-03:00",
+  "frozen_branch_head": "c135cd60499e073d784b39786d77791aead2432f",
+  "collected_at": "2026-10-14T10:23:13.755100+00:00",
+  "package_json_sha256": "de584a73aea111376ee9eedfc292859b66c43aa275e8e1ad7919c5da3ed97db3",
+  "package_json": {
+    "name": "burlesco",
+    "version": "10.0.0",
+    "dependencies": {
+      "crx": "^5.0.1",
+      "crx3": "^1.1.3",
+      "crypto": "^1.0.1",
+      "eslint": "^8.25.0",
+      "web-ext": "^7.3.0"
+    },
+    "devDependencies": {}
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

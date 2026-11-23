@@ -1,0 +1,36 @@
+{
+  "project": "moment/luxon",
+  "stratum": "medium",
+  "origin": "2022-12-31",
+  "commit_sha": "acc4952585129c36ed254cc868fb9c9b9712e845",
+  "commit_date": "2022-12-29T09:58:19-05:00",
+  "frozen_branch_head": "f427515a38f6a671f8de663e6bcc040ed81f114e",
+  "collected_at": "2026-10-14T10:28:54.563298+00:00",
+  "package_json_sha256": "e0953b985e4d7ed7866d4260aeece04038fe9eecde9a219f28260e0976e5cf82",
+  "package_json": {
+    "name": "luxon",
+    "version": "3.2.0",
+    "devDependencies": {
+      "@babel/core": "^7.18.6",
+      "@babel/node": "^7.18.6",
+      "@babel/plugin-external-helpers": "^7.18.6",
+      "@babel/preset-env": "^7.18.6",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@rollup/plugin-commonjs": "^19.0.0",
+      "@rollup/plugin-node-resolve": "^13.0.0",
+      "babel-jest": "^28.1.2",
+      "benchmark": "latest",
+      "codecov": "latest",
+      "documentation": "latest",
+      "fs-extra": "^6.0.1",
+      "husky": "^7.0.0",
+      "jest": "^28.1.0",
+      "lint-staged": "^11.0.0",
+      "prettier": "latest",
+      "rollup": "^2.52.7",
+      "rollup-plugin-terser": "^7.0.2",
+      "uglify-js": "^3.13.10"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}

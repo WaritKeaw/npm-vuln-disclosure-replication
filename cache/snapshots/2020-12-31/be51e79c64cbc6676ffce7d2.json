@@ -1,0 +1,27 @@
+{
+  "project": "senchalabs/connect",
+  "stratum": "low",
+  "origin": "2020-12-31",
+  "commit_sha": "f3a4a024048d24c886a5053cef67ae7ea290d503",
+  "commit_date": "2020-12-29T01:31:55-05:00",
+  "frozen_branch_head": "98ab0c435852b311ed57fe48a1846c2dae84e266",
+  "collected_at": "2026-10-14T10:31:39.230193+00:00",
+  "package_json_sha256": "e604c194eef82524eed145c03c9baa63efa439a5bdb4afbe5669307af663081a",
+  "package_json": {
+    "name": "connect",
+    "version": "3.7.0",
+    "dependencies": {
+      "debug": "2.6.9",
+      "finalhandler": "1.1.2",
+      "parseurl": "~1.3.3",
+      "utils-merge": "1.0.1"
+    },
+    "devDependencies": {
+      "eslint": "7.16.0",
+      "mocha": "8.2.1",
+      "nyc": "15.1.0",
+      "supertest": "4.0.2"
+    }
+  },
+  "package_json_reduced": "fields other than name, version, dependencies and devDependencies removed; package_json_sha256 identifies the original file at commit_sha"
+}
