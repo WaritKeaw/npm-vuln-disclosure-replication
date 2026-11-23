@@ -30,6 +30,7 @@ The folder layout is the one in which the analyses were executed, so the scripts
 | `verification/` | Independent re-computations and checks: `topk/` (prior-advisory rule and Top-K, Fig. 3, S6), `exposure/` (prior-advisory rule, popularity and advisory history as covariates), `package_disjoint/` (Section 5.3), `range_checks/` (NVD comparison and open-ended ranges, Section 5.2, S10), `advisory_asof/` (point-in-time training labels, Table S24), `round3/` (NVD pre-publication, high/critical only, seeds), `label_audit/` (cross-source label checks), `checks.py`, `round1_analyses.py`, `round2_numbers.py` and `results/` |
 | `manifests/` | Environment, collection status of every project × snapshot, dataset and run metadata, SHA-256 of sources and executed code (`manifests/code/`) |
 | `replicability/data/` | Earlier dataset from which the sampling frame was frozen (provenance only; not used for any reported number) |
+| `DATA_DICTIONARY.md` | Column definitions of the datasets, prediction files and main result files |
 | `MANIFEST.json` | SHA-256 and size of every file in this package |
 
 Two caches are stored as zip archives to keep the file count small; unzip them in place before rerunning the analyses that use them:
