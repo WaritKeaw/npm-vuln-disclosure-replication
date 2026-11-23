@@ -3,7 +3,7 @@
   "upload_type": "dataset",
   "description": "Dataset, fixed source data, code, per-instance predictions and results for a temporal evaluation of machine learning for anticipating vulnerability disclosures in npm dependencies (29,379 direct-dependency instances from 238 GitHub JavaScript projects, year-end snapshots 2020-2023, labels from GitHub Security Advisories). See README.md for contents, environment and rerun instructions.",
   "creators": [
-    {"name": "Keawpitak, Warit", "affiliation": "Chulalongkorn University"},
+    {"name": "Keawpitak, Warit", "affiliation": "Chulalongkorn University", "orcid": "0009-0000-0625-3808"},
     {"name": "Kantavat, Pittipol", "affiliation": "Chulalongkorn University"}
   ],
   "license": "cc-by-4.0",

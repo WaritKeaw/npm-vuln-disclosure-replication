@@ -9,8 +9,8 @@
   },
   {
    "path": ".zenodo.json",
-   "bytes": 1055,
-   "sha256": "d87e0b7e66398f90d2fbd5a88279ccece3ab0baa08f0972496071d30febc2f73"
+   "bytes": 1087,
+   "sha256": "dcc0a2b233b6db65466fc3ca84fbebb003cd97a97bd5587ec207f157c65182f9"
   },
   {
    "path": "cache/ghsa/advisories.json",
@@ -23624,8 +23624,8 @@
   },
   {
    "path": "CITATION.cff",
-   "bytes": 862,
-   "sha256": "bba4f1747e9123cdc5f192787aba29b4503a8ebffa8619b07c49ddb89547350e"
+   "bytes": 913,
+   "sha256": "01c1467c87ee546d6ab633e979e2b551ba1e67783e5de7a6e8a542ad3186f953"
   },
   {
    "path": "compare_outputs.py",
